@@ -73,6 +73,7 @@ int main(void)
   Delay_ms(1000);
   LEDOff(LED1);
   
+  
   InitDigtalClock(); //数字时钟初始化
 
   /*

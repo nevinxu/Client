@@ -9,7 +9,7 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=24468724
+Checksum=-1389168875
 [CallStack]
 ShowArgs=0
 [Disassembly]
@@ -88,5 +88,6 @@ SR=0
 all registers=0
 File name=
 [Aliases]
-Count=0
+A0=_ "D:\360data\重要数据\桌面\msp430\XY101_TEST\Project\Driver\CC1101.c" "D:\Work\My_Project\Client\Client\Project\Driver\CC1101.c"
+Count=1
 SuppressDialog=0

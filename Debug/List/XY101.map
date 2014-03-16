@@ -2,41 +2,41 @@
 #                                                                              #
 #      IAR Universal Linker V5.3.2.26                                          #
 #                                                                              #
-#           Link time     =  22/Dec/2013  13:53:03                             #
+#           Link time     =  16/Mar/2014  09:26:40                             #
 #           Target CPU    =  MSP430                                            #
-#           List file     =  D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            List\XY101.map                                    #
-#           Output file 1 =  D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            Exe\XY101.d43                                     #
+#           List file     =  D:\Work\My_Project\Client\Client\Debug\List\XY101 #
+#                            .map                                              #
+#           Output file 1 =  D:\Work\My_Project\Client\Client\Debug\Exe\XY101. #
+#                            d43                                               #
 #                            Format: debug                                     #
 #                            UBROF version 10.0.6                              #
 #                            Using library modules for C-SPY (-rt)             #
-#           Command line  =  D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            Obj\CC1100-CC2500.r43                             #
-#                            D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            Obj\CC1101.r43                                    #
-#                            D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            Obj\DigtalClock.r43                               #
-#                            D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            Obj\HT1621.r43                                    #
-#                            D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            Obj\IDS2100.r43                                   #
-#                            D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            Obj\IRsensor.r43                                  #
-#                            D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            Obj\TI_CC_spi.r43                                 #
-#                            D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            Obj\Uart.r43                                      #
-#                            D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            Obj\key.r43                                       #
-#                            D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            Obj\main.r43                                      #
+#           Command line  =  D:\Work\My_Project\Client\Client\Debug\Obj\CC1100 #
+#                            -CC2500.r43                                       #
+#                            D:\Work\My_Project\Client\Client\Debug\Obj\CC1101 #
+#                            .r43                                              #
+#                            D:\Work\My_Project\Client\Client\Debug\Obj\Digtal #
+#                            Clock.r43                                         #
+#                            D:\Work\My_Project\Client\Client\Debug\Obj\HT1621 #
+#                            .r43                                              #
+#                            D:\Work\My_Project\Client\Client\Debug\Obj\IDS210 #
+#                            0.r43                                             #
+#                            D:\Work\My_Project\Client\Client\Debug\Obj\IRsens #
+#                            or.r43                                            #
+#                            D:\Work\My_Project\Client\Client\Debug\Obj\TI_CC_ #
+#                            spi.r43                                           #
+#                            D:\Work\My_Project\Client\Client\Debug\Obj\Uart.r #
+#                            43                                                #
+#                            D:\Work\My_Project\Client\Client\Debug\Obj\key.r4 #
+#                            3                                                 #
+#                            D:\Work\My_Project\Client\Client\Debug\Obj\main.r #
+#                            43                                                #
 #                            -o                                                #
-#                            D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            Exe\XY101.d43                                     #
+#                            D:\Work\My_Project\Client\Client\Debug\Exe\XY101. #
+#                            d43                                               #
 #                            -l                                                #
-#                            D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\ #
-#                            List\XY101.map                                    #
+#                            D:\Work\My_Project\Client\Client\Debug\List\XY101 #
+#                            .map                                              #
 #                            -xms                                              #
 #                            "-IC:\Program Files\IAR Systems\Embedded Workbenc #
 #                            h 6.4 Evaluation\430\LIB\"                        #
@@ -128,7 +128,7 @@ Absolute parts
            _STACK_SIZE             0050 
     *************************************************************************
 
-  FILE NAME : D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\Obj\CC1100-CC2500.r43
+  FILE NAME : D:\Work\My_Project\Client\Client\Debug\Obj\CC1100-CC2500.r43
   PROGRAM MODULE, NAME : CC1100-CC2500
 
   SEGMENTS IN THE MODULE
@@ -169,7 +169,7 @@ DATA16_AN
 
     *************************************************************************
 
-  FILE NAME : D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\Obj\CC1101.r43
+  FILE NAME : D:\Work\My_Project\Client\Client\Debug\Obj\CC1101.r43
   PROGRAM MODULE, NAME : CC1101
 
   SEGMENTS IN THE MODULE
@@ -305,7 +305,7 @@ DATA16_ID
 
     *************************************************************************
 
-  FILE NAME : D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\Obj\DigtalClock.r43
+  FILE NAME : D:\Work\My_Project\Client\Client\Debug\Obj\DigtalClock.r43
   PROGRAM MODULE, NAME : DigtalClock
 
   SEGMENTS IN THE MODULE
@@ -409,7 +409,7 @@ DATA16_ID
 
     *************************************************************************
 
-  FILE NAME : D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\Obj\HT1621.r43
+  FILE NAME : D:\Work\My_Project\Client\Client\Debug\Obj\HT1621.r43
   PROGRAM MODULE, NAME : HT1621
 
   SEGMENTS IN THE MODULE
@@ -534,7 +534,7 @@ DATA16_ID
 
     *************************************************************************
 
-  FILE NAME : D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\Obj\IDS2100.r43
+  FILE NAME : D:\Work\My_Project\Client\Client\Debug\Obj\IDS2100.r43
   PROGRAM MODULE, NAME : IDS2100
 
   SEGMENTS IN THE MODULE
@@ -569,7 +569,7 @@ DATA16_AN
 
     *************************************************************************
 
-  FILE NAME : D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\Obj\IRsensor.r43
+  FILE NAME : D:\Work\My_Project\Client\Client\Debug\Obj\IRsensor.r43
   PROGRAM MODULE, NAME : IRsensor
 
   SEGMENTS IN THE MODULE
@@ -875,7 +875,7 @@ DATA16_ID
 
     *************************************************************************
 
-  FILE NAME : D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\Obj\TI_CC_spi.r43
+  FILE NAME : D:\Work\My_Project\Client\Client\Debug\Obj\TI_CC_spi.r43
   PROGRAM MODULE, NAME : TI_CC_spi
 
   SEGMENTS IN THE MODULE
@@ -1075,7 +1075,7 @@ DATA16_AN
 
     *************************************************************************
 
-  FILE NAME : D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\Obj\Uart.r43
+  FILE NAME : D:\Work\My_Project\Client\Client\Debug\Obj\Uart.r43
   PROGRAM MODULE, NAME : Uart
 
   SEGMENTS IN THE MODULE
@@ -1156,7 +1156,7 @@ INTVEC
 
     *************************************************************************
 
-  FILE NAME : D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\Obj\key.r43
+  FILE NAME : D:\Work\My_Project\Client\Client\Debug\Obj\key.r43
   PROGRAM MODULE, NAME : key
 
   SEGMENTS IN THE MODULE
@@ -1188,7 +1188,7 @@ INTVEC
 
     *************************************************************************
 
-  FILE NAME : D:\360data\重要数据\桌面\msp430\XY101_TEST\Debug\Obj\main.r43
+  FILE NAME : D:\Work\My_Project\Client\Client\Debug\Obj\main.r43
   PROGRAM MODULE, NAME : main
 
   SEGMENTS IN THE MODULE

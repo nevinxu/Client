@@ -62,6 +62,7 @@ void ReceiveData(char length)
 void ReceiveOn(void)
 {
     TI_CC_GDO0_PxIES &=~ TI_CC_GDO2_PIN;  // Falling edge
+//    TI_CC_GDO0_PxIES |= TI_CC_GDO2_PIN;  // Falling edge
     TI_CC_GDO0_PxIFG &= ~TI_CC_GDO2_PIN; // Clear a pending interrupt 
     TI_CC_GDO0_PxIE |= TI_CC_GDO2_PIN;   // Enable the interrupt 
     

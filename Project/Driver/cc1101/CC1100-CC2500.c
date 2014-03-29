@@ -128,6 +128,7 @@ void RFSendPacket(char *txBuffer, char size)
     while (TI_CC_GDO0_PxIN&TI_CC_GDO0_PIN);
                                             // Wait GDO0 to clear -> end of pkt//
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE); 
+    TI_CC_SPIStrobe(TI_CCxxx0_SRX); // Strobe SRX  
 }
 
 

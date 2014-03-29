@@ -1,13 +1,15 @@
 #include "include.h"
 
 unsigned char TxBuffer[64];
+unsigned char RxBuffer[64];
 unsigned int MsgBegin = 0xA5B4;   //消息识别符
 unsigned int MsgLength;  //消息长度
 unsigned char CommandId; //命令或相应类型
 unsigned int ModelAddress = 0x0001;  //床位号
-long Sequence_Id = 0;   //消息流水号
+long SequenceId = 0;   //消息流水号
 unsigned char MsgStatus;  //消息状态
-unsigned char Terminal_ID[6] = {0x00,0x00,0x00,0x00,0x00,0x01};//唯一标识该终端
+unsigned char TerminalID[6] = {0x00,0x00,0x00,0x00,0x00,0x01};//唯一标识该终端
+unsigned char DataRecFlag;
 
 #define MessageHeaderLength  18
 
@@ -26,8 +28,6 @@ extern unsigned char CurrentSpeed;
 extern unsigned int TotalDrip;
 extern unsigned char TerminalPowerPrecent;
 
-char RxBuffer[64];
-
 void MessageHeader()
 {
   TxBuffer[0] = MsgBegin;
@@ -37,17 +37,17 @@ void MessageHeader()
   TxBuffer[4] = CommandId;
   TxBuffer[5] = ModelAddress;
   TxBuffer[6] = ModelAddress>>8;
-  TxBuffer[7] = Sequence_Id;
-  TxBuffer[8] = Sequence_Id>>8;
-  TxBuffer[9] = Sequence_Id>>16;
-  TxBuffer[10] = Sequence_Id>>24;       
+  TxBuffer[7] = SequenceId;
+  TxBuffer[8] = SequenceId>>8;
+  TxBuffer[9] = SequenceId>>16;
+  TxBuffer[10] = SequenceId>>24;       
   TxBuffer[11] = MsgStatus;      
-  TxBuffer[12] = Terminal_ID[0];      
-  TxBuffer[13] = Terminal_ID[1];        
-  TxBuffer[14] = Terminal_ID[2];        
-  TxBuffer[15] = Terminal_ID[3]; 
-  TxBuffer[16] = Terminal_ID[4];        
-  TxBuffer[17] = Terminal_ID[5];       
+  TxBuffer[12] = TerminalID[0];      
+  TxBuffer[13] = TerminalID[1];        
+  TxBuffer[14] = TerminalID[2];        
+  TxBuffer[15] = TerminalID[3]; 
+  TxBuffer[16] = TerminalID[4];        
+  TxBuffer[17] = TerminalID[5];       
 }
 
 
@@ -55,9 +55,14 @@ void WorkingStateMsgTransmit(void)
 {
   MsgStatus = WorkingStatus;
   MsgLength = MessageHeaderLength+4;
-  Sequence_Id++;
+  SequenceId++;
   CommandId = 0x07;
   MessageHeader();
+  CurrentSpeed +=3;
+  if(CurrentSpeed>=90)
+  {
+    CurrentSpeed =70;
+  }
   TxBuffer[18] = CurrentSpeed;
   TxBuffer[19] = TotalDrip;
   TxBuffer[20] = TotalDrip>>8;
@@ -69,7 +74,7 @@ void HeartBeatTransmit(void)
 {
   MsgStatus = HeartBeatStatus;
   MsgLength = MessageHeaderLength+2;
-  Sequence_Id++;
+  SequenceId++;
   CommandId = 0x06;
   TxBuffer[18] = LastTimeDelay;
   TxBuffer[19] = PackageLoseNum;
@@ -81,7 +86,7 @@ void LoginTransmit(void)
 {
   MsgStatus = 0;
   MsgLength = MessageHeaderLength+6;
-  Sequence_Id++;
+  SequenceId++;
   CommandId = 0x01;
   MessageHeader();
   TxBuffer[18] = ProtocolVersion;
@@ -97,7 +102,7 @@ void LogoutTransmit(void)
 {
   MsgStatus = LogoutStatus;
   MsgLength = MessageHeaderLength;
-  Sequence_Id++;
+  SequenceId++;
   CommandId = 0x03;
   MessageHeader();
   Transmit( TxBuffer, MsgLength);
@@ -107,7 +112,7 @@ void LogoutAckTransmit(void)
 {
   MsgStatus = LogoutStatus;
   MsgLength = MessageHeaderLength;
-  Sequence_Id++;
+  SequenceId++;
   CommandId = 0x04;
   MessageHeader();
   Transmit( TxBuffer, MsgLength);

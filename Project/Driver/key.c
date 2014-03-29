@@ -1,5 +1,7 @@
 #include "key.h"
 
+extern unsigned char DataRecFlag;
+
 void KeyInit()
 {
   KeyDIR &=~ (KeyvolumeUp+KeyvolumeDown+KeyMaxRate+KeyMinRate);
@@ -14,8 +16,7 @@ __interrupt void port1_ISR (void)
     char len=0;   
     if(P1IFG & TI_CC_GDO2_PIN)
     {
-      len=0;                      //接收最大数据长度
-      ReceiveData(len);
+      DataRecFlag = 1;   //数据接收标志
     }
     if(KeyIFG & KeyvolumeUp)
     {

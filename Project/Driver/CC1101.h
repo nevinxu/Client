@@ -16,5 +16,5 @@ extern void ReceiveOn(void);
 extern void ReceiveOff(void);
 extern void WorOn(void);
 extern void TransmitRate(unsigned int Rate);
-void ReceiveData(char length);
+extern void ReceiveData(char length);
 #endif

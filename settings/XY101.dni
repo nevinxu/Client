@@ -51,9 +51,8 @@ NextState1=0
 Break=0
 State Storage=0
 [Breakpoints]
-Bp0=_ "STD_CODE" "{$PROJ_DIR$\Project\Driver\cc1101\CC1100-CC2500.c}.130.5" 0 0 0 0 "" 0 ""
-Bp1=_ "STD_CODE" "{$PROJ_DIR$\Project\Driver\cc1101\CC1100-CC2500.c}.178.7" 1 0 0 0 "" 0 ""
-Count=2
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\Project\Driver\cc1101\CC1100-CC2500.c}.178.7" 1 0 0 0 "" 0 ""
+Count=1
 [FET]
 Clock mode=14
 Extended Clock mode=-1

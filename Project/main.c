@@ -16,7 +16,8 @@ unsigned char CurrentSpeed =70;
 unsigned int TotalDrip =0;
 unsigned char TerminalPowerPrecent =100;
 
-unsigned char WorkingStatus ;
+
+unsigned char WorkingStatus = 0 ;
 
 void ClockInit()
 {
@@ -69,7 +70,7 @@ int main(void)
   Delay_ms(1000);
   LEDOff(LED1);
   
-  
+  LoginTransmit();   //登陆命令 
 
 
   /*
@@ -107,7 +108,7 @@ int main(void)
         DigtalClockRun();
         DisplayDigtalClock();
     //    ReceiveOn();
-        TotalDrip++;  //测试  液滴自动加以
+        TotalDrip++;  //测试  液滴自动加一
         WorkingStateMsgTransmit();
         LEDOn(LED1);
       }

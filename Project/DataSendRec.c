@@ -40,14 +40,14 @@ void MessageHeader()
   TxBuffer[7] = Sequence_Id;
   TxBuffer[8] = Sequence_Id>>8;
   TxBuffer[9] = Sequence_Id>>16;
-  TxBuffer[10] = Sequence_Id>>32;       
+  TxBuffer[10] = Sequence_Id>>24;       
   TxBuffer[11] = MsgStatus;      
   TxBuffer[12] = Terminal_ID[0];      
   TxBuffer[13] = Terminal_ID[1];        
   TxBuffer[14] = Terminal_ID[2];        
   TxBuffer[15] = Terminal_ID[3]; 
-  TxBuffer[14] = Terminal_ID[4];        
-  TxBuffer[15] = Terminal_ID[5];       
+  TxBuffer[16] = Terminal_ID[4];        
+  TxBuffer[17] = Terminal_ID[5];       
 }
 
 
@@ -58,10 +58,10 @@ void WorkingStateMsgTransmit(void)
   Sequence_Id++;
   CommandId = 0x07;
   MessageHeader();
-  TxBuffer[16] = CurrentSpeed;
-  TxBuffer[17] = TotalDrip;
-  TxBuffer[18] = TotalDrip>>8;
-  TxBuffer[19] = TerminalPowerPrecent;
+  TxBuffer[18] = CurrentSpeed;
+  TxBuffer[19] = TotalDrip;
+  TxBuffer[20] = TotalDrip>>8;
+  TxBuffer[21] = TerminalPowerPrecent;
   Transmit( TxBuffer, MsgLength);  
 }
 
@@ -71,8 +71,8 @@ void HeartBeatTransmit(void)
   MsgLength = MessageHeaderLength+2;
   Sequence_Id++;
   CommandId = 0x06;
-  TxBuffer[16] = LastTimeDelay;
-  TxBuffer[17] = PackageLoseNum;
+  TxBuffer[18] = LastTimeDelay;
+  TxBuffer[19] = PackageLoseNum;
   MessageHeader();
   Transmit( TxBuffer, MsgLength);
 }
@@ -84,12 +84,12 @@ void LoginTransmit(void)
   Sequence_Id++;
   CommandId = 0x01;
   MessageHeader();
-  TxBuffer[16] = ProtocolVersion;
-  TxBuffer[17] = ProtocolVersion>>8;
-  TxBuffer[18] = HardwareVersion;
-  TxBuffer[19] = HardwareVersion>>8;       
-  TxBuffer[20] = Reversed;
-  TxBuffer[21] = Reversed;
+  TxBuffer[18] = ProtocolVersion;
+  TxBuffer[19] = ProtocolVersion>>8;
+  TxBuffer[20] = HardwareVersion;
+  TxBuffer[21] = HardwareVersion>>8;       
+  TxBuffer[22] = Reversed;
+  TxBuffer[23] = Reversed;
   Transmit( TxBuffer, MsgLength);  
 }
 

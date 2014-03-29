@@ -111,7 +111,8 @@ void RFSendPacket(char *txBuffer, char size)
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE); 
     __delay_cycles(500);
     TI_CC_SPIStrobe(TI_CCxxx0_SFTX);         // Change state to TX, initiating
-    TI_CC_SPIWriteReg(TI_CCxxx0_TXFIFO,size);
+    __delay_cycles(500);
+  //  TI_CC_SPIWriteReg(TI_CCxxx0_TXFIFO,*txBuffer);
     TI_CC_SPIWriteBurstReg(TI_CCxxx0_TXFIFO, txBuffer, size); // Write TX data 
     __delay_cycles(60000);
     TI_CC_SPIStrobe(TI_CCxxx0_STX);         // Change state to TX, initiating

@@ -9,7 +9,7 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=-1389168875
+Checksum=474805
 [CallStack]
 ShowArgs=0
 [Disassembly]
@@ -50,29 +50,16 @@ NextState1=0
 [Action Register]
 Break=0
 State Storage=0
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
-[CallStackLog]
-Enabled=0
-[DriverProfiling]
-Enabled=0
-Mode=0
-Graph=0
-Symbiont=0
-Exclusions=
 [Breakpoints]
-Count=0
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\Project\Driver\cc1101\CC1100-CC2500.c}.129.5" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\Project\Driver\cc1101\CC1100-CC2500.c}.177.7" 1 0 0 0 "" 0 ""
+Count=2
 [FET]
 Clock mode=14
 Extended Clock mode=-1
 Secure Password=
 Extended Clock Control Enable=1
-Advanced Extended Clock Control=0
+Advanced Extended Clock Control=1
 Emulation mode=0
 Free running=0
 Shutting Down=3
@@ -87,7 +74,22 @@ SP=0
 SR=0
 all registers=0
 File name=
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
 [Aliases]
 A0=_ "D:\360data\重要数据\桌面\msp430\XY101_TEST\Project\Driver\CC1101.c" "D:\Work\My_Project\Client\Client\Project\Driver\CC1101.c"
 Count=1
-SuppressDialog=0
+SuppressDialog=1
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=

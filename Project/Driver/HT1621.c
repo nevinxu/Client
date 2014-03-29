@@ -51,6 +51,18 @@ void Ht1621_Init(void)
   Ht1621WrCmd(LCD_ON); 
 } 
 
+void  LCDInit()
+{
+  HT1621_INIT      //液晶初始化
+  Ht1621_Init();
+  Ht1621ClearDisplay();
+  
+ // HT1621_BL_YELLOW_INIT  //背光初始化
+// BL_YELLOW_ON  
+  HT1621_BL_BLUE_INIT  //背光初始化
+  BL_BLUE_ON
+}
+
 void Ht1621WrHalfOneData(unsigned char Addr,unsigned char Data)    //高4位有效
 { 
   CS_LO 

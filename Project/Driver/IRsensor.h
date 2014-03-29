@@ -35,6 +35,7 @@
 
 extern void IRSensorPortInit(void);
 extern unsigned char IRReceiveStatus();
+extern void  IRSensorInit();
 extern void LEDInit(void);
 extern void  LEDOn(unsigned char num);
 extern void  LEDOff(unsigned char num);

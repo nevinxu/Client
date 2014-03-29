@@ -3,7 +3,7 @@
 unsigned char Sen,Min,Hour,Day,Month,Year;
 unsigned char MonthDay[13] = {0,31,30,31,30,31,30,31,31,30,31,30,31};
 
-void InitDigtalClock()
+void DigtalClockInit()
 {
   Sen =0;
   Min =32;

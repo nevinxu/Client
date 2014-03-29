@@ -10,7 +10,7 @@
 #define  CRC_OK             (BIT7)          // CRC_OK bit 
 #define  PATABLE_VAL        (0x51)          // 0 dBm output 
 
-extern void InitRadio(void);
+extern void RadioInit(void);
 extern void Transmit(char *buffer, unsigned char length);
 extern void ReceiveOn(void);
 extern void ReceiveOff(void);

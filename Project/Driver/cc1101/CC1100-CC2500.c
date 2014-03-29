@@ -164,7 +164,7 @@ char RFReceivePacket(char *rxBuffer, char *length)
   char status[2];
   char pktLen;
 
-  if ((TI_CC_SPIReadStatus(TI_CCxxx0_RXBYTES) & TI_CCxxx0_NUM_RXBYTES))
+ // if ((TI_CC_SPIReadStatus(TI_CCxxx0_RXBYTES) & TI_CCxxx0_NUM_RXBYTES))
   {
     pktLen = TI_CC_SPIReadReg(TI_CCxxx0_RXFIFO); // Read length byte
 
@@ -183,6 +183,6 @@ char RFReceivePacket(char *rxBuffer, char *length)
       return 0;                             // Error
     }
   }
-  else
+ // else
       return 0;                             // Error
 }

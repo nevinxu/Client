@@ -12,6 +12,6 @@
 #define KeyMinRate  BIT3
 
 
-extern  void InitKey();
+extern  void KeyInit();
 
 #endif

@@ -58,6 +58,7 @@
 
 
 extern void Ht1621_Init(void);
+extern void  LCDInit();
 extern void Ht1621WrHalfOneData(unsigned char Addr,unsigned char Data);
 extern void Ht1621WrOneData(unsigned char Addr,unsigned char Data) ;
 extern void Ht1621WrAllData(unsigned char Addr,unsigned char *p,unsigned char cnt) ;

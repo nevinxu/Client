@@ -12,6 +12,12 @@ unsigned int DisplayMode = DisplayClockMode;
 unsigned char DisplayModeChargetimes=0;
 unsigned char DisplayModeChargeFlag=0;
 
+unsigned char CurrentSpeed =70;
+unsigned int TotalDrip =0;
+unsigned char TerminalPowerPrecent =100;
+
+unsigned char WorkingStatus ;
+
 void ClockInit()
 {
   volatile unsigned int i;                  // Use volatile to prevent removal
@@ -45,27 +51,17 @@ void ClockInit()
 
 int main(void)
 {
+  
   WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
+  
   ClockInit();
-  LEDInit();
-  
-  InitKey();
-  
+  LEDInit(); 
+  LCDInit();
+  KeyInit();
   UartInit();
-  
-  HT1621_INIT      //液晶初始化
-  Ht1621_Init();
-  Ht1621ClearDisplay();
-  
- // HT1621_BL_YELLOW_INIT  //背光初始化
-// BL_YELLOW_ON  
-  HT1621_BL_BLUE_INIT  //背光初始化
-  BL_BLUE_ON
-  
-  InitRadio();  //cc1101 初始化
-
-  IRSensorPortInit();  //红外初始化
-  IRRecCaptureInit();
+  RadioInit();  //cc1101 初始化
+  IRSensorInit();
+  DigtalClockInit(); //数字时钟初始化
   
   TA0Init();   //定时器初始化
   
@@ -74,7 +70,7 @@ int main(void)
   LEDOff(LED1);
   
   
-  InitDigtalClock(); //数字时钟初始化
+
 
   /*
   InitISD2100();
@@ -94,12 +90,12 @@ int main(void)
   {
     if(DisplayMode == DisplayRateMode)
     {
-      if(RateDisplayFlag == 1)
+      if(RateDisplayFlag)
       {
         Rate = GetRate();
         RateDisplayFlag =0;
         DisplayRate(Rate); 
-        TransmitRate(Rate);
+   //     TransmitRate(Rate);
         RefreshTime=1;
       }
     }
@@ -110,6 +106,10 @@ int main(void)
         DisplayDigtalClockFlag = 0;
         DigtalClockRun();
         DisplayDigtalClock();
+    //    ReceiveOn();
+        TotalDrip++;  //测试  液滴自动加以
+        WorkingStateMsgTransmit();
+        LEDOn(LED1);
       }
     }
 

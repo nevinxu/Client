@@ -87,6 +87,13 @@ void TA0Init()
   TA0CTL = TASSEL_1 + MC_2+ TAIE;     //Continuous mode
 }
 
+void  IRSensorInit()
+{
+  IRSensorPortInit();  //ºìÍâ³õÊ¼»¯
+  IRRecCaptureInit();
+}
+
+
 unsigned int GetRate()
 {
   static unsigned int buffer[8];
@@ -188,7 +195,7 @@ __interrupt void Timer_A0_0 (void)
   TA0CCR0 += 328;  
   if(IRReceiveStatus() == 1)
   {
-    LEDOn(LED1);
+     LEDOn(LED1);
 #ifdef TestMode  
     TestLEDOUT |= TestLed;
 #endif
@@ -225,7 +232,11 @@ __interrupt void Timer_A0_1 (void)
         TA0CCR1 += 0x8000;   
         DisplayDigtalClockFlag = 1;
         DisplayModeChargetimes++;
-        if(DisplayModeChargetimes>=10)
+        if(DisplayModeChargetimes==5)
+        {
+          LEDOff(LED1);
+        }
+        else if(DisplayModeChargetimes>=10)
         {
           DisplayModeChargetimes=0;
           DisplayMode = DisplayClockMode;

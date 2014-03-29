@@ -5,6 +5,7 @@
 #include "Uart.h"
 #include "key.h"
 #include "DigtalClock.h"
+#include "DataSendRec.h"
 
 #define  TestMode  1                    
 //#define         HiXT1   //¸ßÆµ¾§Õñ

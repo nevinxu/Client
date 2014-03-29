@@ -210,8 +210,8 @@ void TI_CC_PowerupResetCCxxxx(void)
   TI_CC_Wait(30);
   TI_CC_CSn_PxOUT |= TI_CC_CSn_PIN;
   TI_CC_Wait(45);
-
   TI_CC_CSn_PxOUT &= ~TI_CC_CSn_PIN;        // /CS enable
+  
   while (TI_CC_SPI_USCIB0_PxIN&TI_CC_SPI_USCIB0_SOMI);// Wait for CCxxxx ready
   UCB0TXBUF = TI_CCxxx0_SRES;               // Send strobe
   // Strobe addr is now being TX'ed

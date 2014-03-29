@@ -54,7 +54,7 @@
         </option>
         <option>
           <name>RTConfigPath</name>
-          <state>$TOOLKIT_DIR$\LIB\DLIB\</state>
+          <state>$TOOLKIT_DIR$\LIB\DLIB\dl430fn.h</state>
         </option>
         <option>
           <name>RTLibraryPath</name>
@@ -1982,6 +1982,9 @@
       <name>$PROJ_DIR$\Project\Driver\Uart.c</name>
     </file>
   </group>
+  <file>
+    <name>$PROJ_DIR$\Project\DataSendRec.c</name>
+  </file>
   <file>
     <name>$PROJ_DIR$\Project\Driver\DigtalClock.c</name>
   </file>

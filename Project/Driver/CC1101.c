@@ -1,16 +1,13 @@
 #include "include.h"
 
 /* === GLOBALS ============================================================= */
-//char paTable[8] = {0x17,0x1c,0x26,0x57,0x60,0x8d,0xc8,0xc0};//cc1100对应功率值-20,-15，-10，-5，0，5，7，10
-char paTable[8] = {0x0E,0x1D,0x34,0x68,0x60,0x84,0xc8,0xc0};//cc1101对应功率值-20,-15，-10，-5，0，5，7，10
-//char paTable[8] = {0x97,0x6e,0x7f,0x97,0xa9,0xbb,0xfe,0xff};//cc2500对应功率值-10，-8，-6，-4，-2，0，1
-//char paTable[8] = {0x0e,0x1c,0x26,0x2b,0x60,0x86,0xcb,0xc2};//cc1100e对应功率值-20,-15，-10，-5，0，5，7，10
-char paTableLen = 7; //10dBm
+char paTable[9] = {0xc0,0xc8,0x85,0x51,0x3a,0x06,0x1c,0x6c,0x68};//cc1101对应功率值10, 7， 5， 0，-5, -10，-15,-20,-30
 
-char TxBuffer[64]= {PACKET_LEN, 0xBB,0xCC,0xDD,0xEE,0xFF};
-char RxBuffer[64];
+char paTableValue = 0; //10dBm
 
-void InitRadio(void)
+extern unsigned char RxBuffer[64];
+
+void RadioInit(void)
 {
     TI_CC_SPISetup();                         // SPI端口初始化
     TI_CC_PowerupResetCCxxxx();               // 软件复位CC芯片
@@ -20,28 +17,30 @@ void InitRadio(void)
     //TI_CC_SPIStrobe(TI_CCxxx0_SIDLE); 
     //txBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_MARCSTATE); 
     //SPI验证
-    TxBuffer[63]= TI_CC_SPIReadReg(TI_CCxxx0_IOCFG2);//,   0x06
-    TxBuffer[63]= TI_CC_SPIReadReg(TI_CCxxx0_IOCFG0);//,   0x06  
-    TxBuffer[63]= TI_CC_SPIReadReg(TI_CCxxx0_ADDR);  //,   0x00
+ //   TxBuffer[63]= TI_CC_SPIReadReg(TI_CCxxx0_IOCFG2);//,   0x06
+ //   TxBuffer[63]= TI_CC_SPIReadReg(TI_CCxxx0_IOCFG0);//,   0x06  
+ //   TxBuffer[63]= TI_CC_SPIReadReg(TI_CCxxx0_ADDR);  //,   0x00
     
-    TxBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_VERSION);  //,   0x04 CC1101
-    TxBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_PARTNUM);  //,   0x04 CC1101
+ //   TxBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_VERSION);  //,   0x04 CC1101
+ //   TxBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_PARTNUM);  //,   0x04 CC1101
     
     //输出功率设置    
-    TI_CC_SPIWriteBurstReg(TI_CCxxx0_PATABLE, &paTable[paTableLen], 1);//配置发送功率  
-    TxBuffer[63]= TI_CC_SPIReadReg(TI_CCxxx0_PATABLE);
-    TxBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_PATABLE);
+    TI_CC_SPIWriteBurstReg(TI_CCxxx0_PATABLE, &paTable[paTableValue], 1);//配置发送功率  
+//    TxBuffer[63]= TI_CC_SPIReadReg(TI_CCxxx0_PATABLE);
+//    TxBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_PATABLE);
     
      
     
-    TI_CC_GDO0_PxSEL &=~ TI_CC_GDO0_PIN;
+    TI_CC_GDO0_PxSEL &=~ TI_CC_GDO0_PIN;   //清除特殊功能
     TI_CC_GDO0_PxIES |=TI_CC_GDO0_PIN;
 //    TI_CC_GDO0_PxREN |=TI_CC_GDO0_PIN;      
     TI_CC_GDO0_PxDIR &=~ TI_CC_GDO0_PIN;
     TI_CC_GDO0_PxIFG &=~ TI_CC_GDO0_PIN;
     TI_CC_GDO0_PxIE |= TI_CC_GDO0_PIN; 
+    
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE); 
-    TxBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_MARCSTATE); 
+    
+//    TxBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_MARCSTATE); 
     
     ReceiveOn();
     
@@ -50,22 +49,11 @@ void InitRadio(void)
 void Transmit(char *buffer, unsigned char length)
 {       
     RFSendPacket(buffer, length);
-    Delay_ms(10);
-    RFSendPacket(buffer, length);  
 }
-
-void TransmitRate(unsigned int Rate)
-{
-  TxBuffer[0] = 10;
-  TxBuffer[1] = (Rate>>8);
-  TxBuffer[2] = Rate&0xff;
-  Transmit( TxBuffer, TxBuffer[0]);  
-}
-
 
 void ReceiveData(char length)
 {
-   RxBuffer[CRC_LQI_IDX] = RFReceivePacket(RxBuffer,&length);       // 接收数据包判断x
+   RFReceivePacket(RxBuffer,&length);       // 接收数据包判断x
 }
 
 /*

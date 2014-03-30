@@ -14,5 +14,5 @@
 
 extern void writeRFSettings(void);
 extern void RFSendPacket(char *, char);
-extern char RFReceivePacket(char *, char *);
+extern char RFReceivePacket(char *);
 #endif

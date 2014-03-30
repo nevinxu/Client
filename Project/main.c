@@ -16,6 +16,8 @@ unsigned char CurrentSpeed =70;
 unsigned int TotalDrip =0;
 unsigned char TerminalPowerPrecent =100;
 
+extern unsigned char DataRecFlag;
+
 
 unsigned char WorkingStatus = 0 ;
 
@@ -112,6 +114,11 @@ int main(void)
         WorkingStateMsgTransmit();
         LEDOn(LED1);
       }
+    }
+    if(DataRecFlag == 1)
+    {
+//      ReceiveData();
+      DataRecFlag = 0;
     }
 
   }

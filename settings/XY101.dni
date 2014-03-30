@@ -9,7 +9,7 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=-1026048357
+Checksum=232403385
 [CallStack]
 ShowArgs=0
 [Disassembly]
@@ -51,8 +51,7 @@ NextState1=0
 Break=0
 State Storage=0
 [Breakpoints]
-Bp0=_ "STD_CODE" "{$PROJ_DIR$\Project\Driver\key.c}.18.7" 1 0 0 0 "" 0 ""
-Count=1
+Count=0
 [FET]
 Clock mode=14
 Extended Clock mode=-1

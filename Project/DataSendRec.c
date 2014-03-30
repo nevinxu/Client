@@ -9,7 +9,7 @@ unsigned int ModelAddress = 0x0001;  //床位号
 long SequenceId = 0;   //消息流水号
 unsigned char MsgStatus;  //消息状态
 unsigned char TerminalID[6] = {0x00,0x00,0x00,0x00,0x00,0x01};//唯一标识该终端
-unsigned char DataRecFlag;
+unsigned char DataRecFlag;   //数据接收标志
 
 #define MessageHeaderLength  18
 

@@ -13,26 +13,26 @@ void KeyInit()
 #pragma vector = PORT1_VECTOR
 __interrupt void port1_ISR (void)
 {
-    char len=0;   
     if(P1IFG & TI_CC_GDO2_PIN)
     {
       DataRecFlag = 1;   //数据接收标志
+      ReceiveData();
     }
     if(KeyIFG & KeyvolumeUp)
     {
-      len=64;
+      ;
     }
     if(KeyIFG & KeyvolumeDown)
     {
-      len=64;
+      ;
     }
     if(KeyIFG & KeyMaxRate)
     {
-      len=64;
+      ;
     }
     if(KeyIFG & KeyMinRate)
     {
-      len=64;
+      ;
     }
     
     P1IFG = 0;  

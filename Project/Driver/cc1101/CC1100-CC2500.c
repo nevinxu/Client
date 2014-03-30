@@ -161,30 +161,31 @@ void RFSendPacket(char *txBuffer, char size)
 //          0x80:  CRC OK
 //          0x00:  CRC NOT OK (or no pkt was put in the RXFIFO due to filtering)
 //-----------------------------------------------------------------------------
-char RFReceivePacket(char *rxBuffer, char *length)
+
+
+char RFReceivePacket(char *rxBuffer)
 {
   char status[2];
-  char pktLen;
-
- // if ((TI_CC_SPIReadStatus(TI_CCxxx0_RXBYTES) & TI_CCxxx0_NUM_RXBYTES))
+  unsigned char pktLen;
+  TI_CC_SPIStrobe(TI_CCxxx0_SRX); 
+  if ((TI_CC_SPIReadStatus(TI_CCxxx0_RXBYTES)&TI_CCxxx0_NUM_RXBYTES))
   {
-    pktLen = TI_CC_SPIReadReg(TI_CCxxx0_RXFIFO); // Read length byte
-
-    if (pktLen <= *length)                  // If pktLen size <= rxBuffer
-    {
-      TI_CC_SPIReadBurstReg(TI_CCxxx0_RXFIFO, rxBuffer, pktLen); // Pull data
-      *length = pktLen;                     // Return the actual size
-      TI_CC_SPIReadBurstReg(TI_CCxxx0_RXFIFO, status, 2);
-                                            // Read appended status bytes
-      return (char)(status[TI_CCxxx0_LQI_RX]&TI_CCxxx0_CRC_OK);
-    }                                       // Return CRC_OK bit
-    else
-    {
-      *length = pktLen;                     // Return the large size
+      TI_CC_SPIReadBurstReg(TI_CCxxx0_RXFIFO, rxBuffer, 4); // Pull data
+      if((rxBuffer[0] == 0xb4) && (rxBuffer[1] == 0xa5))
+      {
+        pktLen = rxBuffer[2] - 4;
+        TI_CC_SPIReadBurstReg(TI_CCxxx0_RXFIFO, rxBuffer+4, pktLen);
+      }
+                                            // Read appended status byte
+  }                                       // Return CRC_OK bit
+  else
+  {
+      TI_CC_SPIReadBurstReg(TI_CCxxx0_RXFIFO, rxBuffer, 10);
       TI_CC_SPIStrobe(TI_CCxxx0_SFRX);      // Flush RXFIFO
+      TI_CC_SPIStrobe(TI_CCxxx0_SRX);
       return 0;                             // Error
     }
-  }
- // else
-      return 0;                             // Error
+  TI_CC_SPIStrobe(TI_CCxxx0_SFRX);      // Flush RXFIFO
+  TI_CC_SPIStrobe(TI_CCxxx0_SRX);
+  return 1;
 }

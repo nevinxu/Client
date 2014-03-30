@@ -14,34 +14,16 @@ void RadioInit(void)
     
     writeRFSettings();                        // 配置寄存器设置
     
-    //TI_CC_SPIStrobe(TI_CCxxx0_SIDLE); 
-    //txBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_MARCSTATE); 
-    //SPI验证
- //   TxBuffer[63]= TI_CC_SPIReadReg(TI_CCxxx0_IOCFG2);//,   0x06
- //   TxBuffer[63]= TI_CC_SPIReadReg(TI_CCxxx0_IOCFG0);//,   0x06  
- //   TxBuffer[63]= TI_CC_SPIReadReg(TI_CCxxx0_ADDR);  //,   0x00
-    
- //   TxBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_VERSION);  //,   0x04 CC1101
- //   TxBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_PARTNUM);  //,   0x04 CC1101
-    
     //输出功率设置    
     TI_CC_SPIWriteBurstReg(TI_CCxxx0_PATABLE, &paTable[paTableValue], 1);//配置发送功率  
-//    TxBuffer[63]= TI_CC_SPIReadReg(TI_CCxxx0_PATABLE);
-//    TxBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_PATABLE);
-    
-     
-    
+   
     TI_CC_GDO0_PxSEL &=~ TI_CC_GDO0_PIN;   //清除特殊功能
-    TI_CC_GDO0_PxIES |=TI_CC_GDO0_PIN;
-//    TI_CC_GDO0_PxREN |=TI_CC_GDO0_PIN;      
+    TI_CC_GDO0_PxIES |=TI_CC_GDO0_PIN;    
     TI_CC_GDO0_PxDIR &=~ TI_CC_GDO0_PIN;
     TI_CC_GDO0_PxIFG &=~ TI_CC_GDO0_PIN;
     TI_CC_GDO0_PxIE |= TI_CC_GDO0_PIN; 
     
-    TI_CC_SPIStrobe(TI_CCxxx0_SIDLE); 
-    
-//    TxBuffer[63]= TI_CC_SPIReadStatus(TI_CCxxx0_MARCSTATE); 
-    
+    TI_CC_SPIStrobe(TI_CCxxx0_SIDLE);    
     ReceiveOn();
     
 }
@@ -51,9 +33,19 @@ void Transmit(char *buffer, unsigned char length)
     RFSendPacket(buffer, length);
 }
 
-void ReceiveData(char length)
+void ClearRecBuf()
 {
-   RFReceivePacket(RxBuffer,&length);       // 接收数据包判断x
+  unsigned char i;
+  for(i=0;i<64;i++)
+  {
+    RxBuffer[i] = 0;
+  }
+}
+
+void ReceiveData()
+{
+  ClearRecBuf();
+  RFReceivePacket(RxBuffer);       // 接收数据包判断x
 }
 
 /*
@@ -61,8 +53,7 @@ void ReceiveData(char length)
  */
 void ReceiveOn(void)
 {
-    TI_CC_GDO0_PxIES &=~ TI_CC_GDO2_PIN;  // Falling edge
-//    TI_CC_GDO0_PxIES |= TI_CC_GDO2_PIN;  // Falling edge
+    TI_CC_GDO0_PxIES &=~ TI_CC_GDO2_PIN;  // up edge
     TI_CC_GDO0_PxIFG &= ~TI_CC_GDO2_PIN; // Clear a pending interrupt 
     TI_CC_GDO0_PxIE |= TI_CC_GDO2_PIN;   // Enable the interrupt 
     

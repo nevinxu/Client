@@ -44,6 +44,7 @@ void RadioInit(void)
     
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE);    
     TI_CC_SPIStrobe(TI_CCxxx0_SFRX); 
+    TI_CC_SPIStrobe(TI_CCxxx0_SFTX);
     TI_CC_SPIStrobe(TI_CCxxx0_SRX); // Strobe SRX  
     
 }
@@ -65,7 +66,9 @@ void ClearRecBuf()
 void ReceiveData()
 {
   ClearRecBuf();
+  ReceiveOff();  //必须关闭
   RFReceivePacket(RxBuffer);       // 接收数据包判断x
+  ReceiveOn();
 }
 
 /*
@@ -88,11 +91,11 @@ void ReceiveOn(void)
 void ReceiveOff(void)
 {
     TI_CC_GDO0_PxIFG &=~ (TI_CC_GDO2_PIN); // Clear a pending interrupt 
-    TI_CC_GDO0_PxIE |=   (TI_CC_GDO2_PIN);   // Disable the interrupt 
+    TI_CC_GDO0_PxIE &=~   (TI_CC_GDO2_PIN);   // Disable the interrupt 
    
   // It is possible that ReceiveOff is called while radio is receiving a packet.
   // Therefore, it is necessary to flush the RX FIFO after issuing IDLE strobe 
   // such that the RXFIFO is empty prior to receiving a packet.
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE);
-    TI_CC_SPIStrobe(TI_CCxxx0_SFRX);                      
+ //   TI_CC_SPIStrobe(TI_CCxxx0_SFRX);                      
 }

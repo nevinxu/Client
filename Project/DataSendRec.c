@@ -28,6 +28,9 @@ extern unsigned char CurrentSpeed;
 extern unsigned int TotalDrip;
 extern unsigned char TerminalPowerPrecent;
 
+unsigned char WorkingStateSendSuccessFlag =0;
+
+
 void MessageHeader()
 {
   TxBuffer[0] = MsgBegin;
@@ -118,3 +121,17 @@ void LogoutAckTransmit(void)
   Transmit( TxBuffer, MsgLength);
 }
 
+
+void RecDataCheck()
+{
+  if((RxBuffer[CommandIdByte] == TerminalWorkingStateAckCommand) &&(RxBuffer[StatusByte] == SUCCESS))
+  {
+    WorkingStateSendSuccessFlag = 1;
+  }
+  else if((RxBuffer[CommandIdByte] == TerminalWorkingStateReqCommand) &&(RxBuffer[StatusByte] == SUCCESS))
+  {
+    WorkingStateSendSuccessFlag = 0;
+    WorkingStateMsgTransmit();
+    
+  }
+}

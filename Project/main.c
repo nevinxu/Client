@@ -112,13 +112,15 @@ int main(void)
         DisplayDigtalClock();
     //    ReceiveOn();
         TotalDrip++;  //测试  液滴自动加一
-        WorkingStateMsgTransmit();
-        LEDOn(LED1);
+//        WorkingStateMsgTransmit();
+
       }
     }
     if(DataRecFlag == 1)
     {
+      LEDOn(LED1);
       ReceiveData();
+      RecDataCheck();
       DataRecFlag = 0;
     }
 

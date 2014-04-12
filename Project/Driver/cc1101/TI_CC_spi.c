@@ -96,22 +96,6 @@ void TI_CC_SPISetup(void)
                                             // SPI TXD out direction
   UCB0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
 #endif
-  
-#if 0
-  TI_CC_CSn_PxOUT |= TI_CC_CSn_PIN;
-  TI_CC_CSn_PxDIR |= TI_CC_CSn_PIN;         // /CS disable
-
-  UCB0CTL0 |= UCMST+UCCKPL+UCMSB+UCSYNC;    // 3-pin, 8-bit SPI master
-  UCB0CTL1 |= UCSSEL_2;                     // SMCLK
-  UCB0BR0 |= 0x02;                          // UCLK/2
-  UCB0BR1 = 0;
-  //UCB0MCTL = 0;
-  TI_CC_SPI_USCIB0_PxSEL |= TI_CC_SPI_USCIB0_SIMO | TI_CC_SPI_USCIB0_SOMI | TI_CC_SPI_USCIB0_UCLK;
-                                            // SPI option select
-  TI_CC_SPI_USCIB0_PxDIR |= TI_CC_SPI_USCIB0_SIMO | TI_CC_SPI_USCIB0_UCLK;
-                                            // SPI TXD out direction
-  UCB0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
-#endif
 }
 
 void TI_CC_SPIWriteReg(char addr, char value)

@@ -6,121 +6,115 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\HT1621.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\key.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\XY101.pbd</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\DigtalClock.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\TI_CC_spi.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\IRsensor.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\msp430f4152.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\key.pbi</file>
-      <file>$PROJ_DIR$\Project\Driver\cc1101\CC1100-CC2500.h</file>
-      <file>$PROJ_DIR$\Project\Driver\cc1101\TI_CC_spi.h</file>
-      <file>$PROJ_DIR$\Project\Driver\Uart.h</file>
-      <file>$PROJ_DIR$\Debug\Exe\XY101.ulp</file>
-      <file>$PROJ_DIR$\Debug\Obj\DataSendRec.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\DataSendRec.r43</file>
-      <file>$PROJ_DIR$\Project\Driver\Uart.c</file>
-      <file>$PROJ_DIR$\Project\Driver\cc1101\TI_CC_spi.c</file>
-      <file>$PROJ_DIR$\Project\Driver\cc1101\CC1100-CC2500.c</file>
-      <file>$PROJ_DIR$\Project\Driver\Clock.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\IDS2100.pbi</file>
-      <file>$PROJ_DIR$\Project\Driver\cc1101\TI_CC_CC1100-CC2500.h</file>
-      <file>$PROJ_DIR$\Project\Driver\Clock.h</file>
-      <file>$PROJ_DIR$\Project\Driver\IDS2100.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\Clock.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\Uart.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\CC1100-CC2500.r43</file>
+      <file>$PROJ_DIR$\Project\Driver\Clock.h</file>
       <file>$PROJ_DIR$\Debug\Obj\Uart.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\HT1621.r43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Project\main.c</file>
+      <file>$PROJ_DIR$\Project\Driver\cc1101\CC1100-CC2500.c</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$PROJ_DIR$\Project\DataSendRec.c</file>
       <file>$PROJ_DIR$\Debug\Obj\CC1101.r43</file>
-      <file>$PROJ_DIR$\Debug\Exe\XY101.d43</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
-      <file>$PROJ_DIR$\Project\Driver\HT1621.h</file>
-      <file>$PROJ_DIR$\Project\Driver\include.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\CC1100-CC2500.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\math.h</file>
+      <file>$PROJ_DIR$\Project\Driver\DigtalClock.c</file>
       <file>$PROJ_DIR$\Project\DataSendRec.h</file>
       <file>$PROJ_DIR$\Project\Driver\IRsensor.h</file>
-      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\DigtalClock.r43</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
-      <file>$PROJ_DIR$\Debug\List\XY101.map</file>
-      <file>$PROJ_DIR$\Project\Driver\CC1101.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\IDS2100.r43</file>
-      <file>$PROJ_DIR$\Project\Driver\CC1101.c</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\IRsensor.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\Clock.r43</file>
-      <file>$TOOLKIT_DIR$\config\lnk430F4152.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\CC1100-CC2500.pbi</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\ymath.h</file>
-      <file>$PROJ_DIR$\Project\Driver\key.h</file>
+      <file>$PROJ_DIR$\Debug\List\XY101.map</file>
+      <file>$PROJ_DIR$\Project\Driver\IRsensor.c</file>
+      <file>$PROJ_DIR$\Project\Driver\include.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\DataSendRec.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\HT1621.pbi</file>
+      <file>$PROJ_DIR$\Project\Driver\Uart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\DigtalClock.pbi</file>
+      <file>$PROJ_DIR$\Project\Driver\cc1101\TI_CC_spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430f4152.h</file>
+      <file>$PROJ_DIR$\Project\Driver\IDS2100.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Project\Driver\Uart.c</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\IRsensor.r43</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\IRsensor.pbi</file>
+      <file>$PROJ_DIR$\Project\Driver\cc1101\CC1100-CC2500.h</file>
+      <file>$PROJ_DIR$\Project\Driver\DigtalClock.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\key.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TI_CC_spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TI_CC_spi.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Project\Driver\cc1101\TI_CC_msp430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\CC1100-CC2500.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Clock.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\HT1621.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\XY101.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\IDS2100.pbi</file>
+      <file>$PROJ_DIR$\Project\Driver\cc1101\TI_CC_CC1100-CC2500.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\XY101.pbd</file>
+      <file>$PROJ_DIR$\Project\Driver\Clock.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\XY101.ulp</file>
+      <file>$PROJ_DIR$\Debug\Obj\key.r43</file>
+      <file>$PROJ_DIR$\Project\Driver\cc1101\TI_CC_spi.c</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\IDS2100.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\math.h</file>
+      <file>$PROJ_DIR$\readme.txt</file>
+      <file>$PROJ_DIR$\Project\Driver\HT1621.c</file>
+      <file>$PROJ_DIR$\Project\Driver\key.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\DigtalClock.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
       <file>$PROJ_DIR$\Debug\Obj\CC1101.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Project\Driver\key.h</file>
       <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
-      <file>$PROJ_DIR$\Project\Driver\key.c</file>
-      <file>$PROJ_DIR$\Project\Driver\HT1621.c</file>
-      <file>$PROJ_DIR$\Project\Driver\IDS2100.c</file>
-      <file>$PROJ_DIR$\Project\Driver\IRsensor.c</file>
-      <file>$PROJ_DIR$\Project\DataSendRec.c</file>
-      <file>$PROJ_DIR$\readme.txt</file>
-      <file>$PROJ_DIR$\Project\main.c</file>
-      <file>$PROJ_DIR$\Project\Driver\DigtalClock.c</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\xtgmath.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\TI_CC_spi.pbi</file>
-      <file>$PROJ_DIR$\Project\Driver\DigtalClock.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
-      <file>$PROJ_DIR$\Project\Driver\cc1101\TI_CC_msp430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\DataSendRec.pbi</file>
+      <file>$PROJ_DIR$\Project\Driver\IDS2100.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Clock.r43</file>
+      <file>$PROJ_DIR$\Project\Driver\CC1101.c</file>
+      <file>$PROJ_DIR$\Project\Driver\HT1621.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F4152.xcl</file>
+      <file>$PROJ_DIR$\Project\Driver\CC1101.h</file>
     </outputs>
     <file>
-      <name>$PROJ_DIR$\Project\Driver\Uart.c</name>
+      <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
-          <name>ICC430</name>
-          <file> 31</file>
+          <name>XLINK</name>
+          <file> 44 14</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 28</file>
+          <name>ULP430</name>
+          <file> 51</file>
         </tool>
       </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 39 48 24 13 10 29 0 12 38 44 26 43 14 56 71 42</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 39 48 24 13 10 29 0 12 38 44 26 43 14 56 71 42</file>
-        </tool>
-      </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Project\Driver\cc1101\TI_CC_spi.c</name>
+      <name>$PROJ_DIR$\Project\main.c</name>
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 8</file>
+          <file> 18</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 70</file>
+          <file> 36</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 13 10 29 0 74 24 73 57 46 51 59 35 5 1 72 36 68</file>
+          <file> 6 23 3 29 16 74 46 22 31 72 24 11 20 65 32 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 23 3 29 16 74 46 22 31 72 24 11 20 65 32 10</file>
         </tool>
       </inputs>
     </file>
@@ -129,183 +123,21 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 30</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
           <file> 40</file>
         </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 12 24 13 10 29 0</file>
-        </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 12 24 13 10 29 0</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Project\Driver\Clock.c</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 53</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 27</file>
+          <file> 12</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 39 48 24 13 10 29 0 12 38 44 26 43 14 56 25</file>
+          <file> 31 46 22 23 3 29</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 39 48 24 13 10 29 0 12 38 44 26 43 14 56 25</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Exe\XY101.d43</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 47</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 54 30 33 17 45 32 49 52 8 31 3 22 37</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 34 47</file>
-        </tool>
-        <tool>
-          <name>ULP430</name>
-          <file> 15</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Project\Driver\CC1101.c</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 33</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 58</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 39 48 24 13 10 29 0 12 38 44 26 43 14 56 71 42</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 39 48 24 13 10 29 0 12 38 44 26 43 14 56 71 42</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Project\Driver\key.c</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 3</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 11</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 56 39 48 24 13 10 29 0 12 38 44 26 43 14 71 42</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 56 39 48 24 13 10 29 0 12 38 44 26 43 14 71 42</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Project\Driver\HT1621.c</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 32</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 2</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 39 48 24 13 10 29 0 12 38 44 26 43 14 56 71 42</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Project\Driver\IDS2100.c</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 49</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 23</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 26 44 10 29 0 39 48 24 13 12 38 43 14 56 71 42</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 26 44 10 29 0 39 48 24 13 12 38 43 14 56 71 42</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Project\Driver\IRsensor.c</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 52</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 9</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 44 10 29 0 41 57 55 46 51 59 35 5 1 69 43 39 48 24 13 12 38 26 14 56 71 42</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 44 10 29 0 41 57 55 46 51 59 35 5 1 69 43 39 48 24 13 12 38 26 14 56 71 42</file>
+          <file> 31 46 22 23 3 29</file>
         </tool>
       </inputs>
     </file>
@@ -318,40 +150,17 @@
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 16</file>
+          <file> 68</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 39 48 24 13 10 29 0 12 38 44 26 43 14 56 71 42</file>
+          <file> 16 74 46 22 23 3 29 31 72 6 24 11 20 65 32 10</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 39 48 24 13 10 29 0 12 38 44 26 43 14 56 71 42</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Project\main.c</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 22</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 6</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 44 10 29 0 39 48 24 13 12 38 26 43 14 56 71 42</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 44 10 29 0 39 48 24 13 12 38 26 43 14 56 71 42</file>
+          <file> 16 74 46 22 23 3 29 31 72 6 24 11 20 65 32 10</file>
         </tool>
       </inputs>
     </file>
@@ -360,21 +169,216 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 45</file>
+          <file> 60</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 7</file>
+          <file> 21</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 39 48 24 13 10 29 0 12 38 44 26 43 14 56 71 42</file>
+          <file> 16 74 46 22 23 3 29 31 72 6 24 11 20 65 32 10</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 39 48 24 13 10 29 0 12 38 44 26 43 14 56 71 42</file>
+          <file> 16 74 46 22 23 3 29 31 72 6 24 11 20 65 32 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Project\Driver\IRsensor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 6 23 3 29 56 62 13 47 61 66 48 54 25 39 11 16 74 46 22 31 72 24 20 65 32 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 23 3 29 56 62 13 47 61 66 48 54 25 39 11 16 74 46 22 31 72 24 20 65 32 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Project\Driver\Uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 16 74 46 22 23 3 29 31 72 6 24 11 20 65 32 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 74 46 22 23 3 29 31 72 6 24 11 20 65 32 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\XY101.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 73 40 8 17 60 43 55 28 35 2 52 18 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Project\Driver\Clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 16 74 46 22 23 3 29 31 72 6 24 11 20 65 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 74 46 22 23 3 29 31 72 6 24 11 20 65 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Project\Driver\cc1101\TI_CC_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22 23 3 29 37 46 38 62 47 61 66 48 54 25 41 64 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 23 3 29 37 46 38 62 47 61 66 48 54 25 41 64 67</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Project\Driver\HT1621.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 16 74 46 22 23 3 29 31 72 6 24 11 20 65 32 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Project\Driver\key.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 65 16 74 46 22 23 3 29 31 72 6 24 11 20 32 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 16 74 46 22 23 3 29 31 72 6 24 11 20 32 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Project\Driver\IDS2100.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 24 6 23 3 29 16 74 46 22 31 72 11 20 65 32 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 6 23 3 29 16 74 46 22 31 72 11 20 65 32 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Project\Driver\CC1101.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 16 74 46 22 23 3 29 31 72 6 24 11 20 65 32 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 74 46 22 23 3 29 31 72 6 24 11 20 65 32 10</file>
         </tool>
       </inputs>
     </file>

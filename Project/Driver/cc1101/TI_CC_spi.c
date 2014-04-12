@@ -80,12 +80,14 @@ int putchar(int c)
 
 void TI_CC_SPISetup(void)
 {
+#if 1
+
   TI_CC_CSn_PxOUT |= TI_CC_CSn_PIN;
   TI_CC_CSn_PxDIR |= TI_CC_CSn_PIN;         // /CS disable
 
   UCB0CTL0 |= UCMST+UCCKPL+UCMSB+UCSYNC;    // 3-pin, 8-bit SPI master
-  UCB0CTL1 |= UCSSEL_1;                     // ACLK
-  UCB0BR0 |= 0x04;                          // UCLK/2
+  UCB0CTL1 |= UCSSEL_2;                     // 无法使用ACLK     
+  UCB0BR0 |= 0x02;                          // UCLK/2
   UCB0BR1 = 0;
   //UCB0MCTL = 0;
   TI_CC_SPI_USCIB0_PxSEL |= TI_CC_SPI_USCIB0_SIMO | TI_CC_SPI_USCIB0_SOMI | TI_CC_SPI_USCIB0_UCLK;
@@ -93,6 +95,23 @@ void TI_CC_SPISetup(void)
   TI_CC_SPI_USCIB0_PxDIR |= TI_CC_SPI_USCIB0_SIMO | TI_CC_SPI_USCIB0_UCLK;
                                             // SPI TXD out direction
   UCB0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
+#endif
+  
+#if 0
+  TI_CC_CSn_PxOUT |= TI_CC_CSn_PIN;
+  TI_CC_CSn_PxDIR |= TI_CC_CSn_PIN;         // /CS disable
+
+  UCB0CTL0 |= UCMST+UCCKPL+UCMSB+UCSYNC;    // 3-pin, 8-bit SPI master
+  UCB0CTL1 |= UCSSEL_2;                     // SMCLK
+  UCB0BR0 |= 0x02;                          // UCLK/2
+  UCB0BR1 = 0;
+  //UCB0MCTL = 0;
+  TI_CC_SPI_USCIB0_PxSEL |= TI_CC_SPI_USCIB0_SIMO | TI_CC_SPI_USCIB0_SOMI | TI_CC_SPI_USCIB0_UCLK;
+                                            // SPI option select
+  TI_CC_SPI_USCIB0_PxDIR |= TI_CC_SPI_USCIB0_SIMO | TI_CC_SPI_USCIB0_UCLK;
+                                            // SPI TXD out direction
+  UCB0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
+#endif
 }
 
 void TI_CC_SPIWriteReg(char addr, char value)
@@ -128,7 +147,7 @@ void TI_CC_SPIWriteBurstReg(char addr, char *buffer, char count)
 }
 
 char TI_CC_SPIReadReg(char addr)
-{
+{ 
   char x;
 
   TI_CC_CSn_PxOUT &= ~TI_CC_CSn_PIN;        // /CS enable
@@ -204,6 +223,7 @@ void TI_CC_SPIStrobe(char strobe)
 
 void TI_CC_PowerupResetCCxxxx(void)
 {
+#if 1
   TI_CC_CSn_PxOUT |= TI_CC_CSn_PIN;
   TI_CC_Wait(30);
   TI_CC_CSn_PxOUT &= ~TI_CC_CSn_PIN;
@@ -219,6 +239,24 @@ void TI_CC_PowerupResetCCxxxx(void)
   while (!(IFG2&UCB0RXIFG));                // Wait for end of addr TX
   while (TI_CC_SPI_USCIB0_PxIN&TI_CC_SPI_USCIB0_SOMI);
   TI_CC_CSn_PxOUT |= TI_CC_CSn_PIN;         // /CS disable
+#endif 
+#if 0
+  TI_CC_CSn_PxOUT |= TI_CC_CSn_PIN;
+  TI_CC_Wait(30);
+  TI_CC_CSn_PxOUT &= ~TI_CC_CSn_PIN;
+  TI_CC_Wait(30);
+  TI_CC_CSn_PxOUT |= TI_CC_CSn_PIN;
+  TI_CC_Wait(45);
+
+  TI_CC_CSn_PxOUT &= ~TI_CC_CSn_PIN;        // /CS enable
+  while (TI_CC_SPI_USCIB0_PxIN&TI_CC_SPI_USCIB0_SOMI);// Wait for CCxxxx ready
+  UCB0TXBUF = TI_CCxxx0_SRES;               // Send strobe
+  // Strobe addr is now being TX'ed
+  IFG2 &= ~UCB0RXIFG;                       // Clear flag
+  while (!(IFG2&UCB0RXIFG));                // Wait for end of addr TX
+  while (TI_CC_SPI_USCIB0_PxIN&TI_CC_SPI_USCIB0_SOMI);
+  TI_CC_CSn_PxOUT |= TI_CC_CSn_PIN;         // /CS disable  
+#endif
 }
 
 #endif

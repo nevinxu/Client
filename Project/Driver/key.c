@@ -16,7 +16,6 @@ __interrupt void port1_ISR (void)
     if(P1IFG & TI_CC_GDO2_PIN)
     {
       DataRecFlag = 1;   //数据接收标志
-      ReceiveData();
     }
     if(KeyIFG & KeyvolumeUp)
     {

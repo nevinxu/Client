@@ -58,6 +58,7 @@ int main(void)
   WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
   
   ClockInit();
+  
   LEDInit(); 
   LCDInit();
   KeyInit();
@@ -117,7 +118,7 @@ int main(void)
     }
     if(DataRecFlag == 1)
     {
-//      ReceiveData();
+      ReceiveData();
       DataRecFlag = 0;
     }
 

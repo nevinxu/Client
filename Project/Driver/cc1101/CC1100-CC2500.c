@@ -65,7 +65,7 @@ void writeRFSettings(void)
     TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG1,  0x22); // Modem configuration.
     TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG0,  0xF8); // Modem configuration.
     
-    TI_CC_SPIWriteReg(TI_CCxxx0_CHANNR,   0x00); // Channel number.
+    TI_CC_SPIWriteReg(TI_CCxxx0_CHANNR,   0x01); // Channel number.
     TI_CC_SPIWriteReg(TI_CCxxx0_DEVIATN,  0x62); // Modem dev (when FSK mod en)
     TI_CC_SPIWriteReg(TI_CCxxx0_ADDR,     0x00); // Device address.
     
@@ -123,24 +123,26 @@ void writeRFSettings(void)
 void RFSendPacket(char *txBuffer, char size)
 {   
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE); 
-    __delay_cycles(500);
+    __delay_cycles(30000);
     TI_CC_SPIStrobe(TI_CCxxx0_SFTX);         // Change state to TX, initiating
-//    TI_CC_SPIWriteReg(TI_CCxxx0_TXFIFO,*txBuffer);
+    TI_CC_SPIWriteReg(TI_CCxxx0_TXFIFO,size);
     TI_CC_SPIWriteBurstReg(TI_CCxxx0_TXFIFO, txBuffer, size); // Write TX data 
+    __delay_cycles(30000);
     TI_CC_SPIStrobe(TI_CCxxx0_STX);         // Change state to TX, initiating
                                             // data transfer
-
-    while (!(TI_CC_GDO0_PxIN&TI_CC_GDO0_PIN))
+ // __delay_cycles(20000);
+    while (!(TI_CC_GDO0_PxIN&TI_CC_GDO0_PIN));
     {
-     __delay_cycles(100);
+     __delay_cycles(60);
     }     
                                             // Wait GDO0 to go hi -> sync TX'ed//
     while (TI_CC_GDO0_PxIN&TI_CC_GDO0_PIN);
                                             // Wait GDO0 to clear -> end of pkt//
+    __delay_cycles(30000);  //一定要延时 否则数据CRC校验有问题
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE); 
-//    TI_CC_SPIStrobe(TI_CCxxx0_SFRX);      // Flush RXFIFO
-//    TI_CC_SPIStrobe(TI_CCxxx0_SFRX);      // Flush RXFIFO
- //   TI_CC_SPIStrobe(TI_CCxxx0_SRX);
+    TI_CC_SPIStrobe(TI_CCxxx0_SFTX);      // Flush RXFIFO
+    TI_CC_SPIStrobe(TI_CCxxx0_SFRX);      // Flush RXFIFO
+    TI_CC_SPIStrobe(TI_CCxxx0_SRX);
 }
 
 
@@ -179,7 +181,7 @@ char RFReceivePacket(char *rxBuffer)
 {
   unsigned char pktLen;
   TI_CC_SPIStrobe(TI_CCxxx0_SRX); 
-//  __delay_cycles(60000);
+  __delay_cycles(60000);
   if ((TI_CC_SPIReadStatus(TI_CCxxx0_RXBYTES)&TI_CCxxx0_NUM_RXBYTES))
   {
       TI_CC_SPIReadBurstReg(TI_CCxxx0_RXFIFO, rxBuffer, 4); // Pull data
@@ -192,7 +194,7 @@ char RFReceivePacket(char *rxBuffer)
   }                                       // Return CRC_OK bit
   else
   {
-      TI_CC_SPIReadBurstReg(TI_CCxxx0_RXFIFO, rxBuffer, 10);
+      TI_CC_SPIReadBurstReg(TI_CCxxx0_RXFIFO, rxBuffer, 0x0e);
       TI_CC_SPIStrobe(TI_CCxxx0_SFRX);      // Flush RXFIFO
       TI_CC_SPIStrobe(TI_CCxxx0_SRX);
       return 0;                             // Error

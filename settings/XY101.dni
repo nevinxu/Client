@@ -9,7 +9,7 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=232403385
+Checksum=-508329371
 [CallStack]
 ShowArgs=0
 [Disassembly]
@@ -51,7 +51,8 @@ NextState1=0
 Break=0
 State Storage=0
 [Breakpoints]
-Count=0
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\Project\Driver\IRsensor.c}.235.9" 0 0 0 0 "" 0 ""
+Count=1
 [FET]
 Clock mode=14
 Extended Clock mode=-1

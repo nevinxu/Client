@@ -17,14 +17,24 @@ void RadioInit(void)
     //输出功率设置    
     TI_CC_SPIWriteBurstReg(TI_CCxxx0_PATABLE, &paTable[paTableValue], 1);//配置发送功率  
    
-    TI_CC_GDO0_PxSEL &=~ TI_CC_GDO0_PIN;   //清除特殊功能
-    TI_CC_GDO0_PxIES |=TI_CC_GDO0_PIN;    
-    TI_CC_GDO0_PxDIR &=~ TI_CC_GDO0_PIN;
+    TI_CC_SPIWriteReg(TI_CCxxx0_FIFOTHR,  0x0d);
+    
+    TI_CC_GDO0_PxSEL &=~ (TI_CC_GDO0_PIN);   //清除特殊功能
+    TI_CC_GDO0_PxDIR &=~ (TI_CC_GDO0_PIN);
+    
+    TI_CC_GDO0_PxIES &=~ TI_CC_GDO0_PIN;    
     TI_CC_GDO0_PxIFG &=~ TI_CC_GDO0_PIN;
     TI_CC_GDO0_PxIE |= TI_CC_GDO0_PIN; 
+ 
+#if 0  
+    TI_CC_GDO0_PxIES &=~ TI_CC_GDO2_PIN;  // up edge
+    TI_CC_GDO0_PxIFG &=~ TI_CC_GDO2_PIN; // Clear a pending interrupt 
+    TI_CC_GDO0_PxIE |= TI_CC_GDO2_PIN;   // Enable the interrupt
+#endif
     
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE);    
-    ReceiveOn();
+    TI_CC_SPIStrobe(TI_CCxxx0_SFRX); 
+    TI_CC_SPIStrobe(TI_CCxxx0_SRX); // Strobe SRX  
     
 }
 
@@ -53,9 +63,9 @@ void ReceiveData()
  */
 void ReceiveOn(void)
 {
-    TI_CC_GDO0_PxIES &=~ TI_CC_GDO2_PIN;  // up edge
-    TI_CC_GDO0_PxIFG &= ~TI_CC_GDO2_PIN; // Clear a pending interrupt 
-    TI_CC_GDO0_PxIE |= TI_CC_GDO2_PIN;   // Enable the interrupt 
+    TI_CC_GDO0_PxIES &=~ (TI_CC_GDO0_PIN);  // up edge
+    TI_CC_GDO0_PxIFG &=~ (TI_CC_GDO0_PIN); // Clear a pending interrupt 
+    TI_CC_GDO0_PxIE |= (TI_CC_GDO0_PIN);   // Enable the interrupt 
     
     // Radio is in IDLE following a TX, so strobe SRX to enter Receive Mode
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE);
@@ -63,26 +73,12 @@ void ReceiveOn(void)
     TI_CC_SPIStrobe(TI_CCxxx0_SRX); // Strobe SRX  
 }
 
-/*
- * Wor On
- */
-void WorOn(void)
-{
-    TI_CC_GDO0_PxIES &=~ TI_CC_GDO2_PIN;  //  UP     edge
-    TI_CC_GDO0_PxIFG &= ~TI_CC_GDO2_PIN; // Clear a pending interrupt 
-    TI_CC_GDO0_PxIE |= TI_CC_GDO2_PIN;   // Enable the interrupt 
-    
-    // Radio is in IDLE following a TX, so strobe SRX to enter Receive Mode
-    TI_CC_SPIStrobe(TI_CCxxx0_SIDLE);
-    TI_CC_SPIStrobe(TI_CCxxx0_SFRX); 
-    TI_CC_SPIStrobe(TI_CCxxx0_SWOR);           // Starts Wake-on-RadiO
-}
 
 
 void ReceiveOff(void)
 {
-    TI_CC_GDO0_PxIFG &=~ TI_CC_GDO2_PIN; // Clear a pending interrupt 
-    TI_CC_GDO0_PxIE &=~ TI_CC_GDO2_PIN;   // Disable the interrupt 
+    TI_CC_GDO0_PxIFG &=~ (TI_CC_GDO0_PIN); // Clear a pending interrupt 
+    TI_CC_GDO0_PxIE |=   (TI_CC_GDO0_PIN);   // Disable the interrupt 
    
   // It is possible that ReceiveOff is called while radio is receiving a packet.
   // Therefore, it is necessary to flush the RX FIFO after issuing IDLE strobe 

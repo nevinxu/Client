@@ -195,14 +195,14 @@ __interrupt void Timer_A0_0 (void)
   TA0CCR0 += 328;  
   if(IRReceiveStatus() == 1)
   {
-     LEDOn(LED1);
+  //   LEDOn(LED1);
 #ifdef TestMode  
     TestLEDOUT |= TestLed;
 #endif
   }
   else
   {
-    LEDOff(LED1);
+ //   LEDOff(LED1);
 #ifdef TestMode  
     TestLEDOUT &=~ TestLed;
 #endif
@@ -229,14 +229,18 @@ __interrupt void Timer_A0_1 (void)
   {
     case  2:  
       {
-        TA0CCR1 += 0x8000;   
-        DisplayDigtalClockFlag = 1;
+        TA0CCR1 += 0x4000;   
+        
         DisplayModeChargetimes++;
-        if(DisplayModeChargetimes==5)
+        if(DisplayModeChargetimes%2)
         {
           LEDOff(LED1);
         }
-        else if(DisplayModeChargetimes>=10)
+        else
+        {
+          DisplayDigtalClockFlag = 1;
+        }
+        if(DisplayModeChargetimes>=20)
         {
           DisplayModeChargetimes=0;
           DisplayMode = DisplayClockMode;

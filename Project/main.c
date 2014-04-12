@@ -69,7 +69,7 @@ int main(void)
   TA0Init();   //定时器初始化
   
   LEDOn(LED1);   //显示标志
-  Delay_ms(1000);
+  Delay_ms(500);
   LEDOff(LED1);
   
   LoginTransmit();   //登陆命令 

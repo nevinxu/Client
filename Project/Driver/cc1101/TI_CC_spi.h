@@ -35,7 +35,7 @@
 #define TI_CC_GDO2_PxIN         P1IN
 #define TI_CC_GDO2_REN          P1REN
 #define TI_CC_GDO2_PxDIR        P1DIR
-#define TI_CC_GDO2_PIN          BIT1
+#define TI_CC_GDO2_PIN          BIT2
 
 //mspf4152  use
 #define TI_CC_CSn_PxOUT         P6OUT //CSn ½ÓP3.6

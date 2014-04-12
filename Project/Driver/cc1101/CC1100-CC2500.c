@@ -51,40 +51,54 @@ void writeRFSettings(void)
     
     TI_CC_SPIWriteReg(TI_CCxxx0_IOCFG2,   0x01); // GDO2 output pin config.
     TI_CC_SPIWriteReg(TI_CCxxx0_IOCFG0,   0x02); // GDO0 output pin config.
-    TI_CC_SPIWriteReg(TI_CCxxx0_PKTLEN,   0xFF); // Packet length.
-    TI_CC_SPIWriteReg(TI_CCxxx0_FIFOTHR,  0x0e);
-    TI_CC_SPIWriteReg(TI_CCxxx0_PKTCTRL1, 0x04); // Packet automation control.
-    TI_CC_SPIWriteReg(TI_CCxxx0_PKTCTRL0, 0x05); // Packet automation control.
-    TI_CC_SPIWriteReg(TI_CCxxx0_ADDR,     0x00); // Device address.
-    TI_CC_SPIWriteReg(TI_CCxxx0_CHANNR,   0x00); // Channel number.
+       
     TI_CC_SPIWriteReg(TI_CCxxx0_FSCTRL1,  0x0C); // Freq synthesizer control.
     TI_CC_SPIWriteReg(TI_CCxxx0_FSCTRL0,  0x00); // Freq synthesizer control.
+    
     TI_CC_SPIWriteReg(TI_CCxxx0_FREQ2,    0x10); // Freq control word, high byte
     TI_CC_SPIWriteReg(TI_CCxxx0_FREQ1,    0xA7); // Freq control word, mid byte.
     TI_CC_SPIWriteReg(TI_CCxxx0_FREQ0,    0x62); // Freq control word, low byte.
+    
     TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG4,  0x2D); // Modem configuration.
     TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG3,  0x3B); // Modem configuration.
     TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG2,  0x13); // Modem configuration.
     TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG1,  0x22); // Modem configuration.
     TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG0,  0xF8); // Modem configuration.
+    
+    TI_CC_SPIWriteReg(TI_CCxxx0_CHANNR,   0x00); // Channel number.
     TI_CC_SPIWriteReg(TI_CCxxx0_DEVIATN,  0x62); // Modem dev (when FSK mod en)
+    TI_CC_SPIWriteReg(TI_CCxxx0_ADDR,     0x00); // Device address.
+    
+    TI_CC_SPIWriteReg(TI_CCxxx0_FREND1,   0xB6); // Front end RX configuration.
+    TI_CC_SPIWriteReg(TI_CCxxx0_FREND0,   0x10); // Front end RX configuration.
+    
     TI_CC_SPIWriteReg(TI_CCxxx0_MCSM1 ,   0x30); //MainRadio Cntrl State Machine
     TI_CC_SPIWriteReg(TI_CCxxx0_MCSM0 ,   0x18); //MainRadio Cntrl State Machine
+    
     TI_CC_SPIWriteReg(TI_CCxxx0_FOCCFG,   0x1D); // Freq Offset Compens. Config
     TI_CC_SPIWriteReg(TI_CCxxx0_BSCFG,    0x1C); //  Bit synchronization config.
+    
     TI_CC_SPIWriteReg(TI_CCxxx0_AGCCTRL2, 0xC7); // AGC control.
     TI_CC_SPIWriteReg(TI_CCxxx0_AGCCTRL1, 0x00); // AGC control.
     TI_CC_SPIWriteReg(TI_CCxxx0_AGCCTRL0, 0xB0); // AGC control.
-    TI_CC_SPIWriteReg(TI_CCxxx0_FREND1,   0xB6); // Front end RX configuration.
-    TI_CC_SPIWriteReg(TI_CCxxx0_FREND0,   0x10); // Front end RX configuration.
+
     TI_CC_SPIWriteReg(TI_CCxxx0_FSCAL3,   0xEA); // Frequency synthesizer cal.
     TI_CC_SPIWriteReg(TI_CCxxx0_FSCAL2,   0x2A); // Frequency synthesizer cal.
     TI_CC_SPIWriteReg(TI_CCxxx0_FSCAL1,   0x00); // Frequency synthesizer cal.
     TI_CC_SPIWriteReg(TI_CCxxx0_FSCAL0,   0x1F); // Frequency synthesizer cal.
     TI_CC_SPIWriteReg(TI_CCxxx0_FSTEST,   0x59); // Frequency synthesizer cal.
+    
     TI_CC_SPIWriteReg(TI_CCxxx0_TEST2,    0x88); // Various test settings.
-    TI_CC_SPIWriteReg(TI_CCxxx0_TEST1,    0x31); // Various test settings.
+    TI_CC_SPIWriteReg(TI_CCxxx0_TEST1,    0x31); // Various test settings.   
     TI_CC_SPIWriteReg(TI_CCxxx0_TEST0,    0x09); // Various test settings.
+    
+    TI_CC_SPIWriteReg(TI_CCxxx0_PKTCTRL1, 0x04); // Packet automation control.
+    TI_CC_SPIWriteReg(TI_CCxxx0_PKTCTRL0, 0x05); // Packet automation control.
+    
+    TI_CC_SPIWriteReg(TI_CCxxx0_PKTLEN,   0xFF); // Packet length.
+    TI_CC_SPIWriteReg(TI_CCxxx0_FIFOTHR,  0x0c);
+    
+    
 #endif    
 }
 
@@ -111,24 +125,22 @@ void RFSendPacket(char *txBuffer, char size)
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE); 
     __delay_cycles(500);
     TI_CC_SPIStrobe(TI_CCxxx0_SFTX);         // Change state to TX, initiating
-    __delay_cycles(500);
-  //  TI_CC_SPIWriteReg(TI_CCxxx0_TXFIFO,*txBuffer);
+//    TI_CC_SPIWriteReg(TI_CCxxx0_TXFIFO,*txBuffer);
     TI_CC_SPIWriteBurstReg(TI_CCxxx0_TXFIFO, txBuffer, size); // Write TX data 
-    __delay_cycles(60000);
     TI_CC_SPIStrobe(TI_CCxxx0_STX);         // Change state to TX, initiating
                                             // data transfer
-    
-    __delay_cycles(10);
 
     while (!(TI_CC_GDO0_PxIN&TI_CC_GDO0_PIN))
     {
-     __delay_cycles(60000);
+     __delay_cycles(100);
     }     
                                             // Wait GDO0 to go hi -> sync TX'ed//
     while (TI_CC_GDO0_PxIN&TI_CC_GDO0_PIN);
                                             // Wait GDO0 to clear -> end of pkt//
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE); 
-    TI_CC_SPIStrobe(TI_CCxxx0_SRX); // Strobe SRX  
+//    TI_CC_SPIStrobe(TI_CCxxx0_SFRX);      // Flush RXFIFO
+//    TI_CC_SPIStrobe(TI_CCxxx0_SFRX);      // Flush RXFIFO
+ //   TI_CC_SPIStrobe(TI_CCxxx0_SRX);
 }
 
 
@@ -165,9 +177,9 @@ void RFSendPacket(char *txBuffer, char size)
 
 char RFReceivePacket(char *rxBuffer)
 {
-  char status[2];
   unsigned char pktLen;
   TI_CC_SPIStrobe(TI_CCxxx0_SRX); 
+//  __delay_cycles(60000);
   if ((TI_CC_SPIReadStatus(TI_CCxxx0_RXBYTES)&TI_CCxxx0_NUM_RXBYTES))
   {
       TI_CC_SPIReadBurstReg(TI_CCxxx0_RXFIFO, rxBuffer, 4); // Pull data

@@ -52,13 +52,29 @@ void ClockInit()
 #endif
 }
 
+void VddIOEnable()
+{
+  VDD_IO_EN_SET;
+  VDD_IO_ENABLE;
+}
+
+void VddIODisable()
+{
+  VDD_IO_EN_SET;
+  VDD_IO_DISABLE;
+}
+
 int main(void)
 {
+  unsigned char buf[] = {0x55,0x99,0x66};
+  unsigned int addr = 0xf800;
   
+  unsigned int i;
   WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
   
   ClockInit();
-  
+  VddIOEnable();  //外部模块供电使能
+  VddIODisable();
   LEDInit(); 
   LCDInit();
   KeyInit();
@@ -74,9 +90,13 @@ int main(void)
   LEDOff(LED1);
   
   LoginTransmit();   //登陆命令 
+  
+  FCTL2 = FWKEY + FSSEL0 + FN1;             // MCLK/3 for Flash Timing Generator
 
-
-  /*
+  Flash_SegmentErase(addr);
+  FlashWrite_8(buf,addr,3);
+  
+#if 0
   InitISD2100();
   unsigned char j;
   for(unsigned char i =0; i<10;i++)
@@ -88,7 +108,8 @@ int main(void)
     }
  
   }
-*/
+#endif
+  
   __bis_SR_register(GIE);   //全局中断使能
   while(1)
   {

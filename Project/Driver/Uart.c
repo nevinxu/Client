@@ -2,6 +2,9 @@
 
 extern unsigned int TimerValue;
 extern unsigned int time_num;
+extern unsigned int ModelAddress;  //床位号
+
+static unsigned char UartBuf; 
 
 void UartInit()
 {
@@ -42,10 +45,30 @@ void UartCommand1(unsigned int Rate,unsigned int MaxValue,unsigned int MinValue)
   UartSendByte(MinValue&0xff);
 }
 
+void  UartRec()
+{
+  static unsigned char i = 0;
+  static unsigned char buf[10];
+  buf[i] = UartBuf;
+  if(i >= 10)  //地址缓存溢出
+  {
+    i = 4;
+    buf[0] = buf[i-4];
+    buf[1] = buf[i-3];
+    buf[2] = buf[i-2];
+    buf[3] = buf[i-1];
+    buf[4] = buf[i];
+  }
+  if((buf[i-4] == 'a') &&(buf[i-3] == 'd') && (buf[i-2] == 'd') && (buf[i-1] == 'r'))   //地址前缀
+  {
+    ModelAddress = buf[i];
+  }
+  i++;
+}
+
 #pragma vector=USCIAB0RX_VECTOR
 __interrupt void USCI0RX_ISR(void)
 {
-  static unsigned char buf; 
-  buf = UCA0RXBUF ;                  // 'u' received?
-  UCA0TXBUF = buf;
+  UartBuf = UCA0RXBUF ;                  // 'u' received?
+ // UCA0TXBUF = UartBuf;
 }

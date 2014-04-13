@@ -708,11 +708,11 @@
         </option>
         <option>
           <name>XclOverride</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>XclFile</name>
-          <state>$TOOLKIT_DIR$\CONFIG\lnk430F4152.xcl</state>
+          <state>$PROJ_DIR$\lnk430F4152.xcl</state>
         </option>
         <option>
           <name>XclFileSlave</name>
@@ -1967,6 +1967,9 @@
       </file>
     </group>
     <file>
+      <name>$PROJ_DIR$\Project\Driver\HAL_FLASH.c</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\Project\Driver\HT1621.c</name>
     </file>
     <file>
@@ -1987,6 +1990,9 @@
   </file>
   <file>
     <name>$PROJ_DIR$\Project\Driver\DigtalClock.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\lnk430F4152.xcl</name>
   </file>
   <file>
     <name>$PROJ_DIR$\Project\main.c</name>

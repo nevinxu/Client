@@ -323,7 +323,7 @@
 <L><invalid loc>:327:9: macro definition=_DLIB_CONFIG_FILE_HEADER_NAME <US>c:macro@_DLIB_CONFIG_FILE_HEADER_NAME<UE> <DS>_DLIB_CONFIG_FILE_HEADER_NAME<DE> Extent=<ES>327:9 - 327:126<EE>
 <L><invalid loc>:328:9: macro definition=_DLIB_CONFIG_FILE_STRING <US>c:macro@_DLIB_CONFIG_FILE_STRING<UE> <DS>_DLIB_CONFIG_FILE_STRING<DE> Extent=<ES>328:9 - 328:128<EE>
 <L><invalid loc>:329:9: macro definition=__VERSION__ <US>c:macro@__VERSION__<UE> <DS>__VERSION__<DE> Extent=<ES>329:9 - 329:90<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:1:1: inclusion directive=include.h <US><UE> <DS><DE> <IS>D:\Work\My_Project\Client\Client\Project\Driver\include.h<IE>  Extent=<ES>1:1 - 1:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:5:1: inclusion directive=include.h <US><UE> <DS><DE> <IS>D:\Work\My_Project\Client\Client\Project\Driver\include.h<IE>  Extent=<ES>5:1 - 5:21<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\include.h:1:1: inclusion directive=CC1101.h <US><UE> <DS><DE> <IS>D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h<IE>  [multi-include guarded] Extent=<ES>1:1 - 1:20<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:2:9: macro definition=_CC1101_ <US>c:macro@_CC1101_<UE> <DS>_CC1101_<DE> Extent=<ES>2:9 - 2:17<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:3:1: inclusion directive=TI_CC_CC1100-CC2500.h <US><UE> <DS><DE> <IS>D:\Work\My_Project\Client\Client\Project\Driver\cc1101\TI_CC_CC1100-CC2500.h<IE>  [multi-include guarded] Extent=<ES>3:1 - 3:33<EE>
@@ -2188,13 +2188,19 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\include.h:25:9: macro definition=MCLK_C <US>c:macro@MCLK_C<UE> <DS>MCLK_C<DE> Extent=<ES>25:9 - 25:24<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\include.h:26:9: macro definition=Delay_us <US>c:macro@Delay_us<UE> <DS>Delay_us<DE> Extent=<ES>26:9 - 26:45<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9: macro definition=Delay_ms <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>27:9 - 27:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:11:12: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:66:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>11:12 - 11:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:11:17: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:67:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>11:17 - 11:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:12:15: macro expansion=UCSSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1245:9 <US>c:macro@UCSSEL_1<UE> <DS>UCSSEL_1<DE> Extent=<ES>12:15 - 12:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:17:16: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1229:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>17:16 - 17:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:18:10: macro expansion=UCA0RXIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:149:9 <US>c:macro@UCA0RXIE<UE> <DS>UCA0RXIE<DE> Extent=<ES>18:10 - 18:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:24:17: macro expansion=UCA0TXIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:159:9 <US>c:macro@UCA0TXIFG<UE> <DS>UCA0TXIFG<DE> Extent=<ES>24:17 - 24:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:70:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>70:1 - 70:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:11:15: macro expansion=SREF_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:210:9 <US>c:macro@SREF_1<UE> <DS>SREF_1<DE> Extent=<ES>11:15 - 11:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:11:24: macro expansion=ADC10SHT_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:207:9 <US>c:macro@ADC10SHT_3<UE> <DS>ADC10SHT_3<DE> Extent=<ES>11:24 - 11:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:11:37: macro expansion=REF2_5V|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:194:9 <US>c:macro@REF2_5V<UE> <DS>REF2_5V<DE> Extent=<ES>11:37 - 11:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:11:48: macro expansion=REFON|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:193:9 <US>c:macro@REFON<UE> <DS>REFON<DE> Extent=<ES>11:48 - 11:53<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:11:56: macro expansion=ADC10ON|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:192:9 <US>c:macro@ADC10ON<UE> <DS>ADC10ON<DE> Extent=<ES>11:56 - 11:63<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:12:15: macro expansion=INCH_7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:267:9 <US>c:macro@INCH_7<UE> <DS>INCH_7<DE> Extent=<ES>12:15 - 12:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:13:15: macro expansion=BIT7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:68:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>13:15 - 13:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:15:16: macro expansion=ENC|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:189:9 <US>c:macro@ENC<UE> <DS>ENC<DE> Extent=<ES>15:16 - 15:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:15:22: macro expansion=ADC10SC|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:188:9 <US>c:macro@ADC10SC<UE> <DS>ADC10SC<DE> Extent=<ES>15:22 - 15:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:16:12: macro expansion=ADC10IFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:190:9 <US>c:macro@ADC10IFG<UE> <DS>ADC10IFG<DE> Extent=<ES>16:12 - 16:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:47:17: macro expansion=BATTERYLEVEL3|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:4:9 <US>c:macro@BATTERYLEVEL3<UE> <DS>BATTERYLEVEL3<DE> Extent=<ES>47:17 - 47:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:51:22: macro expansion=BATTERYLEVEL2|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:5:9 <US>c:macro@BATTERYLEVEL2<UE> <DS>BATTERYLEVEL2<DE> Extent=<ES>51:22 - 51:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:55:22: macro expansion=BATTERYLEVEL1|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:6:9 <US>c:macro@BATTERYLEVEL1<UE> <DS>BATTERYLEVEL1<DE> Extent=<ES>55:22 - 55:35<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -2345,13 +2351,13 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:13:13: FunctionDecl=TransmitRate|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:13:13 (Declaration) <US>c:@F@TransmitRate<UE> <DS>void TransmitRate(unsigned int)<DE> Extent=<ES>13:1 - 13:44<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:13:39: ParmDecl=Rate|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:13:39 (Definition) <US>c:CC1101.h@327@F@TransmitRate@Rate<UE> <DS>unsigned int<DE> Extent=<ES>13:26 - 13:43<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:14:13: FunctionDecl=ReceiveData|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:14:13 (Declaration) <US>c:@F@ReceiveData<UE> <DS>void ReceiveData(void)<DE> Extent=<ES>14:1 - 14:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:5:13: FunctionDecl=UartInit|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:9:6 (Declaration) <US>c:@F@UartInit<UE> <DS>void UartInit(void)<DE> Extent=<ES>5:1 - 5:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:6:13: FunctionDecl=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 (Declaration) <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>6:1 - 6:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:5:13: FunctionDecl=UartInit|D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:5:13 (Declaration) <US>c:@F@UartInit<UE> <DS>void UartInit(void)<DE> Extent=<ES>5:1 - 5:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:6:13: FunctionDecl=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:6:13 (Declaration) <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>6:1 - 6:45<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:6:40: ParmDecl=byte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:6:40 (Definition) <US>c:Uart.h@105@F@UartSendByte@byte<UE> <DS>unsigned char<DE> Extent=<ES>6:26 - 6:44<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:7:14: FunctionDecl=UartSend|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:28:7 (Declaration) <US>c:@F@UartSend<UE> <DS>void UartSend(unsigned char *, unsigned char)<DE> Extent=<ES>7:1 - 7:64<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:7:14: FunctionDecl=UartSend|D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:7:14 (Declaration) <US>c:@F@UartSend<UE> <DS>void UartSend(unsigned char *, unsigned char)<DE> Extent=<ES>7:1 - 7:64<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:7:38: ParmDecl=string|D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:7:38 (Definition) <US>c:Uart.h@149@F@UartSend@string<UE> <DS>unsigned char *<DE> Extent=<ES>7:23 - 7:44<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:7:60: ParmDecl=num|D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:7:60 (Definition) <US>c:Uart.h@172@F@UartSend@num<UE> <DS>unsigned char<DE> Extent=<ES>7:46 - 7:63<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:8:13: FunctionDecl=UartCommand1|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:6 (Declaration) <US>c:@F@UartCommand1<UE> <DS>void UartCommand1(unsigned int, unsigned int, unsigned int)<DE> Extent=<ES>8:1 - 8:88<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:8:13: FunctionDecl=UartCommand1|D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:8:13 (Declaration) <US>c:@F@UartCommand1<UE> <DS>void UartCommand1(unsigned int, unsigned int, unsigned int)<DE> Extent=<ES>8:1 - 8:88<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:8:39: ParmDecl=Rate|D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:8:39 (Definition) <US>c:Uart.h@218@F@UartCommand1@Rate<UE> <DS>unsigned int<DE> Extent=<ES>8:26 - 8:43<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:8:57: ParmDecl=MaxValue|D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:8:57 (Definition) <US>c:Uart.h@236@F@UartCommand1@MaxValue<UE> <DS>unsigned int<DE> Extent=<ES>8:44 - 8:65<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:8:79: ParmDecl=MinValue|D:\Work\My_Project\Client\Client\Project\Driver\Uart.h:8:79 (Definition) <US>c:Uart.h@258@F@UartCommand1@MinValue<UE> <DS>unsigned int<DE> Extent=<ES>8:66 - 8:87<EE>
@@ -2486,7 +2492,7 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:13: FunctionDecl=DisplayVoice|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:13 (Declaration) <US>c:@F@DisplayVoice<UE> <DS>void DisplayVoice(unsigned char)<DE> Extent=<ES>35:1 - 35:46<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:40: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:40 (Definition) <US>c:Display.h@993@F@DisplayVoice@level<UE> <DS>unsigned char<DE> Extent=<ES>35:26 - 35:45<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:13: FunctionDecl=RefreshAlarmValue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:13 (Declaration) <US>c:@F@RefreshAlarmValue<UE> <DS>void RefreshAlarmValue(void)<DE> Extent=<ES>36:1 - 36:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23: FunctionDecl=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 (Declaration) <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>9:1 - 9:43<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23: FunctionDecl=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:21:16 (Declaration) <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>9:1 - 9:43<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14: FunctionDecl=KeyInit|D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14 (Declaration) <US>c:@F@KeyInit<UE> <DS>void KeyInit(void)<DE> Extent=<ES>20:1 - 20:23<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14: FunctionDecl=KeyFunction|D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14 (Declaration) <US>c:@F@KeyFunction<UE> <DS>void KeyFunction(void)<DE> Extent=<ES>21:1 - 21:27<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:25:13: FunctionDecl=IRSensorPortInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:25:13 (Declaration) <US>c:@F@IRSensorPortInit<UE> <DS>void IRSensorPortInit(void)<DE> Extent=<ES>25:1 - 25:35<EE>
@@ -2508,271 +2514,154 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:39:13: FunctionDecl=Play_TooSlow|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:39:13 (Declaration) <US>c:@F@Play_TooSlow<UE> <DS>void Play_TooSlow(void)<DE> Extent=<ES>39:1 - 39:27<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:40:13: FunctionDecl=VoiceUp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:40:13 (Declaration) <US>c:@F@VoiceUp<UE> <DS>void VoiceUp(void)<DE> Extent=<ES>40:1 - 40:22<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:41:13: FunctionDecl=VoiceDown|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:41:13 (Declaration) <US>c:@F@VoiceDown<UE> <DS>void VoiceDown(void)<DE> Extent=<ES>41:1 - 41:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:3:21: VarDecl=TimerValue|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:3:21 (Declaration) <US>c:@TimerValue<UE> <DS>TimerValue<DE> Extent=<ES>3:1 - 3:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:4:21: VarDecl=time_num|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:4:21 (Declaration) <US>c:@time_num<UE> <DS>time_num<DE> Extent=<ES>4:1 - 4:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:5:21: VarDecl=ModelAddress|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:5:21 (Declaration) <US>c:@ModelAddress<UE> <DS>ModelAddress<DE> Extent=<ES>5:1 - 5:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:7:22: VarDecl=UartBuf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:7:22 (Declaration) <US>c:Uart.c@135@UartBuf<UE> <DS>UartBuf<DE> Extent=<ES>7:1 - 7:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:9:6: FunctionDecl=UartInit|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:9:6 (Definition) <US>c:@F@UartInit<UE> <DS>void UartInit(void)<DE> Extent=<ES>9:1 - 19:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:10:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>10:1 - 19:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6: FunctionDecl=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 (Definition) <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>22:1 - 26:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:33: ParmDecl=byte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:33 (Definition) <US>c:Uart.c@745@F@UartSendByte@byte<UE> <DS>unsigned char<DE> Extent=<ES>22:19 - 22:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:23:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>23:1 - 26:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:28:7: FunctionDecl=UartSend|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:28:7 (Definition) <US>c:@F@UartSend<UE> <DS>void UartSend(unsigned char *, unsigned char)<DE> Extent=<ES>28:1 - 34:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:28:31: ParmDecl=string|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:28:31 (Definition) <US>c:Uart.c@883@F@UartSend@string<UE> <DS>unsigned char *<DE> Extent=<ES>28:16 - 28:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:28:53: ParmDecl=num|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:28:53 (Definition) <US>c:Uart.c@906@F@UartSend@num<UE> <DS>unsigned char<DE> Extent=<ES>28:39 - 28:56<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:29:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>29:1 - 34:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>30:3 - 33:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>30:7 - 30:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:21: VarDecl=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:21 (Definition) <US>c:Uart.c@935@F@UartSend@i<UE> <DS>i<DE> Extent=<ES>30:7 - 30:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>30:23 - 30:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>30:23 - 30:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:25: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>30:25 - 30:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:25: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:21 <US>c:Uart.c@935@F@UartSend@i<UE> <DS>i<DE> Extent=<ES>30:25 - 30:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:25: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:21 <US>c:Uart.c@935@F@UartSend@i<UE> <DS>i<DE> Extent=<ES>30:25 - 30:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:25: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:21 (Reference) <US>c:Uart.c@935@F@UartSend@i<UE> <DS>i<DE> Extent=<ES>30:25 - 30:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:27: UnexposedExpr=num|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:28:53 <US>c:Uart.c@906@F@UartSend@num<UE> <DS>unsigned char<DE> Extent=<ES>30:27 - 30:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:27: UnexposedExpr=num|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:28:53 <US>c:Uart.c@906@F@UartSend@num<UE> <DS>unsigned char<DE> Extent=<ES>30:27 - 30:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:27: DeclRefExpr=num|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:28:53 (Reference) <US>c:Uart.c@906@F@UartSend@num<UE> <DS>unsigned char<DE> Extent=<ES>30:27 - 30:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:31: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>30:31 - 30:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:31: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:21 (Reference) <US>c:Uart.c@935@F@UartSend@i<UE> <DS>i<DE> Extent=<ES>30:31 - 30:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:31:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>31:3 - 33:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:32:5: CallExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>32:5 - 32:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:32:5: UnexposedExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>32:5 - 32:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:32:5: DeclRefExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 (Reference) <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>32:5 - 32:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:32:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>32:18 - 32:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:32:18: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>32:18 - 32:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:32:18: UnexposedExpr=string|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:28:31 <US>c:Uart.c@883@F@UartSend@string<UE> <DS>unsigned char *<DE> Extent=<ES>32:18 - 32:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:32:18: DeclRefExpr=string|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:28:31 (Reference) <US>c:Uart.c@883@F@UartSend@string<UE> <DS>unsigned char *<DE> Extent=<ES>32:18 - 32:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:32:25: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:21 <US>c:Uart.c@935@F@UartSend@i<UE> <DS>i<DE> Extent=<ES>32:25 - 32:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:32:25: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:30:21 (Reference) <US>c:Uart.c@935@F@UartSend@i<UE> <DS>i<DE> Extent=<ES>32:25 - 32:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:6: FunctionDecl=UartCommand1|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:6 (Definition) <US>c:@F@UartCommand1<UE> <DS>void UartCommand1(unsigned int, unsigned int, unsigned int)<DE> Extent=<ES>36:1 - 46:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:32: ParmDecl=Rate|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:32 (Definition) <US>c:Uart.c@1028@F@UartCommand1@Rate<UE> <DS>unsigned int<DE> Extent=<ES>36:19 - 36:36<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:50: ParmDecl=MaxValue|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:50 (Definition) <US>c:Uart.c@1046@F@UartCommand1@MaxValue<UE> <DS>unsigned int<DE> Extent=<ES>36:37 - 36:58<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:72: ParmDecl=MinValue|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:72 (Definition) <US>c:Uart.c@1068@F@UartCommand1@MinValue<UE> <DS>unsigned int<DE> Extent=<ES>36:59 - 36:80<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:37:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>37:1 - 46:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:38:3: CallExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>38:3 - 38:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:38:3: UnexposedExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>38:3 - 38:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:38:3: DeclRefExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 (Reference) <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>38:3 - 38:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:38:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>38:16 - 38:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:38:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>38:16 - 38:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:39:3: CallExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>39:3 - 39:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:39:3: UnexposedExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>39:3 - 39:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:39:3: DeclRefExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 (Reference) <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>39:3 - 39:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:39:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>39:16 - 39:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:39:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>39:16 - 39:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:40:3: CallExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>40:3 - 40:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:40:3: UnexposedExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>40:3 - 40:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:40:3: DeclRefExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 (Reference) <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>40:3 - 40:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:40:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>40:16 - 40:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:40:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>40:16 - 40:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:40:16: UnexposedExpr=Rate|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:32 <US>c:Uart.c@1028@F@UartCommand1@Rate<UE> <DS>unsigned int<DE> Extent=<ES>40:16 - 40:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:40:16: DeclRefExpr=Rate|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:32 (Reference) <US>c:Uart.c@1028@F@UartCommand1@Rate<UE> <DS>unsigned int<DE> Extent=<ES>40:16 - 40:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:40:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>40:22 - 40:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:41:3: CallExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>41:3 - 41:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:41:3: UnexposedExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>41:3 - 41:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:41:3: DeclRefExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 (Reference) <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>41:3 - 41:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:41:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>41:16 - 41:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:41:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>41:16 - 41:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:41:16: UnexposedExpr=Rate|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:32 <US>c:Uart.c@1028@F@UartCommand1@Rate<UE> <DS>unsigned int<DE> Extent=<ES>41:16 - 41:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:41:16: DeclRefExpr=Rate|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:32 (Reference) <US>c:Uart.c@1028@F@UartCommand1@Rate<UE> <DS>unsigned int<DE> Extent=<ES>41:16 - 41:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:41:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>41:21 - 41:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:41:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>41:21 - 41:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:42:3: CallExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>42:3 - 42:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:42:3: UnexposedExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>42:3 - 42:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:42:3: DeclRefExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 (Reference) <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>42:3 - 42:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:42:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>42:16 - 42:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:42:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>42:16 - 42:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:42:16: UnexposedExpr=MaxValue|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:50 <US>c:Uart.c@1046@F@UartCommand1@MaxValue<UE> <DS>unsigned int<DE> Extent=<ES>42:16 - 42:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:42:16: DeclRefExpr=MaxValue|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:50 (Reference) <US>c:Uart.c@1046@F@UartCommand1@MaxValue<UE> <DS>unsigned int<DE> Extent=<ES>42:16 - 42:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:42:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:26 - 42:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:43:3: CallExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>43:3 - 43:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:43:3: UnexposedExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>43:3 - 43:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:43:3: DeclRefExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 (Reference) <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>43:3 - 43:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:43:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>43:16 - 43:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:43:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>43:16 - 43:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:43:16: UnexposedExpr=MaxValue|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:50 <US>c:Uart.c@1046@F@UartCommand1@MaxValue<UE> <DS>unsigned int<DE> Extent=<ES>43:16 - 43:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:43:16: DeclRefExpr=MaxValue|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:50 (Reference) <US>c:Uart.c@1046@F@UartCommand1@MaxValue<UE> <DS>unsigned int<DE> Extent=<ES>43:16 - 43:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:43:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>43:25 - 43:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:43:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>43:25 - 43:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:44:3: CallExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>44:3 - 44:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:44:3: UnexposedExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>44:3 - 44:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:44:3: DeclRefExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 (Reference) <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>44:3 - 44:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:44:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>44:16 - 44:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:44:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>44:16 - 44:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:44:16: UnexposedExpr=MinValue|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:72 <US>c:Uart.c@1068@F@UartCommand1@MinValue<UE> <DS>unsigned int<DE> Extent=<ES>44:16 - 44:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:44:16: DeclRefExpr=MinValue|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:72 (Reference) <US>c:Uart.c@1068@F@UartCommand1@MinValue<UE> <DS>unsigned int<DE> Extent=<ES>44:16 - 44:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:44:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>44:26 - 44:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:45:3: CallExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>45:3 - 45:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:45:3: UnexposedExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>45:3 - 45:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:45:3: DeclRefExpr=UartSendByte|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:22:6 (Reference) <US>c:@F@UartSendByte<UE> <DS>void UartSendByte(unsigned char)<DE> Extent=<ES>45:3 - 45:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:45:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>45:16 - 45:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:45:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>45:16 - 45:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:45:16: UnexposedExpr=MinValue|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:72 <US>c:Uart.c@1068@F@UartCommand1@MinValue<UE> <DS>unsigned int<DE> Extent=<ES>45:16 - 45:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:45:16: DeclRefExpr=MinValue|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:36:72 (Reference) <US>c:Uart.c@1068@F@UartCommand1@MinValue<UE> <DS>unsigned int<DE> Extent=<ES>45:16 - 45:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:45:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>45:25 - 45:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:45:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:25 - 45:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:48:7: FunctionDecl=UartRec|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:48:7 (Definition) <US>c:@F@UartRec<UE> <DS>void UartRec(void)<DE> Extent=<ES>48:1 - 67:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:49:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>49:1 - 67:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>50:3 - 50:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24: VarDecl=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Definition) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>50:3 - 50:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>50:28 - 50:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>50:28 - 50:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>51:3 - 51:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24: VarDecl=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Definition) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>51:3 - 51:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>51:28 - 51:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:52:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>52:3 - 52:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:52:3: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>52:3 - 52:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:52:3: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>52:3 - 52:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:52:3: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>52:3 - 52:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:52:7: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>52:7 - 52:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:52:7: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>52:7 - 52:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:52:12: UnexposedExpr=UartBuf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:7:22 <US>c:Uart.c@135@UartBuf<UE> <DS>UartBuf<DE> Extent=<ES>52:12 - 52:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:52:12: DeclRefExpr=UartBuf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:7:22 (Reference) <US>c:Uart.c@135@UartBuf<UE> <DS>UartBuf<DE> Extent=<ES>52:12 - 52:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:53:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>53:3 - 61:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:53:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>53:6 - 53:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:53:6: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>53:6 - 53:7<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:53:6: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>53:6 - 53:7<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:53:6: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>53:6 - 53:7<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:53:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>53:11 - 53:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:54:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>54:3 - 61:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:55:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>55:5 - 55:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:55:5: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>55:5 - 55:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:55:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>55:9 - 55:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:55:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:9 - 55:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>56:5 - 56:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>56:5 - 56:11<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:5: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>56:5 - 56:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:5: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>56:5 - 56:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:9 - 56:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>56:14 - 56:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>56:14 - 56:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:14: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>56:14 - 56:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:14: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>56:14 - 56:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>56:18 - 56:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:18: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>56:18 - 56:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:18: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>56:18 - 56:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:18: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>56:18 - 56:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:56:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:20 - 56:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>57:5 - 57:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>57:5 - 57:11<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:5: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>57:5 - 57:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:5: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>57:5 - 57:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:9 - 57:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>57:14 - 57:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>57:14 - 57:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:14: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>57:14 - 57:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:14: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>57:14 - 57:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>57:18 - 57:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:18: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>57:18 - 57:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:18: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>57:18 - 57:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:18: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>57:18 - 57:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:57:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:20 - 57:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>58:5 - 58:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>58:5 - 58:11<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:5: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>58:5 - 58:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:5: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>58:5 - 58:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>58:9 - 58:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>58:14 - 58:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>58:14 - 58:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:14: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>58:14 - 58:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:14: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>58:14 - 58:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>58:18 - 58:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:18: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>58:18 - 58:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:18: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>58:18 - 58:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:18: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>58:18 - 58:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:58:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>58:20 - 58:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>59:5 - 59:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>59:5 - 59:11<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:5: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>59:5 - 59:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:5: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>59:5 - 59:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:9 - 59:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>59:14 - 59:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>59:14 - 59:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:14: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>59:14 - 59:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:14: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>59:14 - 59:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>59:18 - 59:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:18: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>59:18 - 59:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:18: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>59:18 - 59:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:18: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>59:18 - 59:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:59:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:20 - 59:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:60:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>60:5 - 60:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:60:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>60:5 - 60:11<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:60:5: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>60:5 - 60:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:60:5: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>60:5 - 60:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:60:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>60:9 - 60:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:60:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>60:14 - 60:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:60:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>60:14 - 60:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:60:14: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>60:14 - 60:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:60:14: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>60:14 - 60:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:60:18: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>60:18 - 60:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:60:18: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>60:18 - 60:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>62:3 - 65:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:6 - 62:85<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:6 - 62:64<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:6 - 62:43<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:6: ParenExpr= <US><UE> <DS><DE> Extent=<ES>62:6 - 62:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:7 - 62:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>62:7 - 62:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>62:7 - 62:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>62:7 - 62:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:7: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>62:7 - 62:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:7: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>62:7 - 62:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:11 - 62:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:11: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>62:11 - 62:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:11: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>62:11 - 62:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:11: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>62:11 - 62:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>62:13 - 62:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:19: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>62:19 - 62:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>62:26 - 62:43<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:27: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:27 - 62:42<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>62:27 - 62:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>62:27 - 62:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:27: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>62:27 - 62:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:27: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>62:27 - 62:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:27: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>62:27 - 62:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:31: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:31 - 62:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:31: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>62:31 - 62:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:31: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>62:31 - 62:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:31: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>62:31 - 62:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>62:33 - 62:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:39: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>62:39 - 62:42<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:47: ParenExpr= <US><UE> <DS><DE> Extent=<ES>62:47 - 62:64<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:48: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:48 - 62:63<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:48: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>62:48 - 62:56<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:48: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>62:48 - 62:56<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:48: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>62:48 - 62:56<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:48: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>62:48 - 62:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:48: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>62:48 - 62:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:52: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:52 - 62:55<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:52: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>62:52 - 62:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:52: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>62:52 - 62:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:52: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>62:52 - 62:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:54: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>62:54 - 62:55<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:60: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>62:60 - 62:63<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:68: ParenExpr= <US><UE> <DS><DE> Extent=<ES>62:68 - 62:85<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:69: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:69 - 62:84<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:69: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>62:69 - 62:77<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:69: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>62:69 - 62:77<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:69: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>62:69 - 62:77<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:69: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>62:69 - 62:72<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:69: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>62:69 - 62:72<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:73: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:73 - 62:76<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:73: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>62:73 - 62:74<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:73: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>62:73 - 62:74<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:73: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>62:73 - 62:74<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:75: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>62:75 - 62:76<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:62:81: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>62:81 - 62:84<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:63:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>63:3 - 65:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:64:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:5 - 64:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:64:5: DeclRefExpr=ModelAddress|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:5:21 (Reference) <US>c:@ModelAddress<UE> <DS>ModelAddress<DE> Extent=<ES>64:5 - 64:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:64:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>64:20 - 64:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:64:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>64:20 - 64:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:64:20: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>64:20 - 64:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:64:20: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>64:20 - 64:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:64:20: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:51:24 (Reference) <US>c:Uart.c@1377@F@UartRec@buf<UE> <DS>buf<DE> Extent=<ES>64:20 - 64:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:64:24: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>64:24 - 64:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:64:24: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>64:24 - 64:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:66:3: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>66:3 - 66:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:66:3: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:50:24 (Reference) <US>c:Uart.c@1346@F@UartRec@i<UE> <DS>i<DE> Extent=<ES>66:3 - 66:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:70:18: FunctionDecl=USCI0RX_ISR|D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:70:18 (Definition) <US>c:@F@USCI0RX_ISR<UE> <DS>void USCI0RX_ISR(void)<DE> Extent=<ES>70:13 - 74:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Uart.c:71:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>71:1 - 74:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:7:15: FunctionDecl=GetBatteyValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:7:15 (Definition) <US>c:@F@GetBatteyValue<UE> <DS>unsigned int GetBatteyValue(void)<DE> Extent=<ES>7:1 - 19:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:8:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>8:1 - 19:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:9:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>9:3 - 9:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:9:16: VarDecl=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:9:16 (Definition) <US>c:Battery.c@95@F@GetBatteyValue@adcValue<UE> <DS>adcValue<DE> Extent=<ES>9:3 - 9:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:18:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>18:3 - 18:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:18:10: UnexposedExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:9:16 <US>c:Battery.c@95@F@GetBatteyValue@adcValue<UE> <DS>adcValue<DE> Extent=<ES>18:10 - 18:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:18:10: DeclRefExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:9:16 (Reference) <US>c:Battery.c@95@F@GetBatteyValue@adcValue<UE> <DS>adcValue<DE> Extent=<ES>18:10 - 18:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:21:16: FunctionDecl=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:21:16 (Definition) <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>21:1 - 65:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:22:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>22:1 - 65:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>23:3 - 23:42<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23: VarDecl=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23 (Definition) <US>c:Battery.c@517@F@GetBatteyLevel@adcValue<UE> <DS>adcValue<DE> Extent=<ES>23:3 - 23:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>23:32 - 23:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:38: InitListExpr= <US><UE> <DS><DE> Extent=<ES>23:38 - 23:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>23:39 - 23:40<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>23:39 - 23:40<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:24:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>24:3 - 24:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:24:16: VarDecl=tmpValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:24:16 (Definition) <US>c:Battery.c@562@F@GetBatteyLevel@tmpValue<UE> <DS>tmpValue<DE> Extent=<ES>24:3 - 24:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:24:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>24:27 - 24:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:24:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>24:27 - 24:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>25:3 - 25:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17: VarDecl=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Definition) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>25:3 - 25:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:26:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>26:3 - 26:47<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:26:16: VarDecl=GetAdcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:26:16 (Definition) <US>c:Battery.c@612@F@GetBatteyLevel@GetAdcValue<UE> <DS>GetAdcValue<DE> Extent=<ES>26:3 - 26:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:26:30: CallExpr=GetBatteyValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:7:15 <US>c:@F@GetBatteyValue<UE> <DS>unsigned int GetBatteyValue(void)<DE> Extent=<ES>26:30 - 26:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:26:30: UnexposedExpr=GetBatteyValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:7:15 <US>c:@F@GetBatteyValue<UE> <DS>unsigned int GetBatteyValue(void)<DE> Extent=<ES>26:30 - 26:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:26:30: DeclRefExpr=GetBatteyValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:7:15 (Reference) <US>c:@F@GetBatteyValue<UE> <DS>unsigned int GetBatteyValue(void)<DE> Extent=<ES>26:30 - 26:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:27:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>27:3 - 40:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:27:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>27:6 - 27:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:27:6: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>27:6 - 27:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:27:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>27:6 - 27:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:27:6: UnexposedExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23 <US>c:Battery.c@517@F@GetBatteyLevel@adcValue<UE> <DS>adcValue<DE> Extent=<ES>27:6 - 27:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:27:6: DeclRefExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23 (Reference) <US>c:Battery.c@517@F@GetBatteyLevel@adcValue<UE> <DS>adcValue<DE> Extent=<ES>27:6 - 27:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:27:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>27:15 - 27:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:27:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>27:21 - 27:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:27:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>27:21 - 27:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:28:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>28:3 - 33:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:29:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>29:5 - 32:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:29:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>29:9 - 29:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:29:9: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Reference) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>29:9 - 29:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:29:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>29:13 - 29:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:29:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>29:13 - 29:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:29:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>29:15 - 29:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:29:15: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>29:15 - 29:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:29:15: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>29:15 - 29:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:29:15: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Reference) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>29:15 - 29:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:29:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>29:17 - 29:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:29:20: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>29:20 - 29:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:29:20: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Reference) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>29:20 - 29:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:30:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>30:5 - 32:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:31:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>31:9 - 31:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:31:9: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>31:9 - 31:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:31:9: UnexposedExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23 <US>c:Battery.c@517@F@GetBatteyLevel@adcValue<UE> <DS>adcValue<DE> Extent=<ES>31:9 - 31:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:31:9: DeclRefExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23 (Reference) <US>c:Battery.c@517@F@GetBatteyLevel@adcValue<UE> <DS>adcValue<DE> Extent=<ES>31:9 - 31:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:31:18: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>31:18 - 31:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:31:18: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Reference) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>31:18 - 31:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:31:23: UnexposedExpr=GetAdcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:26:16 <US>c:Battery.c@612@F@GetBatteyLevel@GetAdcValue<UE> <DS>GetAdcValue<DE> Extent=<ES>31:23 - 31:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:31:23: DeclRefExpr=GetAdcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:26:16 (Reference) <US>c:Battery.c@612@F@GetBatteyLevel@GetAdcValue<UE> <DS>GetAdcValue<DE> Extent=<ES>31:23 - 31:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:35:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>35:3 - 40:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:36:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>36:5 - 39:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:36:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>36:9 - 36:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:36:9: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Reference) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>36:9 - 36:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:36:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>36:13 - 36:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:36:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>36:13 - 36:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:36:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>36:17 - 36:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:36:17: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>36:17 - 36:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:36:17: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>36:17 - 36:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:36:17: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Reference) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>36:17 - 36:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:36:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>36:19 - 36:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:36:21: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>36:21 - 36:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:36:21: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Reference) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>36:21 - 36:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:37:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>37:5 - 39:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>38:7 - 38:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>38:7 - 38:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:7: UnexposedExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23 <US>c:Battery.c@517@F@GetBatteyLevel@adcValue<UE> <DS>adcValue<DE> Extent=<ES>38:7 - 38:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:7: DeclRefExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23 (Reference) <US>c:Battery.c@517@F@GetBatteyLevel@adcValue<UE> <DS>adcValue<DE> Extent=<ES>38:7 - 38:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:16: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>38:16 - 38:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:16: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Reference) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>38:16 - 38:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>38:21 - 38:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>38:21 - 38:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:21: UnexposedExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23 <US>c:Battery.c@517@F@GetBatteyLevel@adcValue<UE> <DS>adcValue<DE> Extent=<ES>38:21 - 38:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:21: DeclRefExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23 (Reference) <US>c:Battery.c@517@F@GetBatteyLevel@adcValue<UE> <DS>adcValue<DE> Extent=<ES>38:21 - 38:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>38:30 - 38:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:30: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>38:30 - 38:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:30: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>38:30 - 38:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:30: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Reference) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>38:30 - 38:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:38:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>38:32 - 38:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:41:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>41:3 - 41:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:41:3: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>41:3 - 41:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:41:3: UnexposedExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23 <US>c:Battery.c@517@F@GetBatteyLevel@adcValue<UE> <DS>adcValue<DE> Extent=<ES>41:3 - 41:11<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:41:3: DeclRefExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23 (Reference) <US>c:Battery.c@517@F@GetBatteyLevel@adcValue<UE> <DS>adcValue<DE> Extent=<ES>41:3 - 41:11<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:41:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>41:12 - 41:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:41:17: UnexposedExpr=GetAdcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:26:16 <US>c:Battery.c@612@F@GetBatteyLevel@GetAdcValue<UE> <DS>GetAdcValue<DE> Extent=<ES>41:17 - 41:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:41:17: DeclRefExpr=GetAdcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:26:16 (Reference) <US>c:Battery.c@612@F@GetBatteyLevel@GetAdcValue<UE> <DS>GetAdcValue<DE> Extent=<ES>41:17 - 41:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:42:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>42:3 - 45:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:42:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>42:7 - 42:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:42:7: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Reference) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>42:7 - 42:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:42:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>42:11 - 42:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:42:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:11 - 42:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:42:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>42:13 - 42:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:42:13: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>42:13 - 42:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:42:13: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>42:13 - 42:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:42:13: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Reference) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>42:13 - 42:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:42:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:15 - 42:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:42:18: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>42:18 - 42:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:42:18: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Reference) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>42:18 - 42:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:43:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>43:3 - 45:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:44:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>44:7 - 44:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:44:7: DeclRefExpr=tmpValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:24:16 (Reference) <US>c:Battery.c@562@F@GetBatteyLevel@tmpValue<UE> <DS>tmpValue<DE> Extent=<ES>44:7 - 44:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:44:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>44:19 - 44:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:44:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>44:19 - 44:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:44:19: UnexposedExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23 <US>c:Battery.c@517@F@GetBatteyLevel@adcValue<UE> <DS>adcValue<DE> Extent=<ES>44:19 - 44:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:44:19: DeclRefExpr=adcValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:23:23 (Reference) <US>c:Battery.c@517@F@GetBatteyLevel@adcValue<UE> <DS>adcValue<DE> Extent=<ES>44:19 - 44:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:44:28: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>44:28 - 44:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:44:28: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:25:17 (Reference) <US>c:Battery.c@592@F@GetBatteyLevel@i<UE> <DS>i<DE> Extent=<ES>44:28 - 44:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:46:3: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>46:3 - 46:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:46:3: DeclRefExpr=tmpValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:24:16 (Reference) <US>c:Battery.c@562@F@GetBatteyLevel@tmpValue<UE> <DS>tmpValue<DE> Extent=<ES>46:3 - 46:11<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:46:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>46:16 - 46:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:47:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>47:3 - 62:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:47:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>47:6 - 47:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:47:6: UnexposedExpr=tmpValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:24:16 <US>c:Battery.c@562@F@GetBatteyLevel@tmpValue<UE> <DS>tmpValue<DE> Extent=<ES>47:6 - 47:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:47:6: DeclRefExpr=tmpValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:24:16 (Reference) <US>c:Battery.c@562@F@GetBatteyLevel@tmpValue<UE> <DS>tmpValue<DE> Extent=<ES>47:6 - 47:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:47:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>47:17 - 47:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:47:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>47:17 - 47:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:48:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>48:3 - 50:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:49:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>49:5 - 49:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:49:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>49:12 - 49:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:49:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>49:12 - 49:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:51:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>51:8 - 62:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:51:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>51:11 - 51:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:51:11: UnexposedExpr=tmpValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:24:16 <US>c:Battery.c@562@F@GetBatteyLevel@tmpValue<UE> <DS>tmpValue<DE> Extent=<ES>51:11 - 51:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:51:11: DeclRefExpr=tmpValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:24:16 (Reference) <US>c:Battery.c@562@F@GetBatteyLevel@tmpValue<UE> <DS>tmpValue<DE> Extent=<ES>51:11 - 51:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:51:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>51:22 - 51:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:51:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>51:22 - 51:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:52:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>52:3 - 54:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:53:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>53:5 - 53:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:53:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>53:12 - 53:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:53:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>53:12 - 53:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:55:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>55:8 - 62:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:55:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>55:11 - 55:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:55:11: UnexposedExpr=tmpValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:24:16 <US>c:Battery.c@562@F@GetBatteyLevel@tmpValue<UE> <DS>tmpValue<DE> Extent=<ES>55:11 - 55:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:55:11: DeclRefExpr=tmpValue|D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:24:16 (Reference) <US>c:Battery.c@562@F@GetBatteyLevel@tmpValue<UE> <DS>tmpValue<DE> Extent=<ES>55:11 - 55:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:55:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>55:22 - 55:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:55:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:22 - 55:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:56:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>56:3 - 58:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:57:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>57:5 - 57:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:57:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>57:12 - 57:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:57:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:12 - 57:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:60:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>60:3 - 62:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:61:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>61:5 - 61:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:61:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>61:12 - 61:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.c:61:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:12 - 61:13<EE>

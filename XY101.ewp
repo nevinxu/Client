@@ -1967,19 +1967,40 @@
       </file>
     </group>
     <file>
-      <name>$PROJ_DIR$\Project\Driver\HAL_FLASH.c</name>
+      <name>$PROJ_DIR$\Project\Driver\Battery.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\Project\Driver\HT1621.c</name>
+      <name>$PROJ_DIR$\Project\Driver\Battery.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Project\Driver\Display.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Project\Driver\Display.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Project\Driver\HAL_FLASH.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\Project\Driver\IDS2100.c</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\Project\Driver\IDS2100.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Project\Driver\include.h</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\Project\Driver\IRsensor.c</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\Project\Driver\IRsensor.h</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\Project\Driver\key.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Project\Driver\key.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\Project\Driver\Uart.c</name>

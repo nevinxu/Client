@@ -48,17 +48,17 @@ void DigtalClockRun()
 
 void DisplayDot()
 {
-  Ht1621WrHalfOneData(0, 0x80);
-  Ht1621WrHalfOneData(13,0x80);
+ // Ht1621WrHalfOneData(0, 0x80);
+ // Ht1621WrHalfOneData(13,0x80);
 }
 void DisplayDigtalClock()
 {
-  Ht1621ClearDisplay();
-  DisplayDot();
-  Display_Digit(DOWNLINE+ GIGTALCLOCKFLAG, 3, Hour);
-  Display_Digit(DOWNLINE+ GIGTALCLOCKFLAG, 7, Min);
-  Display_Digit(DOWNLINE+ GIGTALCLOCKFLAG, 11,Sen);
-  Display_Digit(UPLINE+ GIGTALCLOCKFLAG, 27, Month);
-  Display_Digit(UPLINE+ GIGTALCLOCKFLAG, 23, Day);
+ // Ht1621ClearDisplay();
+ // DisplayDot();
+ // Display_Digit(DOWNLINE+ GIGTALCLOCKFLAG, 3, Hour);
+ // Display_Digit(DOWNLINE+ GIGTALCLOCKFLAG, 7, Min);
+ // Display_Digit(DOWNLINE+ GIGTALCLOCKFLAG, 11,Sen);
+ // Display_Digit(UPLINE+ GIGTALCLOCKFLAG, 27, Month);
+ // Display_Digit(UPLINE+ GIGTALCLOCKFLAG, 23, Day);
   
 }

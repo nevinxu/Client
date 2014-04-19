@@ -68,7 +68,7 @@ void ReceiveData()
   ClearRecBuf();
   ReceiveOff();  //必须关闭
   RFReceivePacket(RxBuffer);       // 接收数据包判断x
-  ReceiveOn();
+ // ReceiveOn();
 }
 
 /*

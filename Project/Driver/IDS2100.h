@@ -4,34 +4,39 @@
 #include <msp430.h>
 #include "include.h"
 
-#define SCLK      BIT0//时钟线
-#define MOSI    BIT1//数据线
-#define SSB      BIT7//片选线
-#define SOMI    BIT6//数据线
-#define RDY    BIT2//数据线
+#define SCLK      BIT5//时钟线
+#define MOSI    BIT2//数据线
+#define SSB      BIT4//片选线
+#define SOMI    BIT0//数据线
+#define RDY    BIT3//数据线
 
-#define SOMIIN  P7IN
-#define RDYIN  P5IN
+#define SOMIIN  P6IN
+#define RDYIN  P7IN
 
-#define ISD2100_MOSIDIR P5DIR
-#define ISD2100_SCLKDIR P5DIR
-#define ISD2100_SSBDIR P1DIR
-#define ISD2100_SOMIDIR P7DIR
-#define ISD2100_RDYDIR P5DIR
+#define ISD2100_MOSIDIR P7DIR
+#define ISD2100_SCLKDIR P7DIR
+#define ISD2100_SSBDIR  P7DIR
+#define ISD2100_SOMIDIR P6DIR
+#define ISD2100_RDYDIR  P7DIR
 
-#define MOSI_HI   P5OUT|=MOSI;
-#define MOSI_LO   P5OUT&=~MOSI;
+#define MOSI_HI   P7OUT|=MOSI;
+#define MOSI_LO   P7OUT&=~MOSI;
 
-#define SCLK_HI   P5OUT|=SCLK;
-#define SCLK_LO   P5OUT&=~SCLK;
+#define SCLK_HI   P7OUT|=SCLK;
+#define SCLK_LO   P7OUT&=~SCLK;
 
-#define SSB_HI   P1OUT|=SSB;
-#define SSB_LO   P1OUT&=~SSB;
+#define SSB_HI   P7OUT|=SSB;
+#define SSB_LO   P7OUT&=~SSB;
 
-extern void InitISD2100(void);
+extern void ISD2100Init(void);
 extern void VoicePlay(unsigned int num);
 extern unsigned char ReadVoice();
 extern void WriteVoice(unsigned char value);
+extern void WriteVoiceLevel(unsigned char level);
+extern void Play_Drop_Start();
+extern void Play_Drop_Stop();
+extern void Play_OverQuick();
+extern void Play_TooSlow();
 extern void VoiceUp();
 extern void VoiceDown();
 

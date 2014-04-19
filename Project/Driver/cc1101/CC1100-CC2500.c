@@ -65,7 +65,7 @@ void writeRFSettings(void)
     TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG1,  0x22); // Modem configuration.
     TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG0,  0xF8); // Modem configuration.
     
-    TI_CC_SPIWriteReg(TI_CCxxx0_CHANNR,   0x09); // Channel number.
+    TI_CC_SPIWriteReg(TI_CCxxx0_CHANNR,   0x03); // Channel number.
     TI_CC_SPIWriteReg(TI_CCxxx0_DEVIATN,  0x62); // Modem dev (when FSK mod en)
     TI_CC_SPIWriteReg(TI_CCxxx0_ADDR,     0x00); // Device address.
     
@@ -201,8 +201,9 @@ char RFReceivePacket(char *rxBuffer)
       TI_CC_SPIStrobe(TI_CCxxx0_SRX);
       return 0;                             // Error
     }
+  TI_CC_SPIStrobe(TI_CCxxx0_SFTX);
   TI_CC_SPIStrobe(TI_CCxxx0_SFRX);      // Flush RXFIFO
-  TI_CC_SPIStrobe(TI_CCxxx0_SRX);
+ // TI_CC_SPIStrobe(TI_CCxxx0_SRX);
   __delay_cycles(60000);
   return 1;
 }

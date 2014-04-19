@@ -1,6 +1,10 @@
 #include "IDS2100.h"
 
-void InitISD2100(void)
+unsigned char VoiceLevel = 0;  //ÉùÒôµÈ¼¶
+
+
+
+void ISD2100Init(void)
 {
   ISD2100_MOSIDIR |= MOSI;
   ISD2100_SCLKDIR |= SCLK;
@@ -72,6 +76,7 @@ void ISD2100_power_down()
 
 void VoicePlay(unsigned int num)
 {
+  WriteVoiceLevel(VoiceLevel);
   ISD2100_power_up();
   SSB_LO
   ISD2100_send_data(0xB0);
@@ -108,6 +113,46 @@ void WriteVoice(unsigned char value)
   SSB_HI
  // ISD2100_power_down();
 }
+
+void WriteVoiceLevel(unsigned char level)
+{
+  if(level == 5)
+  {
+    WriteVoice(0);
+  }
+  else if(level == 4)
+  {
+    WriteVoice(0x3);
+  }
+  else if(level == 3)
+  {
+    WriteVoice(0x10);
+  }
+  else if(level == 2)
+  {
+    WriteVoice(0x20);
+  }
+  else if(level == 1)
+  {
+    WriteVoice(0x30);
+  }
+  else if(level == 0)
+  {
+    WriteVoice(0x7f);
+  }
+}
+
+void Play_Drop_Start()
+{
+  VoicePlay(28);
+  Delay_ms(700);
+  VoicePlay(29);
+}
+
+void Play_Drop_Stop()
+{
+  VoicePlay(38);
+}
 void VoiceUp()
 {
   unsigned char value;
@@ -121,6 +166,15 @@ void VoiceUp()
     value>>=1;
   }
   WriteVoice(value);
+}
+
+void Play_OverQuick()
+{
+  VoicePlay(39);
+}
+void Play_TooSlow()
+{
+  VoicePlay(40);
 }
 
 void VoiceDown()

@@ -6,12 +6,17 @@
 #define KeyIES  P1IES
 #define KeyIFG  P1IFG
 #define KeyIN   P1IN
-#define KeyvolumeUp  BIT4
-#define KeyvolumeDown  BIT6
-#define KeyMaxRate  BIT5
-#define KeyMinRate  BIT3
 
+#define KeyvolumeUp  BIT7
+#define KeyvolumeDown  BIT6
+#define KeyUpperLimit  BIT5
+#define KeyLowLimit  BIT4
+
+#define CLOSE           0
+#define UPPERSETMODE      1
+#define LOWERSETMODE      2
+#define VOLUMESETMODE   4
 
 extern  void KeyInit();
-
+extern  void KeyFunction();
 #endif

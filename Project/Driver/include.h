@@ -1,5 +1,4 @@
 #include "CC1101.h"
-#include "HT1621.h"
 #include "IDS2100.h"
 #include "IRsensor.h"
 #include "Uart.h"
@@ -7,8 +6,10 @@
 #include "DigtalClock.h"
 #include "DataSendRec.h"
 #include "HAL_FLASH.h"
+#include "Display.h"
+#include "Battery.h"
 
-#define  TestMode  1                    
+//#define  TestMode  0                    
 //#define         HiXT1   //¸ßÆµ¾§Õñ
 #define         LoXT1   //µÍÆµ¾§Õñ
 

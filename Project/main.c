@@ -6,7 +6,12 @@ unsigned int    RateDisplayFlag;
 unsigned int    time_num = 999;   //开机显示0
 unsigned int    Rate =0 ;
 unsigned int    RefreshTime;
+
+unsigned char BatteyLevel;
+unsigned char Battery_Display_Flag;
 unsigned char   DisplayDigtalClockFlag;
+
+unsigned char KeyPressFlag;   //按键标志
 
 unsigned int DisplayMode = DisplayClockMode;
 unsigned char DisplayModeChargetimes=0;
@@ -17,7 +22,12 @@ unsigned int TotalDrip =0;
 unsigned char TerminalPowerPrecent =100;
 
 extern unsigned char DataRecFlag;
+extern unsigned char Rf_Interval_Flag;  //RF打开间断标志
 
+extern unsigned char Display_Blink_Flag;   //报警值闪烁标志
+
+extern unsigned char Display_Blink_TimeOut;  //报警值设置超时
+extern unsigned Key_Set_Mode;  //键盘设置模式
 
 unsigned char WorkingStatus = 0 ;
 
@@ -68,43 +78,61 @@ int main(void)
 {
   unsigned char buf[] = {0x55,0x99,0x66};
   unsigned int addr = 0xf800;
+  unsigned int a;
   
   unsigned int i;
   WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
   
   ClockInit();
+  
   VddIOEnable();  //外部模块供电使能
-  VddIODisable();
+  
   LEDInit(); 
   LCDInit();
   KeyInit();
-  UartInit();
+ // UartInit();
   RadioInit();  //cc1101 初始化
   IRSensorInit();
-  DigtalClockInit(); //数字时钟初始化
+ // DigtalClockInit(); //数字时钟初始化
   
   TA0Init();   //定时器初始化
   
-  LEDOn(LED1);   //显示标志
+  LEDOn(YELLOWLED);   //显示标志
   Delay_ms(500);
-  LEDOff(LED1);
+  LEDOff(YELLOWLED);
   
   LoginTransmit();   //登陆命令 
   
-  FCTL2 = FWKEY + FSSEL0 + FN1;             // MCLK/3 for Flash Timing Generator
-
   Flash_SegmentErase(addr);
   FlashWrite_8(buf,addr,3);
+  GetBatteyLevel();
   
+  ISD2100Init();
 #if 0
-  InitISD2100();
+  WriteVoice(0x00);
+    a = ReadVoice();
+    a++;
+    VoicePlay(14);
+    Delay_ms(500);
+  WriteVoice(0x3f);
+    a = ReadVoice();
+        a++;
+    VoicePlay(14);
+    Delay_ms(500);
+  WriteVoice(0x7f);
+    a = ReadVoice();
+        a++;
+    VoicePlay(14);
+    Delay_ms(500);
+  a = ReadVoice();
+      a++;
   unsigned char j;
   for(unsigned char i =0; i<10;i++)
   {
     for(unsigned char j=12;j<25;j++)
     {
     VoicePlay(j);
-//    Delay_ms(500);
+    Delay_ms(500);
     }
  
   }
@@ -120,11 +148,12 @@ int main(void)
         Rate = GetRate();
         RateDisplayFlag =0;
         DisplayRate(Rate); 
-   //     TransmitRate(Rate);
+        DisplayTotalDrop();
         RefreshTime=1;
       }
     }
-    else if(DisplayMode == DisplayClockMode)
+#if 0
+ //   else if(DisplayMode == DisplayClockMode)
     {
       if(DisplayDigtalClockFlag)
       {
@@ -137,14 +166,43 @@ int main(void)
 
       }
     }
-    if(DataRecFlag == 1)
+#endif
+    
+    if(DataRecFlag == 1)  //数据接收标志
     {
-      LEDOn(LED1);
+      LEDOn(BLUELED);
       ReceiveData();
-      RecDataCheck();
+      RecDataCheck();   //接收数据检查
       DataRecFlag = 0;
     }
-
+    if(Rf_Interval_Flag == 1)  //RF打开间断标志
+    {
+      Rf_Interval_Flag = 0;
+      ReceiveOn();
+    }
+    if(Battery_Display_Flag == 1)  //电池显示
+    {
+      Battery_Display_Flag = 0;
+      BatteyLevel = GetBatteyLevel();
+      DisplayBattery( BatteyLevel);
+    }
+    if(KeyPressFlag)   //按键处理
+    {
+      KeyFunction();
+      KeyPressFlag = 0;
+      
+    }
+    if(Display_Blink_Flag)
+    {
+      if(Display_Blink_TimeOut >= 20)  //10s超时
+      {
+        Display_Blink_TimeOut =0;
+        Key_Set_Mode &=~ (UPPERSETMODE+LOWERSETMODE);
+      }
+      RefreshAlarmValue();
+      Display_Blink_Flag = 0;  //判断以后再清除
+    }
+    
   }
 }
 

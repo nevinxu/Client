@@ -1,7 +1,7 @@
 #include "include.h"
 
 unsigned char TxBuffer[64];
-unsigned char RxBuffer[64];
+char RxBuffer[64];
 unsigned int MsgBegin = 0xA5B4;   //消息识别符
 unsigned int MsgLength;  //消息长度
 unsigned char CommandId; //命令或相应类型

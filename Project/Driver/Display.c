@@ -1,7 +1,7 @@
 #include "include.h"
 
-const unsigned char RataNumBuf[] = {0xf5,0x60,0xd3,0xF2,0x66,0xB6,0xB7,0xE0,0xF7,0xF6};
-const unsigned char TotalNumBuf[] = {0xaf,0x06,0xcb,0x4f,0x66,0x6d,0xed,0x07,0xef,0x6f};
+const unsigned char BedNumBuf[] = {0xf5,0x60,0xd3,0xF2,0x66,0xB6,0xB7,0xE0,0xF7,0xF6};
+const unsigned char RateNumBuf[] = {0xaf,0x06,0xcb,0x4f,0x66,0x6d,0xed,0x07,0xef,0x6f};
 const unsigned char AlarmNumBuf[] = {0xaf,0x06,0xcb,0x4f,0x66,0x6d,0xed,0x07,0xef,0x6f};
 
 unsigned char AlarmUpperValue = 120;  //报警上限值
@@ -32,7 +32,6 @@ void LEDInit(void)
 {
   LEDDIR |= YELLOWLED+BLUELED;
   LEDOUT |= YELLOWLED+BLUELED;
-  
 }
 
 void  LEDOff(unsigned char num)
@@ -78,7 +77,10 @@ void LCDInit(void)
   LCDMEM[i]=0x0;
   DisplayLine(1);   //显示框架
   DisplayBattery(3);
-  DisplayTotalDrop();
+  DisplayMoon(ON);
+  DisplaySun(ON);
+  DisplayBedNum(188);
+ // DisplayTotalDrop();
   DisplayRate(0);
   DisplayVoice(VoiceLevel);
   DisplayUpAlarm(AlarmUpperValue);
@@ -213,37 +215,33 @@ void DisplayVoice(unsigned char level)
   }        
 }
 
-void DisplayTotalDrop()
-{
-  unsigned char h,t,m;
-  h = TotalDrop/100;
-  t = TotalDrop%100/10;
-  m = TotalDrop%10;
-  LCDMEM[5] &=~ 0xe0;
-  LCDMEM[5] |= (TotalNumBuf[h]&0xe0);
-  LCDMEM[6] &=~ 0xef;
-  LCDMEM[6] |= (TotalNumBuf[h]&0x0f)+(TotalNumBuf[t]&0xe0);
-  LCDMEM[7] &=~ 0xef;
-  LCDMEM[7] |= (TotalNumBuf[t]&0x0f)+(TotalNumBuf[m]&0xe0);
-  LCDMEM[8] &=~ 0x0f;
-  LCDMEM[8] |= (TotalNumBuf[m]&0x0f);
-}
-
 void DisplayRate(unsigned int rate)
 {
-  unsigned char h,t,m; 
-  if(rate >=200)
-  {
-    rate = 199;
-  }
-  else if(rate<20)
-  {
-    rate =0;
-  }
+  unsigned char h,t,m;
   h = rate/100;
   t = rate%100/10;
   m = rate%10;
-  if(rate != 0xff)  //正常值
+  LCDMEM[5] &=~ 0xe0;
+  LCDMEM[5] |= (RateNumBuf[h]&0xe0);
+  LCDMEM[6] &=~ 0xef;
+  LCDMEM[6] |= (RateNumBuf[h]&0x0f)+(RateNumBuf[t]&0xe0);
+  LCDMEM[7] &=~ 0xef;
+  LCDMEM[7] |= (RateNumBuf[t]&0x0f)+(RateNumBuf[m]&0xe0);
+  LCDMEM[8] &=~ 0x0f;
+  LCDMEM[8] |= (RateNumBuf[m]&0x0f);
+}
+#if  1
+void DisplayBedNum(unsigned int num)
+{
+  unsigned char h,t,m; 
+  if(num >=200)
+  {
+    num = 199;
+  }
+  h = num/100;
+  t = num%100/10;
+  m = num%10;
+  if(num != 0xff)  //正常值
   {
     if(h == 1)
     {
@@ -254,11 +252,11 @@ void DisplayRate(unsigned int rate)
       LCDMEM[8] &=~ BIT7;
     }
     LCDMEM[8] &=~ 0x70;
-    LCDMEM[8] |= ((RataNumBuf[t]&07)<<4);
+    LCDMEM[8] |= ((BedNumBuf[t]&07)<<4);
     LCDMEM[9] &=~ 0x7f;
-    LCDMEM[9] |= ((RataNumBuf[t]&0xF0)>>4)+((RataNumBuf[m]&0x07)<<4);
+    LCDMEM[9] |= ((BedNumBuf[t]&0xF0)>>4)+((BedNumBuf[m]&0x07)<<4);
     LCDMEM[10] &=~ 0x0f;
-    LCDMEM[10] |= ((RataNumBuf[m]&0xF0)>>4);
+    LCDMEM[10] |= ((BedNumBuf[m]&0xF0)>>4);
   }
   else   //不显示
   {
@@ -268,6 +266,7 @@ void DisplayRate(unsigned int rate)
     
   }
 }
+#endif
 
 void DisplayUpAlarm(unsigned int alarmvalue)
 {
@@ -356,6 +355,11 @@ void DisplaySun(unsigned char status)
   {
   LCDMEM[2] &=~ BIT5;
   }
+}
+
+void DisplayRFRSSI(unsigned char level)
+{
+  LCDMEM[2] |= BIT5;
 }
 
 

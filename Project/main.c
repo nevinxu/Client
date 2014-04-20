@@ -121,7 +121,7 @@ int main(void)
         Rate = GetRate();
         RateDisplayFlag =0;
         DisplayRate(Rate); 
-        DisplayTotalDrop();
+      //  DisplayTotalDrop();
         RefreshTime=1;
       }
       if(DataRecFlag == 1)  //数据接收标志

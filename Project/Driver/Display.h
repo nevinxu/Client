@@ -28,7 +28,7 @@ extern void  LEDOff(unsigned char num);
 extern void LCDInit(void);
 extern void  DisplayNone();
 extern void DisplayLine(unsigned char status);
-extern void DisplayTotalDrop(void);
+extern void DisplayBedNum(unsigned int num);
 extern void DisplayRate(unsigned int rate);
 extern void DisplayBattery(unsigned int level);
 extern void DisplayMoon(unsigned char status);

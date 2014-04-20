@@ -80,11 +80,14 @@ void LCDInit(void)
   DisplayMoon(ON);
   DisplaySun(ON);
   DisplayBedNum(188);
- // DisplayTotalDrop();
+  DisplayRFRSSI(4);
   DisplayRate(0);
   DisplayVoice(VoiceLevel);
   DisplayUpAlarm(AlarmUpperValue);
   DisplayDownAlarm(AlarmLowerValue);
+  
+  LEDOn(YELLOWLED);
+  LEDOn(BLUELED);
 
 }
 
@@ -359,7 +362,38 @@ void DisplaySun(unsigned char status)
 
 void DisplayRFRSSI(unsigned char level)
 {
-  LCDMEM[2] |= BIT5;
+  if(level >= 4)
+  {
+    LCDMEM[0] |= BIT1;
+  }
+  else
+  {
+    LCDMEM[0] &=~ BIT1;
+  }
+  if(level >= 3)
+  {
+    LCDMEM[0] |= BIT2;
+  }
+  else
+  {
+    LCDMEM[0] &=~ BIT2;
+  }
+  if(level >= 2)
+  {
+    LCDMEM[0] |= BIT3;
+  }
+  else
+  {
+    LCDMEM[0] &=~ BIT3;
+  }
+  if(level >= 1)
+  {
+    LCDMEM[2] |= BIT7;
+  }
+  else
+  {
+    LCDMEM[2] &=~ BIT7;
+  }  
 }
 
 

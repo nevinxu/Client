@@ -18,7 +18,7 @@ extern unsigned char Display_All_TimeOut;  //显示超时
 void KeyInit()
 {
   KeyDIR &=~ (KeyvolumeUp+KeyvolumeDown+KeyUpperLimit+KeyLowLimit);
-  KeyIES &=~ (KeyvolumeUp+KeyvolumeDown+KeyUpperLimit+KeyLowLimit);
+  KeyIES |= (KeyvolumeUp+KeyvolumeDown+KeyUpperLimit+KeyLowLimit);
   KeyIFG &=~ (KeyvolumeUp+KeyvolumeDown+KeyUpperLimit+KeyLowLimit);
   KeyIE |= (KeyvolumeUp+KeyvolumeDown+KeyUpperLimit+KeyLowLimit);
 }
@@ -156,24 +156,51 @@ __interrupt void port1_ISR (void)
     }
     if(KeyIFG & KeyvolumeUp)
     {
-       Delay_ms(50);     //消抖  
-       if(KeyIN&KeyvolumeUp)
-       {
+      Delay_ms(50);     //消抖  
+      if((KeyIES & KeyvolumeUp) == KeyvolumeUp)   //放开按键产生中断
+      {
+        if(!(KeyIN&KeyvolumeUp))
+        {
+          keyPressLongFlag = 0;
+        }
+        KeyIES &=~ KeyvolumeUp;  //取反
+      }
+      else  //按下按键产生中断
+      {
+        if(KeyIN&KeyvolumeUp)
+        {
           KeyPressFlag = KeyvolumeUp;
-       }
+          keyPressLongFlag = 1;
+        }
+        KeyIES |= KeyvolumeUp;  //取反
+      }
     }
     else if(KeyIFG & KeyvolumeDown)
     {
-       Delay_ms(50);
-       if(KeyIN&KeyvolumeDown)
-       {
+      Delay_ms(50);     //消抖  
+      if((KeyIES & KeyvolumeDown) == KeyvolumeDown)   //放开按键产生中断
+      {
+        if(!(KeyIN&KeyvolumeDown))
+        {
+          keyPressLongFlag = 0;
+        }
+        KeyIES &=~ KeyvolumeDown;  //取反
+      }
+      else  //按下按键产生中断
+      {
+        if(KeyIN&KeyvolumeDown)
+        {
           KeyPressFlag = KeyvolumeDown;
-       }
+          keyPressLongFlag = 1;
+        }
+        KeyIES |= KeyvolumeDown;  //取反
+      }
+      
     }
     else if(KeyIFG & KeyUpperLimit)
     {
        Delay_ms(50);
-       if(KeyIN&KeyUpperLimit)
+       if(!(KeyIN&KeyUpperLimit))
        {
           KeyPressFlag = KeyUpperLimit;
        }
@@ -181,7 +208,7 @@ __interrupt void port1_ISR (void)
     else if(KeyIFG & KeyLowLimit)
     {
        Delay_ms(50);
-       if(KeyIN&KeyLowLimit)
+       if(!(KeyIN&KeyLowLimit))
        {
           KeyPressFlag = KeyLowLimit;
        }

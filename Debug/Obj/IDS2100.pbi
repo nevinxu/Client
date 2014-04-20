@@ -2169,45 +2169,50 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:26:9: macro definition=SCLK_LO <US>c:macro@SCLK_LO<UE> <DS>SCLK_LO<DE> Extent=<ES>26:9 - 26:32<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:28:9: macro definition=SSB_HI <US>c:macro@SSB_HI<UE> <DS>SSB_HI<DE> Extent=<ES>28:9 - 28:29<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:29:9: macro definition=SSB_LO <US>c:macro@SSB_LO<UE> <DS>SSB_LO<DE> Extent=<ES>29:9 - 29:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:9:3: macro expansion=ISD2100_MOSIDIR|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:16:9 <US>c:macro@ISD2100_MOSIDIR<UE> <DS>ISD2100_MOSIDIR<DE> Extent=<ES>9:3 - 9:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:9:22: macro expansion=MOSI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:8:9 <US>c:macro@MOSI<UE> <DS>MOSI<DE> Extent=<ES>9:22 - 9:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:10:3: macro expansion=ISD2100_SCLKDIR|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:17:9 <US>c:macro@ISD2100_SCLKDIR<UE> <DS>ISD2100_SCLKDIR<DE> Extent=<ES>10:3 - 10:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:10:22: macro expansion=SCLK|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:7:9 <US>c:macro@SCLK<UE> <DS>SCLK<DE> Extent=<ES>10:22 - 10:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:11:3: macro expansion=ISD2100_SSBDIR|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:18:9 <US>c:macro@ISD2100_SSBDIR<UE> <DS>ISD2100_SSBDIR<DE> Extent=<ES>11:3 - 11:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:11:21: macro expansion=SSB|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:9:9 <US>c:macro@SSB<UE> <DS>SSB<DE> Extent=<ES>11:21 - 11:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:12:3: macro expansion=ISD2100_SOMIDIR|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:19:9 <US>c:macro@ISD2100_SOMIDIR<UE> <DS>ISD2100_SOMIDIR<DE> Extent=<ES>12:3 - 12:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:12:23: macro expansion=SOMI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:10:9 <US>c:macro@SOMI<UE> <DS>SOMI<DE> Extent=<ES>12:23 - 12:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:13:3: macro expansion=ISD2100_RDYDIR|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:20:9 <US>c:macro@ISD2100_RDYDIR<UE> <DS>ISD2100_RDYDIR<DE> Extent=<ES>13:3 - 13:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:13:22: macro expansion=RDY|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:11:9 <US>c:macro@RDY<UE> <DS>RDY<DE> Extent=<ES>13:22 - 13:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:23:5: macro expansion=SCLK_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:26:9 <US>c:macro@SCLK_LO<UE> <DS>SCLK_LO<DE> Extent=<ES>23:5 - 23:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:26:7: macro expansion=MOSI_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:23:9 <US>c:macro@MOSI_LO<UE> <DS>MOSI_LO<DE> Extent=<ES>26:7 - 26:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:30:7: macro expansion=MOSI_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:22:9 <US>c:macro@MOSI_HI<UE> <DS>MOSI_HI<DE> Extent=<ES>30:7 - 30:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: macro expansion=SCLK_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:25:9 <US>c:macro@SCLK_HI<UE> <DS>SCLK_HI<DE> Extent=<ES>34:5 - 34:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:37:3: macro expansion=SCLK_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:25:9 <US>c:macro@SCLK_HI<UE> <DS>SCLK_HI<DE> Extent=<ES>37:3 - 37:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:46:5: macro expansion=SCLK_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:26:9 <US>c:macro@SCLK_LO<UE> <DS>SCLK_LO<DE> Extent=<ES>46:5 - 46:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: macro expansion=SCLK_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:25:9 <US>c:macro@SCLK_HI<UE> <DS>SCLK_HI<DE> Extent=<ES>48:5 - 48:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:50:8: macro expansion=SOMIIN|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:13:9 <US>c:macro@SOMIIN<UE> <DS>SOMIIN<DE> Extent=<ES>50:8 - 50:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:50:15: macro expansion=SOMI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:10:9 <US>c:macro@SOMI<UE> <DS>SOMI<DE> Extent=<ES>50:15 - 50:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:56:3: macro expansion=SCLK_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:25:9 <US>c:macro@SCLK_HI<UE> <DS>SCLK_HI<DE> Extent=<ES>56:3 - 56:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:63:3: macro expansion=SSB_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:29:9 <US>c:macro@SSB_LO<UE> <DS>SSB_LO<DE> Extent=<ES>63:3 - 63:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:65:3: macro expansion=SSB_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:28:9 <US>c:macro@SSB_HI<UE> <DS>SSB_HI<DE> Extent=<ES>65:3 - 65:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:71:3: macro expansion=SSB_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:29:9 <US>c:macro@SSB_LO<UE> <DS>SSB_LO<DE> Extent=<ES>71:3 - 71:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:73:3: macro expansion=SSB_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:28:9 <US>c:macro@SSB_HI<UE> <DS>SSB_HI<DE> Extent=<ES>73:3 - 73:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:81:3: macro expansion=SSB_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:29:9 <US>c:macro@SSB_LO<UE> <DS>SSB_LO<DE> Extent=<ES>81:3 - 81:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:85:3: macro expansion=SSB_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:28:9 <US>c:macro@SSB_HI<UE> <DS>SSB_HI<DE> Extent=<ES>85:3 - 85:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:94:3: macro expansion=SSB_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:29:9 <US>c:macro@SSB_LO<UE> <DS>SSB_LO<DE> Extent=<ES>94:3 - 94:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:100:3: macro expansion=SSB_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:28:9 <US>c:macro@SSB_HI<UE> <DS>SSB_HI<DE> Extent=<ES>100:3 - 100:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:109:3: macro expansion=SSB_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:29:9 <US>c:macro@SSB_LO<UE> <DS>SSB_LO<DE> Extent=<ES>109:3 - 109:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:113:3: macro expansion=SSB_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:28:9 <US>c:macro@SSB_HI<UE> <DS>SSB_HI<DE> Extent=<ES>113:3 - 113:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>148:3 - 148:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:10:3: macro expansion=ISD2100_MOSIDIR|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:16:9 <US>c:macro@ISD2100_MOSIDIR<UE> <DS>ISD2100_MOSIDIR<DE> Extent=<ES>10:3 - 10:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:10:22: macro expansion=MOSI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:8:9 <US>c:macro@MOSI<UE> <DS>MOSI<DE> Extent=<ES>10:22 - 10:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:11:3: macro expansion=ISD2100_SCLKDIR|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:17:9 <US>c:macro@ISD2100_SCLKDIR<UE> <DS>ISD2100_SCLKDIR<DE> Extent=<ES>11:3 - 11:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:11:22: macro expansion=SCLK|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:7:9 <US>c:macro@SCLK<UE> <DS>SCLK<DE> Extent=<ES>11:22 - 11:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:12:3: macro expansion=ISD2100_SSBDIR|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:18:9 <US>c:macro@ISD2100_SSBDIR<UE> <DS>ISD2100_SSBDIR<DE> Extent=<ES>12:3 - 12:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:12:21: macro expansion=SSB|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:9:9 <US>c:macro@SSB<UE> <DS>SSB<DE> Extent=<ES>12:21 - 12:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:13:3: macro expansion=ISD2100_SOMIDIR|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:19:9 <US>c:macro@ISD2100_SOMIDIR<UE> <DS>ISD2100_SOMIDIR<DE> Extent=<ES>13:3 - 13:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:13:23: macro expansion=SOMI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:10:9 <US>c:macro@SOMI<UE> <DS>SOMI<DE> Extent=<ES>13:23 - 13:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:14:3: macro expansion=ISD2100_RDYDIR|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:20:9 <US>c:macro@ISD2100_RDYDIR<UE> <DS>ISD2100_RDYDIR<DE> Extent=<ES>14:3 - 14:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:14:22: macro expansion=RDY|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:11:9 <US>c:macro@RDY<UE> <DS>RDY<DE> Extent=<ES>14:22 - 14:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:24:5: macro expansion=SCLK_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:26:9 <US>c:macro@SCLK_LO<UE> <DS>SCLK_LO<DE> Extent=<ES>24:5 - 24:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:27:7: macro expansion=MOSI_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:23:9 <US>c:macro@MOSI_LO<UE> <DS>MOSI_LO<DE> Extent=<ES>27:7 - 27:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:31:7: macro expansion=MOSI_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:22:9 <US>c:macro@MOSI_HI<UE> <DS>MOSI_HI<DE> Extent=<ES>31:7 - 31:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: macro expansion=SCLK_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:25:9 <US>c:macro@SCLK_HI<UE> <DS>SCLK_HI<DE> Extent=<ES>35:5 - 35:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:38:3: macro expansion=SCLK_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:25:9 <US>c:macro@SCLK_HI<UE> <DS>SCLK_HI<DE> Extent=<ES>38:3 - 38:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: macro expansion=SCLK_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:26:9 <US>c:macro@SCLK_LO<UE> <DS>SCLK_LO<DE> Extent=<ES>47:5 - 47:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:49:5: macro expansion=SCLK_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:25:9 <US>c:macro@SCLK_HI<UE> <DS>SCLK_HI<DE> Extent=<ES>49:5 - 49:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:51:8: macro expansion=SOMIIN|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:13:9 <US>c:macro@SOMIIN<UE> <DS>SOMIIN<DE> Extent=<ES>51:8 - 51:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:51:15: macro expansion=SOMI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:10:9 <US>c:macro@SOMI<UE> <DS>SOMI<DE> Extent=<ES>51:15 - 51:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:57:3: macro expansion=SCLK_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:25:9 <US>c:macro@SCLK_HI<UE> <DS>SCLK_HI<DE> Extent=<ES>57:3 - 57:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:64:3: macro expansion=SSB_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:29:9 <US>c:macro@SSB_LO<UE> <DS>SSB_LO<DE> Extent=<ES>64:3 - 64:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: macro expansion=SSB_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:28:9 <US>c:macro@SSB_HI<UE> <DS>SSB_HI<DE> Extent=<ES>66:3 - 66:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:72:3: macro expansion=SSB_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:29:9 <US>c:macro@SSB_LO<UE> <DS>SSB_LO<DE> Extent=<ES>72:3 - 72:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: macro expansion=SSB_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:28:9 <US>c:macro@SSB_HI<UE> <DS>SSB_HI<DE> Extent=<ES>74:3 - 74:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:81:11: macro expansion=RDYIN|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:14:9 <US>c:macro@RDYIN<UE> <DS>RDYIN<DE> Extent=<ES>81:11 - 81:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:81:17: macro expansion=RDY|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:11:9 <US>c:macro@RDY<UE> <DS>RDY<DE> Extent=<ES>81:17 - 81:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:83:3: macro expansion=SSB_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:29:9 <US>c:macro@SSB_LO<UE> <DS>SSB_LO<DE> Extent=<ES>83:3 - 83:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:87:3: macro expansion=SSB_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:28:9 <US>c:macro@SSB_HI<UE> <DS>SSB_HI<DE> Extent=<ES>87:3 - 87:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:96:3: macro expansion=SSB_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:29:9 <US>c:macro@SSB_LO<UE> <DS>SSB_LO<DE> Extent=<ES>96:3 - 96:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:102:3: macro expansion=SSB_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:28:9 <US>c:macro@SSB_HI<UE> <DS>SSB_HI<DE> Extent=<ES>102:3 - 102:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:109:11: macro expansion=RDYIN|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:14:9 <US>c:macro@RDYIN<UE> <DS>RDYIN<DE> Extent=<ES>109:11 - 109:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:109:17: macro expansion=RDY|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:11:9 <US>c:macro@RDY<UE> <DS>RDY<DE> Extent=<ES>109:17 - 109:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:112:3: macro expansion=SSB_LO|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:29:9 <US>c:macro@SSB_LO<UE> <DS>SSB_LO<DE> Extent=<ES>112:3 - 112:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:116:3: macro expansion=SSB_HI|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:28:9 <US>c:macro@SSB_HI<UE> <DS>SSB_HI<DE> Extent=<ES>116:3 - 116:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>153:3 - 153:16<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -2503,6 +2508,8 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:38:13: FunctionDecl=DisplayVoice|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:38:13 (Declaration) <US>c:@F@DisplayVoice<UE> <DS>void DisplayVoice(unsigned char)<DE> Extent=<ES>38:1 - 38:46<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:38:40: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:38:40 (Definition) <US>c:Display.h@1067@F@DisplayVoice@level<UE> <DS>unsigned char<DE> Extent=<ES>38:26 - 38:45<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:39:13: FunctionDecl=RefreshAlarmValue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:39:13 (Declaration) <US>c:@F@RefreshAlarmValue<UE> <DS>void RefreshAlarmValue(void)<DE> Extent=<ES>39:1 - 39:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:40:13: FunctionDecl=DisplayRFRSSI|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:40:13 (Declaration) <US>c:@F@DisplayRFRSSI<UE> <DS>void DisplayRFRSSI(unsigned char)<DE> Extent=<ES>40:1 - 40:47<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:40:41: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:40:41 (Definition) <US>c:Display.h@1150@F@DisplayRFRSSI@level<UE> <DS>unsigned char<DE> Extent=<ES>40:27 - 40:46<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23: FunctionDecl=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 (Declaration) <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>9:1 - 9:43<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14: FunctionDecl=KeyInit|D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14 (Declaration) <US>c:@F@KeyInit<UE> <DS>void KeyInit(void)<DE> Extent=<ES>20:1 - 20:23<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14: FunctionDecl=KeyFunction|D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14 (Declaration) <US>c:@F@KeyFunction<UE> <DS>void KeyFunction(void)<DE> Extent=<ES>21:1 - 21:27<EE>
@@ -2511,477 +2518,490 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:27:13: FunctionDecl=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:27:13 (Declaration) <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>27:1 - 27:31<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:28:21: FunctionDecl=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:28:21 (Declaration) <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>28:1 - 28:30<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:29:13: FunctionDecl=TA0Init|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:29:13 (Declaration) <US>c:@F@TA0Init<UE> <DS>void TA0Init(void)<DE> Extent=<ES>29:1 - 29:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:31:13: FunctionDecl=ISD2100Init|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:7:6 (Declaration) <US>c:@F@ISD2100Init<UE> <DS>void ISD2100Init(void)<DE> Extent=<ES>31:1 - 31:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:32:13: FunctionDecl=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 (Declaration) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>32:1 - 32:40<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:31:13: FunctionDecl=ISD2100Init|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:8:6 (Declaration) <US>c:@F@ISD2100Init<UE> <DS>void ISD2100Init(void)<DE> Extent=<ES>31:1 - 31:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:32:13: FunctionDecl=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 (Declaration) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>32:1 - 32:40<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:32:36: ParmDecl=num|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:32:36 (Definition) <US>c:IDS2100.h@692@F@VoicePlay@num<UE> <DS>unsigned int<DE> Extent=<ES>32:23 - 32:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:33:22: FunctionDecl=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:89:15 (Declaration) <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>33:1 - 33:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:34:13: FunctionDecl=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 (Declaration) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>34:1 - 34:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:33:22: FunctionDecl=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:15 (Declaration) <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>33:1 - 33:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:34:13: FunctionDecl=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 (Declaration) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>34:1 - 34:44<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:34:38: ParmDecl=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:34:38 (Definition) <US>c:IDS2100.h@770@F@WriteVoice@value<UE> <DS>unsigned char<DE> Extent=<ES>34:24 - 34:43<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:35:13: FunctionDecl=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:6 (Declaration) <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>35:1 - 35:49<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:35:13: FunctionDecl=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:6 (Declaration) <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>35:1 - 35:49<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:35:43: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:35:43 (Definition) <US>c:IDS2100.h@821@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>35:29 - 35:48<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:36:13: FunctionDecl=Play_Drop_Start|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:145:6 (Declaration) <US>c:@F@Play_Drop_Start<UE> <DS>void Play_Drop_Start(void)<DE> Extent=<ES>36:1 - 36:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:37:13: FunctionDecl=Play_Drop_Stop|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:152:6 (Declaration) <US>c:@F@Play_Drop_Stop<UE> <DS>void Play_Drop_Stop(void)<DE> Extent=<ES>37:1 - 37:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:38:13: FunctionDecl=Play_OverQuick|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:171:6 (Declaration) <US>c:@F@Play_OverQuick<UE> <DS>void Play_OverQuick(void)<DE> Extent=<ES>38:1 - 38:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:39:13: FunctionDecl=Play_TooSlow|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:175:6 (Declaration) <US>c:@F@Play_TooSlow<UE> <DS>void Play_TooSlow(void)<DE> Extent=<ES>39:1 - 39:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:40:13: FunctionDecl=VoiceUp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:156:6 (Declaration) <US>c:@F@VoiceUp<UE> <DS>void VoiceUp(void)<DE> Extent=<ES>40:1 - 40:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:41:13: FunctionDecl=VoiceDown|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:180:6 (Declaration) <US>c:@F@VoiceDown<UE> <DS>void VoiceDown(void)<DE> Extent=<ES>41:1 - 41:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:36:13: FunctionDecl=Play_Drop_Start|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:6 (Declaration) <US>c:@F@Play_Drop_Start<UE> <DS>void Play_Drop_Start(void)<DE> Extent=<ES>36:1 - 36:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:37:13: FunctionDecl=Play_Drop_Stop|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:156:6 (Declaration) <US>c:@F@Play_Drop_Stop<UE> <DS>void Play_Drop_Stop(void)<DE> Extent=<ES>37:1 - 37:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:38:13: FunctionDecl=Play_OverQuick|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:175:6 (Declaration) <US>c:@F@Play_OverQuick<UE> <DS>void Play_OverQuick(void)<DE> Extent=<ES>38:1 - 38:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:39:13: FunctionDecl=Play_TooSlow|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:179:6 (Declaration) <US>c:@F@Play_TooSlow<UE> <DS>void Play_TooSlow(void)<DE> Extent=<ES>39:1 - 39:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:40:13: FunctionDecl=VoiceUp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:160:6 (Declaration) <US>c:@F@VoiceUp<UE> <DS>void VoiceUp(void)<DE> Extent=<ES>40:1 - 40:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:41:13: FunctionDecl=VoiceDown|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:184:6 (Declaration) <US>c:@F@VoiceDown<UE> <DS>void VoiceDown(void)<DE> Extent=<ES>41:1 - 41:24<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:3:15: VarDecl=VoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:3:15 (Definition) <US>c:@VoiceLevel<UE> <DS>VoiceLevel<DE> Extent=<ES>3:1 - 3:29<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:3:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>3:28 - 3:29<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:3:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>3:28 - 3:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:7:6: FunctionDecl=ISD2100Init|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:7:6 (Definition) <US>c:@F@ISD2100Init<UE> <DS>void ISD2100Init(void)<DE> Extent=<ES>7:1 - 16:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:8:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>8:1 - 16:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:15:3: CallExpr=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:6 <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>15:3 - 15:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:15:3: UnexposedExpr=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:6 <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>15:3 - 15:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:15:3: DeclRefExpr=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:6 (Reference) <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>15:3 - 15:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:15:19: UnexposedExpr=VoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:3:15 <US>c:@VoiceLevel<UE> <DS>VoiceLevel<DE> Extent=<ES>15:19 - 15:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:15:19: DeclRefExpr=VoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:3:15 (Reference) <US>c:@VoiceLevel<UE> <DS>VoiceLevel<DE> Extent=<ES>15:19 - 15:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6: FunctionDecl=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 (Definition) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>18:1 - 38:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:38: ParmDecl=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:38 (Definition) <US>c:IDS2100.c@304@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>18:24 - 18:47<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>19:1 - 38:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:20:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>20:3 - 20:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:20:17: VarDecl=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:20:17 (Definition) <US>c:IDS2100.c@335@F@ISD2100_send_data@i<UE> <DS>i<DE> Extent=<ES>20:3 - 20:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>21:3 - 36:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>21:7 - 21:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:7: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:20:17 (Reference) <US>c:IDS2100.c@335@F@ISD2100_send_data@i<UE> <DS>i<DE> Extent=<ES>21:7 - 21:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>21:9 - 21:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>21:9 - 21:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>21:11 - 21:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:11: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:20:17 <US>c:IDS2100.c@335@F@ISD2100_send_data@i<UE> <DS>i<DE> Extent=<ES>21:11 - 21:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:11: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:20:17 <US>c:IDS2100.c@335@F@ISD2100_send_data@i<UE> <DS>i<DE> Extent=<ES>21:11 - 21:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:11: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:20:17 (Reference) <US>c:IDS2100.c@335@F@ISD2100_send_data@i<UE> <DS>i<DE> Extent=<ES>21:11 - 21:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>21:13 - 21:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:15: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>21:15 - 21:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:15: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:20:17 (Reference) <US>c:IDS2100.c@335@F@ISD2100_send_data@i<UE> <DS>i<DE> Extent=<ES>21:15 - 21:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:22:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>22:3 - 36:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:24:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>24:5 - 31:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:24:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>24:8 - 24:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:24:8: ParenExpr= <US><UE> <DS><DE> Extent=<ES>24:8 - 24:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:24:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>24:9 - 24:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:24:9: UnexposedExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:38 <US>c:IDS2100.c@304@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>24:9 - 24:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:24:9: UnexposedExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:38 <US>c:IDS2100.c@304@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>24:9 - 24:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:24:9: DeclRefExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:38 (Reference) <US>c:IDS2100.c@304@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>24:9 - 24:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:24:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>24:19 - 24:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:24:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>24:26 - 24:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:25:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>25:5 - 27:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:29:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>29:5 - 31:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:32:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>32:5 - 32:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:32:5: DeclRefExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:38 (Reference) <US>c:IDS2100.c@304@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>32:5 - 32:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:32:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>32:15 - 32:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:32:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>32:15 - 32:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:32:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>32:16 - 32:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:32:16: UnexposedExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:38 <US>c:IDS2100.c@304@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>32:16 - 32:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:32:16: UnexposedExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:38 <US>c:IDS2100.c@304@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>32:16 - 32:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:32:16: DeclRefExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:38 (Reference) <US>c:IDS2100.c@304@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>32:16 - 32:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:32:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>32:27 - 32:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:5 - 33:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:35:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>35:5 - 35:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:40:15: FunctionDecl=ISD2100_receive_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:40:15 (Definition) <US>c:@F@ISD2100_receive_data<UE> <DS>unsigned char ISD2100_receive_data(void)<DE> Extent=<ES>40:1 - 59:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:41:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>41:1 - 59:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:42:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>42:3 - 42:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:42:17: VarDecl=data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:42:17 (Definition) <US>c:IDS2100.c@633@F@ISD2100_receive_data@data<UE> <DS>data<DE> Extent=<ES>42:3 - 42:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>43:3 - 43:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:17: VarDecl=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:17 (Definition) <US>c:IDS2100.c@656@F@ISD2100_receive_data@i<UE> <DS>i<DE> Extent=<ES>43:3 - 43:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>44:3 - 55:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>44:7 - 44:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:7: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:17 (Reference) <US>c:IDS2100.c@656@F@ISD2100_receive_data@i<UE> <DS>i<DE> Extent=<ES>44:7 - 44:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>44:9 - 44:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>44:9 - 44:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>44:11 - 44:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:11: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:17 <US>c:IDS2100.c@656@F@ISD2100_receive_data@i<UE> <DS>i<DE> Extent=<ES>44:11 - 44:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:11: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:17 <US>c:IDS2100.c@656@F@ISD2100_receive_data@i<UE> <DS>i<DE> Extent=<ES>44:11 - 44:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:11: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:17 (Reference) <US>c:IDS2100.c@656@F@ISD2100_receive_data@i<UE> <DS>i<DE> Extent=<ES>44:11 - 44:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>44:13 - 44:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:15: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>44:15 - 44:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:15: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:17 (Reference) <US>c:IDS2100.c@656@F@ISD2100_receive_data@i<UE> <DS>i<DE> Extent=<ES>44:15 - 44:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:45:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>45:3 - 55:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:47:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>47:5 - 47:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:49:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>49:5 - 49:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:49:5: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:42:17 (Reference) <US>c:IDS2100.c@633@F@ISD2100_receive_data@data<UE> <DS>data<DE> Extent=<ES>49:5 - 49:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:49:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>49:12 - 49:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:54:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:5 - 54:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:57:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>57:5 - 57:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:57:12: UnexposedExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:42:17 <US>c:IDS2100.c@633@F@ISD2100_receive_data@data<UE> <DS>data<DE> Extent=<ES>57:12 - 57:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:57:12: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:42:17 (Reference) <US>c:IDS2100.c@633@F@ISD2100_receive_data@data<UE> <DS>data<DE> Extent=<ES>57:12 - 57:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:61:6: FunctionDecl=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:61:6 (Definition) <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>61:1 - 67:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:62:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>62:1 - 67:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:64:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>64:3 - 64:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:64:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>64:3 - 64:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:64:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>64:3 - 64:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:64:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>64:21 - 64:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:64:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>64:21 - 64:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:66:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>66:3 - 66:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:69:6: FunctionDecl=ISD2100_power_down|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:69:6 (Definition) <US>c:@F@ISD2100_power_down<UE> <DS>void ISD2100_power_down(void)<DE> Extent=<ES>69:1 - 75:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:70:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>70:1 - 75:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:72:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>72:3 - 72:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:72:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>72:3 - 72:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:72:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>72:3 - 72:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:72:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>72:21 - 72:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:72:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>72:21 - 72:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:74:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>74:3 - 74:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6: FunctionDecl=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 (Definition) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>77:1 - 87:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:29: ParmDecl=num|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:29 (Definition) <US>c:IDS2100.c@1088@F@VoicePlay@num<UE> <DS>unsigned int<DE> Extent=<ES>77:16 - 77:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>78:1 - 87:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:79:3: CallExpr=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:6 <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>79:3 - 79:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:79:3: UnexposedExpr=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:6 <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>79:3 - 79:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:79:3: DeclRefExpr=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:6 (Reference) <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>79:3 - 79:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:79:19: UnexposedExpr=VoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:3:15 <US>c:@VoiceLevel<UE> <DS>VoiceLevel<DE> Extent=<ES>79:19 - 79:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:79:19: DeclRefExpr=VoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:3:15 (Reference) <US>c:@VoiceLevel<UE> <DS>VoiceLevel<DE> Extent=<ES>79:19 - 79:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:80:3: CallExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:61:6 <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>80:3 - 80:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:80:3: UnexposedExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:61:6 <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>80:3 - 80:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:80:3: DeclRefExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:61:6 (Reference) <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>80:3 - 80:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:82:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>82:3 - 82:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:82:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>82:3 - 82:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:82:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>82:3 - 82:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:82:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>82:21 - 82:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:82:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>82:21 - 82:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:83:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>83:3 - 83:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:83:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>83:3 - 83:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:83:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>83:3 - 83:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:83:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>83:21 - 83:36<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:83:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>83:21 - 83:36<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:83:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>83:21 - 83:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:83:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>83:22 - 83:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:83:22: UnexposedExpr=num|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:29 <US>c:IDS2100.c@1088@F@VoicePlay@num<UE> <DS>unsigned int<DE> Extent=<ES>83:22 - 83:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:83:22: DeclRefExpr=num|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:29 (Reference) <US>c:IDS2100.c@1088@F@VoicePlay@num<UE> <DS>unsigned int<DE> Extent=<ES>83:22 - 83:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:83:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>83:26 - 83:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:83:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>83:26 - 83:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:83:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>83:35 - 83:36<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>84:3 - 84:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>84:3 - 84:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>84:3 - 84:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>84:21 - 84:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>84:21 - 84:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:21: UnexposedExpr=num|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:29 <US>c:IDS2100.c@1088@F@VoicePlay@num<UE> <DS>unsigned int<DE> Extent=<ES>84:21 - 84:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:21: DeclRefExpr=num|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:29 (Reference) <US>c:IDS2100.c@1088@F@VoicePlay@num<UE> <DS>unsigned int<DE> Extent=<ES>84:21 - 84:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>84:25 - 84:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>84:25 - 84:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:86:3: CallExpr=ISD2100_power_down|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:69:6 <US>c:@F@ISD2100_power_down<UE> <DS>void ISD2100_power_down(void)<DE> Extent=<ES>86:3 - 86:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:86:3: UnexposedExpr=ISD2100_power_down|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:69:6 <US>c:@F@ISD2100_power_down<UE> <DS>void ISD2100_power_down(void)<DE> Extent=<ES>86:3 - 86:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:86:3: DeclRefExpr=ISD2100_power_down|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:69:6 (Reference) <US>c:@F@ISD2100_power_down<UE> <DS>void ISD2100_power_down(void)<DE> Extent=<ES>86:3 - 86:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:89:15: FunctionDecl=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:89:15 (Definition) <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>89:1 - 103:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:90:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>90:1 - 103:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>91:3 - 91:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:17: VarDecl=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:17 (Definition) <US>c:IDS2100.c@1346@F@ReadVoice@value<UE> <DS>value<DE> Extent=<ES>91:3 - 91:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:92:3: CallExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:61:6 <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>92:3 - 92:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:92:3: UnexposedExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:61:6 <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>92:3 - 92:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:92:3: DeclRefExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:61:6 (Reference) <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>92:3 - 92:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:3 - 93:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>95:3 - 95:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>95:3 - 95:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>95:3 - 95:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>95:21 - 95:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>95:21 - 95:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:96:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>96:3 - 96:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:96:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>96:3 - 96:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:96:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>96:3 - 96:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:96:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>96:21 - 96:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:96:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>96:21 - 96:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:99:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>99:3 - 99:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:99:3: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:17 (Reference) <US>c:IDS2100.c@1346@F@ReadVoice@value<UE> <DS>value<DE> Extent=<ES>99:3 - 99:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:99:11: CallExpr=ISD2100_receive_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:40:15 <US>c:@F@ISD2100_receive_data<UE> <DS>unsigned char ISD2100_receive_data(void)<DE> Extent=<ES>99:11 - 99:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:99:11: UnexposedExpr=ISD2100_receive_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:40:15 <US>c:@F@ISD2100_receive_data<UE> <DS>unsigned char ISD2100_receive_data(void)<DE> Extent=<ES>99:11 - 99:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:99:11: DeclRefExpr=ISD2100_receive_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:40:15 (Reference) <US>c:@F@ISD2100_receive_data<UE> <DS>unsigned char ISD2100_receive_data(void)<DE> Extent=<ES>99:11 - 99:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:102:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>102:3 - 102:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:102:10: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:17 <US>c:IDS2100.c@1346@F@ReadVoice@value<UE> <DS>value<DE> Extent=<ES>102:10 - 102:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:102:10: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:17 (Reference) <US>c:IDS2100.c@1346@F@ReadVoice@value<UE> <DS>value<DE> Extent=<ES>102:10 - 102:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6: FunctionDecl=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 (Definition) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>105:1 - 115:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:31: ParmDecl=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:31 (Definition) <US>c:IDS2100.c@1649@F@WriteVoice@value<UE> <DS>unsigned char<DE> Extent=<ES>105:17 - 105:36<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:106:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>106:1 - 115:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:3: CallExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:61:6 <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>107:3 - 107:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:3: UnexposedExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:61:6 <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>107:3 - 107:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:3: DeclRefExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:61:6 (Reference) <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>107:3 - 107:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>108:3 - 108:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:110:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>110:3 - 110:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:110:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>110:3 - 110:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:110:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>110:3 - 110:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:110:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>110:21 - 110:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:110:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>110:21 - 110:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>111:3 - 111:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>111:3 - 111:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>111:3 - 111:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>111:21 - 111:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>111:21 - 111:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:112:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>112:3 - 112:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:112:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>112:3 - 112:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:112:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:18:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>112:3 - 112:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:112:21: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:31 <US>c:IDS2100.c@1649@F@WriteVoice@value<UE> <DS>unsigned char<DE> Extent=<ES>112:21 - 112:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:112:21: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:31 (Reference) <US>c:IDS2100.c@1649@F@WriteVoice@value<UE> <DS>unsigned char<DE> Extent=<ES>112:21 - 112:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:6: FunctionDecl=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:6 (Definition) <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>117:1 - 143:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 (Definition) <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>117:22 - 117:41<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:118:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>118:1 - 143:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:119:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>119:3 - 142:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:119:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>119:6 - 119:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:119:6: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>119:6 - 119:11<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:119:6: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>119:6 - 119:11<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:119:6: DeclRefExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 (Reference) <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>119:6 - 119:11<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:119:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>119:15 - 119:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>120:3 - 122:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:121:5: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>121:5 - 121:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:121:5: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>121:5 - 121:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:121:5: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>121:5 - 121:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:121:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>121:16 - 121:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:121:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:16 - 121:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:123:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>123:8 - 142:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:123:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>123:11 - 123:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:123:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>123:11 - 123:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:123:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>123:11 - 123:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:123:11: DeclRefExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 (Reference) <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>123:11 - 123:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:123:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>123:20 - 123:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:124:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>124:3 - 126:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:125:5: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>125:5 - 125:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:125:5: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>125:5 - 125:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:125:5: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>125:5 - 125:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:125:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>125:16 - 125:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:125:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>125:16 - 125:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:127:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>127:8 - 142:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:127:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>127:11 - 127:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:127:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>127:11 - 127:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:127:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>127:11 - 127:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:127:11: DeclRefExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 (Reference) <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>127:11 - 127:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:127:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>127:20 - 127:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:128:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>128:3 - 130:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:129:5: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>129:5 - 129:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:129:5: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>129:5 - 129:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:129:5: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>129:5 - 129:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:129:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>129:16 - 129:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:129:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>129:16 - 129:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:131:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>131:8 - 142:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:131:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>131:11 - 131:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:131:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>131:11 - 131:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:131:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>131:11 - 131:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:131:11: DeclRefExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 (Reference) <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>131:11 - 131:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:131:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>131:20 - 131:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:132:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>132:3 - 134:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:133:5: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>133:5 - 133:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:133:5: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>133:5 - 133:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:133:5: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>133:5 - 133:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:133:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>133:16 - 133:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:133:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>133:16 - 133:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:135:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>135:8 - 142:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:135:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>135:11 - 135:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:135:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>135:11 - 135:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:135:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>135:11 - 135:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:135:11: DeclRefExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 (Reference) <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>135:11 - 135:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:135:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>135:20 - 135:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:136:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>136:3 - 138:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:137:5: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>137:5 - 137:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:137:5: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>137:5 - 137:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:137:5: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>137:5 - 137:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:137:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>137:16 - 137:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:137:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>137:16 - 137:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:139:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>139:8 - 142:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:139:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>139:11 - 139:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:139:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>139:11 - 139:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:139:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>139:11 - 139:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:139:11: DeclRefExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:117:36 (Reference) <US>c:IDS2100.c@1872@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>139:11 - 139:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:139:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>139:20 - 139:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:140:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>140:3 - 142:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:141:5: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>141:5 - 141:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:141:5: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>141:5 - 141:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:141:5: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>141:5 - 141:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:141:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>141:16 - 141:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:141:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:16 - 141:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:145:6: FunctionDecl=Play_Drop_Start|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:145:6 (Definition) <US>c:@F@Play_Drop_Start<UE> <DS>void Play_Drop_Start(void)<DE> Extent=<ES>145:1 - 150:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:146:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>146:1 - 150:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:147:3: CallExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>147:3 - 147:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:147:3: UnexposedExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>147:3 - 147:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:147:3: DeclRefExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 (Reference) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>147:3 - 147:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:147:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>147:13 - 147:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:147:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>147:13 - 147:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>148:3 - 148:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>148:3 - 148:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>148:3 - 148:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>148:3 - 148:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>148:3 - 148:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>148:3 - 148:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>148:3 - 148:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>148:3 - 148:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>148:3 - 148:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>148:3 - 148:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>148:3 - 148:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>148:3 - 148:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>148:3 - 148:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:149:3: CallExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>149:3 - 149:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:149:3: UnexposedExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>149:3 - 149:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:149:3: DeclRefExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 (Reference) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>149:3 - 149:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:149:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>149:13 - 149:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:149:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>149:13 - 149:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:152:6: FunctionDecl=Play_Drop_Stop|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:152:6 (Definition) <US>c:@F@Play_Drop_Stop<UE> <DS>void Play_Drop_Stop(void)<DE> Extent=<ES>152:1 - 155:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>153:1 - 155:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:154:3: CallExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>154:3 - 154:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:154:3: UnexposedExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>154:3 - 154:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:154:3: DeclRefExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 (Reference) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>154:3 - 154:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:154:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>154:13 - 154:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:154:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>154:13 - 154:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:156:6: FunctionDecl=VoiceUp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:156:6 (Definition) <US>c:@F@VoiceUp<UE> <DS>void VoiceUp(void)<DE> Extent=<ES>156:1 - 169:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:157:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>157:1 - 169:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>158:3 - 158:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:17: VarDecl=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:17 (Definition) <US>c:IDS2100.c@2383@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>158:3 - 158:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:159:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>159:3 - 159:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:159:3: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:17 (Reference) <US>c:IDS2100.c@2383@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>159:3 - 159:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:159:11: CallExpr=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:89:15 <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>159:11 - 159:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:159:11: UnexposedExpr=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:89:15 <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>159:11 - 159:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:159:11: DeclRefExpr=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:89:15 (Reference) <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>159:11 - 159:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:160:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>160:3 - 167:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:160:6: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>160:6 - 160:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:160:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>160:7 - 160:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:160:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>160:8 - 160:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:160:8: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:17 <US>c:IDS2100.c@2383@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>160:8 - 160:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:160:8: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:17 <US>c:IDS2100.c@2383@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>160:8 - 160:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:160:8: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:17 (Reference) <US>c:IDS2100.c@2383@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>160:8 - 160:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:160:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>160:14 - 160:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:161:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>161:3 - 163:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>162:5 - 162:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:5: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:17 (Reference) <US>c:IDS2100.c@2383@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>162:5 - 162:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>162:13 - 162:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>162:13 - 162:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:4:15: VarDecl=VoiceDelayNum|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:4:15 (Definition) <US>c:@VoiceDelayNum<UE> <DS>VoiceDelayNum<DE> Extent=<ES>4:1 - 4:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:4:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>4:31 - 4:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:4:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>4:31 - 4:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:8:6: FunctionDecl=ISD2100Init|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:8:6 (Definition) <US>c:@F@ISD2100Init<UE> <DS>void ISD2100Init(void)<DE> Extent=<ES>8:1 - 17:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:9:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>9:1 - 17:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:16:3: CallExpr=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:6 <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>16:3 - 16:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:16:3: UnexposedExpr=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:6 <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>16:3 - 16:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:16:3: DeclRefExpr=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:6 (Reference) <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>16:3 - 16:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:16:19: UnexposedExpr=VoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:3:15 <US>c:@VoiceLevel<UE> <DS>VoiceLevel<DE> Extent=<ES>16:19 - 16:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:16:19: DeclRefExpr=VoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:3:15 (Reference) <US>c:@VoiceLevel<UE> <DS>VoiceLevel<DE> Extent=<ES>16:19 - 16:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6: FunctionDecl=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 (Definition) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>19:1 - 39:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:38: ParmDecl=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:38 (Definition) <US>c:IDS2100.c@338@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>19:24 - 19:47<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:20:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>20:1 - 39:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>21:3 - 21:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:17: VarDecl=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:17 (Definition) <US>c:IDS2100.c@369@F@ISD2100_send_data@i<UE> <DS>i<DE> Extent=<ES>21:3 - 21:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:22:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>22:3 - 37:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:22:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>22:7 - 22:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:22:7: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:17 (Reference) <US>c:IDS2100.c@369@F@ISD2100_send_data@i<UE> <DS>i<DE> Extent=<ES>22:7 - 22:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:22:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>22:9 - 22:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:22:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>22:9 - 22:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:22:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>22:11 - 22:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:22:11: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:17 <US>c:IDS2100.c@369@F@ISD2100_send_data@i<UE> <DS>i<DE> Extent=<ES>22:11 - 22:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:22:11: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:17 <US>c:IDS2100.c@369@F@ISD2100_send_data@i<UE> <DS>i<DE> Extent=<ES>22:11 - 22:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:22:11: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:17 (Reference) <US>c:IDS2100.c@369@F@ISD2100_send_data@i<UE> <DS>i<DE> Extent=<ES>22:11 - 22:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:22:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>22:13 - 22:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:22:15: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>22:15 - 22:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:22:15: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:21:17 (Reference) <US>c:IDS2100.c@369@F@ISD2100_send_data@i<UE> <DS>i<DE> Extent=<ES>22:15 - 22:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:23:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>23:3 - 37:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:25:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>25:5 - 32:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:25:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>25:8 - 25:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:25:8: ParenExpr= <US><UE> <DS><DE> Extent=<ES>25:8 - 25:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:25:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>25:9 - 25:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:25:9: UnexposedExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:38 <US>c:IDS2100.c@338@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>25:9 - 25:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:25:9: UnexposedExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:38 <US>c:IDS2100.c@338@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>25:9 - 25:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:25:9: DeclRefExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:38 (Reference) <US>c:IDS2100.c@338@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>25:9 - 25:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:25:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>25:19 - 25:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:25:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>25:26 - 25:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:26:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>26:5 - 28:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:30:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>30:5 - 32:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>33:5 - 33:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:5: DeclRefExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:38 (Reference) <US>c:IDS2100.c@338@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>33:5 - 33:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>33:15 - 33:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>33:15 - 33:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>33:16 - 33:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:16: UnexposedExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:38 <US>c:IDS2100.c@338@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>33:16 - 33:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:16: UnexposedExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:38 <US>c:IDS2100.c@338@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>33:16 - 33:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:16: DeclRefExpr=data_temp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:38 (Reference) <US>c:IDS2100.c@338@F@ISD2100_send_data@data_temp<UE> <DS>unsigned char<DE> Extent=<ES>33:16 - 33:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:33:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:27 - 33:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:34:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>34:5 - 34:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:36:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>36:5 - 36:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:41:15: FunctionDecl=ISD2100_receive_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:41:15 (Definition) <US>c:@F@ISD2100_receive_data<UE> <DS>unsigned char ISD2100_receive_data(void)<DE> Extent=<ES>41:1 - 60:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:42:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>42:1 - 60:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>43:3 - 43:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:17: VarDecl=data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:17 (Definition) <US>c:IDS2100.c@667@F@ISD2100_receive_data@data<UE> <DS>data<DE> Extent=<ES>43:3 - 43:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>44:3 - 44:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:17: VarDecl=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:17 (Definition) <US>c:IDS2100.c@690@F@ISD2100_receive_data@i<UE> <DS>i<DE> Extent=<ES>44:3 - 44:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:45:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>45:3 - 56:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:45:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>45:7 - 45:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:45:7: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:17 (Reference) <US>c:IDS2100.c@690@F@ISD2100_receive_data@i<UE> <DS>i<DE> Extent=<ES>45:7 - 45:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:45:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>45:9 - 45:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:45:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:9 - 45:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:45:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>45:11 - 45:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:45:11: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:17 <US>c:IDS2100.c@690@F@ISD2100_receive_data@i<UE> <DS>i<DE> Extent=<ES>45:11 - 45:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:45:11: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:17 <US>c:IDS2100.c@690@F@ISD2100_receive_data@i<UE> <DS>i<DE> Extent=<ES>45:11 - 45:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:45:11: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:17 (Reference) <US>c:IDS2100.c@690@F@ISD2100_receive_data@i<UE> <DS>i<DE> Extent=<ES>45:11 - 45:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:45:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:13 - 45:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:45:15: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>45:15 - 45:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:45:15: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:44:17 (Reference) <US>c:IDS2100.c@690@F@ISD2100_receive_data@i<UE> <DS>i<DE> Extent=<ES>45:15 - 45:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:46:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>46:3 - 56:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:48:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>48:5 - 48:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:50:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>50:5 - 50:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:50:5: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:17 (Reference) <US>c:IDS2100.c@667@F@ISD2100_receive_data@data<UE> <DS>data<DE> Extent=<ES>50:5 - 50:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:50:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>50:12 - 50:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:55:5: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:5 - 55:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:58:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>58:5 - 58:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:58:12: UnexposedExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:17 <US>c:IDS2100.c@667@F@ISD2100_receive_data@data<UE> <DS>data<DE> Extent=<ES>58:12 - 58:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:58:12: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:43:17 (Reference) <US>c:IDS2100.c@667@F@ISD2100_receive_data@data<UE> <DS>data<DE> Extent=<ES>58:12 - 58:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:62:6: FunctionDecl=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:62:6 (Definition) <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>62:1 - 68:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:63:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>63:1 - 68:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:65:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>65:3 - 65:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:65:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>65:3 - 65:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:65:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>65:3 - 65:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:65:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:21 - 65:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:65:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:21 - 65:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:67:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:3 - 67:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:70:6: FunctionDecl=ISD2100_power_down|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:70:6 (Definition) <US>c:@F@ISD2100_power_down<UE> <DS>void ISD2100_power_down(void)<DE> Extent=<ES>70:1 - 76:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:71:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>71:1 - 76:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:73:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>73:3 - 73:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:73:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>73:3 - 73:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:73:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>73:3 - 73:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:73:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>73:21 - 73:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:73:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>73:21 - 73:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:75:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>75:3 - 75:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6: FunctionDecl=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 (Definition) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>78:1 - 89:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:29: ParmDecl=num|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:29 (Definition) <US>c:IDS2100.c@1122@F@VoicePlay@num<UE> <DS>unsigned int<DE> Extent=<ES>78:16 - 78:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:79:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>79:1 - 89:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:80:3: CallExpr=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:6 <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>80:3 - 80:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:80:3: UnexposedExpr=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:6 <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>80:3 - 80:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:80:3: DeclRefExpr=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:6 (Reference) <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>80:3 - 80:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:80:19: UnexposedExpr=VoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:3:15 <US>c:@VoiceLevel<UE> <DS>VoiceLevel<DE> Extent=<ES>80:19 - 80:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:80:19: DeclRefExpr=VoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:3:15 (Reference) <US>c:@VoiceLevel<UE> <DS>VoiceLevel<DE> Extent=<ES>80:19 - 80:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:82:3: CallExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:62:6 <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>82:3 - 82:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:82:3: UnexposedExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:62:6 <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>82:3 - 82:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:82:3: DeclRefExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:62:6 (Reference) <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>82:3 - 82:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>84:3 - 84:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>84:3 - 84:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>84:3 - 84:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>84:21 - 84:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:84:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>84:21 - 84:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:85:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>85:3 - 85:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:85:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>85:3 - 85:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:85:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>85:3 - 85:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:85:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>85:21 - 85:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:85:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>85:21 - 85:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:85:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>85:21 - 85:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:85:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>85:22 - 85:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:85:22: UnexposedExpr=num|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:29 <US>c:IDS2100.c@1122@F@VoicePlay@num<UE> <DS>unsigned int<DE> Extent=<ES>85:22 - 85:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:85:22: DeclRefExpr=num|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:29 (Reference) <US>c:IDS2100.c@1122@F@VoicePlay@num<UE> <DS>unsigned int<DE> Extent=<ES>85:22 - 85:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:85:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>85:26 - 85:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:85:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:26 - 85:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:85:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:35 - 85:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:86:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>86:3 - 86:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:86:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>86:3 - 86:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:86:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>86:3 - 86:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:86:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>86:21 - 86:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:86:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>86:21 - 86:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:86:21: UnexposedExpr=num|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:29 <US>c:IDS2100.c@1122@F@VoicePlay@num<UE> <DS>unsigned int<DE> Extent=<ES>86:21 - 86:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:86:21: DeclRefExpr=num|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:29 (Reference) <US>c:IDS2100.c@1122@F@VoicePlay@num<UE> <DS>unsigned int<DE> Extent=<ES>86:21 - 86:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:86:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>86:25 - 86:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:86:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>86:25 - 86:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:15: FunctionDecl=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:15 (Definition) <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>91:1 - 105:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:92:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>92:1 - 105:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>93:3 - 93:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:17: VarDecl=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:17 (Definition) <US>c:IDS2100.c@1406@F@ReadVoice@value<UE> <DS>value<DE> Extent=<ES>93:3 - 93:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:94:3: CallExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:62:6 <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>94:3 - 94:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:94:3: UnexposedExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:62:6 <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>94:3 - 94:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:94:3: DeclRefExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:62:6 (Reference) <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>94:3 - 94:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:95:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>95:3 - 95:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:97:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>97:3 - 97:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:97:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>97:3 - 97:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:97:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>97:3 - 97:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:97:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>97:21 - 97:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:97:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>97:21 - 97:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:98:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>98:3 - 98:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:98:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>98:3 - 98:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:98:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>98:3 - 98:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:98:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>98:21 - 98:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:98:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>98:21 - 98:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:101:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:101:3: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:17 (Reference) <US>c:IDS2100.c@1406@F@ReadVoice@value<UE> <DS>value<DE> Extent=<ES>101:3 - 101:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:101:11: CallExpr=ISD2100_receive_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:41:15 <US>c:@F@ISD2100_receive_data<UE> <DS>unsigned char ISD2100_receive_data(void)<DE> Extent=<ES>101:11 - 101:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:101:11: UnexposedExpr=ISD2100_receive_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:41:15 <US>c:@F@ISD2100_receive_data<UE> <DS>unsigned char ISD2100_receive_data(void)<DE> Extent=<ES>101:11 - 101:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:101:11: DeclRefExpr=ISD2100_receive_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:41:15 (Reference) <US>c:@F@ISD2100_receive_data<UE> <DS>unsigned char ISD2100_receive_data(void)<DE> Extent=<ES>101:11 - 101:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:104:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>104:3 - 104:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:104:10: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:17 <US>c:IDS2100.c@1406@F@ReadVoice@value<UE> <DS>value<DE> Extent=<ES>104:10 - 104:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:104:10: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:93:17 (Reference) <US>c:IDS2100.c@1406@F@ReadVoice@value<UE> <DS>value<DE> Extent=<ES>104:10 - 104:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6: FunctionDecl=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 (Definition) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>107:1 - 118:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:31: ParmDecl=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:31 (Definition) <US>c:IDS2100.c@1709@F@WriteVoice@value<UE> <DS>unsigned char<DE> Extent=<ES>107:17 - 107:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:108:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>108:1 - 118:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:110:3: CallExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:62:6 <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>110:3 - 110:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:110:3: UnexposedExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:62:6 <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>110:3 - 110:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:110:3: DeclRefExpr=ISD2100_power_up|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:62:6 (Reference) <US>c:@F@ISD2100_power_up<UE> <DS>void ISD2100_power_up(void)<DE> Extent=<ES>110:3 - 110:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:111:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>111:3 - 111:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:113:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>113:3 - 113:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:113:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>113:3 - 113:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:113:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>113:3 - 113:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:113:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>113:21 - 113:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:113:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>113:21 - 113:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:114:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>114:3 - 114:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:114:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>114:3 - 114:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:114:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>114:3 - 114:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:114:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>114:21 - 114:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:114:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>114:21 - 114:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:115:3: CallExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>115:3 - 115:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:115:3: UnexposedExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>115:3 - 115:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:115:3: DeclRefExpr=ISD2100_send_data|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:19:6 (Reference) <US>c:@F@ISD2100_send_data<UE> <DS>void ISD2100_send_data(unsigned char)<DE> Extent=<ES>115:3 - 115:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:115:21: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:31 <US>c:IDS2100.c@1709@F@WriteVoice@value<UE> <DS>unsigned char<DE> Extent=<ES>115:21 - 115:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:115:21: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:31 (Reference) <US>c:IDS2100.c@1709@F@WriteVoice@value<UE> <DS>unsigned char<DE> Extent=<ES>115:21 - 115:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:6: FunctionDecl=WriteVoiceLevel|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:6 (Definition) <US>c:@F@WriteVoiceLevel<UE> <DS>void WriteVoiceLevel(unsigned char)<DE> Extent=<ES>120:1 - 146:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 (Definition) <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>120:22 - 120:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:121:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>121:1 - 146:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:122:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>122:3 - 145:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:122:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>122:6 - 122:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:122:6: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>122:6 - 122:11<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:122:6: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>122:6 - 122:11<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:122:6: DeclRefExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 (Reference) <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>122:6 - 122:11<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:122:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>122:15 - 122:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:123:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>123:3 - 125:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:124:5: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>124:5 - 124:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:124:5: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>124:5 - 124:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:124:5: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>124:5 - 124:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:124:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>124:16 - 124:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:124:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>124:16 - 124:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:126:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>126:8 - 145:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:126:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>126:11 - 126:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:126:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>126:11 - 126:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:126:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>126:11 - 126:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:126:11: DeclRefExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 (Reference) <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>126:11 - 126:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:126:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>126:20 - 126:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:127:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>127:3 - 129:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:128:5: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>128:5 - 128:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:128:5: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>128:5 - 128:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:128:5: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>128:5 - 128:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:128:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>128:16 - 128:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:128:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>128:16 - 128:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:130:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>130:8 - 145:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:130:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>130:11 - 130:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:130:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>130:11 - 130:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:130:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>130:11 - 130:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:130:11: DeclRefExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 (Reference) <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>130:11 - 130:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:130:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>130:20 - 130:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:131:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>131:3 - 133:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:132:5: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>132:5 - 132:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:132:5: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>132:5 - 132:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:132:5: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>132:5 - 132:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:132:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>132:16 - 132:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:132:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>132:16 - 132:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:134:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>134:8 - 145:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:134:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>134:11 - 134:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:134:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>134:11 - 134:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:134:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>134:11 - 134:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:134:11: DeclRefExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 (Reference) <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>134:11 - 134:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:134:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>134:20 - 134:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:135:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>135:3 - 137:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:136:5: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>136:5 - 136:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:136:5: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>136:5 - 136:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:136:5: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>136:5 - 136:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:136:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>136:16 - 136:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:136:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>136:16 - 136:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:138:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>138:8 - 145:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:138:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>138:11 - 138:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:138:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>138:11 - 138:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:138:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>138:11 - 138:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:138:11: DeclRefExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 (Reference) <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>138:11 - 138:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:138:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>138:20 - 138:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:139:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>139:3 - 141:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:140:5: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>140:5 - 140:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:140:5: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>140:5 - 140:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:140:5: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>140:5 - 140:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:140:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>140:16 - 140:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:140:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>140:16 - 140:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:142:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>142:8 - 145:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:142:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>142:11 - 142:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:142:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>142:11 - 142:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:142:11: UnexposedExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>142:11 - 142:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:142:11: DeclRefExpr=level|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:120:36 (Reference) <US>c:IDS2100.c@1956@F@WriteVoiceLevel@level<UE> <DS>unsigned char<DE> Extent=<ES>142:11 - 142:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:142:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>142:20 - 142:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:143:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>143:3 - 145:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:144:5: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>144:5 - 144:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:144:5: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>144:5 - 144:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:144:5: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>144:5 - 144:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:144:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>144:16 - 144:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:144:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>144:16 - 144:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:6: FunctionDecl=Play_Drop_Start|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:148:6 (Definition) <US>c:@F@Play_Drop_Start<UE> <DS>void Play_Drop_Start(void)<DE> Extent=<ES>148:1 - 154:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:149:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>149:1 - 154:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:150:3: CallExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>150:3 - 150:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:150:3: UnexposedExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>150:3 - 150:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:150:3: DeclRefExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 (Reference) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>150:3 - 150:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:150:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>150:13 - 150:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:150:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>150:13 - 150:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:151:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>151:3 - 151:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:152:3: CallExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>152:3 - 152:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:152:3: UnexposedExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>152:3 - 152:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:152:3: DeclRefExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 (Reference) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>152:3 - 152:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:152:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>152:13 - 152:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:152:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>152:13 - 152:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>153:3 - 153:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>153:3 - 153:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>153:3 - 153:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>153:3 - 153:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>153:3 - 153:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>153:3 - 153:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>153:3 - 153:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>153:3 - 153:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>153:3 - 153:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>153:3 - 153:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>153:3 - 153:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>153:3 - 153:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:153:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>153:3 - 153:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:156:6: FunctionDecl=Play_Drop_Stop|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:156:6 (Definition) <US>c:@F@Play_Drop_Stop<UE> <DS>void Play_Drop_Stop(void)<DE> Extent=<ES>156:1 - 159:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:157:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>157:1 - 159:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:3: CallExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>158:3 - 158:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:3: UnexposedExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>158:3 - 158:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:3: DeclRefExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 (Reference) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>158:3 - 158:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>158:13 - 158:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>158:13 - 158:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:160:6: FunctionDecl=VoiceUp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:160:6 (Definition) <US>c:@F@VoiceUp<UE> <DS>void VoiceUp(void)<DE> Extent=<ES>160:1 - 173:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:161:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>161:1 - 173:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>162:3 - 162:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:17: VarDecl=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:17 (Definition) <US>c:IDS2100.c@2485@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>162:3 - 162:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:163:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>163:3 - 163:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:163:3: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:17 (Reference) <US>c:IDS2100.c@2485@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>163:3 - 163:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:163:11: CallExpr=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:15 <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>163:11 - 163:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:163:11: UnexposedExpr=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:15 <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>163:11 - 163:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:163:11: DeclRefExpr=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:15 (Reference) <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>163:11 - 163:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:164:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>164:3 - 171:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:164:6: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>164:6 - 164:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:164:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>164:7 - 164:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:164:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>164:8 - 164:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:164:8: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:17 <US>c:IDS2100.c@2485@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>164:8 - 164:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:164:8: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:17 <US>c:IDS2100.c@2485@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>164:8 - 164:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:164:8: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:17 (Reference) <US>c:IDS2100.c@2485@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>164:8 - 164:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:164:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:14 - 164:18<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:165:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>165:3 - 167:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:166:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>166:5 - 166:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:166:5: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:17 (Reference) <US>c:IDS2100.c@2383@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>166:5 - 166:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:166:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>166:5 - 166:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:166:5: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:17 (Reference) <US>c:IDS2100.c@2485@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>166:5 - 166:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:166:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>166:13 - 166:14<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:166:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>166:13 - 166:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:168:3: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>168:3 - 168:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:168:3: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>168:3 - 168:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:168:3: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>168:3 - 168:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:168:14: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:17 <US>c:IDS2100.c@2383@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>168:14 - 168:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:168:14: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:158:17 (Reference) <US>c:IDS2100.c@2383@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>168:14 - 168:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:171:6: FunctionDecl=Play_OverQuick|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:171:6 (Definition) <US>c:@F@Play_OverQuick<UE> <DS>void Play_OverQuick(void)<DE> Extent=<ES>171:1 - 174:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:172:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>172:1 - 174:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:173:3: CallExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>173:3 - 173:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:173:3: UnexposedExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>173:3 - 173:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:173:3: DeclRefExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 (Reference) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>173:3 - 173:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:173:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>173:13 - 173:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:173:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>173:13 - 173:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:175:6: FunctionDecl=Play_TooSlow|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:175:6 (Definition) <US>c:@F@Play_TooSlow<UE> <DS>void Play_TooSlow(void)<DE> Extent=<ES>175:1 - 178:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:169:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>169:3 - 171:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:170:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>170:5 - 170:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:170:5: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:17 (Reference) <US>c:IDS2100.c@2485@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>170:5 - 170:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:170:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>170:13 - 170:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:172:3: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>172:3 - 172:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:172:3: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>172:3 - 172:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:172:3: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>172:3 - 172:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:172:14: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:17 <US>c:IDS2100.c@2485@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>172:14 - 172:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:172:14: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:162:17 (Reference) <US>c:IDS2100.c@2485@F@VoiceUp@value<UE> <DS>value<DE> Extent=<ES>172:14 - 172:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:175:6: FunctionDecl=Play_OverQuick|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:175:6 (Definition) <US>c:@F@Play_OverQuick<UE> <DS>void Play_OverQuick(void)<DE> Extent=<ES>175:1 - 178:2<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:176:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>176:1 - 178:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:177:3: CallExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>177:3 - 177:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:177:3: UnexposedExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>177:3 - 177:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:177:3: DeclRefExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:77:6 (Reference) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>177:3 - 177:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:177:3: CallExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>177:3 - 177:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:177:3: UnexposedExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>177:3 - 177:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:177:3: DeclRefExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 (Reference) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>177:3 - 177:12<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:177:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>177:13 - 177:15<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:177:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>177:13 - 177:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:180:6: FunctionDecl=VoiceDown|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:180:6 (Definition) <US>c:@F@VoiceDown<UE> <DS>void VoiceDown(void)<DE> Extent=<ES>180:1 - 193:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:181:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>181:1 - 193:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:182:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>182:3 - 182:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:182:17: VarDecl=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:182:17 (Definition) <US>c:IDS2100.c@2659@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>182:3 - 182:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:183:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>183:3 - 183:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:183:3: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:182:17 (Reference) <US>c:IDS2100.c@2659@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>183:3 - 183:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:183:11: CallExpr=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:89:15 <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>183:11 - 183:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:183:11: UnexposedExpr=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:89:15 <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>183:11 - 183:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:183:11: DeclRefExpr=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:89:15 (Reference) <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>183:11 - 183:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:184:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>184:3 - 191:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:184:6: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>184:6 - 184:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:184:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>184:7 - 184:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:184:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>184:8 - 184:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:184:8: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:182:17 <US>c:IDS2100.c@2659@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>184:8 - 184:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:184:8: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:182:17 <US>c:IDS2100.c@2659@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>184:8 - 184:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:184:8: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:182:17 (Reference) <US>c:IDS2100.c@2659@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>184:8 - 184:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:184:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>184:14 - 184:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:185:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>185:3 - 187:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>186:5 - 186:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:5: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:182:17 (Reference) <US>c:IDS2100.c@2659@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>186:5 - 186:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>186:13 - 186:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>186:13 - 186:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:179:6: FunctionDecl=Play_TooSlow|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:179:6 (Definition) <US>c:@F@Play_TooSlow<UE> <DS>void Play_TooSlow(void)<DE> Extent=<ES>179:1 - 182:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:180:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>180:1 - 182:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:181:3: CallExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>181:3 - 181:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:181:3: UnexposedExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>181:3 - 181:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:181:3: DeclRefExpr=VoicePlay|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:78:6 (Reference) <US>c:@F@VoicePlay<UE> <DS>void VoicePlay(unsigned int)<DE> Extent=<ES>181:3 - 181:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:181:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>181:13 - 181:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:181:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>181:13 - 181:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:184:6: FunctionDecl=VoiceDown|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:184:6 (Definition) <US>c:@F@VoiceDown<UE> <DS>void VoiceDown(void)<DE> Extent=<ES>184:1 - 197:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:185:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>185:1 - 197:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>186:3 - 186:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:17: VarDecl=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:17 (Definition) <US>c:IDS2100.c@2761@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>186:3 - 186:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:187:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>187:3 - 187:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:187:3: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:17 (Reference) <US>c:IDS2100.c@2761@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>187:3 - 187:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:187:11: CallExpr=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:15 <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>187:11 - 187:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:187:11: UnexposedExpr=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:15 <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>187:11 - 187:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:187:11: DeclRefExpr=ReadVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:91:15 (Reference) <US>c:@F@ReadVoice<UE> <DS>unsigned char ReadVoice(void)<DE> Extent=<ES>187:11 - 187:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:188:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>188:3 - 195:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:188:6: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>188:6 - 188:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:188:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:7 - 188:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:188:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:8 - 188:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:188:8: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:17 <US>c:IDS2100.c@2761@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>188:8 - 188:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:188:8: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:17 <US>c:IDS2100.c@2761@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>188:8 - 188:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:188:8: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:17 (Reference) <US>c:IDS2100.c@2761@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>188:8 - 188:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:188:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:14 - 188:18<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:189:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>189:3 - 191:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:190:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>190:5 - 190:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:190:5: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:182:17 (Reference) <US>c:IDS2100.c@2659@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>190:5 - 190:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:190:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:13 - 190:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:192:3: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>192:3 - 192:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:192:3: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>192:3 - 192:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:192:3: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:105:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>192:3 - 192:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:192:14: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:182:17 <US>c:IDS2100.c@2659@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>192:14 - 192:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:192:14: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:182:17 (Reference) <US>c:IDS2100.c@2659@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>192:14 - 192:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:190:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:5 - 190:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:190:5: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:17 (Reference) <US>c:IDS2100.c@2761@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>190:5 - 190:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:190:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>190:13 - 190:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:190:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:13 - 190:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:193:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>193:3 - 195:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:194:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>194:5 - 194:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:194:5: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:17 (Reference) <US>c:IDS2100.c@2761@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>194:5 - 194:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:194:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:13 - 194:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:196:3: CallExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>196:3 - 196:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:196:3: UnexposedExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>196:3 - 196:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:196:3: DeclRefExpr=WriteVoice|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:107:6 (Reference) <US>c:@F@WriteVoice<UE> <DS>void WriteVoice(unsigned char)<DE> Extent=<ES>196:3 - 196:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:196:14: UnexposedExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:17 <US>c:IDS2100.c@2761@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>196:14 - 196:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:196:14: DeclRefExpr=value|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.c:186:17 (Reference) <US>c:IDS2100.c@2761@F@VoiceDown@value<UE> <DS>value<DE> Extent=<ES>196:14 - 196:19<EE>

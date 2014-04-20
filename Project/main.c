@@ -121,7 +121,6 @@ int main(void)
         Rate = GetRate();
         RateDisplayFlag =0;
         DisplayRate(Rate); 
-      //  DisplayTotalDrop();
         RefreshTime=1;
       }
       if(DataRecFlag == 1)  //数据接收标志
@@ -161,7 +160,7 @@ int main(void)
     }
     else if(DisplayMode == DisplaySleepMode)
     {
-      __bis_SR_register(GIE+LPM2);
+      __bis_SR_register(GIE+LPM3);
       DisplayMode = DisplayRateMode;
       LCDInit();
     }

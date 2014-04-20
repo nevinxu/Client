@@ -1,6 +1,7 @@
 #include "IDS2100.h"
 
 unsigned char VoiceLevel = 5;  //ÉùÒôµÈ¼¶
+unsigned char VoiceDelayNum = 0;
 
 
 
@@ -77,13 +78,14 @@ void ISD2100_power_down()
 void VoicePlay(unsigned int num)
 {
   WriteVoiceLevel(VoiceLevel);
+  while(!(RDYIN&RDY));
   ISD2100_power_up();
   SSB_LO
   ISD2100_send_data(0xB0);
   ISD2100_send_data((num&0xff00)>>8);
   ISD2100_send_data(num&0xff);
   SSB_HI
-  ISD2100_power_down();
+ // ISD2100_power_down();
 }
 
 unsigned char ReadVoice()
@@ -104,6 +106,7 @@ unsigned char ReadVoice()
                      
 void WriteVoice(unsigned char value)
 {
+  while(!(RDYIN&RDY));
   ISD2100_power_up();
   Delay_ms(50);
   SSB_LO
@@ -147,6 +150,7 @@ void Play_Drop_Start()
   VoicePlay(28);
   Delay_ms(700);
   VoicePlay(29);
+  Delay_ms(700);
 }
 
 void Play_Drop_Stop()

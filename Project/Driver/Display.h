@@ -37,4 +37,5 @@ extern void DisplayUpAlarm(unsigned int alarmvalue);
 extern void DisplayDownAlarm(unsigned int alarmvalue);
 extern void DisplayVoice(unsigned char level);
 extern void RefreshAlarmValue();
+extern void DisplayRFRSSI(unsigned char level);
 #endif

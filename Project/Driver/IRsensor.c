@@ -109,6 +109,7 @@ unsigned int GetRate()   //多次采样取平均
       {
         TotalDrop = 0;//重新计数
         Play_Drop_Start();
+        Alarm_timer_Num = 20;  //初始化为报警时间计数够了
       }
     }
   }
@@ -116,7 +117,7 @@ unsigned int GetRate()   //多次采样取平均
   {
     for(i=7;i>0;i--)
     {
-      buffer[i] = buffer[i-1];
+      buffer[i] = buffer[i-1]; 
     }
     buffer[0] = (unsigned int)data;
   }
@@ -128,16 +129,17 @@ unsigned int GetRate()   //多次采样取平均
   retdata>>=3;
   if(RateDisplayFlag)  //必须要有中断
   {
-    if(Alarm_timer_Num >= 20)  //10s一次
+    if(Alarm_timer_Num >= 10)  //10s一次
     {
-      Alarm_timer_Num = 0;
       if(retdata >= AlarmUpperValue)
       {
         Play_OverQuick();
+        Alarm_timer_Num = 0;
       }
       else if(retdata <= AlarmLowerValue)
       {
         Play_TooSlow();
+        Alarm_timer_Num = 0;
       }
     }
   }
@@ -275,24 +277,10 @@ step4:  StoreTimes++;
 __interrupt void Timer_A0_0 (void)
 {
   TA0CCR0 += 328;  
-  if(IRReceiveStatus() == 1)
-  {
-  //   LEDOn(LED1);
-#ifdef TestMode  
-    TestLEDOUT |= TestLed;
-#endif
-  }
-  else
-  {
- //   LEDOff(LED1);
-#ifdef TestMode  
-    TestLEDOUT &=~ TestLed;
-#endif
-  }
   if(!RateDisplayFlag)
   {
       RefreshTime++;
-      if((RefreshTime%200)==0)  //两秒钟更新一下
+      if((RefreshTime%350)==0)  //3.5秒钟更新一下
       {
         if(GetRate()>=10)//速度大于10 更新  
         {

@@ -1,6 +1,9 @@
 #include "msp430.h"
 #include "HAL_FLASH.h"
 
+extern unsigned char AlarmUpperValue;  //报警上限值
+extern unsigned char AlarmLowerValue; //报警下限值
+
 void Flash_SegmentErase(uint16_t Flash_addr)
 {
   FCTL2 = FWKEY + FSSEL0 + FN1;             // MCLK/3 for Flash Timing Generator
@@ -88,4 +91,27 @@ void FlashMemoryFill_32(uint32_t value, uint32_t *Flash_ptr, uint16_t count)
 
   FCTL1 = FWKEY;                            // Clear Erase bit
   FCTL3 = FWKEY + LOCK;                      // Set LOCK bit
+}
+
+
+void WriteAlarmValue2Flash()
+{
+  unsigned char buf[2];
+  unsigned int addr = 0xf800;
+  buf[0] = AlarmUpperValue;
+  buf[1] = AlarmLowerValue;
+  Flash_SegmentErase(addr);
+  FlashWrite_8(buf,addr,2);
+}
+
+void ReadAlarmValue4Flash()
+{
+  unsigned int addr = 0xf800;
+  AlarmUpperValue = *(unsigned char *)addr++;
+  AlarmLowerValue = *(unsigned char *)addr++;
+  if(AlarmUpperValue < (AlarmLowerValue+20))
+  {
+    AlarmUpperValue = 140;
+    AlarmLowerValue = 30;
+  }
 }

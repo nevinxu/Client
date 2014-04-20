@@ -14,6 +14,7 @@ extern unsigned char VoiceLevel;  //声音等级
 
 extern unsigned char Display_Blink_TimeOut;  //报警值设置超时
 
+extern unsigned char Display_All_TimeOut;  //显示超时
 void KeyInit()
 {
   KeyDIR &=~ (KeyvolumeUp+KeyvolumeDown+KeyUpperLimit+KeyLowLimit);
@@ -81,6 +82,7 @@ void KeyFunction()
       {
         AlarmUpperValue = AlarmLowerValue + 20; //下限与上限的差距为20
       }
+      WriteAlarmValue2Flash(); 
     }
     else if(Key_Set_Mode == LOWERSETMODE)
     {
@@ -89,6 +91,7 @@ void KeyFunction()
       {
         AlarmLowerValue = 30;
       }
+      WriteAlarmValue2Flash(); 
     }
     else if(Key_Set_Mode == CLOSE)
     {
@@ -112,6 +115,7 @@ void KeyFunction()
       {
         AlarmUpperValue = 199;
       }
+      WriteAlarmValue2Flash();  //需要修改  不能写这么频繁
     }
     else if(Key_Set_Mode == LOWERSETMODE)
     {
@@ -120,6 +124,7 @@ void KeyFunction()
       {
         AlarmLowerValue = AlarmUpperValue - 20;
       }
+      WriteAlarmValue2Flash(); 
     }
     else if(Key_Set_Mode == CLOSE)
     {
@@ -141,6 +146,7 @@ void KeyFunction()
 #pragma vector = PORT1_VECTOR
 __interrupt void port1_ISR (void)
 {
+  Display_All_TimeOut = 0;
     if(P1IFG & TI_CC_GDO2_PIN)
     {
       DataRecFlag = 1;   //数据接收标志
@@ -184,5 +190,6 @@ __interrupt void port1_ISR (void)
     }
     
     P1IFG = 0;  
+    LPM3_EXIT;
       
 }

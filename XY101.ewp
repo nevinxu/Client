@@ -1982,6 +1982,9 @@
       <name>$PROJ_DIR$\Project\Driver\HAL_FLASH.c</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\Project\Driver\HAL_FLASH.h</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\Project\Driver\IDS2100.c</name>
     </file>
     <file>

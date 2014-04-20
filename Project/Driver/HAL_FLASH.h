@@ -103,4 +103,8 @@ extern void FlashWrite_32(uint32_t *Data_ptr, uint32_t *Flash_ptr, uint16_t coun
  ******************************************************************************/
 extern void FlashMemoryFill_32(uint32_t value, uint32_t *Flash_ptr, uint16_t count);
 
+
+
+extern void ReadAlarmValue4Flash();
+extern void WriteAlarmValue2Flash();
 #endif /* HAL_FLASH_H */

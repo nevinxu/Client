@@ -2709,6 +2709,7 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:16:9: macro definition=OFF <US>c:macro@OFF<UE> <DS>OFF<DE> Extent=<ES>16:9 - 16:18<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:18:9: macro definition=DisplayRateMode <US>c:macro@DisplayRateMode<UE> <DS>DisplayRateMode<DE> Extent=<ES>18:9 - 18:32<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:19:9: macro definition=DisplayClockMode <US>c:macro@DisplayClockMode<UE> <DS>DisplayClockMode<DE> Extent=<ES>19:9 - 19:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:20:9: macro definition=DisplaySleepMode <US>c:macro@DisplaySleepMode<UE> <DS>DisplaySleepMode<DE> Extent=<ES>20:9 - 20:33<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\include.h:10:1: inclusion directive=Battery.h <US><UE> <DS><DE> <IS>D:\Work\My_Project\Client\Client\Project\Driver\Battery.h<IE>  [multi-include guarded] Extent=<ES>10:1 - 10:21<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:2:9: macro definition=_BATTERY_ <US>c:macro@_BATTERY_<UE> <DS>_BATTERY_<DE> Extent=<ES>2:9 - 2:18<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:4:9: macro definition=BATTERYLEVEL3 <US>c:macro@BATTERYLEVEL3<UE> <DS>BATTERYLEVEL3<DE> Extent=<ES>4:9 - 4:29<EE>
@@ -2803,42 +2804,43 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:18:9: macro definition=IR_RE_IES <US>c:macro@IR_RE_IES<UE> <DS>IR_RE_IES<DE> Extent=<ES>18:9 - 18:27<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:21:9: macro definition=Open <US>c:macro@Open<UE> <DS>Open<DE> Extent=<ES>21:9 - 21:18<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:22:9: macro definition=Close <US>c:macro@Close<UE> <DS>Close<DE> Extent=<ES>22:9 - 22:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:34:3: macro expansion=IR_CTL_DIR|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:6:9 <US>c:macro@IR_CTL_DIR<UE> <DS>IR_CTL_DIR<DE> Extent=<ES>34:3 - 34:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:34:17: macro expansion=IR_CTL|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:5:9 <US>c:macro@IR_CTL<UE> <DS>IR_CTL<DE> Extent=<ES>34:17 - 34:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:35:3: macro expansion=IR_CTL_OUT|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:7:9 <US>c:macro@IR_CTL_OUT<UE> <DS>IR_CTL_OUT<DE> Extent=<ES>35:3 - 35:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:35:17: macro expansion=IR_CTL|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:5:9 <US>c:macro@IR_CTL<UE> <DS>IR_CTL<DE> Extent=<ES>35:17 - 35:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:37:3: macro expansion=IR_RE_DIR|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:12:9 <US>c:macro@IR_RE_DIR<UE> <DS>IR_RE_DIR<DE> Extent=<ES>37:3 - 37:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:37:17: macro expansion=IR_RE|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:11:9 <US>c:macro@IR_RE<UE> <DS>IR_RE<DE> Extent=<ES>37:17 - 37:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:43:6: macro expansion=IR_RE_IN|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:14:9 <US>c:macro@IR_RE_IN<UE> <DS>IR_RE_IN<DE> Extent=<ES>43:6 - 43:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:43:18: macro expansion=IR_RE|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:11:9 <US>c:macro@IR_RE<UE> <DS>IR_RE<DE> Extent=<ES>43:18 - 43:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:45:11: macro expansion=Open|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:21:9 <US>c:macro@Open<UE> <DS>Open<DE> Extent=<ES>45:11 - 45:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:48:11: macro expansion=Close|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:22:9 <US>c:macro@Close<UE> <DS>Close<DE> Extent=<ES>48:11 - 48:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:3: macro expansion=IR_RE_SEL|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:15:9 <US>c:macro@IR_RE_SEL<UE> <DS>IR_RE_SEL<DE> Extent=<ES>55:3 - 55:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:16: macro expansion=IR_RE|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:11:9 <US>c:macro@IR_RE<UE> <DS>IR_RE<DE> Extent=<ES>55:16 - 55:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:56:12: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1045:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>56:12 - 56:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:57:12: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1058:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>57:12 - 57:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:57:23: macro expansion=MC_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1051:9 <US>c:macro@MC_2<UE> <DS>MC_2<DE> Extent=<ES>57:23 - 57:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:57:30: macro expansion=TAIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1046:9 <US>c:macro@TAIE<UE> <DS>TAIE<DE> Extent=<ES>57:30 - 57:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:58:14: macro expansion=CM_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1091:9 <US>c:macro@CM_1<UE> <DS>CM_1<DE> Extent=<ES>58:14 - 58:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:58:19: macro expansion=CCIS_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1087:9 <US>c:macro@CCIS_1<UE> <DS>CCIS_1<DE> Extent=<ES>58:19 - 58:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:58:26: macro expansion=SCS|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1066:9 <US>c:macro@SCS<UE> <DS>SCS<DE> Extent=<ES>58:26 - 58:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:58:31: macro expansion=CAP|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1068:9 <US>c:macro@CAP<UE> <DS>CAP<DE> Extent=<ES>58:31 - 58:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:58:35: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1072:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>58:35 - 58:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:62:12: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1045:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>62:12 - 62:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:63:14: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1072:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>63:14 - 63:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:64:14: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1072:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>64:14 - 64:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:67:12: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1058:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>67:12 - 67:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:67:23: macro expansion=MC_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1051:9 <US>c:macro@MC_2<UE> <DS>MC_2<DE> Extent=<ES>67:23 - 67:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:67:29: macro expansion=TAIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1046:9 <US>c:macro@TAIE<UE> <DS>TAIE<DE> Extent=<ES>67:29 - 67:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:152:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>152:1 - 152:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:16: macro expansion=COV|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1075:9 <US>c:macro@COV<UE> <DS>COV<DE> Extent=<ES>158:16 - 158:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:191:23: macro expansion=DisplayRateMode|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:18:9 <US>c:macro@DisplayRateMode<UE> <DS>DisplayRateMode<DE> Extent=<ES>191:23 - 191:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:202:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>202:1 - 202:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:208:16: macro expansion=COV|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1075:9 <US>c:macro@COV<UE> <DS>COV<DE> Extent=<ES>208:16 - 208:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:271:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>271:1 - 271:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:307:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>307:1 - 307:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:325:28: macro expansion=CLOSE|D:\Work\My_Project\Client\Client\Project\Driver\key.h:15:9 <US>c:macro@CLOSE<UE> <DS>CLOSE<DE> Extent=<ES>325:28 - 325:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:345:18: macro expansion=BLUELED|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:5:9 <US>c:macro@BLUELED<UE> <DS>BLUELED<DE> Extent=<ES>345:18 - 345:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:36:3: macro expansion=IR_CTL_DIR|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:6:9 <US>c:macro@IR_CTL_DIR<UE> <DS>IR_CTL_DIR<DE> Extent=<ES>36:3 - 36:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:36:17: macro expansion=IR_CTL|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:5:9 <US>c:macro@IR_CTL<UE> <DS>IR_CTL<DE> Extent=<ES>36:17 - 36:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:37:3: macro expansion=IR_CTL_OUT|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:7:9 <US>c:macro@IR_CTL_OUT<UE> <DS>IR_CTL_OUT<DE> Extent=<ES>37:3 - 37:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:37:17: macro expansion=IR_CTL|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:5:9 <US>c:macro@IR_CTL<UE> <DS>IR_CTL<DE> Extent=<ES>37:17 - 37:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:39:3: macro expansion=IR_RE_DIR|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:12:9 <US>c:macro@IR_RE_DIR<UE> <DS>IR_RE_DIR<DE> Extent=<ES>39:3 - 39:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:39:17: macro expansion=IR_RE|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:11:9 <US>c:macro@IR_RE<UE> <DS>IR_RE<DE> Extent=<ES>39:17 - 39:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:45:6: macro expansion=IR_RE_IN|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:14:9 <US>c:macro@IR_RE_IN<UE> <DS>IR_RE_IN<DE> Extent=<ES>45:6 - 45:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:45:18: macro expansion=IR_RE|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:11:9 <US>c:macro@IR_RE<UE> <DS>IR_RE<DE> Extent=<ES>45:18 - 45:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:47:11: macro expansion=Open|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:21:9 <US>c:macro@Open<UE> <DS>Open<DE> Extent=<ES>47:11 - 47:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:50:11: macro expansion=Close|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:22:9 <US>c:macro@Close<UE> <DS>Close<DE> Extent=<ES>50:11 - 50:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:57:3: macro expansion=IR_RE_SEL|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:15:9 <US>c:macro@IR_RE_SEL<UE> <DS>IR_RE_SEL<DE> Extent=<ES>57:3 - 57:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:57:16: macro expansion=IR_RE|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:11:9 <US>c:macro@IR_RE<UE> <DS>IR_RE<DE> Extent=<ES>57:16 - 57:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:58:12: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1045:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>58:12 - 58:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:59:12: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1058:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>59:12 - 59:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:59:23: macro expansion=MC_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1051:9 <US>c:macro@MC_2<UE> <DS>MC_2<DE> Extent=<ES>59:23 - 59:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:59:30: macro expansion=TAIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1046:9 <US>c:macro@TAIE<UE> <DS>TAIE<DE> Extent=<ES>59:30 - 59:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:60:14: macro expansion=CM_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1091:9 <US>c:macro@CM_1<UE> <DS>CM_1<DE> Extent=<ES>60:14 - 60:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:60:19: macro expansion=CCIS_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1087:9 <US>c:macro@CCIS_1<UE> <DS>CCIS_1<DE> Extent=<ES>60:19 - 60:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:60:26: macro expansion=SCS|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1066:9 <US>c:macro@SCS<UE> <DS>SCS<DE> Extent=<ES>60:26 - 60:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:60:31: macro expansion=CAP|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1068:9 <US>c:macro@CAP<UE> <DS>CAP<DE> Extent=<ES>60:31 - 60:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:60:35: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1072:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>60:35 - 60:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:64:12: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1045:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>64:12 - 64:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:65:14: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1072:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>65:14 - 65:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:66:14: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1072:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>66:14 - 66:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:69:12: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1058:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>69:12 - 69:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:69:23: macro expansion=MC_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1051:9 <US>c:macro@MC_2<UE> <DS>MC_2<DE> Extent=<ES>69:23 - 69:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:69:29: macro expansion=TAIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1046:9 <US>c:macro@TAIE<UE> <DS>TAIE<DE> Extent=<ES>69:29 - 69:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>154:1 - 154:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:160:16: macro expansion=COV|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1075:9 <US>c:macro@COV<UE> <DS>COV<DE> Extent=<ES>160:16 - 160:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:194:23: macro expansion=DisplayRateMode|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:18:9 <US>c:macro@DisplayRateMode<UE> <DS>DisplayRateMode<DE> Extent=<ES>194:23 - 194:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: macro expansion=LPM3_EXIT|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:118:9 <US>c:macro@LPM3_EXIT<UE> <DS>LPM3_EXIT<DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>206:1 - 206:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:212:16: macro expansion=COV|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1075:9 <US>c:macro@COV<UE> <DS>COV<DE> Extent=<ES>212:16 - 212:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:275:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>275:1 - 275:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:311:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>311:1 - 311:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:329:28: macro expansion=CLOSE|D:\Work\My_Project\Client\Client\Project\Driver\key.h:15:9 <US>c:macro@CLOSE<UE> <DS>CLOSE<DE> Extent=<ES>329:28 - 329:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:349:18: macro expansion=BLUELED|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:5:9 <US>c:macro@BLUELED<UE> <DS>BLUELED<DE> Extent=<ES>349:18 - 349:25<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -4150,31 +4152,34 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:104:48: TypeRef=uint32_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned long<DE> Extent=<ES>104:48 - 104:56<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:104:78: ParmDecl=count|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:104:78 (Definition) <US>c:HAL_FLASH.h@4994@F@FlashMemoryFill_32@count<UE> <DS>uint16_t<DE> Extent=<ES>104:69 - 104:83<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:104:69: TypeRef=uint16_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib\c\stdint.h:22:29 (Reference) <US>c:stdint.h@473@T@uint16_t<UE> <DS>unsigned int<DE> Extent=<ES>104:69 - 104:77<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:21:14: FunctionDecl=IRSensorInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:70:7 (Declaration) <US>c:@F@IRSensorInit<UE> <DS>void IRSensorInit(void)<DE> Extent=<ES>21:1 - 21:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:22:13: FunctionDecl=LEDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:22:13 (Declaration) <US>c:@F@LEDInit<UE> <DS>void LEDInit(void)<DE> Extent=<ES>22:1 - 22:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14: FunctionDecl=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14 (Declaration) <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>23:1 - 23:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:34: ParmDecl=num|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:34 (Definition) <US>c:Display.h@492@F@LEDOn@num<UE> <DS>unsigned char<DE> Extent=<ES>23:20 - 23:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:14: FunctionDecl=LEDOff|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:14 (Declaration) <US>c:@F@LEDOff<UE> <DS>void LEDOff(unsigned char)<DE> Extent=<ES>24:1 - 24:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:35: ParmDecl=num|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:35 (Definition) <US>c:Display.h@533@F@LEDOff@num<UE> <DS>unsigned char<DE> Extent=<ES>24:21 - 24:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:13: FunctionDecl=LCDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:13 (Declaration) <US>c:@F@LCDInit<UE> <DS>void LCDInit(void)<DE> Extent=<ES>26:1 - 26:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:27:13: FunctionDecl=DisplayLine|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:27:13 (Declaration) <US>c:@F@DisplayLine<UE> <DS>void DisplayLine(unsigned char)<DE> Extent=<ES>27:1 - 27:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:27:39: ParmDecl=status|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:27:39 (Definition) <US>c:Display.h@608@F@DisplayLine@status<UE> <DS>unsigned char<DE> Extent=<ES>27:25 - 27:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13: FunctionDecl=DisplayTotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13 (Declaration) <US>c:@F@DisplayTotalDrop<UE> <DS>void DisplayTotalDrop(void)<DE> Extent=<ES>28:1 - 28:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:13: FunctionDecl=DisplayRate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:13 (Declaration) <US>c:@F@DisplayRate<UE> <DS>void DisplayRate(unsigned int)<DE> Extent=<ES>29:1 - 29:43<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:38: ParmDecl=rate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:38 (Definition) <US>c:Display.h@693@F@DisplayRate@rate<UE> <DS>unsigned int<DE> Extent=<ES>29:25 - 29:42<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:13: FunctionDecl=DisplayBattery|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:13 (Declaration) <US>c:@F@DisplayBattery<UE> <DS>void DisplayBattery(unsigned int)<DE> Extent=<ES>30:1 - 30:47<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:41: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:41 (Definition) <US>c:Display.h@741@F@DisplayBattery@level<UE> <DS>unsigned int<DE> Extent=<ES>30:28 - 30:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:13: FunctionDecl=DisplayMoon|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:13 (Declaration) <US>c:@F@DisplayMoon<UE> <DS>void DisplayMoon(unsigned char)<DE> Extent=<ES>31:1 - 31:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:39: ParmDecl=status|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:39 (Definition) <US>c:Display.h@787@F@DisplayMoon@status<UE> <DS>unsigned char<DE> Extent=<ES>31:25 - 31:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:13: FunctionDecl=DisplaySun|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:13 (Declaration) <US>c:@F@DisplaySun<UE> <DS>void DisplaySun(unsigned char)<DE> Extent=<ES>32:1 - 32:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:38: ParmDecl=status|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:38 (Definition) <US>c:Display.h@834@F@DisplaySun@status<UE> <DS>unsigned char<DE> Extent=<ES>32:24 - 32:44<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:13: FunctionDecl=DisplayUpAlarm|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:13 (Declaration) <US>c:@F@DisplayUpAlarm<UE> <DS>void DisplayUpAlarm(unsigned int)<DE> Extent=<ES>33:1 - 33:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:41: ParmDecl=alarmvalue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:41 (Definition) <US>c:Display.h@885@F@DisplayUpAlarm@alarmvalue<UE> <DS>unsigned int<DE> Extent=<ES>33:28 - 33:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:13: FunctionDecl=DisplayDownAlarm|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:13 (Declaration) <US>c:@F@DisplayDownAlarm<UE> <DS>void DisplayDownAlarm(unsigned int)<DE> Extent=<ES>34:1 - 34:54<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:43: ParmDecl=alarmvalue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:43 (Definition) <US>c:Display.h@941@F@DisplayDownAlarm@alarmvalue<UE> <DS>unsigned int<DE> Extent=<ES>34:30 - 34:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:13: FunctionDecl=DisplayVoice|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:13 (Declaration) <US>c:@F@DisplayVoice<UE> <DS>void DisplayVoice(unsigned char)<DE> Extent=<ES>35:1 - 35:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:40: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:40 (Definition) <US>c:Display.h@993@F@DisplayVoice@level<UE> <DS>unsigned char<DE> Extent=<ES>35:26 - 35:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:13: FunctionDecl=RefreshAlarmValue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:13 (Declaration) <US>c:@F@RefreshAlarmValue<UE> <DS>void RefreshAlarmValue(void)<DE> Extent=<ES>36:1 - 36:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:108:13: FunctionDecl=ReadAlarmValue4Flash|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:108:13 (Declaration) <US>c:@F@ReadAlarmValue4Flash<UE> <DS>void ReadAlarmValue4Flash(void)<DE> Extent=<ES>108:1 - 108:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:109:13: FunctionDecl=WriteAlarmValue2Flash|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:109:13 (Declaration) <US>c:@F@WriteAlarmValue2Flash<UE> <DS>void WriteAlarmValue2Flash(void)<DE> Extent=<ES>109:1 - 109:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14: FunctionDecl=IRSensorInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:72:7 (Declaration) <US>c:@F@IRSensorInit<UE> <DS>void IRSensorInit(void)<DE> Extent=<ES>23:1 - 23:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:13: FunctionDecl=LEDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:13 (Declaration) <US>c:@F@LEDInit<UE> <DS>void LEDInit(void)<DE> Extent=<ES>24:1 - 24:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:14: FunctionDecl=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:14 (Declaration) <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>25:1 - 25:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:34: ParmDecl=num|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:34 (Definition) <US>c:Display.h@528@F@LEDOn@num<UE> <DS>unsigned char<DE> Extent=<ES>25:20 - 25:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:14: FunctionDecl=LEDOff|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:14 (Declaration) <US>c:@F@LEDOff<UE> <DS>void LEDOff(unsigned char)<DE> Extent=<ES>26:1 - 26:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:35: ParmDecl=num|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:35 (Definition) <US>c:Display.h@569@F@LEDOff@num<UE> <DS>unsigned char<DE> Extent=<ES>26:21 - 26:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13: FunctionDecl=LCDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13 (Declaration) <US>c:@F@LCDInit<UE> <DS>void LCDInit(void)<DE> Extent=<ES>28:1 - 28:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:14: FunctionDecl=DisplayNone|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:14 (Declaration) <US>c:@F@DisplayNone<UE> <DS>void DisplayNone(void)<DE> Extent=<ES>29:1 - 29:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:13: FunctionDecl=DisplayLine|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:13 (Declaration) <US>c:@F@DisplayLine<UE> <DS>void DisplayLine(unsigned char)<DE> Extent=<ES>30:1 - 30:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:39: ParmDecl=status|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:39 (Definition) <US>c:Display.h@673@F@DisplayLine@status<UE> <DS>unsigned char<DE> Extent=<ES>30:25 - 30:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:13: FunctionDecl=DisplayTotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:13 (Declaration) <US>c:@F@DisplayTotalDrop<UE> <DS>void DisplayTotalDrop(void)<DE> Extent=<ES>31:1 - 31:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:13: FunctionDecl=DisplayRate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:13 (Declaration) <US>c:@F@DisplayRate<UE> <DS>void DisplayRate(unsigned int)<DE> Extent=<ES>32:1 - 32:43<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:38: ParmDecl=rate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:38 (Definition) <US>c:Display.h@758@F@DisplayRate@rate<UE> <DS>unsigned int<DE> Extent=<ES>32:25 - 32:42<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:13: FunctionDecl=DisplayBattery|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:13 (Declaration) <US>c:@F@DisplayBattery<UE> <DS>void DisplayBattery(unsigned int)<DE> Extent=<ES>33:1 - 33:47<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:41: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:41 (Definition) <US>c:Display.h@806@F@DisplayBattery@level<UE> <DS>unsigned int<DE> Extent=<ES>33:28 - 33:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:13: FunctionDecl=DisplayMoon|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:13 (Declaration) <US>c:@F@DisplayMoon<UE> <DS>void DisplayMoon(unsigned char)<DE> Extent=<ES>34:1 - 34:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:39: ParmDecl=status|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:39 (Definition) <US>c:Display.h@852@F@DisplayMoon@status<UE> <DS>unsigned char<DE> Extent=<ES>34:25 - 34:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:13: FunctionDecl=DisplaySun|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:13 (Declaration) <US>c:@F@DisplaySun<UE> <DS>void DisplaySun(unsigned char)<DE> Extent=<ES>35:1 - 35:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:38: ParmDecl=status|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:38 (Definition) <US>c:Display.h@899@F@DisplaySun@status<UE> <DS>unsigned char<DE> Extent=<ES>35:24 - 35:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:13: FunctionDecl=DisplayUpAlarm|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:13 (Declaration) <US>c:@F@DisplayUpAlarm<UE> <DS>void DisplayUpAlarm(unsigned int)<DE> Extent=<ES>36:1 - 36:52<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:41: ParmDecl=alarmvalue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:41 (Definition) <US>c:Display.h@950@F@DisplayUpAlarm@alarmvalue<UE> <DS>unsigned int<DE> Extent=<ES>36:28 - 36:51<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:37:13: FunctionDecl=DisplayDownAlarm|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:37:13 (Declaration) <US>c:@F@DisplayDownAlarm<UE> <DS>void DisplayDownAlarm(unsigned int)<DE> Extent=<ES>37:1 - 37:54<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:37:43: ParmDecl=alarmvalue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:37:43 (Definition) <US>c:Display.h@1006@F@DisplayDownAlarm@alarmvalue<UE> <DS>unsigned int<DE> Extent=<ES>37:30 - 37:53<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:38:13: FunctionDecl=DisplayVoice|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:38:13 (Declaration) <US>c:@F@DisplayVoice<UE> <DS>void DisplayVoice(unsigned char)<DE> Extent=<ES>38:1 - 38:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:38:40: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:38:40 (Definition) <US>c:Display.h@1058@F@DisplayVoice@level<UE> <DS>unsigned char<DE> Extent=<ES>38:26 - 38:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:39:13: FunctionDecl=RefreshAlarmValue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:39:13 (Declaration) <US>c:@F@RefreshAlarmValue<UE> <DS>void RefreshAlarmValue(void)<DE> Extent=<ES>39:1 - 39:32<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23: FunctionDecl=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 (Declaration) <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>9:1 - 9:43<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14: FunctionDecl=KeyInit|D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14 (Declaration) <US>c:@F@KeyInit<UE> <DS>void KeyInit(void)<DE> Extent=<ES>20:1 - 20:23<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14: FunctionDecl=KeyFunction|D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14 (Declaration) <US>c:@F@KeyFunction<UE> <DS>void KeyFunction(void)<DE> Extent=<ES>21:1 - 21:27<EE>
@@ -4192,11 +4197,11 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:39:13: FunctionDecl=Play_TooSlow|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:39:13 (Declaration) <US>c:@F@Play_TooSlow<UE> <DS>void Play_TooSlow(void)<DE> Extent=<ES>39:1 - 39:27<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:40:13: FunctionDecl=VoiceUp|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:40:13 (Declaration) <US>c:@F@VoiceUp<UE> <DS>void VoiceUp(void)<DE> Extent=<ES>40:1 - 40:22<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:41:13: FunctionDecl=VoiceDown|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:41:13 (Declaration) <US>c:@F@VoiceDown<UE> <DS>void VoiceDown(void)<DE> Extent=<ES>41:1 - 41:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:25:13: FunctionDecl=IRSensorPortInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:32:6 (Declaration) <US>c:@F@IRSensorPortInit<UE> <DS>void IRSensorPortInit(void)<DE> Extent=<ES>25:1 - 25:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:26:22: FunctionDecl=IRReceiveStatus|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:40:15 (Declaration) <US>c:@F@IRReceiveStatus<UE> <DS>unsigned char IRReceiveStatus(void)<DE> Extent=<ES>26:1 - 26:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:27:13: FunctionDecl=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:53:6 (Declaration) <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>27:1 - 27:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:28:21: FunctionDecl=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:77:14 (Declaration) <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>28:1 - 28:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:29:13: FunctionDecl=TA0Init|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:60:6 (Declaration) <US>c:@F@TA0Init<UE> <DS>void TA0Init(void)<DE> Extent=<ES>29:1 - 29:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:25:13: FunctionDecl=IRSensorPortInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:34:6 (Declaration) <US>c:@F@IRSensorPortInit<UE> <DS>void IRSensorPortInit(void)<DE> Extent=<ES>25:1 - 25:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:26:22: FunctionDecl=IRReceiveStatus|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:42:15 (Declaration) <US>c:@F@IRReceiveStatus<UE> <DS>unsigned char IRReceiveStatus(void)<DE> Extent=<ES>26:1 - 26:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:27:13: FunctionDecl=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:6 (Declaration) <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>27:1 - 27:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:28:21: FunctionDecl=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:14 (Declaration) <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>28:1 - 28:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:29:13: FunctionDecl=TA0Init|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:62:6 (Declaration) <US>c:@F@TA0Init<UE> <DS>void TA0Init(void)<DE> Extent=<ES>29:1 - 29:22<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:5:21: VarDecl=TimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:5:21 (Declaration) <US>c:@TimerValue<UE> <DS>TimerValue<DE> Extent=<ES>5:1 - 5:31<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21: VarDecl=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 (Declaration) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>6:1 - 6:36<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:7:21: VarDecl=time_num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:7:21 (Declaration) <US>c:@time_num<UE> <DS>time_num<DE> Extent=<ES>7:1 - 7:29<EE>
@@ -4214,606 +4219,624 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:20:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>20:32 - 20:33<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:20:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>20:32 - 20:33<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:21:15: VarDecl=Display_Blink_TimeOut|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:21:15 (Declaration) <US>c:@Display_Blink_TimeOut<UE> <DS>Display_Blink_TimeOut<DE> Extent=<ES>21:1 - 21:36<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:24:22: VarDecl=DataRecFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:24:22 (Declaration) <US>c:@DataRecFlag<UE> <DS>DataRecFlag<DE> Extent=<ES>24:1 - 24:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:25:15: VarDecl=Rf_Interval_Num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:25:15 (Definition) <US>c:@Rf_Interval_Num<UE> <DS>Rf_Interval_Num<DE> Extent=<ES>25:1 - 25:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:25:33: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>25:33 - 25:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:25:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>25:33 - 25:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:26:15: VarDecl=Rf_Interval_Flag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:26:15 (Definition) <US>c:@Rf_Interval_Flag<UE> <DS>Rf_Interval_Flag<DE> Extent=<ES>26:1 - 26:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:26:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>26:34 - 26:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:26:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>26:34 - 26:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:28:22: VarDecl=AlarmUpperValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:28:22 (Declaration) <US>c:@AlarmUpperValue<UE> <DS>AlarmUpperValue<DE> Extent=<ES>28:1 - 28:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:29:22: VarDecl=AlarmLowerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:29:22 (Declaration) <US>c:@AlarmLowerValue<UE> <DS>AlarmLowerValue<DE> Extent=<ES>29:1 - 29:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:32:6: FunctionDecl=IRSensorPortInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:32:6 (Definition) <US>c:@F@IRSensorPortInit<UE> <DS>void IRSensorPortInit(void)<DE> Extent=<ES>32:1 - 38:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:33:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>33:1 - 38:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:40:15: FunctionDecl=IRReceiveStatus|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:40:15 (Definition) <US>c:@F@IRReceiveStatus<UE> <DS>unsigned char IRReceiveStatus(void)<DE> Extent=<ES>40:1 - 51:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:41:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>41:1 - 51:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:42:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>42:3 - 42:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:42:17: VarDecl=ret|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:42:17 (Definition) <US>c:IRsensor.c@1123@F@IRReceiveStatus@ret<UE> <DS>ret<DE> Extent=<ES>42:3 - 42:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:50:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>50:3 - 50:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:50:10: UnexposedExpr=ret|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:42:17 <US>c:IRsensor.c@1123@F@IRReceiveStatus@ret<UE> <DS>ret<DE> Extent=<ES>50:10 - 50:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:50:10: DeclRefExpr=ret|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:42:17 (Reference) <US>c:IRsensor.c@1123@F@IRReceiveStatus@ret<UE> <DS>ret<DE> Extent=<ES>50:10 - 50:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:53:6: FunctionDecl=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:53:6 (Definition) <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>53:1 - 59:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:54:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>54:1 - 59:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:60:6: FunctionDecl=TA0Init|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:60:6 (Definition) <US>c:@F@TA0Init<UE> <DS>void TA0Init(void)<DE> Extent=<ES>60:1 - 68:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:61:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>61:1 - 68:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:70:7: FunctionDecl=IRSensorInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:70:7 (Definition) <US>c:@F@IRSensorInit<UE> <DS>void IRSensorInit(void)<DE> Extent=<ES>70:1 - 74:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:71:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>71:1 - 74:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:72:3: CallExpr=IRSensorPortInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:32:6 <US>c:@F@IRSensorPortInit<UE> <DS>void IRSensorPortInit(void)<DE> Extent=<ES>72:3 - 72:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:72:3: UnexposedExpr=IRSensorPortInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:32:6 <US>c:@F@IRSensorPortInit<UE> <DS>void IRSensorPortInit(void)<DE> Extent=<ES>72:3 - 72:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:72:3: DeclRefExpr=IRSensorPortInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:32:6 (Reference) <US>c:@F@IRSensorPortInit<UE> <DS>void IRSensorPortInit(void)<DE> Extent=<ES>72:3 - 72:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:73:3: CallExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:53:6 <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>73:3 - 73:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:73:3: UnexposedExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:53:6 <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>73:3 - 73:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:73:3: DeclRefExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:53:6 (Reference) <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>73:3 - 73:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:77:14: FunctionDecl=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:77:14 (Definition) <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>77:1 - 149:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:78:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>78:1 - 149:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>79:3 - 79:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23: VarDecl=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 (Definition) <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>79:3 - 79:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:30 - 79:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>80:3 - 80:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:16: VarDecl=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:16 (Definition) <US>c:IRsensor.c@1953@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>80:3 - 80:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>80:26 - 80:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>80:26 - 80:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>81:3 - 81:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17: VarDecl=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 (Definition) <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>81:3 - 81:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>82:3 - 82:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10: VarDecl=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 (Definition) <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>82:3 - 82:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>82:17 - 82:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>82:17 - 82:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>83:3 - 87:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:6: UnexposedExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>83:6 - 83:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:6: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>83:6 - 83:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>84:3 - 87:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:85:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>85:5 - 85:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:85:5: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 (Reference) <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>85:5 - 85:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:85:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>85:12 - 85:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:85:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>85:12 - 85:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:85:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>85:12 - 85:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:85:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:12 - 85:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:85:18: UnexposedExpr=time_num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:7:21 <US>c:@time_num<UE> <DS>time_num<DE> Extent=<ES>85:18 - 85:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:85:18: DeclRefExpr=time_num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:7:21 (Reference) <US>c:@time_num<UE> <DS>time_num<DE> Extent=<ES>85:18 - 85:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:86:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>86:5 - 86:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:86:5: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 (Reference) <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>86:5 - 86:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:86:13: UnexposedExpr=TimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:5:21 <US>c:@TimerValue<UE> <DS>TimerValue<DE> Extent=<ES>86:13 - 86:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:86:13: UnexposedExpr=TimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:5:21 <US>c:@TimerValue<UE> <DS>TimerValue<DE> Extent=<ES>86:13 - 86:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:86:13: DeclRefExpr=TimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:5:21 (Reference) <US>c:@TimerValue<UE> <DS>TimerValue<DE> Extent=<ES>86:13 - 86:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:88:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>88:3 - 95:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:88:6: UnexposedExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>88:6 - 88:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:88:6: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 (Reference) <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>88:6 - 88:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:89:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>89:3 - 91:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:90:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>90:7 - 90:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:90:7: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 (Reference) <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>90:7 - 90:11<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:90:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>90:14 - 90:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:90:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>90:14 - 90:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:90:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>90:14 - 90:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:90:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>90:14 - 90:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:90:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>90:17 - 90:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:90:25: UnexposedExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>90:25 - 90:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:90:25: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 (Reference) <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>90:25 - 90:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:93:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>93:3 - 95:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:94:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>94:5 - 94:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:94:5: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 (Reference) <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>94:5 - 94:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:94:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>94:11 - 94:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:94:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>94:11 - 94:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:96:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>96:3 - 96:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:96:3: DeclRefExpr=time_num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:7:21 (Reference) <US>c:@time_num<UE> <DS>time_num<DE> Extent=<ES>96:3 - 96:11<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:96:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>96:14 - 96:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:96:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>96:14 - 96:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:97:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>97:3 - 97:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:97:3: DeclRefExpr=TimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:5:21 (Reference) <US>c:@TimerValue<UE> <DS>TimerValue<DE> Extent=<ES>97:3 - 97:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:97:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>97:16 - 97:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:97:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>97:16 - 97:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>98:3 - 120:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>98:6 - 98:41<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:6: ParenExpr= <US><UE> <DS><DE> Extent=<ES>98:6 - 98:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>98:7 - 98:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>98:7 - 98:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>98:7 - 98:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:7: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>98:7 - 98:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:7: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 (Reference) <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>98:7 - 98:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:23:15: VarDecl=Display_All_TimeOut|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:23:15 (Declaration) <US>c:@Display_All_TimeOut<UE> <DS>Display_All_TimeOut<DE> Extent=<ES>23:1 - 23:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:26:22: VarDecl=DataRecFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:26:22 (Declaration) <US>c:@DataRecFlag<UE> <DS>DataRecFlag<DE> Extent=<ES>26:1 - 26:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:27:15: VarDecl=Rf_Interval_Num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:27:15 (Definition) <US>c:@Rf_Interval_Num<UE> <DS>Rf_Interval_Num<DE> Extent=<ES>27:1 - 27:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:27:33: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>27:33 - 27:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:27:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>27:33 - 27:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:28:15: VarDecl=Rf_Interval_Flag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:28:15 (Definition) <US>c:@Rf_Interval_Flag<UE> <DS>Rf_Interval_Flag<DE> Extent=<ES>28:1 - 28:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:28:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>28:34 - 28:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:28:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:34 - 28:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:30:22: VarDecl=AlarmUpperValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:30:22 (Declaration) <US>c:@AlarmUpperValue<UE> <DS>AlarmUpperValue<DE> Extent=<ES>30:1 - 30:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:31:22: VarDecl=AlarmLowerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:31:22 (Declaration) <US>c:@AlarmLowerValue<UE> <DS>AlarmLowerValue<DE> Extent=<ES>31:1 - 31:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:34:6: FunctionDecl=IRSensorPortInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:34:6 (Definition) <US>c:@F@IRSensorPortInit<UE> <DS>void IRSensorPortInit(void)<DE> Extent=<ES>34:1 - 40:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:35:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>35:1 - 40:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:42:15: FunctionDecl=IRReceiveStatus|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:42:15 (Definition) <US>c:@F@IRReceiveStatus<UE> <DS>unsigned char IRReceiveStatus(void)<DE> Extent=<ES>42:1 - 53:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:43:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>43:1 - 53:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:44:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>44:3 - 44:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:44:17: VarDecl=ret|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:44:17 (Definition) <US>c:IRsensor.c@1173@F@IRReceiveStatus@ret<UE> <DS>ret<DE> Extent=<ES>44:3 - 44:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:52:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>52:3 - 52:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:52:10: UnexposedExpr=ret|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:44:17 <US>c:IRsensor.c@1173@F@IRReceiveStatus@ret<UE> <DS>ret<DE> Extent=<ES>52:10 - 52:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:52:10: DeclRefExpr=ret|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:44:17 (Reference) <US>c:IRsensor.c@1173@F@IRReceiveStatus@ret<UE> <DS>ret<DE> Extent=<ES>52:10 - 52:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:6: FunctionDecl=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:6 (Definition) <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>55:1 - 61:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:56:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>56:1 - 61:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:62:6: FunctionDecl=TA0Init|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:62:6 (Definition) <US>c:@F@TA0Init<UE> <DS>void TA0Init(void)<DE> Extent=<ES>62:1 - 70:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:63:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>63:1 - 70:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:72:7: FunctionDecl=IRSensorInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:72:7 (Definition) <US>c:@F@IRSensorInit<UE> <DS>void IRSensorInit(void)<DE> Extent=<ES>72:1 - 76:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:73:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>73:1 - 76:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:74:3: CallExpr=IRSensorPortInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:34:6 <US>c:@F@IRSensorPortInit<UE> <DS>void IRSensorPortInit(void)<DE> Extent=<ES>74:3 - 74:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:74:3: UnexposedExpr=IRSensorPortInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:34:6 <US>c:@F@IRSensorPortInit<UE> <DS>void IRSensorPortInit(void)<DE> Extent=<ES>74:3 - 74:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:74:3: DeclRefExpr=IRSensorPortInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:34:6 (Reference) <US>c:@F@IRSensorPortInit<UE> <DS>void IRSensorPortInit(void)<DE> Extent=<ES>74:3 - 74:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:75:3: CallExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:6 <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>75:3 - 75:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:75:3: UnexposedExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:6 <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>75:3 - 75:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:75:3: DeclRefExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:6 (Reference) <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>75:3 - 75:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:14: FunctionDecl=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:14 (Definition) <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>79:1 - 151:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>80:1 - 151:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>81:3 - 81:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23: VarDecl=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 (Definition) <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>81:3 - 81:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>81:30 - 81:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>82:3 - 82:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:16: VarDecl=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:16 (Definition) <US>c:IRsensor.c@2003@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>82:3 - 82:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>82:26 - 82:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>82:26 - 82:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>83:3 - 83:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17: VarDecl=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 (Definition) <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>83:3 - 83:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>84:3 - 84:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10: VarDecl=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 (Definition) <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>84:3 - 84:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>84:17 - 84:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>84:17 - 84:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:85:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>85:3 - 89:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:85:6: UnexposedExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>85:6 - 85:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:85:6: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>85:6 - 85:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:86:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>86:3 - 89:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:87:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>87:5 - 87:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:87:5: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 (Reference) <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>87:5 - 87:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:87:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>87:12 - 87:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:87:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>87:12 - 87:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:87:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>87:12 - 87:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:87:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>87:12 - 87:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:87:18: UnexposedExpr=time_num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:7:21 <US>c:@time_num<UE> <DS>time_num<DE> Extent=<ES>87:18 - 87:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:87:18: DeclRefExpr=time_num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:7:21 (Reference) <US>c:@time_num<UE> <DS>time_num<DE> Extent=<ES>87:18 - 87:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:88:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>88:5 - 88:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:88:5: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 (Reference) <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>88:5 - 88:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:88:13: UnexposedExpr=TimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:5:21 <US>c:@TimerValue<UE> <DS>TimerValue<DE> Extent=<ES>88:13 - 88:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:88:13: UnexposedExpr=TimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:5:21 <US>c:@TimerValue<UE> <DS>TimerValue<DE> Extent=<ES>88:13 - 88:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:88:13: DeclRefExpr=TimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:5:21 (Reference) <US>c:@TimerValue<UE> <DS>TimerValue<DE> Extent=<ES>88:13 - 88:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:90:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>90:3 - 97:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:90:6: UnexposedExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>90:6 - 90:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:90:6: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 (Reference) <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>90:6 - 90:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:91:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>91:3 - 93:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:92:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>92:7 - 92:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:92:7: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 (Reference) <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>92:7 - 92:11<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:92:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>92:14 - 92:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:92:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>92:14 - 92:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:92:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>92:14 - 92:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:92:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>92:14 - 92:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:92:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>92:17 - 92:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:92:25: UnexposedExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>92:25 - 92:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:92:25: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 (Reference) <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>92:25 - 92:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:95:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>95:3 - 97:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:96:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>96:5 - 96:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:96:5: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 (Reference) <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>96:5 - 96:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:96:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>96:11 - 96:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:96:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>96:11 - 96:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>98:3 - 98:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:3: DeclRefExpr=time_num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:7:21 (Reference) <US>c:@time_num<UE> <DS>time_num<DE> Extent=<ES>98:3 - 98:11<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>98:14 - 98:15<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>98:14 - 98:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>98:20 - 98:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>98:20 - 98:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:25: ParenExpr= <US><UE> <DS><DE> Extent=<ES>98:25 - 98:41<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:26: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>98:26 - 98:40<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>98:26 - 98:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:26: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>98:26 - 98:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:26: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>98:26 - 98:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:26: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 (Reference) <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>98:26 - 98:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>98:33 - 98:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>98:39 - 98:40<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:98:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>98:39 - 98:40<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:99:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>99:3 - 112:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>100:5 - 103:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>100:9 - 100:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:9: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 (Reference) <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>100:9 - 100:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>100:11 - 100:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:11 - 100:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>100:13 - 100:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:13: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>100:13 - 100:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:13: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>100:13 - 100:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:13: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 (Reference) <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>100:13 - 100:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:15 - 100:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:17: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>100:17 - 100:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:17: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 (Reference) <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>100:17 - 100:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:101:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>101:5 - 103:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>102:7 - 102:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>102:7 - 102:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:7: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>102:7 - 102:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:7: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 (Reference) <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>102:7 - 102:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:14: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>102:14 - 102:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:14: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 (Reference) <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>102:14 - 102:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:19: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>102:19 - 102:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:33: UnexposedExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>102:33 - 102:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:33: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 (Reference) <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>102:33 - 102:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>104:5 - 111:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>104:8 - 104:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:8: UnexposedExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>104:8 - 104:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:8: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 (Reference) <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>104:8 - 104:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>104:16 - 104:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>104:16 - 104:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:105:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>105:5 - 111:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:106:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>106:7 - 110:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:106:10: UnexposedExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>106:10 - 106:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:106:10: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>106:10 - 106:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:107:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>107:7 - 110:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:108:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>108:9 - 108:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:108:9: DeclRefExpr=TotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:18:21 (Reference) <US>c:@TotalDrop<UE> <DS>TotalDrop<DE> Extent=<ES>108:9 - 108:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:108:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>108:21 - 108:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:108:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>108:21 - 108:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:109:9: CallExpr=Play_Drop_Start|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:36:13 <US>c:@F@Play_Drop_Start<UE> <DS>void Play_Drop_Start(void)<DE> Extent=<ES>109:9 - 109:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:109:9: UnexposedExpr=Play_Drop_Start|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:36:13 <US>c:@F@Play_Drop_Start<UE> <DS>void Play_Drop_Start(void)<DE> Extent=<ES>109:9 - 109:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:109:9: DeclRefExpr=Play_Drop_Start|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:36:13 (Reference) <US>c:@F@Play_Drop_Start<UE> <DS>void Play_Drop_Start(void)<DE> Extent=<ES>109:9 - 109:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:114:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>114:3 - 120:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:115:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>115:5 - 118:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:115:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>115:9 - 115:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:115:9: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 (Reference) <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>115:9 - 115:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:115:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>115:11 - 115:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:115:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>115:11 - 115:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:115:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>115:13 - 115:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:115:13: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>115:13 - 115:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:115:13: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>115:13 - 115:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:115:13: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 (Reference) <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>115:13 - 115:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:115:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>115:15 - 115:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:115:17: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>115:17 - 115:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:115:17: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 (Reference) <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>115:17 - 115:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:116:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>116:5 - 118:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>117:7 - 117:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>117:7 - 117:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:7: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>117:7 - 117:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:7: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 (Reference) <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>117:7 - 117:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:14: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>117:14 - 117:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:14: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 (Reference) <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>117:14 - 117:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>117:19 - 117:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>117:19 - 117:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:19: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>117:19 - 117:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:19: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 (Reference) <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>117:19 - 117:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:26: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>117:26 - 117:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:26: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>117:26 - 117:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:26: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>117:26 - 117:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:26: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:17 (Reference) <US>c:IRsensor.c@1982@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>117:26 - 117:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>117:28 - 117:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>119:5 - 119:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>119:5 - 119:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:5: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>119:5 - 119:11<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:5: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 (Reference) <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>119:5 - 119:11<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>119:12 - 119:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:17: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>119:17 - 119:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:31: UnexposedExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>119:31 - 119:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:31: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:10 (Reference) <US>c:IRsensor.c@2002@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>119:31 - 119:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>122:3 - 125:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>122:7 - 122:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:21: VarDecl=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:21 (Definition) <US>c:IRsensor.c@2697@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>122:7 - 122:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>122:24 - 122:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>122:24 - 122:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:26: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>122:26 - 122:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:26: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:21 <US>c:IRsensor.c@2697@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>122:26 - 122:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:26: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:21 <US>c:IRsensor.c@2697@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>122:26 - 122:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:26: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:21 (Reference) <US>c:IRsensor.c@2697@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>122:26 - 122:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>122:28 - 122:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:30: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>122:30 - 122:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:30: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:21 (Reference) <US>c:IRsensor.c@2697@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>122:30 - 122:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:123:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>123:3 - 125:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>124:5 - 124:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:5: DeclRefExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:16 (Reference) <US>c:IRsensor.c@1953@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>124:5 - 124:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>124:14 - 124:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>124:14 - 124:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:14: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>124:14 - 124:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:14: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 (Reference) <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>124:14 - 124:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:21: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:21 <US>c:IRsensor.c@2697@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>124:21 - 124:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:21: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:122:21 (Reference) <US>c:IRsensor.c@2697@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>124:21 - 124:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:126:3: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>126:3 - 126:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:126:3: DeclRefExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:16 (Reference) <US>c:IRsensor.c@1953@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>126:3 - 126:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:126:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>126:13 - 126:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:127:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>127:3 - 141:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:127:6: UnexposedExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>127:6 - 127:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:127:6: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>127:6 - 127:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:128:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>128:3 - 141:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:129:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>129:5 - 140:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:129:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>129:8 - 129:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:129:8: UnexposedExpr=Alarm_timer_Num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:20:14 <US>c:@Alarm_timer_Num<UE> <DS>Alarm_timer_Num<DE> Extent=<ES>129:8 - 129:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:129:8: DeclRefExpr=Alarm_timer_Num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:20:14 (Reference) <US>c:@Alarm_timer_Num<UE> <DS>Alarm_timer_Num<DE> Extent=<ES>129:8 - 129:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:129:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>129:27 - 129:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:129:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>129:27 - 129:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:130:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>130:5 - 140:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:131:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>131:7 - 131:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:131:7: DeclRefExpr=Alarm_timer_Num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:20:14 (Reference) <US>c:@Alarm_timer_Num<UE> <DS>Alarm_timer_Num<DE> Extent=<ES>131:7 - 131:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:131:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>131:25 - 131:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:131:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>131:25 - 131:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:132:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>132:7 - 139:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:132:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>132:10 - 132:36<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:132:10: UnexposedExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:16 <US>c:IRsensor.c@1953@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>132:10 - 132:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:132:10: DeclRefExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:16 (Reference) <US>c:IRsensor.c@1953@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>132:10 - 132:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:132:21: UnexposedExpr=AlarmUpperValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:28:22 <US>c:@AlarmUpperValue<UE> <DS>AlarmUpperValue<DE> Extent=<ES>132:21 - 132:36<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:132:21: UnexposedExpr=AlarmUpperValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:28:22 <US>c:@AlarmUpperValue<UE> <DS>AlarmUpperValue<DE> Extent=<ES>132:21 - 132:36<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:132:21: DeclRefExpr=AlarmUpperValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:28:22 (Reference) <US>c:@AlarmUpperValue<UE> <DS>AlarmUpperValue<DE> Extent=<ES>132:21 - 132:36<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:133:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>133:7 - 135:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:134:9: CallExpr=Play_OverQuick|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:38:13 <US>c:@F@Play_OverQuick<UE> <DS>void Play_OverQuick(void)<DE> Extent=<ES>134:9 - 134:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:134:9: UnexposedExpr=Play_OverQuick|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:38:13 <US>c:@F@Play_OverQuick<UE> <DS>void Play_OverQuick(void)<DE> Extent=<ES>134:9 - 134:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:134:9: DeclRefExpr=Play_OverQuick|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:38:13 (Reference) <US>c:@F@Play_OverQuick<UE> <DS>void Play_OverQuick(void)<DE> Extent=<ES>134:9 - 134:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:136:12: IfStmt= <US><UE> <DS><DE> Extent=<ES>136:12 - 139:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:136:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>136:15 - 136:41<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:136:15: UnexposedExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:16 <US>c:IRsensor.c@1953@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>136:15 - 136:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:136:15: DeclRefExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:16 (Reference) <US>c:IRsensor.c@1953@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>136:15 - 136:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:136:26: UnexposedExpr=AlarmLowerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:29:22 <US>c:@AlarmLowerValue<UE> <DS>AlarmLowerValue<DE> Extent=<ES>136:26 - 136:41<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:136:26: UnexposedExpr=AlarmLowerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:29:22 <US>c:@AlarmLowerValue<UE> <DS>AlarmLowerValue<DE> Extent=<ES>136:26 - 136:41<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:136:26: DeclRefExpr=AlarmLowerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:29:22 (Reference) <US>c:@AlarmLowerValue<UE> <DS>AlarmLowerValue<DE> Extent=<ES>136:26 - 136:41<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:137:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>137:7 - 139:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:138:9: CallExpr=Play_TooSlow|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:39:13 <US>c:@F@Play_TooSlow<UE> <DS>void Play_TooSlow(void)<DE> Extent=<ES>138:9 - 138:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:138:9: UnexposedExpr=Play_TooSlow|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:39:13 <US>c:@F@Play_TooSlow<UE> <DS>void Play_TooSlow(void)<DE> Extent=<ES>138:9 - 138:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:138:9: DeclRefExpr=Play_TooSlow|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:39:13 (Reference) <US>c:@F@Play_TooSlow<UE> <DS>void Play_TooSlow(void)<DE> Extent=<ES>138:9 - 138:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>142:3 - 145:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>142:6 - 142:40<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:6: ParenExpr= <US><UE> <DS><DE> Extent=<ES>142:6 - 142:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>142:7 - 142:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>142:7 - 142:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>142:7 - 142:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:7: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>142:7 - 142:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:7: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:23 (Reference) <US>c:IRsensor.c@1919@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>142:7 - 142:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>142:14 - 142:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>142:20 - 142:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>142:20 - 142:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>142:26 - 142:40<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:27: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>142:27 - 142:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:27: UnexposedExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:16 <US>c:IRsensor.c@1953@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>142:27 - 142:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:27: DeclRefExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:16 (Reference) <US>c:IRsensor.c@1953@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>142:27 - 142:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>142:37 - 142:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:142:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>142:37 - 142:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:143:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>143:3 - 145:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:5: CallExpr=Play_Drop_Stop|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:37:13 <US>c:@F@Play_Drop_Stop<UE> <DS>void Play_Drop_Stop(void)<DE> Extent=<ES>144:5 - 144:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:5: UnexposedExpr=Play_Drop_Stop|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:37:13 <US>c:@F@Play_Drop_Stop<UE> <DS>void Play_Drop_Stop(void)<DE> Extent=<ES>144:5 - 144:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:5: DeclRefExpr=Play_Drop_Stop|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:37:13 (Reference) <US>c:@F@Play_Drop_Stop<UE> <DS>void Play_Drop_Stop(void)<DE> Extent=<ES>144:5 - 144:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:148:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>148:3 - 148:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:148:10: UnexposedExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:16 <US>c:IRsensor.c@1953@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>148:10 - 148:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:148:10: DeclRefExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:80:16 (Reference) <US>c:IRsensor.c@1953@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>148:10 - 148:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:152:18: FunctionDecl=Timer1_A0|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:152:18 (Definition) <US>c:@F@Timer1_A0<UE> <DS>void Timer1_A0(void)<DE> Extent=<ES>152:13 - 198:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:153:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>153:1 - 198:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>154:3 - 154:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:23: VarDecl=OverflowTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:23 (Definition) <US>c:IRsensor.c@3277@F@Timer1_A0@OverflowTime<UE> <DS>OverflowTime<DE> Extent=<ES>154:3 - 154:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>154:36 - 154:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>154:36 - 154:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38: VarDecl=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Declaration) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>154:38 - 154:50<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:49: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>154:49 - 154:50<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>154:49 - 154:50<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>155:3 - 155:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23: VarDecl=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 (Definition) <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>155:3 - 155:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>155:36 - 155:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:42: InitListExpr= <US><UE> <DS><DE> Extent=<ES>155:42 - 155:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:43: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>155:43 - 155:44<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>155:43 - 155:44<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>155:45 - 155:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>155:45 - 155:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:47: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>155:47 - 155:48<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>155:47 - 155:48<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:49: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>155:49 - 155:50<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>155:49 - 155:50<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>156:3 - 156:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23: VarDecl=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 (Definition) <US>c:IRsensor.c@3382@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>156:3 - 156:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:37 - 156:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:43: InitListExpr= <US><UE> <DS><DE> Extent=<ES>156:43 - 156:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:44: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>156:44 - 156:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:44 - 156:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:46: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>156:46 - 156:47<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:46: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:46 - 156:47<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:48: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>156:48 - 156:49<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:48: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:48 - 156:49<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:50: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>156:50 - 156:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:50: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:50 - 156:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>157:3 - 157:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:17: VarDecl=Valuefabs|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:17 (Definition) <US>c:IRsensor.c@3436@F@Timer1_A0@Valuefabs<UE> <DS>Valuefabs<DE> Extent=<ES>157:3 - 157:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:160:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>160:9 - 160:49<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:160:9: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>160:9 - 160:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:160:9: UnexposedExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 <US>c:IRsensor.c@3382@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>160:9 - 160:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:160:9: DeclRefExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 (Reference) <US>c:IRsensor.c@3382@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>160:9 - 160:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:160:23: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>160:23 - 160:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:160:23: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>160:23 - 160:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:160:37: UnexposedExpr=OverflowTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:23 <US>c:IRsensor.c@3277@F@Timer1_A0@OverflowTime<UE> <DS>OverflowTime<DE> Extent=<ES>160:37 - 160:49<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:160:37: DeclRefExpr=OverflowTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:23 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@OverflowTime<UE> <DS>OverflowTime<DE> Extent=<ES>160:37 - 160:49<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:161:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>161:9 - 161:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:161:9: DeclRefExpr=OverflowTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:23 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@OverflowTime<UE> <DS>OverflowTime<DE> Extent=<ES>161:9 - 161:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:161:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>161:23 - 161:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:161:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>161:23 - 161:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:162:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>162:9 - 167:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:162:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>162:12 - 162:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:162:12: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>162:12 - 162:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:162:12: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>162:12 - 162:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:162:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>162:24 - 162:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:162:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>162:24 - 162:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:163:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>163:9 - 167:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>164:11 - 164:55<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>164:11 - 164:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:11: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>164:11 - 164:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:11: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 (Reference) <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>164:11 - 164:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:24 - 164:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>164:29 - 164:55<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:29: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>164:29 - 164:55<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:29: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>164:29 - 164:41<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:29: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 (Reference) <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>164:29 - 164:41<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:42: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>164:42 - 164:54<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:42: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>164:42 - 164:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:42: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>164:42 - 164:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:53: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>164:53 - 164:54<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:53: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:53 - 164:54<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>165:11 - 165:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>165:11 - 165:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:11: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>165:11 - 165:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:11: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 (Reference) <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>165:11 - 165:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:99:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>99:3 - 99:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:99:3: DeclRefExpr=TimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:5:21 (Reference) <US>c:@TimerValue<UE> <DS>TimerValue<DE> Extent=<ES>99:3 - 99:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:99:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>99:16 - 99:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:99:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>99:16 - 99:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>100:3 - 122:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>100:6 - 100:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:6: ParenExpr= <US><UE> <DS><DE> Extent=<ES>100:6 - 100:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>100:7 - 100:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>100:7 - 100:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>100:7 - 100:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:7: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>100:7 - 100:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:7: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 (Reference) <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>100:7 - 100:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:14 - 100:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>100:20 - 100:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:20 - 100:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:25: ParenExpr= <US><UE> <DS><DE> Extent=<ES>100:25 - 100:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:26: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>100:26 - 100:40<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>100:26 - 100:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:26: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>100:26 - 100:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:26: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>100:26 - 100:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:26: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 (Reference) <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>100:26 - 100:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:33 - 100:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>100:39 - 100:40<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:100:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:39 - 100:40<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:101:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>101:3 - 114:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>102:5 - 105:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>102:9 - 102:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:9: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 (Reference) <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>102:9 - 102:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>102:11 - 102:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>102:11 - 102:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>102:13 - 102:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:13: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>102:13 - 102:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:13: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>102:13 - 102:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:13: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 (Reference) <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>102:13 - 102:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>102:15 - 102:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:17: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>102:17 - 102:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:102:17: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 (Reference) <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>102:17 - 102:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:103:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>103:5 - 105:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>104:7 - 104:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>104:7 - 104:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:7: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>104:7 - 104:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:7: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 (Reference) <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>104:7 - 104:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:14: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>104:14 - 104:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:14: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 (Reference) <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>104:14 - 104:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:19: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>104:19 - 104:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:33: UnexposedExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>104:33 - 104:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:104:33: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 (Reference) <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>104:33 - 104:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:106:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>106:5 - 113:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:106:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>106:8 - 106:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:106:8: UnexposedExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>106:8 - 106:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:106:8: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 (Reference) <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>106:8 - 106:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:106:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>106:16 - 106:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:106:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>106:16 - 106:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:107:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>107:5 - 113:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:108:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>108:7 - 112:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:108:10: UnexposedExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>108:10 - 108:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:108:10: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>108:10 - 108:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:109:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>109:7 - 112:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:110:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>110:9 - 110:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:110:9: DeclRefExpr=TotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:18:21 (Reference) <US>c:@TotalDrop<UE> <DS>TotalDrop<DE> Extent=<ES>110:9 - 110:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:110:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>110:21 - 110:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:110:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>110:21 - 110:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:111:9: CallExpr=Play_Drop_Start|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:36:13 <US>c:@F@Play_Drop_Start<UE> <DS>void Play_Drop_Start(void)<DE> Extent=<ES>111:9 - 111:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:111:9: UnexposedExpr=Play_Drop_Start|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:36:13 <US>c:@F@Play_Drop_Start<UE> <DS>void Play_Drop_Start(void)<DE> Extent=<ES>111:9 - 111:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:111:9: DeclRefExpr=Play_Drop_Start|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:36:13 (Reference) <US>c:@F@Play_Drop_Start<UE> <DS>void Play_Drop_Start(void)<DE> Extent=<ES>111:9 - 111:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:116:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>116:3 - 122:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>117:5 - 120:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>117:9 - 117:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:9: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 (Reference) <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>117:9 - 117:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>117:11 - 117:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>117:11 - 117:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>117:13 - 117:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:13: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>117:13 - 117:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:13: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>117:13 - 117:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:13: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 (Reference) <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>117:13 - 117:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>117:15 - 117:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:17: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>117:17 - 117:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:117:17: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 (Reference) <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>117:17 - 117:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:118:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>118:5 - 120:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>119:7 - 119:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>119:7 - 119:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:7: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>119:7 - 119:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:7: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 (Reference) <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>119:7 - 119:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:14: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>119:14 - 119:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:14: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 (Reference) <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>119:14 - 119:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>119:19 - 119:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>119:19 - 119:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:19: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>119:19 - 119:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:19: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 (Reference) <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>119:19 - 119:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:26: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>119:26 - 119:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:26: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>119:26 - 119:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:26: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>119:26 - 119:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:26: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:83:17 (Reference) <US>c:IRsensor.c@2032@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>119:26 - 119:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:119:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>119:28 - 119:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:121:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>121:5 - 121:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:121:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>121:5 - 121:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:121:5: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>121:5 - 121:11<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:121:5: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 (Reference) <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>121:5 - 121:11<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:121:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:12 - 121:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:121:17: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>121:17 - 121:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:121:31: UnexposedExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>121:31 - 121:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:121:31: DeclRefExpr=data|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:84:10 (Reference) <US>c:IRsensor.c@2052@F@GetRate@data<UE> <DS>data<DE> Extent=<ES>121:31 - 121:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>124:3 - 127:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>124:7 - 124:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:21: VarDecl=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:21 (Definition) <US>c:IRsensor.c@2747@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>124:7 - 124:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>124:24 - 124:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>124:24 - 124:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:26: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>124:26 - 124:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:26: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:21 <US>c:IRsensor.c@2747@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>124:26 - 124:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:26: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:21 <US>c:IRsensor.c@2747@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>124:26 - 124:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:26: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:21 (Reference) <US>c:IRsensor.c@2747@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>124:26 - 124:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>124:28 - 124:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:30: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>124:30 - 124:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:30: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:21 (Reference) <US>c:IRsensor.c@2747@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>124:30 - 124:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:125:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>125:3 - 127:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:126:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>126:5 - 126:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:126:5: DeclRefExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:16 (Reference) <US>c:IRsensor.c@2003@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>126:5 - 126:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:126:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>126:14 - 126:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:126:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>126:14 - 126:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:126:14: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>126:14 - 126:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:126:14: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 (Reference) <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>126:14 - 126:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:126:21: UnexposedExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:21 <US>c:IRsensor.c@2747@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>126:21 - 126:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:126:21: DeclRefExpr=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:124:21 (Reference) <US>c:IRsensor.c@2747@F@GetRate@i<UE> <DS>i<DE> Extent=<ES>126:21 - 126:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:128:3: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>128:3 - 128:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:128:3: DeclRefExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:16 (Reference) <US>c:IRsensor.c@2003@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>128:3 - 128:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:128:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>128:13 - 128:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:129:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>129:3 - 143:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:129:6: UnexposedExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>129:6 - 129:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:129:6: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>129:6 - 129:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:130:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>130:3 - 143:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:131:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>131:5 - 142:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:131:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>131:8 - 131:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:131:8: UnexposedExpr=Alarm_timer_Num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:20:14 <US>c:@Alarm_timer_Num<UE> <DS>Alarm_timer_Num<DE> Extent=<ES>131:8 - 131:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:131:8: DeclRefExpr=Alarm_timer_Num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:20:14 (Reference) <US>c:@Alarm_timer_Num<UE> <DS>Alarm_timer_Num<DE> Extent=<ES>131:8 - 131:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:131:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>131:27 - 131:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:131:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>131:27 - 131:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:132:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>132:5 - 142:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:133:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>133:7 - 133:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:133:7: DeclRefExpr=Alarm_timer_Num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:20:14 (Reference) <US>c:@Alarm_timer_Num<UE> <DS>Alarm_timer_Num<DE> Extent=<ES>133:7 - 133:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:133:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>133:25 - 133:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:133:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>133:25 - 133:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:134:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>134:7 - 141:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:134:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>134:10 - 134:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:134:10: UnexposedExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:16 <US>c:IRsensor.c@2003@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>134:10 - 134:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:134:10: DeclRefExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:16 (Reference) <US>c:IRsensor.c@2003@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>134:10 - 134:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:134:21: UnexposedExpr=AlarmUpperValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:30:22 <US>c:@AlarmUpperValue<UE> <DS>AlarmUpperValue<DE> Extent=<ES>134:21 - 134:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:134:21: UnexposedExpr=AlarmUpperValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:30:22 <US>c:@AlarmUpperValue<UE> <DS>AlarmUpperValue<DE> Extent=<ES>134:21 - 134:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:134:21: DeclRefExpr=AlarmUpperValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:30:22 (Reference) <US>c:@AlarmUpperValue<UE> <DS>AlarmUpperValue<DE> Extent=<ES>134:21 - 134:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:135:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>135:7 - 137:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:136:9: CallExpr=Play_OverQuick|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:38:13 <US>c:@F@Play_OverQuick<UE> <DS>void Play_OverQuick(void)<DE> Extent=<ES>136:9 - 136:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:136:9: UnexposedExpr=Play_OverQuick|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:38:13 <US>c:@F@Play_OverQuick<UE> <DS>void Play_OverQuick(void)<DE> Extent=<ES>136:9 - 136:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:136:9: DeclRefExpr=Play_OverQuick|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:38:13 (Reference) <US>c:@F@Play_OverQuick<UE> <DS>void Play_OverQuick(void)<DE> Extent=<ES>136:9 - 136:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:138:12: IfStmt= <US><UE> <DS><DE> Extent=<ES>138:12 - 141:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:138:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>138:15 - 138:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:138:15: UnexposedExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:16 <US>c:IRsensor.c@2003@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>138:15 - 138:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:138:15: DeclRefExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:16 (Reference) <US>c:IRsensor.c@2003@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>138:15 - 138:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:138:26: UnexposedExpr=AlarmLowerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:31:22 <US>c:@AlarmLowerValue<UE> <DS>AlarmLowerValue<DE> Extent=<ES>138:26 - 138:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:138:26: UnexposedExpr=AlarmLowerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:31:22 <US>c:@AlarmLowerValue<UE> <DS>AlarmLowerValue<DE> Extent=<ES>138:26 - 138:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:138:26: DeclRefExpr=AlarmLowerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:31:22 (Reference) <US>c:@AlarmLowerValue<UE> <DS>AlarmLowerValue<DE> Extent=<ES>138:26 - 138:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:139:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>139:7 - 141:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:140:9: CallExpr=Play_TooSlow|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:39:13 <US>c:@F@Play_TooSlow<UE> <DS>void Play_TooSlow(void)<DE> Extent=<ES>140:9 - 140:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:140:9: UnexposedExpr=Play_TooSlow|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:39:13 <US>c:@F@Play_TooSlow<UE> <DS>void Play_TooSlow(void)<DE> Extent=<ES>140:9 - 140:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:140:9: DeclRefExpr=Play_TooSlow|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:39:13 (Reference) <US>c:@F@Play_TooSlow<UE> <DS>void Play_TooSlow(void)<DE> Extent=<ES>140:9 - 140:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>144:3 - 147:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>144:6 - 144:40<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:6: ParenExpr= <US><UE> <DS><DE> Extent=<ES>144:6 - 144:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>144:7 - 144:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>144:7 - 144:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>144:7 - 144:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:7: UnexposedExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>144:7 - 144:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:7: DeclRefExpr=buffer|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:81:23 (Reference) <US>c:IRsensor.c@1969@F@GetRate@buffer<UE> <DS>buffer<DE> Extent=<ES>144:7 - 144:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>144:14 - 144:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>144:20 - 144:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>144:20 - 144:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>144:26 - 144:40<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:27: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>144:27 - 144:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:27: UnexposedExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:16 <US>c:IRsensor.c@2003@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>144:27 - 144:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:27: DeclRefExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:16 (Reference) <US>c:IRsensor.c@2003@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>144:27 - 144:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>144:37 - 144:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:144:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>144:37 - 144:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:145:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>145:3 - 147:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:146:5: CallExpr=Play_Drop_Stop|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:37:13 <US>c:@F@Play_Drop_Stop<UE> <DS>void Play_Drop_Stop(void)<DE> Extent=<ES>146:5 - 146:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:146:5: UnexposedExpr=Play_Drop_Stop|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:37:13 <US>c:@F@Play_Drop_Stop<UE> <DS>void Play_Drop_Stop(void)<DE> Extent=<ES>146:5 - 146:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:146:5: DeclRefExpr=Play_Drop_Stop|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:37:13 (Reference) <US>c:@F@Play_Drop_Stop<UE> <DS>void Play_Drop_Stop(void)<DE> Extent=<ES>146:5 - 146:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:150:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>150:3 - 150:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:150:10: UnexposedExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:16 <US>c:IRsensor.c@2003@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>150:10 - 150:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:150:10: DeclRefExpr=retdata|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:82:16 (Reference) <US>c:IRsensor.c@2003@F@GetRate@retdata<UE> <DS>retdata<DE> Extent=<ES>150:10 - 150:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:18: FunctionDecl=Timer1_A0|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:18 (Definition) <US>c:@F@Timer1_A0<UE> <DS>void Timer1_A0(void)<DE> Extent=<ES>154:13 - 202:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>155:1 - 202:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>156:3 - 156:51<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23: VarDecl=OverflowTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 (Definition) <US>c:IRsensor.c@3327@F@Timer1_A0@OverflowTime<UE> <DS>OverflowTime<DE> Extent=<ES>156:3 - 156:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>156:36 - 156:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:36 - 156:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38: VarDecl=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Declaration) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>156:38 - 156:50<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:49: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>156:49 - 156:50<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:49 - 156:50<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>157:3 - 157:52<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23: VarDecl=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 (Definition) <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>157:3 - 157:51<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>157:36 - 157:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:42: InitListExpr= <US><UE> <DS><DE> Extent=<ES>157:42 - 157:51<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:43: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>157:43 - 157:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>157:43 - 157:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>157:45 - 157:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>157:45 - 157:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:47: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>157:47 - 157:48<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>157:47 - 157:48<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:49: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>157:49 - 157:50<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>157:49 - 157:50<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>158:3 - 158:53<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23: VarDecl=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23 (Definition) <US>c:IRsensor.c@3432@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>158:3 - 158:52<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>158:37 - 158:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:43: InitListExpr= <US><UE> <DS><DE> Extent=<ES>158:43 - 158:52<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:44: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>158:44 - 158:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>158:44 - 158:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:46: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>158:46 - 158:47<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:46: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>158:46 - 158:47<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:48: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>158:48 - 158:49<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:48: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>158:48 - 158:49<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:50: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>158:50 - 158:51<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:50: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>158:50 - 158:51<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:159:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>159:3 - 159:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:159:17: VarDecl=Valuefabs|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:159:17 (Definition) <US>c:IRsensor.c@3486@F@Timer1_A0@Valuefabs<UE> <DS>Valuefabs<DE> Extent=<ES>159:3 - 159:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:161:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>161:3 - 161:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:161:3: DeclRefExpr=Display_All_TimeOut|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:23:15 (Reference) <US>c:@Display_All_TimeOut<UE> <DS>Display_All_TimeOut<DE> Extent=<ES>161:3 - 161:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:161:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>161:25 - 161:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:161:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>161:25 - 161:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:163:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>163:9 - 163:49<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:163:9: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>163:9 - 163:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:163:9: UnexposedExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23 <US>c:IRsensor.c@3432@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>163:9 - 163:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:163:9: DeclRefExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23 (Reference) <US>c:IRsensor.c@3432@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>163:9 - 163:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:163:23: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>163:23 - 163:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:163:23: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>163:23 - 163:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:163:37: UnexposedExpr=OverflowTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 <US>c:IRsensor.c@3327@F@Timer1_A0@OverflowTime<UE> <DS>OverflowTime<DE> Extent=<ES>163:37 - 163:49<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:163:37: DeclRefExpr=OverflowTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@OverflowTime<UE> <DS>OverflowTime<DE> Extent=<ES>163:37 - 163:49<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>164:9 - 164:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:9: DeclRefExpr=OverflowTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@OverflowTime<UE> <DS>OverflowTime<DE> Extent=<ES>164:9 - 164:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>164:23 - 164:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:164:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:23 - 164:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>165:9 - 170:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>165:12 - 165:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:12: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>165:12 - 165:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:12: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>165:12 - 165:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>165:24 - 165:25<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>165:24 - 165:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>165:29 - 165:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:29: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>165:29 - 165:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:29: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>165:29 - 165:41<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:29: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 (Reference) <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>165:29 - 165:41<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:42: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>165:42 - 165:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:165:42: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>165:42 - 165:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:166:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>166:11 - 166:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:166:11: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>166:11 - 166:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:166:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>166:22 - 166:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:166:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>166:22 - 166:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>168:9 - 174:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>168:12 - 168:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>168:12 - 168:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:12: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>168:12 - 168:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:12: UnexposedExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 <US>c:IRsensor.c@3382@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>168:12 - 168:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:12: DeclRefExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 (Reference) <US>c:IRsensor.c@3382@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>168:12 - 168:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:26: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>168:26 - 168:36<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:26: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>168:26 - 168:36<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>168:38 - 168:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>168:38 - 168:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:169:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>169:9 - 174:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:170:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>170:11 - 170:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:170:11: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>170:11 - 170:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:170:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>170:22 - 170:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:170:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>170:22 - 170:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>171:11 - 171:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>171:11 - 171:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:11: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>171:11 - 171:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:11: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 (Reference) <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>171:11 - 171:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>171:24 - 171:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>171:28 - 171:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>171:28 - 171:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:172:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>172:11 - 172:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:172:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>172:11 - 172:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:172:11: UnexposedExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 <US>c:IRsensor.c@3382@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>172:11 - 172:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:172:11: DeclRefExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 (Reference) <US>c:IRsensor.c@3382@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>172:11 - 172:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:172:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>172:25 - 172:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:172:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>172:29 - 172:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:172:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>172:29 - 172:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:173:11: GotoStmt=|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:195:1 <US><UE> <DS>step2<DE> Extent=<ES>173:11 - 173:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:173:16: LabelRef=step2|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:195:1 (Reference) <US><UE> <DS>step2<DE> Extent=<ES>173:16 - 173:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>175:9 - 183:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>175:12 - 175:82<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>175:12 - 175:56<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:12: ParenExpr= <US><UE> <DS><DE> Extent=<ES>175:12 - 175:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>175:13 - 175:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:13: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>175:13 - 175:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:13: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>175:13 - 175:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>175:27 - 175:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>175:27 - 175:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:33: ParenExpr= <US><UE> <DS><DE> Extent=<ES>175:33 - 175:56<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:34: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>175:34 - 175:54<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>175:34 - 175:49<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:34: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>175:34 - 175:49<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:34: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>175:34 - 175:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:34: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 (Reference) <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>175:34 - 175:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>175:47 - 175:48<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:53: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>175:53 - 175:54<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:53: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>175:53 - 175:54<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:59: ParenExpr= <US><UE> <DS><DE> Extent=<ES>175:59 - 175:82<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:60: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>175:60 - 175:81<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:60: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>175:60 - 175:76<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:60: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>175:60 - 175:76<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:60: UnexposedExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 <US>c:IRsensor.c@3382@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>175:60 - 175:73<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:60: DeclRefExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 (Reference) <US>c:IRsensor.c@3382@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>175:60 - 175:73<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:74: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>175:74 - 175:75<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:80: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>175:80 - 175:81<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:80: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>175:80 - 175:81<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:176:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>176:9 - 178:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:177:11: GotoStmt=|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:189:1 <US><UE> <DS>step1<DE> Extent=<ES>177:11 - 177:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:177:16: LabelRef=step1|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:189:1 (Reference) <US><UE> <DS>step1<DE> Extent=<ES>177:16 - 177:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:14: IfStmt= <US><UE> <DS><DE> Extent=<ES>179:14 - 183:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>179:17 - 179:84<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:17: ParenExpr= <US><UE> <DS><DE> Extent=<ES>179:17 - 179:47<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>179:18 - 179:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>179:18 - 179:43<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:18: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>179:18 - 179:43<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:18: UnexposedExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 <US>c:IRsensor.c@3382@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>179:18 - 179:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:18: DeclRefExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 (Reference) <US>c:IRsensor.c@3382@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>179:18 - 179:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:32: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>179:32 - 179:42<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:32: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>179:32 - 179:42<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>179:45 - 179:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>179:45 - 179:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:52: ParenExpr= <US><UE> <DS><DE> Extent=<ES>179:52 - 179:84<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:53: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>179:53 - 179:83<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:53: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>179:53 - 179:77<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:53: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>179:53 - 179:77<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:53: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>179:53 - 179:65<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:53: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 (Reference) <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>179:53 - 179:65<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:66: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>179:66 - 179:76<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:66: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>179:66 - 179:76<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:79: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>179:79 - 179:83<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:79: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>179:79 - 179:83<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:180:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>180:9 - 183:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:181:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>181:11 - 181:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:181:11: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>181:11 - 181:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:11: GotoStmt=|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:195:1 <US><UE> <DS>step2<DE> Extent=<ES>182:11 - 182:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:16: LabelRef=step2|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:195:1 (Reference) <US><UE> <DS>step2<DE> Extent=<ES>182:16 - 182:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>184:9 - 184:96<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:9: DeclRefExpr=Valuefabs|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:17 (Reference) <US>c:IRsensor.c@3436@F@Timer1_A0@Valuefabs<UE> <DS>Valuefabs<DE> Extent=<ES>184:9 - 184:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:21: CallExpr=fabs|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib\c\math.h:56:33 <US>c:@F@fabs<UE> <DS>double fabs(double)<DE> Extent=<ES>184:21 - 184:96<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:21: UnexposedExpr=fabs|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib\c\math.h:56:33 <US>c:@F@fabs<UE> <DS>double fabs(double)<DE> Extent=<ES>184:21 - 184:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:21: DeclRefExpr=fabs|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib\c\math.h:56:33 (Reference) <US>c:@F@fabs<UE> <DS>double fabs(double)<DE> Extent=<ES>184:21 - 184:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:26: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>184:26 - 184:95<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:26: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>184:26 - 184:58<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>184:34 - 184:58<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:34: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>184:34 - 184:58<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:34: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>184:34 - 184:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:34: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 (Reference) <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>184:34 - 184:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:47: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>184:47 - 184:57<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:47: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>184:47 - 184:57<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:61: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>184:61 - 184:95<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:69: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>184:69 - 184:95<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:69: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>184:69 - 184:95<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:69: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>184:69 - 184:81<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:69: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 (Reference) <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>184:69 - 184:81<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:82: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>184:82 - 184:94<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:82: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>184:82 - 184:92<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:82: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>184:82 - 184:92<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:93: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>184:93 - 184:94<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:93: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>184:93 - 184:94<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:185:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>185:9 - 188:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:185:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>185:12 - 185:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:185:12: UnexposedExpr=Valuefabs|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:17 <US>c:IRsensor.c@3436@F@Timer1_A0@Valuefabs<UE> <DS>Valuefabs<DE> Extent=<ES>185:12 - 185:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:185:12: DeclRefExpr=Valuefabs|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:17 (Reference) <US>c:IRsensor.c@3436@F@Timer1_A0@Valuefabs<UE> <DS>Valuefabs<DE> Extent=<ES>185:12 - 185:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:185:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>185:23 - 185:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:185:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>185:23 - 185:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:186:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>186:9 - 188:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:11: GotoStmt=|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:195:1 <US><UE> <DS>step2<DE> Extent=<ES>187:11 - 187:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:16: LabelRef=step2|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:195:1 (Reference) <US><UE> <DS>step2<DE> Extent=<ES>187:16 - 187:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:189:1: LabelStmt=step1 <US><UE> <DS><DE> Extent=<ES>189:1 - 189:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:189:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>189:9 - 189:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:189:9: DeclRefExpr=TimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:5:21 (Reference) <US>c:@TimerValue<UE> <DS>TimerValue<DE> Extent=<ES>189:9 - 189:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:189:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>189:22 - 189:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:189:22: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>189:22 - 189:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:189:22: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>189:22 - 189:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:189:22: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:155:23 (Reference) <US>c:IRsensor.c@3329@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>189:22 - 189:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:189:35: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>189:35 - 189:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:189:35: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>189:35 - 189:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:190:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:9 - 190:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:190:9: DeclRefExpr=time_num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:7:21 (Reference) <US>c:@time_num<UE> <DS>time_num<DE> Extent=<ES>190:9 - 190:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:190:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>190:20 - 190:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:190:20: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>190:20 - 190:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:190:20: UnexposedExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 <US>c:IRsensor.c@3382@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>190:20 - 190:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:190:20: DeclRefExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:23 (Reference) <US>c:IRsensor.c@3382@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>190:20 - 190:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:190:34: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>190:34 - 190:44<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:190:34: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>190:34 - 190:44<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:191:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>191:9 - 191:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:191:9: DeclRefExpr=DisplayMode|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:11:21 (Reference) <US>c:@DisplayMode<UE> <DS>DisplayMode<DE> Extent=<ES>191:9 - 191:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:191:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>191:23 - 191:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:191:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>191:23 - 191:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>192:9 - 192:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:9: DeclRefExpr=DisplayModeChargetimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:12:22 (Reference) <US>c:@DisplayModeChargetimes<UE> <DS>DisplayModeChargetimes<DE> Extent=<ES>192:9 - 192:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>192:32 - 192:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>192:32 - 192:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:193:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>193:9 - 193:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:193:9: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>193:9 - 193:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:193:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>193:26 - 193:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:193:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>193:26 - 193:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:194:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>194:9 - 194:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:194:9: DeclRefExpr=TotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:18:21 (Reference) <US>c:@TotalDrop<UE> <DS>TotalDrop<DE> Extent=<ES>194:9 - 194:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:195:1: LabelStmt=step2 <US><UE> <DS><DE> Extent=<ES>195:1 - 195:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:195:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>195:9 - 195:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:195:9: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:154:38 (Reference) <US>c:IRsensor.c@3277@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>195:9 - 195:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:197:3: CallExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:53:6 <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>197:3 - 197:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:197:3: UnexposedExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:53:6 <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>197:3 - 197:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:197:3: DeclRefExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:53:6 (Reference) <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>197:3 - 197:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:202:18: FunctionDecl=Timer1_A1|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:202:18 (Definition) <US>c:@F@Timer1_A1<UE> <DS>void Timer1_A1(void)<DE> Extent=<ES>202:13 - 267:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:203:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>203:1 - 267:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:204:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>204:3 - 204:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:204:23: VarDecl=OverflowTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:204:23 (Definition) <US>c:IRsensor.c@4946@F@Timer1_A1@OverflowTime<UE> <DS>OverflowTime<DE> Extent=<ES>204:3 - 204:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:204:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>204:36 - 204:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:204:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>204:36 - 204:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:204:38: VarDecl=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:204:38 (Declaration) <US>c:IRsensor.c@4946@F@Timer1_A1@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>204:38 - 204:50<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:204:49: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>204:49 - 204:50<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:204:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>204:49 - 204:50<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:205:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>205:3 - 205:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:205:23: VarDecl=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:205:23 (Definition) <US>c:IRsensor.c@4998@F@Timer1_A1@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>205:3 - 205:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:205:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>205:36 - 205:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:205:42: InitListExpr= <US><UE> <DS><DE> Extent=<ES>205:42 - 205:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:205:43: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>205:43 - 205:44<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:205:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>205:43 - 205:44<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:205:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>205:45 - 205:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:205:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>205:45 - 205:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:205:47: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>205:47 - 205:48<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:205:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>205:47 - 205:48<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:205:49: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>205:49 - 205:50<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:205:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>205:49 - 205:50<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>206:3 - 206:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:23: VarDecl=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:23 (Definition) <US>c:IRsensor.c@5051@F@Timer1_A1@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>206:3 - 206:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>206:37 - 206:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:43: InitListExpr= <US><UE> <DS><DE> Extent=<ES>206:43 - 206:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:44: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>206:44 - 206:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>206:44 - 206:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:46: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>206:46 - 206:47<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:46: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>206:46 - 206:47<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:48: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>206:48 - 206:49<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:48: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>206:48 - 206:49<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:50: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>206:50 - 206:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:50: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>206:50 - 206:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:207:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>207:3 - 207:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:207:17: VarDecl=Valuefabs|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:207:17 (Definition) <US>c:IRsensor.c@5105@F@Timer1_A1@Valuefabs<UE> <DS>Valuefabs<DE> Extent=<ES>207:3 - 207:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:266:3: CallExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:53:6 <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>266:3 - 266:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:266:3: UnexposedExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:53:6 <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>266:3 - 266:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:266:3: DeclRefExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:53:6 (Reference) <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>266:3 - 266:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:271:18: FunctionDecl=Timer_A0_0|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:271:18 (Definition) <US>c:@F@Timer_A0_0<UE> <DS>void Timer_A0_0(void)<DE> Extent=<ES>271:13 - 304:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:272:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>272:1 - 304:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:274:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>274:3 - 287:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:274:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>274:6 - 274:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:274:6: UnexposedExpr=IRReceiveStatus|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:40:15 <US>c:@F@IRReceiveStatus<UE> <DS>unsigned char IRReceiveStatus(void)<DE> Extent=<ES>274:6 - 274:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:274:6: CallExpr=IRReceiveStatus|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:40:15 <US>c:@F@IRReceiveStatus<UE> <DS>unsigned char IRReceiveStatus(void)<DE> Extent=<ES>274:6 - 274:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:274:6: UnexposedExpr=IRReceiveStatus|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:40:15 <US>c:@F@IRReceiveStatus<UE> <DS>unsigned char IRReceiveStatus(void)<DE> Extent=<ES>274:6 - 274:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:274:6: DeclRefExpr=IRReceiveStatus|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:40:15 (Reference) <US>c:@F@IRReceiveStatus<UE> <DS>unsigned char IRReceiveStatus(void)<DE> Extent=<ES>274:6 - 274:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:274:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>274:27 - 274:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:275:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>275:3 - 280:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:282:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>282:3 - 287:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:288:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>288:3 - 303:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:288:6: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>288:6 - 288:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:288:7: UnexposedExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>288:7 - 288:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:288:7: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>288:7 - 288:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:289:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>289:3 - 299:5<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:290:7: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>290:7 - 290:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:290:7: DeclRefExpr=RefreshTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:9:21 (Reference) <US>c:@RefreshTime<UE> <DS>RefreshTime<DE> Extent=<ES>290:7 - 290:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:291:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>291:7 - 298:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:291:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>291:10 - 291:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:291:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>291:10 - 291:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:291:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>291:11 - 291:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:291:11: UnexposedExpr=RefreshTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:9:21 <US>c:@RefreshTime<UE> <DS>RefreshTime<DE> Extent=<ES>291:11 - 291:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:291:11: DeclRefExpr=RefreshTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:9:21 (Reference) <US>c:@RefreshTime<UE> <DS>RefreshTime<DE> Extent=<ES>291:11 - 291:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:291:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>291:23 - 291:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:291:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>291:23 - 291:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:291:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>291:29 - 291:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:291:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>291:29 - 291:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:292:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>292:7 - 298:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:293:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>293:9 - 297:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:293:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>293:12 - 293:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:293:12: CallExpr=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:77:14 <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>293:12 - 293:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:293:12: UnexposedExpr=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:77:14 <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>293:12 - 293:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:293:12: DeclRefExpr=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:77:14 (Reference) <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>293:12 - 293:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:293:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>293:23 - 293:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:293:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>293:23 - 293:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:294:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>294:9 - 297:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:166:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>166:9 - 170:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>167:11 - 167:55<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>167:11 - 167:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:11: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>167:11 - 167:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:11: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 (Reference) <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>167:11 - 167:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>167:24 - 167:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>167:29 - 167:55<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:29: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>167:29 - 167:55<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:29: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>167:29 - 167:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:29: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 (Reference) <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>167:29 - 167:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:42: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>167:42 - 167:54<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:42: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>167:42 - 167:52<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:42: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>167:42 - 167:52<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:53: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>167:53 - 167:54<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:167:53: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>167:53 - 167:54<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>168:11 - 168:53<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>168:11 - 168:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:11: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>168:11 - 168:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:11: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 (Reference) <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>168:11 - 168:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>168:24 - 168:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>168:29 - 168:53<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:29: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>168:29 - 168:53<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:29: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>168:29 - 168:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:29: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 (Reference) <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>168:29 - 168:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:42: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>168:42 - 168:52<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:168:42: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>168:42 - 168:52<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:169:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>169:11 - 169:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:169:11: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>169:11 - 169:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:169:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>169:22 - 169:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:169:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>169:22 - 169:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>171:9 - 177:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>171:12 - 171:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>171:12 - 171:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:12: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>171:12 - 171:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:12: UnexposedExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23 <US>c:IRsensor.c@3432@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>171:12 - 171:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:12: DeclRefExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23 (Reference) <US>c:IRsensor.c@3432@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>171:12 - 171:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:26: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>171:26 - 171:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:26: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>171:26 - 171:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>171:38 - 171:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:171:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>171:38 - 171:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:172:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>172:9 - 177:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:173:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>173:11 - 173:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:173:11: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>173:11 - 173:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:173:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>173:22 - 173:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:173:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>173:22 - 173:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:174:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>174:11 - 174:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:174:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>174:11 - 174:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:174:11: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>174:11 - 174:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:174:11: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 (Reference) <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>174:11 - 174:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:174:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>174:24 - 174:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:174:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>174:28 - 174:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:174:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>174:28 - 174:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>175:11 - 175:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>175:11 - 175:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:11: UnexposedExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23 <US>c:IRsensor.c@3432@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>175:11 - 175:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:11: DeclRefExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23 (Reference) <US>c:IRsensor.c@3432@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>175:11 - 175:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>175:25 - 175:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>175:29 - 175:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:175:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>175:29 - 175:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:176:11: GotoStmt=|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:198:1 <US><UE> <DS>step2<DE> Extent=<ES>176:11 - 176:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:176:16: LabelRef=step2|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:198:1 (Reference) <US><UE> <DS>step2<DE> Extent=<ES>176:16 - 176:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>178:9 - 186:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>178:12 - 178:82<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>178:12 - 178:56<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:12: ParenExpr= <US><UE> <DS><DE> Extent=<ES>178:12 - 178:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>178:13 - 178:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:13: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>178:13 - 178:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:13: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>178:13 - 178:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>178:27 - 178:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>178:27 - 178:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:33: ParenExpr= <US><UE> <DS><DE> Extent=<ES>178:33 - 178:56<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:34: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>178:34 - 178:54<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>178:34 - 178:49<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:34: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>178:34 - 178:49<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:34: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>178:34 - 178:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:34: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 (Reference) <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>178:34 - 178:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>178:47 - 178:48<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:53: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>178:53 - 178:54<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:53: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>178:53 - 178:54<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:59: ParenExpr= <US><UE> <DS><DE> Extent=<ES>178:59 - 178:82<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:60: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>178:60 - 178:81<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:60: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>178:60 - 178:76<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:60: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>178:60 - 178:76<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:60: UnexposedExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23 <US>c:IRsensor.c@3432@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>178:60 - 178:73<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:60: DeclRefExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23 (Reference) <US>c:IRsensor.c@3432@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>178:60 - 178:73<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:74: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>178:74 - 178:75<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:80: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>178:80 - 178:81<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:178:80: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>178:80 - 178:81<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:179:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>179:9 - 181:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:180:11: GotoStmt=|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:1 <US><UE> <DS>step1<DE> Extent=<ES>180:11 - 180:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:180:16: LabelRef=step1|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:1 (Reference) <US><UE> <DS>step1<DE> Extent=<ES>180:16 - 180:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:14: IfStmt= <US><UE> <DS><DE> Extent=<ES>182:14 - 186:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:17 - 182:84<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:17: ParenExpr= <US><UE> <DS><DE> Extent=<ES>182:17 - 182:47<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:18 - 182:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>182:18 - 182:43<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:18: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>182:18 - 182:43<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:18: UnexposedExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23 <US>c:IRsensor.c@3432@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>182:18 - 182:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:18: DeclRefExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23 (Reference) <US>c:IRsensor.c@3432@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>182:18 - 182:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:32: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>182:32 - 182:42<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:32: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>182:32 - 182:42<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>182:45 - 182:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>182:45 - 182:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:52: ParenExpr= <US><UE> <DS><DE> Extent=<ES>182:52 - 182:84<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:53: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:53 - 182:83<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:53: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>182:53 - 182:77<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:53: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>182:53 - 182:77<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:53: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>182:53 - 182:65<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:53: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 (Reference) <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>182:53 - 182:65<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:66: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>182:66 - 182:76<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:66: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>182:66 - 182:76<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:79: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>182:79 - 182:83<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:182:79: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>182:79 - 182:83<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:183:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>183:9 - 186:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:184:11: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>184:11 - 184:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:185:11: GotoStmt=|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:198:1 <US><UE> <DS>step2<DE> Extent=<ES>185:11 - 185:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:185:16: LabelRef=step2|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:198:1 (Reference) <US><UE> <DS>step2<DE> Extent=<ES>185:16 - 185:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>187:9 - 187:96<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:9: DeclRefExpr=Valuefabs|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:159:17 (Reference) <US>c:IRsensor.c@3486@F@Timer1_A0@Valuefabs<UE> <DS>Valuefabs<DE> Extent=<ES>187:9 - 187:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:21: CallExpr=fabs|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib\c\math.h:56:33 <US>c:@F@fabs<UE> <DS>double fabs(double)<DE> Extent=<ES>187:21 - 187:96<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:21: UnexposedExpr=fabs|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib\c\math.h:56:33 <US>c:@F@fabs<UE> <DS>double fabs(double)<DE> Extent=<ES>187:21 - 187:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:21: DeclRefExpr=fabs|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib\c\math.h:56:33 (Reference) <US>c:@F@fabs<UE> <DS>double fabs(double)<DE> Extent=<ES>187:21 - 187:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:26: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>187:26 - 187:95<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:26: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>187:26 - 187:58<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>187:34 - 187:58<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:34: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>187:34 - 187:58<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:34: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>187:34 - 187:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:34: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 (Reference) <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>187:34 - 187:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:47: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>187:47 - 187:57<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:47: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>187:47 - 187:57<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:61: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>187:61 - 187:95<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:69: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>187:69 - 187:95<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:69: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>187:69 - 187:95<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:69: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>187:69 - 187:81<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:69: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 (Reference) <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>187:69 - 187:81<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:82: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>187:82 - 187:94<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:82: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>187:82 - 187:92<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:82: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>187:82 - 187:92<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:93: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>187:93 - 187:94<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:187:93: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>187:93 - 187:94<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:188:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>188:9 - 191:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:188:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:12 - 188:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:188:12: UnexposedExpr=Valuefabs|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:159:17 <US>c:IRsensor.c@3486@F@Timer1_A0@Valuefabs<UE> <DS>Valuefabs<DE> Extent=<ES>188:12 - 188:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:188:12: DeclRefExpr=Valuefabs|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:159:17 (Reference) <US>c:IRsensor.c@3486@F@Timer1_A0@Valuefabs<UE> <DS>Valuefabs<DE> Extent=<ES>188:12 - 188:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:188:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>188:23 - 188:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:188:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:23 - 188:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:189:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>189:9 - 191:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:190:11: GotoStmt=|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:198:1 <US><UE> <DS>step2<DE> Extent=<ES>190:11 - 190:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:190:16: LabelRef=step2|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:198:1 (Reference) <US><UE> <DS>step2<DE> Extent=<ES>190:16 - 190:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:1: LabelStmt=step1 <US><UE> <DS><DE> Extent=<ES>192:1 - 192:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>192:9 - 192:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:9: DeclRefExpr=TimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:5:21 (Reference) <US>c:@TimerValue<UE> <DS>TimerValue<DE> Extent=<ES>192:9 - 192:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>192:22 - 192:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:22: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>192:22 - 192:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:22: UnexposedExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>192:22 - 192:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:22: DeclRefExpr=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:157:23 (Reference) <US>c:IRsensor.c@3379@F@Timer1_A0@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>192:22 - 192:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:35: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>192:35 - 192:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:192:35: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>192:35 - 192:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:193:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>193:9 - 193:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:193:9: DeclRefExpr=time_num|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:7:21 (Reference) <US>c:@time_num<UE> <DS>time_num<DE> Extent=<ES>193:9 - 193:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:193:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>193:20 - 193:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:193:20: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>193:20 - 193:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:193:20: UnexposedExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23 <US>c:IRsensor.c@3432@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>193:20 - 193:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:193:20: DeclRefExpr=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:158:23 (Reference) <US>c:IRsensor.c@3432@F@Timer1_A0@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>193:20 - 193:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:193:34: UnexposedExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>193:34 - 193:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:193:34: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>193:34 - 193:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:194:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>194:9 - 194:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:194:9: DeclRefExpr=DisplayMode|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:11:21 (Reference) <US>c:@DisplayMode<UE> <DS>DisplayMode<DE> Extent=<ES>194:9 - 194:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:194:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>194:23 - 194:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:194:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:23 - 194:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:195:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>195:9 - 195:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:195:9: DeclRefExpr=DisplayModeChargetimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:12:22 (Reference) <US>c:@DisplayModeChargetimes<UE> <DS>DisplayModeChargetimes<DE> Extent=<ES>195:9 - 195:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:195:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>195:32 - 195:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:195:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>195:32 - 195:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:196:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>196:9 - 196:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:196:9: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>196:9 - 196:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:196:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>196:26 - 196:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:196:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>196:26 - 196:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:197:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>197:9 - 197:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:197:9: DeclRefExpr=TotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:18:21 (Reference) <US>c:@TotalDrop<UE> <DS>TotalDrop<DE> Extent=<ES>197:9 - 197:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:198:1: LabelStmt=step2 <US><UE> <DS><DE> Extent=<ES>198:1 - 198:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:198:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>198:9 - 198:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:198:9: DeclRefExpr=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:156:38 (Reference) <US>c:IRsensor.c@3327@F@Timer1_A0@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>198:9 - 198:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:200:3: CallExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:6 <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>200:3 - 200:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:200:3: UnexposedExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:6 <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>200:3 - 200:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:200:3: DeclRefExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:6 (Reference) <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>200:3 - 200:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: CallExpr=_BIC_SR_IRQ|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:67:30 <US>c:@F@_BIC_SR_IRQ<UE> <DS>unsigned short _BIC_SR_IRQ(unsigned short)<DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: UnexposedExpr=_BIC_SR_IRQ|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:67:30 <US>c:@F@_BIC_SR_IRQ<UE> <DS>unsigned short _BIC_SR_IRQ(unsigned short)<DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: DeclRefExpr=_BIC_SR_IRQ|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:67:30 (Reference) <US>c:@F@_BIC_SR_IRQ<UE> <DS>unsigned short _BIC_SR_IRQ(unsigned short)<DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:201:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>201:3 - 201:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:18: FunctionDecl=Timer1_A1|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:206:18 (Definition) <US>c:@F@Timer1_A1<UE> <DS>void Timer1_A1(void)<DE> Extent=<ES>206:13 - 271:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:207:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>207:1 - 271:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:208:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>208:3 - 208:51<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:208:23: VarDecl=OverflowTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:208:23 (Definition) <US>c:IRsensor.c@5038@F@Timer1_A1@OverflowTime<UE> <DS>OverflowTime<DE> Extent=<ES>208:3 - 208:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:208:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>208:36 - 208:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:208:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>208:36 - 208:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:208:38: VarDecl=StoreTimes|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:208:38 (Declaration) <US>c:IRsensor.c@5038@F@Timer1_A1@StoreTimes<UE> <DS>StoreTimes<DE> Extent=<ES>208:38 - 208:50<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:208:49: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>208:49 - 208:50<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:208:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>208:49 - 208:50<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:209:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>209:3 - 209:52<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:209:23: VarDecl=IRTimerValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:209:23 (Definition) <US>c:IRsensor.c@5090@F@Timer1_A1@IRTimerValue<UE> <DS>IRTimerValue<DE> Extent=<ES>209:3 - 209:51<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:209:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>209:36 - 209:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:209:42: InitListExpr= <US><UE> <DS><DE> Extent=<ES>209:42 - 209:51<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:209:43: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>209:43 - 209:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:209:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>209:43 - 209:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:209:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>209:45 - 209:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:209:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>209:45 - 209:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:209:47: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>209:47 - 209:48<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:209:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>209:47 - 209:48<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:209:49: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>209:49 - 209:50<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:209:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>209:49 - 209:50<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:210:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>210:3 - 210:53<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:210:23: VarDecl=OverflowValue|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:210:23 (Definition) <US>c:IRsensor.c@5143@F@Timer1_A1@OverflowValue<UE> <DS>OverflowValue<DE> Extent=<ES>210:3 - 210:52<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:210:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>210:37 - 210:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:210:43: InitListExpr= <US><UE> <DS><DE> Extent=<ES>210:43 - 210:52<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:210:44: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>210:44 - 210:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:210:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>210:44 - 210:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:210:46: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>210:46 - 210:47<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:210:46: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>210:46 - 210:47<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:210:48: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>210:48 - 210:49<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:210:48: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>210:48 - 210:49<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:210:50: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>210:50 - 210:51<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:210:50: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>210:50 - 210:51<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:211:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>211:3 - 211:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:211:17: VarDecl=Valuefabs|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:211:17 (Definition) <US>c:IRsensor.c@5197@F@Timer1_A1@Valuefabs<UE> <DS>Valuefabs<DE> Extent=<ES>211:3 - 211:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:270:3: CallExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:6 <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>270:3 - 270:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:270:3: UnexposedExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:6 <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>270:3 - 270:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:270:3: DeclRefExpr=IRRecCaptureInit|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:55:6 (Reference) <US>c:@F@IRRecCaptureInit<UE> <DS>void IRRecCaptureInit(void)<DE> Extent=<ES>270:3 - 270:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:275:18: FunctionDecl=Timer_A0_0|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:275:18 (Definition) <US>c:@F@Timer_A0_0<UE> <DS>void Timer_A0_0(void)<DE> Extent=<ES>275:13 - 308:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:276:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>276:1 - 308:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:278:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>278:3 - 291:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:278:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>278:6 - 278:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:278:6: UnexposedExpr=IRReceiveStatus|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:42:15 <US>c:@F@IRReceiveStatus<UE> <DS>unsigned char IRReceiveStatus(void)<DE> Extent=<ES>278:6 - 278:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:278:6: CallExpr=IRReceiveStatus|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:42:15 <US>c:@F@IRReceiveStatus<UE> <DS>unsigned char IRReceiveStatus(void)<DE> Extent=<ES>278:6 - 278:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:278:6: UnexposedExpr=IRReceiveStatus|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:42:15 <US>c:@F@IRReceiveStatus<UE> <DS>unsigned char IRReceiveStatus(void)<DE> Extent=<ES>278:6 - 278:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:278:6: DeclRefExpr=IRReceiveStatus|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:42:15 (Reference) <US>c:@F@IRReceiveStatus<UE> <DS>unsigned char IRReceiveStatus(void)<DE> Extent=<ES>278:6 - 278:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:278:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>278:27 - 278:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:279:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>279:3 - 284:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:286:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>286:3 - 291:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:292:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>292:3 - 307:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:292:6: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>292:6 - 292:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:292:7: UnexposedExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>292:7 - 292:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:292:7: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>292:7 - 292:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:293:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>293:3 - 303:5<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:294:7: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>294:7 - 294:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:294:7: DeclRefExpr=RefreshTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:9:21 (Reference) <US>c:@RefreshTime<UE> <DS>RefreshTime<DE> Extent=<ES>294:7 - 294:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:295:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>295:7 - 302:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:295:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>295:10 - 295:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:295:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>295:10 - 295:27<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:295:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>295:11 - 295:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:295:11: UnexposedExpr=RefreshTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:9:21 <US>c:@RefreshTime<UE> <DS>RefreshTime<DE> Extent=<ES>295:11 - 295:22<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:295:11: DeclRefExpr=RefreshTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:9:21 (Reference) <US>c:@RefreshTime<UE> <DS>RefreshTime<DE> Extent=<ES>295:11 - 295:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:295:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>295:25 - 295:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:295:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>295:25 - 295:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:296:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>296:11 - 296:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:296:11: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>296:11 - 296:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:296:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>296:29 - 296:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:296:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>296:29 - 296:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:301:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>301:3 - 303:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:302:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>302:7 - 302:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:302:7: DeclRefExpr=RefreshTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:9:21 (Reference) <US>c:@RefreshTime<UE> <DS>RefreshTime<DE> Extent=<ES>302:7 - 302:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:302:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>302:21 - 302:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:302:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>302:21 - 302:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:307:18: FunctionDecl=Timer_A0_1|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:307:18 (Definition) <US>c:@F@Timer_A0_1<UE> <DS>void Timer_A0_1(void)<DE> Extent=<ES>307:13 - 379:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:308:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>308:1 - 379:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:309:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>309:3 - 309:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:309:24: VarDecl=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:309:24 (Definition) <US>c:IRsensor.c@7753@F@Timer_A0_1@i<UE> <DS>i<DE> Extent=<ES>309:3 - 309:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:295:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>295:23 - 295:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:295:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>295:23 - 295:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:295:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>295:29 - 295:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:295:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>295:29 - 295:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:296:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>296:7 - 302:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:297:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>297:9 - 301:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:297:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>297:12 - 297:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:297:12: CallExpr=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:14 <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>297:12 - 297:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:297:12: UnexposedExpr=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:14 <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>297:12 - 297:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:297:12: DeclRefExpr=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:79:14 (Reference) <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>297:12 - 297:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:297:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>297:23 - 297:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:297:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>297:23 - 297:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:298:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>298:9 - 301:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:299:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>299:11 - 299:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:299:11: DeclRefExpr=RefreshTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:9:21 (Reference) <US>c:@RefreshTime<UE> <DS>RefreshTime<DE> Extent=<ES>299:11 - 299:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:299:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>299:25 - 299:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:299:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>299:25 - 299:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:300:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>300:11 - 300:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:300:11: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:6:21 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>300:11 - 300:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:300:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>300:29 - 300:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:300:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>300:29 - 300:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:305:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>305:3 - 307:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:306:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>306:7 - 306:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:306:7: DeclRefExpr=RefreshTime|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:9:21 (Reference) <US>c:@RefreshTime<UE> <DS>RefreshTime<DE> Extent=<ES>306:7 - 306:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:306:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>306:21 - 306:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:306:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>306:21 - 306:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:311:18: FunctionDecl=Timer_A0_1|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:311:18 (Definition) <US>c:@F@Timer_A0_1<UE> <DS>void Timer_A0_1(void)<DE> Extent=<ES>311:13 - 383:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:312:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>312:1 - 383:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:313:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>313:3 - 313:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:313:24: VarDecl=i|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.c:313:24 (Definition) <US>c:IRsensor.c@7845@F@Timer_A0_1@i<UE> <DS>i<DE> Extent=<ES>313:3 - 313:25<EE>

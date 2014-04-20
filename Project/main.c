@@ -20,6 +20,7 @@ unsigned char DisplayModeChargeFlag=0;
 unsigned char CurrentSpeed =70;
 unsigned int TotalDrip =0;
 unsigned char TerminalPowerPrecent =100;
+extern unsigned char Display_All_TimeOut;  //显示超时
 
 extern unsigned char DataRecFlag;
 extern unsigned char Rf_Interval_Flag;  //RF打开间断标志
@@ -74,18 +75,14 @@ void VddIODisable()
   VDD_IO_DISABLE;
 }
 
-int main(void)
+
+void DriverInit()
 {
-  unsigned char buf[] = {0x55,0x99,0x66};
-  unsigned int addr = 0xf800;
-  unsigned int a;
-  
-  unsigned int i;
-  WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
-  
   ClockInit();
   
   VddIOEnable();  //外部模块供电使能
+  
+  ReadAlarmValue4Flash();
   
   LEDInit(); 
   LCDInit();
@@ -103,41 +100,17 @@ int main(void)
   
   LoginTransmit();   //登陆命令 
   
-  Flash_SegmentErase(addr);
-  FlashWrite_8(buf,addr,3);
   GetBatteyLevel();
   
   ISD2100Init();
-#if 0
-  WriteVoice(0x00);
-    a = ReadVoice();
-    a++;
-    VoicePlay(14);
-    Delay_ms(500);
-  WriteVoice(0x3f);
-    a = ReadVoice();
-        a++;
-    VoicePlay(14);
-    Delay_ms(500);
-  WriteVoice(0x7f);
-    a = ReadVoice();
-        a++;
-    VoicePlay(14);
-    Delay_ms(500);
-  a = ReadVoice();
-      a++;
-  unsigned char j;
-  for(unsigned char i =0; i<10;i++)
-  {
-    for(unsigned char j=12;j<25;j++)
-    {
-    VoicePlay(j);
-    Delay_ms(500);
-    }
- 
-  }
-#endif
   
+}
+
+int main(void)
+{
+  WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
+  
+  DriverInit();
   __bis_SR_register(GIE);   //全局中断使能
   while(1)
   {
@@ -151,6 +124,52 @@ int main(void)
         DisplayTotalDrop();
         RefreshTime=1;
       }
+      if(DataRecFlag == 1)  //数据接收标志
+      {
+        LEDOn(BLUELED);
+        ReceiveData();
+        RecDataCheck();   //接收数据检查
+        DataRecFlag = 0;
+      }
+      if(Rf_Interval_Flag == 1)  //RF打开间断标志
+      {
+        Rf_Interval_Flag = 0;
+        ReceiveOn();
+      }
+      if(Battery_Display_Flag == 1)  //电池显示
+      {
+        Battery_Display_Flag = 0;
+        BatteyLevel = GetBatteyLevel();
+        DisplayBattery( BatteyLevel);
+      }
+      if(KeyPressFlag)   //按键处理
+      {
+        KeyFunction();
+        KeyPressFlag = 0;
+        
+      }
+      if(Display_Blink_Flag)
+      {
+        if(Display_Blink_TimeOut >= 20)  //10s超时
+        {
+          Display_Blink_TimeOut =0;
+          Key_Set_Mode &=~ (UPPERSETMODE+LOWERSETMODE);
+        }
+        RefreshAlarmValue();
+        Display_Blink_Flag = 0;  //判断以后再清除
+      }
+    }
+    else if(DisplayMode == DisplaySleepMode)
+    {
+      __bis_SR_register(GIE+LPM2);
+      DisplayMode = DisplayRateMode;
+      LCDInit();
+    }
+    if(Display_All_TimeOut >= 120)  //一分钟
+    {
+      Display_All_TimeOut = 0;
+      DisplayNone();
+      DisplayMode = DisplaySleepMode;
     }
 #if 0
  //   else if(DisplayMode == DisplayClockMode)
@@ -167,41 +186,6 @@ int main(void)
       }
     }
 #endif
-    
-    if(DataRecFlag == 1)  //数据接收标志
-    {
-      LEDOn(BLUELED);
-      ReceiveData();
-      RecDataCheck();   //接收数据检查
-      DataRecFlag = 0;
-    }
-    if(Rf_Interval_Flag == 1)  //RF打开间断标志
-    {
-      Rf_Interval_Flag = 0;
-      ReceiveOn();
-    }
-    if(Battery_Display_Flag == 1)  //电池显示
-    {
-      Battery_Display_Flag = 0;
-      BatteyLevel = GetBatteyLevel();
-      DisplayBattery( BatteyLevel);
-    }
-    if(KeyPressFlag)   //按键处理
-    {
-      KeyFunction();
-      KeyPressFlag = 0;
-      
-    }
-    if(Display_Blink_Flag)
-    {
-      if(Display_Blink_TimeOut >= 20)  //10s超时
-      {
-        Display_Blink_TimeOut =0;
-        Key_Set_Mode &=~ (UPPERSETMODE+LOWERSETMODE);
-      }
-      RefreshAlarmValue();
-      Display_Blink_Flag = 0;  //判断以后再清除
-    }
     
   }
 }

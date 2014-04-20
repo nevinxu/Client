@@ -84,6 +84,12 @@ void LCDInit(void)
 
 }
 
+void  DisplayNone()
+{
+  int i;
+  for (i=0; i<26; i++)                 //清屏
+  LCDMEM[i]=0x0;
+}
 
 void RefreshAlarmValue()   //刷新报警值
 {

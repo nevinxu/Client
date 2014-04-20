@@ -2078,6 +2078,7 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:16:9: macro definition=OFF <US>c:macro@OFF<UE> <DS>OFF<DE> Extent=<ES>16:9 - 16:18<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:18:9: macro definition=DisplayRateMode <US>c:macro@DisplayRateMode<UE> <DS>DisplayRateMode<DE> Extent=<ES>18:9 - 18:32<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:19:9: macro definition=DisplayClockMode <US>c:macro@DisplayClockMode<UE> <DS>DisplayClockMode<DE> Extent=<ES>19:9 - 19:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:20:9: macro definition=DisplaySleepMode <US>c:macro@DisplaySleepMode<UE> <DS>DisplaySleepMode<DE> Extent=<ES>20:9 - 20:33<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\include.h:10:1: inclusion directive=Battery.h <US><UE> <DS><DE> <IS>D:\Work\My_Project\Client\Client\Project\Driver\Battery.h<IE>  [multi-include guarded] Extent=<ES>10:1 - 10:21<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:2:9: macro definition=_BATTERY_ <US>c:macro@_BATTERY_<UE> <DS>_BATTERY_<DE> Extent=<ES>2:9 - 2:18<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:4:9: macro definition=BATTERYLEVEL3 <US>c:macro@BATTERYLEVEL3<UE> <DS>BATTERYLEVEL3<DE> Extent=<ES>4:9 - 4:29<EE>
@@ -2190,23 +2191,28 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\include.h:26:9: macro definition=Delay_us <US>c:macro@Delay_us<UE> <DS>Delay_us<DE> Extent=<ES>26:9 - 26:45<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9: macro definition=Delay_ms <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>27:9 - 27:53<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:16:28: macro expansion=DisplayClockMode|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:19:9 <US>c:macro@DisplayClockMode<UE> <DS>DisplayClockMode<DE> Extent=<ES>16:28 - 16:44<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:49:12: macro expansion=FN_4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:630:9 <US>c:macro@FN_4<UE> <DS>FN_4<DE> Extent=<ES>49:12 - 49:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:51:15: macro expansion=DCOPLUS|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:663:9 <US>c:macro@DCOPLUS<UE> <DS>DCOPLUS<DE> Extent=<ES>51:15 - 51:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:51:25: macro expansion=XCAP11PF|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:668:9 <US>c:macro@XCAP11PF<UE> <DS>XCAP11PF<DE> Extent=<ES>51:25 - 51:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:67:3: macro expansion=VDD_IO_EN_SET|D:\Work\My_Project\Client\Client\Project\Driver\include.h:21:9 <US>c:macro@VDD_IO_EN_SET<UE> <DS>VDD_IO_EN_SET<DE> Extent=<ES>67:3 - 67:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:68:3: macro expansion=VDD_IO_ENABLE|D:\Work\My_Project\Client\Client\Project\Driver\include.h:22:9 <US>c:macro@VDD_IO_ENABLE<UE> <DS>VDD_IO_ENABLE<DE> Extent=<ES>68:3 - 68:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:73:3: macro expansion=VDD_IO_EN_SET|D:\Work\My_Project\Client\Client\Project\Driver\include.h:21:9 <US>c:macro@VDD_IO_EN_SET<UE> <DS>VDD_IO_EN_SET<DE> Extent=<ES>73:3 - 73:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:74:3: macro expansion=VDD_IO_DISABLE|D:\Work\My_Project\Client\Client\Project\Driver\include.h:23:9 <US>c:macro@VDD_IO_DISABLE<UE> <DS>VDD_IO_DISABLE<DE> Extent=<ES>74:3 - 74:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:84:12: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1378:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>84:12 - 84:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:84:20: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1376:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>84:20 - 84:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:100:9: macro expansion=YELLOWLED|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:4:9 <US>c:macro@YELLOWLED<UE> <DS>YELLOWLED<DE> Extent=<ES>100:9 - 100:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:102:10: macro expansion=YELLOWLED|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:4:9 <US>c:macro@YELLOWLED<UE> <DS>YELLOWLED<DE> Extent=<ES>102:10 - 102:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:141:21: macro expansion=GIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:86:9 <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>141:21 - 141:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:144:23: macro expansion=DisplayRateMode|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:18:9 <US>c:macro@DisplayRateMode<UE> <DS>DisplayRateMode<DE> Extent=<ES>144:23 - 144:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:173:13: macro expansion=BLUELED|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:5:9 <US>c:macro@BLUELED<UE> <DS>BLUELED<DE> Extent=<ES>173:13 - 173:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:200:27: macro expansion=UPPERSETMODE|D:\Work\My_Project\Client\Client\Project\Driver\key.h:16:9 <US>c:macro@UPPERSETMODE<UE> <DS>UPPERSETMODE<DE> Extent=<ES>200:27 - 200:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:200:40: macro expansion=LOWERSETMODE|D:\Work\My_Project\Client\Client\Project\Driver\key.h:17:9 <US>c:macro@LOWERSETMODE<UE> <DS>LOWERSETMODE<DE> Extent=<ES>200:40 - 200:52<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:50:12: macro expansion=FN_4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:630:9 <US>c:macro@FN_4<UE> <DS>FN_4<DE> Extent=<ES>50:12 - 50:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:52:15: macro expansion=DCOPLUS|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:663:9 <US>c:macro@DCOPLUS<UE> <DS>DCOPLUS<DE> Extent=<ES>52:15 - 52:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:52:25: macro expansion=XCAP11PF|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:668:9 <US>c:macro@XCAP11PF<UE> <DS>XCAP11PF<DE> Extent=<ES>52:25 - 52:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:68:3: macro expansion=VDD_IO_EN_SET|D:\Work\My_Project\Client\Client\Project\Driver\include.h:21:9 <US>c:macro@VDD_IO_EN_SET<UE> <DS>VDD_IO_EN_SET<DE> Extent=<ES>68:3 - 68:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:69:3: macro expansion=VDD_IO_ENABLE|D:\Work\My_Project\Client\Client\Project\Driver\include.h:22:9 <US>c:macro@VDD_IO_ENABLE<UE> <DS>VDD_IO_ENABLE<DE> Extent=<ES>69:3 - 69:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:74:3: macro expansion=VDD_IO_EN_SET|D:\Work\My_Project\Client\Client\Project\Driver\include.h:21:9 <US>c:macro@VDD_IO_EN_SET<UE> <DS>VDD_IO_EN_SET<DE> Extent=<ES>74:3 - 74:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:75:3: macro expansion=VDD_IO_DISABLE|D:\Work\My_Project\Client\Client\Project\Driver\include.h:23:9 <US>c:macro@VDD_IO_DISABLE<UE> <DS>VDD_IO_DISABLE<DE> Extent=<ES>75:3 - 75:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:97:9: macro expansion=YELLOWLED|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:4:9 <US>c:macro@YELLOWLED<UE> <DS>YELLOWLED<DE> Extent=<ES>97:9 - 97:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: macro expansion=Delay_ms|D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9 <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:99:10: macro expansion=YELLOWLED|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:4:9 <US>c:macro@YELLOWLED<UE> <DS>YELLOWLED<DE> Extent=<ES>99:10 - 99:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:111:12: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1378:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>111:12 - 111:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:111:20: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:1376:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>111:20 - 111:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:114:21: macro expansion=GIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:86:9 <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>114:21 - 114:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:117:23: macro expansion=DisplayRateMode|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:18:9 <US>c:macro@DisplayRateMode<UE> <DS>DisplayRateMode<DE> Extent=<ES>117:23 - 117:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:129:15: macro expansion=BLUELED|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:5:9 <US>c:macro@BLUELED<UE> <DS>BLUELED<DE> Extent=<ES>129:15 - 129:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:156:29: macro expansion=UPPERSETMODE|D:\Work\My_Project\Client\Client\Project\Driver\key.h:16:9 <US>c:macro@UPPERSETMODE<UE> <DS>UPPERSETMODE<DE> Extent=<ES>156:29 - 156:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:156:42: macro expansion=LOWERSETMODE|D:\Work\My_Project\Client\Client\Project\Driver\key.h:17:9 <US>c:macro@LOWERSETMODE<UE> <DS>LOWERSETMODE<DE> Extent=<ES>156:42 - 156:54<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:162:28: macro expansion=DisplaySleepMode|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:20:9 <US>c:macro@DisplaySleepMode<UE> <DS>DisplaySleepMode<DE> Extent=<ES>162:28 - 162:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:25: macro expansion=GIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:86:9 <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>164:25 - 164:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:29: macro expansion=LPM2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:115:9 <US>c:macro@LPM2<UE> <DS>LPM2<DE> Extent=<ES>164:29 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:165:21: macro expansion=DisplayRateMode|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:18:9 <US>c:macro@DisplayRateMode<UE> <DS>DisplayRateMode<DE> Extent=<ES>165:21 - 165:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:172:21: macro expansion=DisplaySleepMode|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:20:9 <US>c:macro@DisplaySleepMode<UE> <DS>DisplaySleepMode<DE> Extent=<ES>172:21 - 172:37<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -2473,31 +2479,34 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:104:48: TypeRef=uint32_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned long<DE> Extent=<ES>104:48 - 104:56<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:104:78: ParmDecl=count|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:104:78 (Definition) <US>c:HAL_FLASH.h@4994@F@FlashMemoryFill_32@count<UE> <DS>uint16_t<DE> Extent=<ES>104:69 - 104:83<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:104:69: TypeRef=uint16_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib\c\stdint.h:22:29 (Reference) <US>c:stdint.h@473@T@uint16_t<UE> <DS>unsigned int<DE> Extent=<ES>104:69 - 104:77<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:21:14: FunctionDecl=IRSensorInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:21:14 (Declaration) <US>c:@F@IRSensorInit<UE> <DS>void IRSensorInit(void)<DE> Extent=<ES>21:1 - 21:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:22:13: FunctionDecl=LEDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:22:13 (Declaration) <US>c:@F@LEDInit<UE> <DS>void LEDInit(void)<DE> Extent=<ES>22:1 - 22:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14: FunctionDecl=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14 (Declaration) <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>23:1 - 23:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:34: ParmDecl=num|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:34 (Definition) <US>c:Display.h@492@F@LEDOn@num<UE> <DS>unsigned char<DE> Extent=<ES>23:20 - 23:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:14: FunctionDecl=LEDOff|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:14 (Declaration) <US>c:@F@LEDOff<UE> <DS>void LEDOff(unsigned char)<DE> Extent=<ES>24:1 - 24:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:35: ParmDecl=num|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:35 (Definition) <US>c:Display.h@533@F@LEDOff@num<UE> <DS>unsigned char<DE> Extent=<ES>24:21 - 24:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:13: FunctionDecl=LCDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:13 (Declaration) <US>c:@F@LCDInit<UE> <DS>void LCDInit(void)<DE> Extent=<ES>26:1 - 26:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:27:13: FunctionDecl=DisplayLine|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:27:13 (Declaration) <US>c:@F@DisplayLine<UE> <DS>void DisplayLine(unsigned char)<DE> Extent=<ES>27:1 - 27:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:27:39: ParmDecl=status|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:27:39 (Definition) <US>c:Display.h@608@F@DisplayLine@status<UE> <DS>unsigned char<DE> Extent=<ES>27:25 - 27:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13: FunctionDecl=DisplayTotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13 (Declaration) <US>c:@F@DisplayTotalDrop<UE> <DS>void DisplayTotalDrop(void)<DE> Extent=<ES>28:1 - 28:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:13: FunctionDecl=DisplayRate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:13 (Declaration) <US>c:@F@DisplayRate<UE> <DS>void DisplayRate(unsigned int)<DE> Extent=<ES>29:1 - 29:43<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:38: ParmDecl=rate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:38 (Definition) <US>c:Display.h@693@F@DisplayRate@rate<UE> <DS>unsigned int<DE> Extent=<ES>29:25 - 29:42<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:13: FunctionDecl=DisplayBattery|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:13 (Declaration) <US>c:@F@DisplayBattery<UE> <DS>void DisplayBattery(unsigned int)<DE> Extent=<ES>30:1 - 30:47<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:41: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:41 (Definition) <US>c:Display.h@741@F@DisplayBattery@level<UE> <DS>unsigned int<DE> Extent=<ES>30:28 - 30:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:13: FunctionDecl=DisplayMoon|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:13 (Declaration) <US>c:@F@DisplayMoon<UE> <DS>void DisplayMoon(unsigned char)<DE> Extent=<ES>31:1 - 31:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:39: ParmDecl=status|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:39 (Definition) <US>c:Display.h@787@F@DisplayMoon@status<UE> <DS>unsigned char<DE> Extent=<ES>31:25 - 31:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:13: FunctionDecl=DisplaySun|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:13 (Declaration) <US>c:@F@DisplaySun<UE> <DS>void DisplaySun(unsigned char)<DE> Extent=<ES>32:1 - 32:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:38: ParmDecl=status|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:38 (Definition) <US>c:Display.h@834@F@DisplaySun@status<UE> <DS>unsigned char<DE> Extent=<ES>32:24 - 32:44<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:13: FunctionDecl=DisplayUpAlarm|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:13 (Declaration) <US>c:@F@DisplayUpAlarm<UE> <DS>void DisplayUpAlarm(unsigned int)<DE> Extent=<ES>33:1 - 33:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:41: ParmDecl=alarmvalue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:41 (Definition) <US>c:Display.h@885@F@DisplayUpAlarm@alarmvalue<UE> <DS>unsigned int<DE> Extent=<ES>33:28 - 33:51<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:13: FunctionDecl=DisplayDownAlarm|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:13 (Declaration) <US>c:@F@DisplayDownAlarm<UE> <DS>void DisplayDownAlarm(unsigned int)<DE> Extent=<ES>34:1 - 34:54<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:43: ParmDecl=alarmvalue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:43 (Definition) <US>c:Display.h@941@F@DisplayDownAlarm@alarmvalue<UE> <DS>unsigned int<DE> Extent=<ES>34:30 - 34:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:13: FunctionDecl=DisplayVoice|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:13 (Declaration) <US>c:@F@DisplayVoice<UE> <DS>void DisplayVoice(unsigned char)<DE> Extent=<ES>35:1 - 35:46<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:40: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:40 (Definition) <US>c:Display.h@993@F@DisplayVoice@level<UE> <DS>unsigned char<DE> Extent=<ES>35:26 - 35:45<EE>
-<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:13: FunctionDecl=RefreshAlarmValue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:13 (Declaration) <US>c:@F@RefreshAlarmValue<UE> <DS>void RefreshAlarmValue(void)<DE> Extent=<ES>36:1 - 36:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:108:13: FunctionDecl=ReadAlarmValue4Flash|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:108:13 (Declaration) <US>c:@F@ReadAlarmValue4Flash<UE> <DS>void ReadAlarmValue4Flash(void)<DE> Extent=<ES>108:1 - 108:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:109:13: FunctionDecl=WriteAlarmValue2Flash|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:109:13 (Declaration) <US>c:@F@WriteAlarmValue2Flash<UE> <DS>void WriteAlarmValue2Flash(void)<DE> Extent=<ES>109:1 - 109:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14: FunctionDecl=IRSensorInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14 (Declaration) <US>c:@F@IRSensorInit<UE> <DS>void IRSensorInit(void)<DE> Extent=<ES>23:1 - 23:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:13: FunctionDecl=LEDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:13 (Declaration) <US>c:@F@LEDInit<UE> <DS>void LEDInit(void)<DE> Extent=<ES>24:1 - 24:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:14: FunctionDecl=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:14 (Declaration) <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>25:1 - 25:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:34: ParmDecl=num|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:34 (Definition) <US>c:Display.h@528@F@LEDOn@num<UE> <DS>unsigned char<DE> Extent=<ES>25:20 - 25:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:14: FunctionDecl=LEDOff|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:14 (Declaration) <US>c:@F@LEDOff<UE> <DS>void LEDOff(unsigned char)<DE> Extent=<ES>26:1 - 26:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:35: ParmDecl=num|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:35 (Definition) <US>c:Display.h@569@F@LEDOff@num<UE> <DS>unsigned char<DE> Extent=<ES>26:21 - 26:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13: FunctionDecl=LCDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13 (Declaration) <US>c:@F@LCDInit<UE> <DS>void LCDInit(void)<DE> Extent=<ES>28:1 - 28:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:14: FunctionDecl=DisplayNone|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:14 (Declaration) <US>c:@F@DisplayNone<UE> <DS>void DisplayNone(void)<DE> Extent=<ES>29:1 - 29:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:13: FunctionDecl=DisplayLine|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:13 (Declaration) <US>c:@F@DisplayLine<UE> <DS>void DisplayLine(unsigned char)<DE> Extent=<ES>30:1 - 30:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:39: ParmDecl=status|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:39 (Definition) <US>c:Display.h@673@F@DisplayLine@status<UE> <DS>unsigned char<DE> Extent=<ES>30:25 - 30:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:13: FunctionDecl=DisplayTotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:13 (Declaration) <US>c:@F@DisplayTotalDrop<UE> <DS>void DisplayTotalDrop(void)<DE> Extent=<ES>31:1 - 31:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:13: FunctionDecl=DisplayRate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:13 (Declaration) <US>c:@F@DisplayRate<UE> <DS>void DisplayRate(unsigned int)<DE> Extent=<ES>32:1 - 32:43<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:38: ParmDecl=rate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:38 (Definition) <US>c:Display.h@758@F@DisplayRate@rate<UE> <DS>unsigned int<DE> Extent=<ES>32:25 - 32:42<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:13: FunctionDecl=DisplayBattery|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:13 (Declaration) <US>c:@F@DisplayBattery<UE> <DS>void DisplayBattery(unsigned int)<DE> Extent=<ES>33:1 - 33:47<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:41: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:41 (Definition) <US>c:Display.h@806@F@DisplayBattery@level<UE> <DS>unsigned int<DE> Extent=<ES>33:28 - 33:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:13: FunctionDecl=DisplayMoon|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:13 (Declaration) <US>c:@F@DisplayMoon<UE> <DS>void DisplayMoon(unsigned char)<DE> Extent=<ES>34:1 - 34:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:39: ParmDecl=status|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:34:39 (Definition) <US>c:Display.h@852@F@DisplayMoon@status<UE> <DS>unsigned char<DE> Extent=<ES>34:25 - 34:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:13: FunctionDecl=DisplaySun|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:13 (Declaration) <US>c:@F@DisplaySun<UE> <DS>void DisplaySun(unsigned char)<DE> Extent=<ES>35:1 - 35:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:38: ParmDecl=status|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:35:38 (Definition) <US>c:Display.h@899@F@DisplaySun@status<UE> <DS>unsigned char<DE> Extent=<ES>35:24 - 35:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:13: FunctionDecl=DisplayUpAlarm|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:13 (Declaration) <US>c:@F@DisplayUpAlarm<UE> <DS>void DisplayUpAlarm(unsigned int)<DE> Extent=<ES>36:1 - 36:52<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:41: ParmDecl=alarmvalue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:41 (Definition) <US>c:Display.h@950@F@DisplayUpAlarm@alarmvalue<UE> <DS>unsigned int<DE> Extent=<ES>36:28 - 36:51<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:37:13: FunctionDecl=DisplayDownAlarm|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:37:13 (Declaration) <US>c:@F@DisplayDownAlarm<UE> <DS>void DisplayDownAlarm(unsigned int)<DE> Extent=<ES>37:1 - 37:54<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:37:43: ParmDecl=alarmvalue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:37:43 (Definition) <US>c:Display.h@1006@F@DisplayDownAlarm@alarmvalue<UE> <DS>unsigned int<DE> Extent=<ES>37:30 - 37:53<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:38:13: FunctionDecl=DisplayVoice|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:38:13 (Declaration) <US>c:@F@DisplayVoice<UE> <DS>void DisplayVoice(unsigned char)<DE> Extent=<ES>38:1 - 38:46<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:38:40: ParmDecl=level|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:38:40 (Definition) <US>c:Display.h@1058@F@DisplayVoice@level<UE> <DS>unsigned char<DE> Extent=<ES>38:26 - 38:45<EE>
+<L>D:\Work\My_Project\Client\Client\Project\Driver\Display.h:39:13: FunctionDecl=RefreshAlarmValue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:39:13 (Declaration) <US>c:@F@RefreshAlarmValue<UE> <DS>void RefreshAlarmValue(void)<DE> Extent=<ES>39:1 - 39:32<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23: FunctionDecl=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 (Declaration) <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>9:1 - 9:43<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14: FunctionDecl=KeyInit|D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14 (Declaration) <US>c:@F@KeyInit<UE> <DS>void KeyInit(void)<DE> Extent=<ES>20:1 - 20:23<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14: FunctionDecl=KeyFunction|D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14 (Declaration) <US>c:@F@KeyFunction<UE> <DS>void KeyFunction(void)<DE> Extent=<ES>21:1 - 21:27<EE>
@@ -2551,251 +2560,279 @@
 <L>D:\Work\My_Project\Client\Client\Project\main.c:22:15: VarDecl=TerminalPowerPrecent|D:\Work\My_Project\Client\Client\Project\main.c:22:15 (Definition) <US>c:@TerminalPowerPrecent<UE> <DS>TerminalPowerPrecent<DE> Extent=<ES>22:1 - 22:40<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:22:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>22:37 - 22:40<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:22:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>22:37 - 22:40<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:24:22: VarDecl=DataRecFlag|D:\Work\My_Project\Client\Client\Project\main.c:24:22 (Declaration) <US>c:@DataRecFlag<UE> <DS>DataRecFlag<DE> Extent=<ES>24:1 - 24:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:25:22: VarDecl=Rf_Interval_Flag|D:\Work\My_Project\Client\Client\Project\main.c:25:22 (Declaration) <US>c:@Rf_Interval_Flag<UE> <DS>Rf_Interval_Flag<DE> Extent=<ES>25:1 - 25:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:27:22: VarDecl=Display_Blink_Flag|D:\Work\My_Project\Client\Client\Project\main.c:27:22 (Declaration) <US>c:@Display_Blink_Flag<UE> <DS>Display_Blink_Flag<DE> Extent=<ES>27:1 - 27:40<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:29:22: VarDecl=Display_Blink_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:29:22 (Declaration) <US>c:@Display_Blink_TimeOut<UE> <DS>Display_Blink_TimeOut<DE> Extent=<ES>29:1 - 29:43<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:30:17: VarDecl=Key_Set_Mode|D:\Work\My_Project\Client\Client\Project\main.c:30:17 (Declaration) <US>c:@Key_Set_Mode<UE> <DS>Key_Set_Mode<DE> Extent=<ES>30:1 - 30:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:32:15: VarDecl=WorkingStatus|D:\Work\My_Project\Client\Client\Project\main.c:32:15 (Definition) <US>c:@WorkingStatus<UE> <DS>WorkingStatus<DE> Extent=<ES>32:1 - 32:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:32:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>32:31 - 32:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:32:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>32:31 - 32:32<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:34:6: FunctionDecl=ClockInit|D:\Work\My_Project\Client\Client\Project\main.c:34:6 (Definition) <US>c:@F@ClockInit<UE> <DS>void ClockInit(void)<DE> Extent=<ES>34:1 - 63:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:35:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>35:1 - 63:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:36:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>36:3 - 36:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:36:25: VarDecl=i|D:\Work\My_Project\Client\Client\Project\main.c:36:25 (Definition) <US>c:main.c@930@F@ClockInit@i<UE> <DS>i<DE> Extent=<ES>36:3 - 36:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:65:6: FunctionDecl=VddIOEnable|D:\Work\My_Project\Client\Client\Project\main.c:65:6 (Definition) <US>c:@F@VddIOEnable<UE> <DS>void VddIOEnable(void)<DE> Extent=<ES>65:1 - 69:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:66:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>66:1 - 69:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:71:6: FunctionDecl=VddIODisable|D:\Work\My_Project\Client\Client\Project\main.c:71:6 (Definition) <US>c:@F@VddIODisable<UE> <DS>void VddIODisable(void)<DE> Extent=<ES>71:1 - 75:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:72:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>72:1 - 75:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:77:5: FunctionDecl=main|D:\Work\My_Project\Client\Client\Project\main.c:77:5 (Definition) <US>c:@F@main<UE> <DS>int main(void)<DE> Extent=<ES>77:1 - 207:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:78:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>78:1 - 207:2<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:79:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>79:3 - 79:42<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:79:17: VarDecl=buf|D:\Work\My_Project\Client\Client\Project\main.c:79:17 (Definition) <US>c:main.c@2250@F@main@buf<UE> <DS>buf<DE> Extent=<ES>79:3 - 79:41<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:79:25: InitListExpr= <US><UE> <DS><DE> Extent=<ES>79:25 - 79:41<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:79:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>79:26 - 79:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:79:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:26 - 79:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:79:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>79:31 - 79:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:79:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:31 - 79:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:79:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>79:36 - 79:40<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:79:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:36 - 79:40<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:80:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>80:3 - 80:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:80:16: VarDecl=addr|D:\Work\My_Project\Client\Client\Project\main.c:80:16 (Definition) <US>c:main.c@2293@F@main@addr<UE> <DS>addr<DE> Extent=<ES>80:3 - 80:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:80:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>80:23 - 80:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:80:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>80:23 - 80:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:81:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>81:3 - 81:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:81:16: VarDecl=a|D:\Work\My_Project\Client\Client\Project\main.c:81:16 (Definition) <US>c:main.c@2324@F@main@a<UE> <DS>a<DE> Extent=<ES>81:3 - 81:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:83:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>83:3 - 83:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:83:16: VarDecl=i|D:\Work\My_Project\Client\Client\Project\main.c:83:16 (Definition) <US>c:main.c@2347@F@main@i<UE> <DS>i<DE> Extent=<ES>83:3 - 83:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:86:3: CallExpr=ClockInit|D:\Work\My_Project\Client\Client\Project\main.c:34:6 <US>c:@F@ClockInit<UE> <DS>void ClockInit(void)<DE> Extent=<ES>86:3 - 86:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:86:3: UnexposedExpr=ClockInit|D:\Work\My_Project\Client\Client\Project\main.c:34:6 <US>c:@F@ClockInit<UE> <DS>void ClockInit(void)<DE> Extent=<ES>86:3 - 86:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:86:3: DeclRefExpr=ClockInit|D:\Work\My_Project\Client\Client\Project\main.c:34:6 (Reference) <US>c:@F@ClockInit<UE> <DS>void ClockInit(void)<DE> Extent=<ES>86:3 - 86:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:88:3: CallExpr=VddIOEnable|D:\Work\My_Project\Client\Client\Project\main.c:65:6 <US>c:@F@VddIOEnable<UE> <DS>void VddIOEnable(void)<DE> Extent=<ES>88:3 - 88:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:88:3: UnexposedExpr=VddIOEnable|D:\Work\My_Project\Client\Client\Project\main.c:65:6 <US>c:@F@VddIOEnable<UE> <DS>void VddIOEnable(void)<DE> Extent=<ES>88:3 - 88:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:88:3: DeclRefExpr=VddIOEnable|D:\Work\My_Project\Client\Client\Project\main.c:65:6 (Reference) <US>c:@F@VddIOEnable<UE> <DS>void VddIOEnable(void)<DE> Extent=<ES>88:3 - 88:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:90:3: CallExpr=LEDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:22:13 <US>c:@F@LEDInit<UE> <DS>void LEDInit(void)<DE> Extent=<ES>90:3 - 90:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:90:3: UnexposedExpr=LEDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:22:13 <US>c:@F@LEDInit<UE> <DS>void LEDInit(void)<DE> Extent=<ES>90:3 - 90:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:90:3: DeclRefExpr=LEDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:22:13 (Reference) <US>c:@F@LEDInit<UE> <DS>void LEDInit(void)<DE> Extent=<ES>90:3 - 90:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:91:3: CallExpr=LCDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:13 <US>c:@F@LCDInit<UE> <DS>void LCDInit(void)<DE> Extent=<ES>91:3 - 91:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:91:3: UnexposedExpr=LCDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:13 <US>c:@F@LCDInit<UE> <DS>void LCDInit(void)<DE> Extent=<ES>91:3 - 91:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:91:3: DeclRefExpr=LCDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:13 (Reference) <US>c:@F@LCDInit<UE> <DS>void LCDInit(void)<DE> Extent=<ES>91:3 - 91:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:92:3: CallExpr=KeyInit|D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14 <US>c:@F@KeyInit<UE> <DS>void KeyInit(void)<DE> Extent=<ES>92:3 - 92:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:92:3: UnexposedExpr=KeyInit|D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14 <US>c:@F@KeyInit<UE> <DS>void KeyInit(void)<DE> Extent=<ES>92:3 - 92:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:92:3: DeclRefExpr=KeyInit|D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14 (Reference) <US>c:@F@KeyInit<UE> <DS>void KeyInit(void)<DE> Extent=<ES>92:3 - 92:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:94:3: CallExpr=RadioInit|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:8:13 <US>c:@F@RadioInit<UE> <DS>void RadioInit(void)<DE> Extent=<ES>94:3 - 94:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:94:3: UnexposedExpr=RadioInit|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:8:13 <US>c:@F@RadioInit<UE> <DS>void RadioInit(void)<DE> Extent=<ES>94:3 - 94:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:94:3: DeclRefExpr=RadioInit|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:8:13 (Reference) <US>c:@F@RadioInit<UE> <DS>void RadioInit(void)<DE> Extent=<ES>94:3 - 94:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:95:3: CallExpr=IRSensorInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:21:14 <US>c:@F@IRSensorInit<UE> <DS>void IRSensorInit(void)<DE> Extent=<ES>95:3 - 95:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:95:3: UnexposedExpr=IRSensorInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:21:14 <US>c:@F@IRSensorInit<UE> <DS>void IRSensorInit(void)<DE> Extent=<ES>95:3 - 95:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:95:3: DeclRefExpr=IRSensorInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:21:14 (Reference) <US>c:@F@IRSensorInit<UE> <DS>void IRSensorInit(void)<DE> Extent=<ES>95:3 - 95:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: CallExpr=TA0Init|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:29:13 <US>c:@F@TA0Init<UE> <DS>void TA0Init(void)<DE> Extent=<ES>98:3 - 98:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: UnexposedExpr=TA0Init|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:29:13 <US>c:@F@TA0Init<UE> <DS>void TA0Init(void)<DE> Extent=<ES>98:3 - 98:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: DeclRefExpr=TA0Init|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:29:13 (Reference) <US>c:@F@TA0Init<UE> <DS>void TA0Init(void)<DE> Extent=<ES>98:3 - 98:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:100:3: CallExpr=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14 <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>100:3 - 100:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:100:3: UnexposedExpr=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14 <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>100:3 - 100:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:100:3: DeclRefExpr=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14 (Reference) <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>100:3 - 100:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:100:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>100:9 - 100:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:100:9: ParenExpr= <US><UE> <DS><DE> Extent=<ES>100:9 - 100:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:100:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:9 - 100:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:102:3: CallExpr=LEDOff|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:14 <US>c:@F@LEDOff<UE> <DS>void LEDOff(unsigned char)<DE> Extent=<ES>102:3 - 102:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:102:3: UnexposedExpr=LEDOff|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:14 <US>c:@F@LEDOff<UE> <DS>void LEDOff(unsigned char)<DE> Extent=<ES>102:3 - 102:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:102:3: DeclRefExpr=LEDOff|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:14 (Reference) <US>c:@F@LEDOff<UE> <DS>void LEDOff(unsigned char)<DE> Extent=<ES>102:3 - 102:9<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:102:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>102:10 - 102:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:102:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>102:10 - 102:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:102:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>102:10 - 102:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:104:3: CallExpr=LoginTransmit|D:\Work\My_Project\Client\Client\Project\DataSendRec.h:30:13 <US>c:@F@LoginTransmit<UE> <DS>void LoginTransmit(void)<DE> Extent=<ES>104:3 - 104:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:104:3: UnexposedExpr=LoginTransmit|D:\Work\My_Project\Client\Client\Project\DataSendRec.h:30:13 <US>c:@F@LoginTransmit<UE> <DS>void LoginTransmit(void)<DE> Extent=<ES>104:3 - 104:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:104:3: DeclRefExpr=LoginTransmit|D:\Work\My_Project\Client\Client\Project\DataSendRec.h:30:13 (Reference) <US>c:@F@LoginTransmit<UE> <DS>void LoginTransmit(void)<DE> Extent=<ES>104:3 - 104:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:106:3: CallExpr=Flash_SegmentErase|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:60:13 <US>c:@F@Flash_SegmentErase<UE> <DS>void Flash_SegmentErase(uint16_t)<DE> Extent=<ES>106:3 - 106:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:106:3: UnexposedExpr=Flash_SegmentErase|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:60:13 <US>c:@F@Flash_SegmentErase<UE> <DS>void Flash_SegmentErase(uint16_t)<DE> Extent=<ES>106:3 - 106:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:106:3: DeclRefExpr=Flash_SegmentErase|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:60:13 (Reference) <US>c:@F@Flash_SegmentErase<UE> <DS>void Flash_SegmentErase(uint16_t)<DE> Extent=<ES>106:3 - 106:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:106:22: UnexposedExpr=addr|D:\Work\My_Project\Client\Client\Project\main.c:80:16 <US>c:main.c@2293@F@main@addr<UE> <DS>addr<DE> Extent=<ES>106:22 - 106:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:106:22: DeclRefExpr=addr|D:\Work\My_Project\Client\Client\Project\main.c:80:16 (Reference) <US>c:main.c@2293@F@main@addr<UE> <DS>addr<DE> Extent=<ES>106:22 - 106:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:107:3: CallExpr=FlashWrite_8|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:77:13 <US>c:@F@FlashWrite_8<UE> <DS>void FlashWrite_8(uint8_t *, uint16_t, uint16_t)<DE> Extent=<ES>107:3 - 107:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:107:3: UnexposedExpr=FlashWrite_8|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:77:13 <US>c:@F@FlashWrite_8<UE> <DS>void FlashWrite_8(uint8_t *, uint16_t, uint16_t)<DE> Extent=<ES>107:3 - 107:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:107:3: DeclRefExpr=FlashWrite_8|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:77:13 (Reference) <US>c:@F@FlashWrite_8<UE> <DS>void FlashWrite_8(uint8_t *, uint16_t, uint16_t)<DE> Extent=<ES>107:3 - 107:15<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:107:16: UnexposedExpr=buf|D:\Work\My_Project\Client\Client\Project\main.c:79:17 <US>c:main.c@2250@F@main@buf<UE> <DS>buf<DE> Extent=<ES>107:16 - 107:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:107:16: DeclRefExpr=buf|D:\Work\My_Project\Client\Client\Project\main.c:79:17 (Reference) <US>c:main.c@2250@F@main@buf<UE> <DS>buf<DE> Extent=<ES>107:16 - 107:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:107:20: UnexposedExpr=addr|D:\Work\My_Project\Client\Client\Project\main.c:80:16 <US>c:main.c@2293@F@main@addr<UE> <DS>addr<DE> Extent=<ES>107:20 - 107:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:107:20: DeclRefExpr=addr|D:\Work\My_Project\Client\Client\Project\main.c:80:16 (Reference) <US>c:main.c@2293@F@main@addr<UE> <DS>addr<DE> Extent=<ES>107:20 - 107:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:107:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>107:25 - 107:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:107:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>107:25 - 107:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:108:3: CallExpr=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>108:3 - 108:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:108:3: UnexposedExpr=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>108:3 - 108:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:108:3: DeclRefExpr=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 (Reference) <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>108:3 - 108:17<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:110:3: CallExpr=ISD2100Init|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:31:13 <US>c:@F@ISD2100Init<UE> <DS>void ISD2100Init(void)<DE> Extent=<ES>110:3 - 110:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:110:3: UnexposedExpr=ISD2100Init|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:31:13 <US>c:@F@ISD2100Init<UE> <DS>void ISD2100Init(void)<DE> Extent=<ES>110:3 - 110:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:110:3: DeclRefExpr=ISD2100Init|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:31:13 (Reference) <US>c:@F@ISD2100Init<UE> <DS>void ISD2100Init(void)<DE> Extent=<ES>110:3 - 110:14<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:141:3: CallExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>141:3 - 141:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:141:3: UnexposedExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>141:3 - 141:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:141:3: DeclRefExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>141:3 - 141:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:141:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>141:21 - 141:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:141:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>141:21 - 141:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:141:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:21 - 141:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:142:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>142:3 - 206:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:142:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>142:9 - 142:10<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:143:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>143:3 - 206:4<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:144:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>144:5 - 154:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:144:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>144:8 - 144:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:144:8: UnexposedExpr=DisplayMode|D:\Work\My_Project\Client\Client\Project\main.c:16:14 <US>c:@DisplayMode<UE> <DS>DisplayMode<DE> Extent=<ES>144:8 - 144:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:144:8: DeclRefExpr=DisplayMode|D:\Work\My_Project\Client\Client\Project\main.c:16:14 (Reference) <US>c:@DisplayMode<UE> <DS>DisplayMode<DE> Extent=<ES>144:8 - 144:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:144:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>144:23 - 144:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:144:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>144:23 - 144:38<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:145:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>145:5 - 154:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:146:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>146:7 - 153:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:146:10: UnexposedExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\main.c:5:17 <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>146:10 - 146:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:146:10: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\main.c:5:17 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>146:10 - 146:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:147:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>147:7 - 153:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:23:22: VarDecl=Display_All_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:23:22 (Declaration) <US>c:@Display_All_TimeOut<UE> <DS>Display_All_TimeOut<DE> Extent=<ES>23:1 - 23:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:25:22: VarDecl=DataRecFlag|D:\Work\My_Project\Client\Client\Project\main.c:25:22 (Declaration) <US>c:@DataRecFlag<UE> <DS>DataRecFlag<DE> Extent=<ES>25:1 - 25:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:26:22: VarDecl=Rf_Interval_Flag|D:\Work\My_Project\Client\Client\Project\main.c:26:22 (Declaration) <US>c:@Rf_Interval_Flag<UE> <DS>Rf_Interval_Flag<DE> Extent=<ES>26:1 - 26:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:28:22: VarDecl=Display_Blink_Flag|D:\Work\My_Project\Client\Client\Project\main.c:28:22 (Declaration) <US>c:@Display_Blink_Flag<UE> <DS>Display_Blink_Flag<DE> Extent=<ES>28:1 - 28:40<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:30:22: VarDecl=Display_Blink_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:30:22 (Declaration) <US>c:@Display_Blink_TimeOut<UE> <DS>Display_Blink_TimeOut<DE> Extent=<ES>30:1 - 30:43<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:31:17: VarDecl=Key_Set_Mode|D:\Work\My_Project\Client\Client\Project\main.c:31:17 (Declaration) <US>c:@Key_Set_Mode<UE> <DS>Key_Set_Mode<DE> Extent=<ES>31:1 - 31:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:33:15: VarDecl=WorkingStatus|D:\Work\My_Project\Client\Client\Project\main.c:33:15 (Definition) <US>c:@WorkingStatus<UE> <DS>WorkingStatus<DE> Extent=<ES>33:1 - 33:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:33:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>33:31 - 33:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:33:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:31 - 33:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:35:6: FunctionDecl=ClockInit|D:\Work\My_Project\Client\Client\Project\main.c:35:6 (Definition) <US>c:@F@ClockInit<UE> <DS>void ClockInit(void)<DE> Extent=<ES>35:1 - 64:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:36:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>36:1 - 64:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:37:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>37:3 - 37:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:37:25: VarDecl=i|D:\Work\My_Project\Client\Client\Project\main.c:37:25 (Definition) <US>c:main.c@985@F@ClockInit@i<UE> <DS>i<DE> Extent=<ES>37:3 - 37:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:66:6: FunctionDecl=VddIOEnable|D:\Work\My_Project\Client\Client\Project\main.c:66:6 (Definition) <US>c:@F@VddIOEnable<UE> <DS>void VddIOEnable(void)<DE> Extent=<ES>66:1 - 70:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:67:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>67:1 - 70:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:72:6: FunctionDecl=VddIODisable|D:\Work\My_Project\Client\Client\Project\main.c:72:6 (Definition) <US>c:@F@VddIODisable<UE> <DS>void VddIODisable(void)<DE> Extent=<ES>72:1 - 76:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:73:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>73:1 - 76:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:79:6: FunctionDecl=DriverInit|D:\Work\My_Project\Client\Client\Project\main.c:79:6 (Definition) <US>c:@F@DriverInit<UE> <DS>void DriverInit(void)<DE> Extent=<ES>79:1 - 107:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:80:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>80:1 - 107:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:81:3: CallExpr=ClockInit|D:\Work\My_Project\Client\Client\Project\main.c:35:6 <US>c:@F@ClockInit<UE> <DS>void ClockInit(void)<DE> Extent=<ES>81:3 - 81:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:81:3: UnexposedExpr=ClockInit|D:\Work\My_Project\Client\Client\Project\main.c:35:6 <US>c:@F@ClockInit<UE> <DS>void ClockInit(void)<DE> Extent=<ES>81:3 - 81:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:81:3: DeclRefExpr=ClockInit|D:\Work\My_Project\Client\Client\Project\main.c:35:6 (Reference) <US>c:@F@ClockInit<UE> <DS>void ClockInit(void)<DE> Extent=<ES>81:3 - 81:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:83:3: CallExpr=VddIOEnable|D:\Work\My_Project\Client\Client\Project\main.c:66:6 <US>c:@F@VddIOEnable<UE> <DS>void VddIOEnable(void)<DE> Extent=<ES>83:3 - 83:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:83:3: UnexposedExpr=VddIOEnable|D:\Work\My_Project\Client\Client\Project\main.c:66:6 <US>c:@F@VddIOEnable<UE> <DS>void VddIOEnable(void)<DE> Extent=<ES>83:3 - 83:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:83:3: DeclRefExpr=VddIOEnable|D:\Work\My_Project\Client\Client\Project\main.c:66:6 (Reference) <US>c:@F@VddIOEnable<UE> <DS>void VddIOEnable(void)<DE> Extent=<ES>83:3 - 83:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:85:3: CallExpr=ReadAlarmValue4Flash|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:108:13 <US>c:@F@ReadAlarmValue4Flash<UE> <DS>void ReadAlarmValue4Flash(void)<DE> Extent=<ES>85:3 - 85:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:85:3: UnexposedExpr=ReadAlarmValue4Flash|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:108:13 <US>c:@F@ReadAlarmValue4Flash<UE> <DS>void ReadAlarmValue4Flash(void)<DE> Extent=<ES>85:3 - 85:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:85:3: DeclRefExpr=ReadAlarmValue4Flash|D:\Work\My_Project\Client\Client\Project\Driver\HAL_FLASH.h:108:13 (Reference) <US>c:@F@ReadAlarmValue4Flash<UE> <DS>void ReadAlarmValue4Flash(void)<DE> Extent=<ES>85:3 - 85:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:87:3: CallExpr=LEDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:13 <US>c:@F@LEDInit<UE> <DS>void LEDInit(void)<DE> Extent=<ES>87:3 - 87:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:87:3: UnexposedExpr=LEDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:13 <US>c:@F@LEDInit<UE> <DS>void LEDInit(void)<DE> Extent=<ES>87:3 - 87:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:87:3: DeclRefExpr=LEDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:24:13 (Reference) <US>c:@F@LEDInit<UE> <DS>void LEDInit(void)<DE> Extent=<ES>87:3 - 87:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:88:3: CallExpr=LCDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13 <US>c:@F@LCDInit<UE> <DS>void LCDInit(void)<DE> Extent=<ES>88:3 - 88:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:88:3: UnexposedExpr=LCDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13 <US>c:@F@LCDInit<UE> <DS>void LCDInit(void)<DE> Extent=<ES>88:3 - 88:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:88:3: DeclRefExpr=LCDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13 (Reference) <US>c:@F@LCDInit<UE> <DS>void LCDInit(void)<DE> Extent=<ES>88:3 - 88:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:89:3: CallExpr=KeyInit|D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14 <US>c:@F@KeyInit<UE> <DS>void KeyInit(void)<DE> Extent=<ES>89:3 - 89:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:89:3: UnexposedExpr=KeyInit|D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14 <US>c:@F@KeyInit<UE> <DS>void KeyInit(void)<DE> Extent=<ES>89:3 - 89:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:89:3: DeclRefExpr=KeyInit|D:\Work\My_Project\Client\Client\Project\Driver\key.h:20:14 (Reference) <US>c:@F@KeyInit<UE> <DS>void KeyInit(void)<DE> Extent=<ES>89:3 - 89:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:91:3: CallExpr=RadioInit|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:8:13 <US>c:@F@RadioInit<UE> <DS>void RadioInit(void)<DE> Extent=<ES>91:3 - 91:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:91:3: UnexposedExpr=RadioInit|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:8:13 <US>c:@F@RadioInit<UE> <DS>void RadioInit(void)<DE> Extent=<ES>91:3 - 91:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:91:3: DeclRefExpr=RadioInit|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:8:13 (Reference) <US>c:@F@RadioInit<UE> <DS>void RadioInit(void)<DE> Extent=<ES>91:3 - 91:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:92:3: CallExpr=IRSensorInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14 <US>c:@F@IRSensorInit<UE> <DS>void IRSensorInit(void)<DE> Extent=<ES>92:3 - 92:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:92:3: UnexposedExpr=IRSensorInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14 <US>c:@F@IRSensorInit<UE> <DS>void IRSensorInit(void)<DE> Extent=<ES>92:3 - 92:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:92:3: DeclRefExpr=IRSensorInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14 (Reference) <US>c:@F@IRSensorInit<UE> <DS>void IRSensorInit(void)<DE> Extent=<ES>92:3 - 92:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:95:3: CallExpr=TA0Init|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:29:13 <US>c:@F@TA0Init<UE> <DS>void TA0Init(void)<DE> Extent=<ES>95:3 - 95:12<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:95:3: UnexposedExpr=TA0Init|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:29:13 <US>c:@F@TA0Init<UE> <DS>void TA0Init(void)<DE> Extent=<ES>95:3 - 95:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:95:3: DeclRefExpr=TA0Init|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:29:13 (Reference) <US>c:@F@TA0Init<UE> <DS>void TA0Init(void)<DE> Extent=<ES>95:3 - 95:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:97:3: CallExpr=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:14 <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>97:3 - 97:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:97:3: UnexposedExpr=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:14 <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>97:3 - 97:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:97:3: DeclRefExpr=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:14 (Reference) <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>97:3 - 97:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:97:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>97:9 - 97:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:97:9: ParenExpr= <US><UE> <DS><DE> Extent=<ES>97:9 - 97:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:97:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>97:9 - 97:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: ParenExpr= <US><UE> <DS><DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:98:3: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>98:3 - 98:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:99:3: CallExpr=LEDOff|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:14 <US>c:@F@LEDOff<UE> <DS>void LEDOff(unsigned char)<DE> Extent=<ES>99:3 - 99:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:99:3: UnexposedExpr=LEDOff|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:14 <US>c:@F@LEDOff<UE> <DS>void LEDOff(unsigned char)<DE> Extent=<ES>99:3 - 99:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:99:3: DeclRefExpr=LEDOff|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:26:14 (Reference) <US>c:@F@LEDOff<UE> <DS>void LEDOff(unsigned char)<DE> Extent=<ES>99:3 - 99:9<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:99:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>99:10 - 99:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:99:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>99:10 - 99:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:99:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>99:10 - 99:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: CallExpr=LoginTransmit|D:\Work\My_Project\Client\Client\Project\DataSendRec.h:30:13 <US>c:@F@LoginTransmit<UE> <DS>void LoginTransmit(void)<DE> Extent=<ES>101:3 - 101:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: UnexposedExpr=LoginTransmit|D:\Work\My_Project\Client\Client\Project\DataSendRec.h:30:13 <US>c:@F@LoginTransmit<UE> <DS>void LoginTransmit(void)<DE> Extent=<ES>101:3 - 101:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:101:3: DeclRefExpr=LoginTransmit|D:\Work\My_Project\Client\Client\Project\DataSendRec.h:30:13 (Reference) <US>c:@F@LoginTransmit<UE> <DS>void LoginTransmit(void)<DE> Extent=<ES>101:3 - 101:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:103:3: CallExpr=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>103:3 - 103:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:103:3: UnexposedExpr=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>103:3 - 103:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:103:3: DeclRefExpr=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 (Reference) <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>103:3 - 103:17<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:105:3: CallExpr=ISD2100Init|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:31:13 <US>c:@F@ISD2100Init<UE> <DS>void ISD2100Init(void)<DE> Extent=<ES>105:3 - 105:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:105:3: UnexposedExpr=ISD2100Init|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:31:13 <US>c:@F@ISD2100Init<UE> <DS>void ISD2100Init(void)<DE> Extent=<ES>105:3 - 105:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:105:3: DeclRefExpr=ISD2100Init|D:\Work\My_Project\Client\Client\Project\Driver\IDS2100.h:31:13 (Reference) <US>c:@F@ISD2100Init<UE> <DS>void ISD2100Init(void)<DE> Extent=<ES>105:3 - 105:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:109:5: FunctionDecl=main|D:\Work\My_Project\Client\Client\Project\main.c:109:5 (Definition) <US>c:@F@main<UE> <DS>int main(void)<DE> Extent=<ES>109:1 - 191:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:110:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>110:1 - 191:2<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:113:3: CallExpr=DriverInit|D:\Work\My_Project\Client\Client\Project\main.c:79:6 <US>c:@F@DriverInit<UE> <DS>void DriverInit(void)<DE> Extent=<ES>113:3 - 113:15<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:113:3: UnexposedExpr=DriverInit|D:\Work\My_Project\Client\Client\Project\main.c:79:6 <US>c:@F@DriverInit<UE> <DS>void DriverInit(void)<DE> Extent=<ES>113:3 - 113:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:113:3: DeclRefExpr=DriverInit|D:\Work\My_Project\Client\Client\Project\main.c:79:6 (Reference) <US>c:@F@DriverInit<UE> <DS>void DriverInit(void)<DE> Extent=<ES>113:3 - 113:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:114:3: CallExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>114:3 - 114:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:114:3: UnexposedExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>114:3 - 114:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:114:3: DeclRefExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>114:3 - 114:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:114:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>114:21 - 114:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:114:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>114:21 - 114:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:114:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>114:21 - 114:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:115:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>115:3 - 190:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:115:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>115:9 - 115:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:116:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>116:3 - 190:4<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:117:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>117:5 - 167:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:117:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>117:8 - 117:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:117:8: UnexposedExpr=DisplayMode|D:\Work\My_Project\Client\Client\Project\main.c:16:14 <US>c:@DisplayMode<UE> <DS>DisplayMode<DE> Extent=<ES>117:8 - 117:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:117:8: DeclRefExpr=DisplayMode|D:\Work\My_Project\Client\Client\Project\main.c:16:14 (Reference) <US>c:@DisplayMode<UE> <DS>DisplayMode<DE> Extent=<ES>117:8 - 117:19<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:117:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>117:23 - 117:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:117:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>117:23 - 117:38<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:118:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>118:5 - 161:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:119:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>119:7 - 126:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:119:10: UnexposedExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\main.c:5:17 <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>119:10 - 119:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:119:10: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\main.c:5:17 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>119:10 - 119:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:120:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>120:7 - 126:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:121:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>121:9 - 121:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:121:9: DeclRefExpr=Rate|D:\Work\My_Project\Client\Client\Project\main.c:7:17 (Reference) <US>c:@Rate<UE> <DS>Rate<DE> Extent=<ES>121:9 - 121:13<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:121:16: CallExpr=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:28:21 <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>121:16 - 121:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:121:16: UnexposedExpr=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:28:21 <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>121:16 - 121:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:121:16: DeclRefExpr=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:28:21 (Reference) <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>121:16 - 121:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:122:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>122:9 - 122:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:122:9: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\main.c:5:17 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>122:9 - 122:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:122:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>122:26 - 122:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:122:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>122:26 - 122:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:123:9: CallExpr=DisplayRate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:13 <US>c:@F@DisplayRate<UE> <DS>void DisplayRate(unsigned int)<DE> Extent=<ES>123:9 - 123:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:123:9: UnexposedExpr=DisplayRate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:13 <US>c:@F@DisplayRate<UE> <DS>void DisplayRate(unsigned int)<DE> Extent=<ES>123:9 - 123:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:123:9: DeclRefExpr=DisplayRate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:32:13 (Reference) <US>c:@F@DisplayRate<UE> <DS>void DisplayRate(unsigned int)<DE> Extent=<ES>123:9 - 123:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:123:21: UnexposedExpr=Rate|D:\Work\My_Project\Client\Client\Project\main.c:7:17 <US>c:@Rate<UE> <DS>Rate<DE> Extent=<ES>123:21 - 123:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:123:21: DeclRefExpr=Rate|D:\Work\My_Project\Client\Client\Project\main.c:7:17 (Reference) <US>c:@Rate<UE> <DS>Rate<DE> Extent=<ES>123:21 - 123:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:124:9: CallExpr=DisplayTotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:13 <US>c:@F@DisplayTotalDrop<UE> <DS>void DisplayTotalDrop(void)<DE> Extent=<ES>124:9 - 124:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:124:9: UnexposedExpr=DisplayTotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:13 <US>c:@F@DisplayTotalDrop<UE> <DS>void DisplayTotalDrop(void)<DE> Extent=<ES>124:9 - 124:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:124:9: DeclRefExpr=DisplayTotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:31:13 (Reference) <US>c:@F@DisplayTotalDrop<UE> <DS>void DisplayTotalDrop(void)<DE> Extent=<ES>124:9 - 124:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:125:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>125:9 - 125:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:125:9: DeclRefExpr=RefreshTime|D:\Work\My_Project\Client\Client\Project\main.c:8:17 (Reference) <US>c:@RefreshTime<UE> <DS>RefreshTime<DE> Extent=<ES>125:9 - 125:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:125:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>125:21 - 125:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:125:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>125:21 - 125:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:127:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>127:7 - 133:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:127:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>127:10 - 127:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:127:10: UnexposedExpr=DataRecFlag|D:\Work\My_Project\Client\Client\Project\main.c:25:22 <US>c:@DataRecFlag<UE> <DS>DataRecFlag<DE> Extent=<ES>127:10 - 127:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:127:10: UnexposedExpr=DataRecFlag|D:\Work\My_Project\Client\Client\Project\main.c:25:22 <US>c:@DataRecFlag<UE> <DS>DataRecFlag<DE> Extent=<ES>127:10 - 127:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:127:10: DeclRefExpr=DataRecFlag|D:\Work\My_Project\Client\Client\Project\main.c:25:22 (Reference) <US>c:@DataRecFlag<UE> <DS>DataRecFlag<DE> Extent=<ES>127:10 - 127:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:127:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>127:25 - 127:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:128:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>128:7 - 133:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:129:9: CallExpr=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:14 <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>129:9 - 129:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:129:9: UnexposedExpr=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:14 <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>129:9 - 129:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:129:9: DeclRefExpr=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:25:14 (Reference) <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>129:9 - 129:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:129:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>129:15 - 129:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:129:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>129:15 - 129:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:129:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>129:15 - 129:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:130:9: CallExpr=ReceiveData|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:14:13 <US>c:@F@ReceiveData<UE> <DS>void ReceiveData(void)<DE> Extent=<ES>130:9 - 130:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:130:9: UnexposedExpr=ReceiveData|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:14:13 <US>c:@F@ReceiveData<UE> <DS>void ReceiveData(void)<DE> Extent=<ES>130:9 - 130:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:130:9: DeclRefExpr=ReceiveData|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:14:13 (Reference) <US>c:@F@ReceiveData<UE> <DS>void ReceiveData(void)<DE> Extent=<ES>130:9 - 130:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:131:9: CallExpr=RecDataCheck|D:\Work\My_Project\Client\Client\Project\DataSendRec.h:33:13 <US>c:@F@RecDataCheck<UE> <DS>void RecDataCheck(void)<DE> Extent=<ES>131:9 - 131:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:131:9: UnexposedExpr=RecDataCheck|D:\Work\My_Project\Client\Client\Project\DataSendRec.h:33:13 <US>c:@F@RecDataCheck<UE> <DS>void RecDataCheck(void)<DE> Extent=<ES>131:9 - 131:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:131:9: DeclRefExpr=RecDataCheck|D:\Work\My_Project\Client\Client\Project\DataSendRec.h:33:13 (Reference) <US>c:@F@RecDataCheck<UE> <DS>void RecDataCheck(void)<DE> Extent=<ES>131:9 - 131:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:132:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>132:9 - 132:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:132:9: DeclRefExpr=DataRecFlag|D:\Work\My_Project\Client\Client\Project\main.c:25:22 (Reference) <US>c:@DataRecFlag<UE> <DS>DataRecFlag<DE> Extent=<ES>132:9 - 132:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:132:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>132:23 - 132:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:132:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>132:23 - 132:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:134:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>134:7 - 138:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:134:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>134:10 - 134:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:134:10: UnexposedExpr=Rf_Interval_Flag|D:\Work\My_Project\Client\Client\Project\main.c:26:22 <US>c:@Rf_Interval_Flag<UE> <DS>Rf_Interval_Flag<DE> Extent=<ES>134:10 - 134:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:134:10: UnexposedExpr=Rf_Interval_Flag|D:\Work\My_Project\Client\Client\Project\main.c:26:22 <US>c:@Rf_Interval_Flag<UE> <DS>Rf_Interval_Flag<DE> Extent=<ES>134:10 - 134:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:134:10: DeclRefExpr=Rf_Interval_Flag|D:\Work\My_Project\Client\Client\Project\main.c:26:22 (Reference) <US>c:@Rf_Interval_Flag<UE> <DS>Rf_Interval_Flag<DE> Extent=<ES>134:10 - 134:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:134:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>134:30 - 134:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:135:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>135:7 - 138:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:136:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>136:9 - 136:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:136:9: DeclRefExpr=Rf_Interval_Flag|D:\Work\My_Project\Client\Client\Project\main.c:26:22 (Reference) <US>c:@Rf_Interval_Flag<UE> <DS>Rf_Interval_Flag<DE> Extent=<ES>136:9 - 136:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:136:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>136:28 - 136:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:136:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>136:28 - 136:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:137:9: CallExpr=ReceiveOn|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:10:13 <US>c:@F@ReceiveOn<UE> <DS>void ReceiveOn(void)<DE> Extent=<ES>137:9 - 137:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:137:9: UnexposedExpr=ReceiveOn|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:10:13 <US>c:@F@ReceiveOn<UE> <DS>void ReceiveOn(void)<DE> Extent=<ES>137:9 - 137:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:137:9: DeclRefExpr=ReceiveOn|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:10:13 (Reference) <US>c:@F@ReceiveOn<UE> <DS>void ReceiveOn(void)<DE> Extent=<ES>137:9 - 137:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:139:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>139:7 - 144:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:139:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>139:10 - 139:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:139:10: UnexposedExpr=Battery_Display_Flag|D:\Work\My_Project\Client\Client\Project\main.c:11:15 <US>c:@Battery_Display_Flag<UE> <DS>Battery_Display_Flag<DE> Extent=<ES>139:10 - 139:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:139:10: UnexposedExpr=Battery_Display_Flag|D:\Work\My_Project\Client\Client\Project\main.c:11:15 <US>c:@Battery_Display_Flag<UE> <DS>Battery_Display_Flag<DE> Extent=<ES>139:10 - 139:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:139:10: DeclRefExpr=Battery_Display_Flag|D:\Work\My_Project\Client\Client\Project\main.c:11:15 (Reference) <US>c:@Battery_Display_Flag<UE> <DS>Battery_Display_Flag<DE> Extent=<ES>139:10 - 139:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:139:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>139:34 - 139:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:140:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>140:7 - 144:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:141:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>141:9 - 141:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:141:9: DeclRefExpr=Battery_Display_Flag|D:\Work\My_Project\Client\Client\Project\main.c:11:15 (Reference) <US>c:@Battery_Display_Flag<UE> <DS>Battery_Display_Flag<DE> Extent=<ES>141:9 - 141:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:141:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>141:32 - 141:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:141:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:32 - 141:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:142:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>142:9 - 142:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:142:9: DeclRefExpr=BatteyLevel|D:\Work\My_Project\Client\Client\Project\main.c:10:15 (Reference) <US>c:@BatteyLevel<UE> <DS>BatteyLevel<DE> Extent=<ES>142:9 - 142:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:142:23: CallExpr=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>142:23 - 142:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:142:23: UnexposedExpr=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>142:23 - 142:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:142:23: DeclRefExpr=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 (Reference) <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>142:23 - 142:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:143:9: CallExpr=DisplayBattery|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:13 <US>c:@F@DisplayBattery<UE> <DS>void DisplayBattery(unsigned int)<DE> Extent=<ES>143:9 - 143:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:143:9: UnexposedExpr=DisplayBattery|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:13 <US>c:@F@DisplayBattery<UE> <DS>void DisplayBattery(unsigned int)<DE> Extent=<ES>143:9 - 143:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:143:9: DeclRefExpr=DisplayBattery|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:33:13 (Reference) <US>c:@F@DisplayBattery<UE> <DS>void DisplayBattery(unsigned int)<DE> Extent=<ES>143:9 - 143:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:143:25: UnexposedExpr=BatteyLevel|D:\Work\My_Project\Client\Client\Project\main.c:10:15 <US>c:@BatteyLevel<UE> <DS>BatteyLevel<DE> Extent=<ES>143:25 - 143:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:143:25: UnexposedExpr=BatteyLevel|D:\Work\My_Project\Client\Client\Project\main.c:10:15 <US>c:@BatteyLevel<UE> <DS>BatteyLevel<DE> Extent=<ES>143:25 - 143:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:143:25: DeclRefExpr=BatteyLevel|D:\Work\My_Project\Client\Client\Project\main.c:10:15 (Reference) <US>c:@BatteyLevel<UE> <DS>BatteyLevel<DE> Extent=<ES>143:25 - 143:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:145:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>145:7 - 150:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:145:10: UnexposedExpr=KeyPressFlag|D:\Work\My_Project\Client\Client\Project\main.c:14:15 <US>c:@KeyPressFlag<UE> <DS>KeyPressFlag<DE> Extent=<ES>145:10 - 145:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:145:10: DeclRefExpr=KeyPressFlag|D:\Work\My_Project\Client\Client\Project\main.c:14:15 (Reference) <US>c:@KeyPressFlag<UE> <DS>KeyPressFlag<DE> Extent=<ES>145:10 - 145:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:146:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>146:7 - 150:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:147:9: CallExpr=KeyFunction|D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14 <US>c:@F@KeyFunction<UE> <DS>void KeyFunction(void)<DE> Extent=<ES>147:9 - 147:22<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:147:9: UnexposedExpr=KeyFunction|D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14 <US>c:@F@KeyFunction<UE> <DS>void KeyFunction(void)<DE> Extent=<ES>147:9 - 147:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:147:9: DeclRefExpr=KeyFunction|D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14 (Reference) <US>c:@F@KeyFunction<UE> <DS>void KeyFunction(void)<DE> Extent=<ES>147:9 - 147:20<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:148:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>148:9 - 148:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:148:9: DeclRefExpr=Rate|D:\Work\My_Project\Client\Client\Project\main.c:7:17 (Reference) <US>c:@Rate<UE> <DS>Rate<DE> Extent=<ES>148:9 - 148:13<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:148:16: CallExpr=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:28:21 <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>148:16 - 148:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:148:16: UnexposedExpr=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:28:21 <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>148:16 - 148:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:148:16: DeclRefExpr=GetRate|D:\Work\My_Project\Client\Client\Project\Driver\IRsensor.h:28:21 (Reference) <US>c:@F@GetRate<UE> <DS>unsigned int GetRate(void)<DE> Extent=<ES>148:16 - 148:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:149:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>149:9 - 149:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:149:9: DeclRefExpr=RateDisplayFlag|D:\Work\My_Project\Client\Client\Project\main.c:5:17 (Reference) <US>c:@RateDisplayFlag<UE> <DS>RateDisplayFlag<DE> Extent=<ES>149:9 - 149:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:149:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>149:26 - 149:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:149:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>149:26 - 149:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:150:9: CallExpr=DisplayRate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:13 <US>c:@F@DisplayRate<UE> <DS>void DisplayRate(unsigned int)<DE> Extent=<ES>150:9 - 150:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:150:9: UnexposedExpr=DisplayRate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:13 <US>c:@F@DisplayRate<UE> <DS>void DisplayRate(unsigned int)<DE> Extent=<ES>150:9 - 150:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:150:9: DeclRefExpr=DisplayRate|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:13 (Reference) <US>c:@F@DisplayRate<UE> <DS>void DisplayRate(unsigned int)<DE> Extent=<ES>150:9 - 150:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:150:21: UnexposedExpr=Rate|D:\Work\My_Project\Client\Client\Project\main.c:7:17 <US>c:@Rate<UE> <DS>Rate<DE> Extent=<ES>150:21 - 150:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:150:21: DeclRefExpr=Rate|D:\Work\My_Project\Client\Client\Project\main.c:7:17 (Reference) <US>c:@Rate<UE> <DS>Rate<DE> Extent=<ES>150:21 - 150:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:151:9: CallExpr=DisplayTotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13 <US>c:@F@DisplayTotalDrop<UE> <DS>void DisplayTotalDrop(void)<DE> Extent=<ES>151:9 - 151:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:151:9: UnexposedExpr=DisplayTotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13 <US>c:@F@DisplayTotalDrop<UE> <DS>void DisplayTotalDrop(void)<DE> Extent=<ES>151:9 - 151:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:151:9: DeclRefExpr=DisplayTotalDrop|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13 (Reference) <US>c:@F@DisplayTotalDrop<UE> <DS>void DisplayTotalDrop(void)<DE> Extent=<ES>151:9 - 151:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:152:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>152:9 - 152:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:152:9: DeclRefExpr=RefreshTime|D:\Work\My_Project\Client\Client\Project\main.c:8:17 (Reference) <US>c:@RefreshTime<UE> <DS>RefreshTime<DE> Extent=<ES>152:9 - 152:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:152:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>152:21 - 152:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:152:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>152:21 - 152:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:171:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>171:5 - 177:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:171:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>171:8 - 171:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:171:8: UnexposedExpr=DataRecFlag|D:\Work\My_Project\Client\Client\Project\main.c:24:22 <US>c:@DataRecFlag<UE> <DS>DataRecFlag<DE> Extent=<ES>171:8 - 171:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:171:8: UnexposedExpr=DataRecFlag|D:\Work\My_Project\Client\Client\Project\main.c:24:22 <US>c:@DataRecFlag<UE> <DS>DataRecFlag<DE> Extent=<ES>171:8 - 171:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:171:8: DeclRefExpr=DataRecFlag|D:\Work\My_Project\Client\Client\Project\main.c:24:22 (Reference) <US>c:@DataRecFlag<UE> <DS>DataRecFlag<DE> Extent=<ES>171:8 - 171:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:171:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>171:23 - 171:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:172:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>172:5 - 177:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:173:7: CallExpr=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14 <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>173:7 - 173:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:173:7: UnexposedExpr=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14 <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>173:7 - 173:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:173:7: DeclRefExpr=LEDOn|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:23:14 (Reference) <US>c:@F@LEDOn<UE> <DS>void LEDOn(unsigned char)<DE> Extent=<ES>173:7 - 173:12<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:173:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>173:13 - 173:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:173:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>173:13 - 173:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:173:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>173:13 - 173:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:174:7: CallExpr=ReceiveData|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:14:13 <US>c:@F@ReceiveData<UE> <DS>void ReceiveData(void)<DE> Extent=<ES>174:7 - 174:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:174:7: UnexposedExpr=ReceiveData|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:14:13 <US>c:@F@ReceiveData<UE> <DS>void ReceiveData(void)<DE> Extent=<ES>174:7 - 174:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:174:7: DeclRefExpr=ReceiveData|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:14:13 (Reference) <US>c:@F@ReceiveData<UE> <DS>void ReceiveData(void)<DE> Extent=<ES>174:7 - 174:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:175:7: CallExpr=RecDataCheck|D:\Work\My_Project\Client\Client\Project\DataSendRec.h:33:13 <US>c:@F@RecDataCheck<UE> <DS>void RecDataCheck(void)<DE> Extent=<ES>175:7 - 175:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:175:7: UnexposedExpr=RecDataCheck|D:\Work\My_Project\Client\Client\Project\DataSendRec.h:33:13 <US>c:@F@RecDataCheck<UE> <DS>void RecDataCheck(void)<DE> Extent=<ES>175:7 - 175:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:175:7: DeclRefExpr=RecDataCheck|D:\Work\My_Project\Client\Client\Project\DataSendRec.h:33:13 (Reference) <US>c:@F@RecDataCheck<UE> <DS>void RecDataCheck(void)<DE> Extent=<ES>175:7 - 175:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:176:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>176:7 - 176:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:176:7: DeclRefExpr=DataRecFlag|D:\Work\My_Project\Client\Client\Project\main.c:24:22 (Reference) <US>c:@DataRecFlag<UE> <DS>DataRecFlag<DE> Extent=<ES>176:7 - 176:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:176:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>176:21 - 176:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:176:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>176:21 - 176:22<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:178:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>178:5 - 182:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:178:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>178:8 - 178:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:178:8: UnexposedExpr=Rf_Interval_Flag|D:\Work\My_Project\Client\Client\Project\main.c:25:22 <US>c:@Rf_Interval_Flag<UE> <DS>Rf_Interval_Flag<DE> Extent=<ES>178:8 - 178:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:178:8: UnexposedExpr=Rf_Interval_Flag|D:\Work\My_Project\Client\Client\Project\main.c:25:22 <US>c:@Rf_Interval_Flag<UE> <DS>Rf_Interval_Flag<DE> Extent=<ES>178:8 - 178:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:178:8: DeclRefExpr=Rf_Interval_Flag|D:\Work\My_Project\Client\Client\Project\main.c:25:22 (Reference) <US>c:@Rf_Interval_Flag<UE> <DS>Rf_Interval_Flag<DE> Extent=<ES>178:8 - 178:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:178:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>178:28 - 178:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:179:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>179:5 - 182:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:180:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>180:7 - 180:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:180:7: DeclRefExpr=Rf_Interval_Flag|D:\Work\My_Project\Client\Client\Project\main.c:25:22 (Reference) <US>c:@Rf_Interval_Flag<UE> <DS>Rf_Interval_Flag<DE> Extent=<ES>180:7 - 180:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:180:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>180:26 - 180:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:180:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>180:26 - 180:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:181:7: CallExpr=ReceiveOn|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:10:13 <US>c:@F@ReceiveOn<UE> <DS>void ReceiveOn(void)<DE> Extent=<ES>181:7 - 181:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:181:7: UnexposedExpr=ReceiveOn|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:10:13 <US>c:@F@ReceiveOn<UE> <DS>void ReceiveOn(void)<DE> Extent=<ES>181:7 - 181:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:181:7: DeclRefExpr=ReceiveOn|D:\Work\My_Project\Client\Client\Project\Driver\CC1101.h:10:13 (Reference) <US>c:@F@ReceiveOn<UE> <DS>void ReceiveOn(void)<DE> Extent=<ES>181:7 - 181:16<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:183:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>183:5 - 188:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:183:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>183:8 - 183:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:183:8: UnexposedExpr=Battery_Display_Flag|D:\Work\My_Project\Client\Client\Project\main.c:11:15 <US>c:@Battery_Display_Flag<UE> <DS>Battery_Display_Flag<DE> Extent=<ES>183:8 - 183:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:183:8: UnexposedExpr=Battery_Display_Flag|D:\Work\My_Project\Client\Client\Project\main.c:11:15 <US>c:@Battery_Display_Flag<UE> <DS>Battery_Display_Flag<DE> Extent=<ES>183:8 - 183:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:183:8: DeclRefExpr=Battery_Display_Flag|D:\Work\My_Project\Client\Client\Project\main.c:11:15 (Reference) <US>c:@Battery_Display_Flag<UE> <DS>Battery_Display_Flag<DE> Extent=<ES>183:8 - 183:28<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:183:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>183:32 - 183:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:184:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>184:5 - 188:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:185:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>185:7 - 185:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:185:7: DeclRefExpr=Battery_Display_Flag|D:\Work\My_Project\Client\Client\Project\main.c:11:15 (Reference) <US>c:@Battery_Display_Flag<UE> <DS>Battery_Display_Flag<DE> Extent=<ES>185:7 - 185:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:185:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>185:30 - 185:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:185:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>185:30 - 185:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:186:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>186:7 - 186:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:186:7: DeclRefExpr=BatteyLevel|D:\Work\My_Project\Client\Client\Project\main.c:10:15 (Reference) <US>c:@BatteyLevel<UE> <DS>BatteyLevel<DE> Extent=<ES>186:7 - 186:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:186:21: CallExpr=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>186:21 - 186:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:186:21: UnexposedExpr=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>186:21 - 186:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:186:21: DeclRefExpr=GetBatteyLevel|D:\Work\My_Project\Client\Client\Project\Driver\Battery.h:9:23 (Reference) <US>c:@F@GetBatteyLevel<UE> <DS>unsigned char GetBatteyLevel(void)<DE> Extent=<ES>186:21 - 186:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:187:7: CallExpr=DisplayBattery|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:13 <US>c:@F@DisplayBattery<UE> <DS>void DisplayBattery(unsigned int)<DE> Extent=<ES>187:7 - 187:35<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:187:7: UnexposedExpr=DisplayBattery|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:13 <US>c:@F@DisplayBattery<UE> <DS>void DisplayBattery(unsigned int)<DE> Extent=<ES>187:7 - 187:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:187:7: DeclRefExpr=DisplayBattery|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:30:13 (Reference) <US>c:@F@DisplayBattery<UE> <DS>void DisplayBattery(unsigned int)<DE> Extent=<ES>187:7 - 187:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:187:23: UnexposedExpr=BatteyLevel|D:\Work\My_Project\Client\Client\Project\main.c:10:15 <US>c:@BatteyLevel<UE> <DS>BatteyLevel<DE> Extent=<ES>187:23 - 187:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:187:23: UnexposedExpr=BatteyLevel|D:\Work\My_Project\Client\Client\Project\main.c:10:15 <US>c:@BatteyLevel<UE> <DS>BatteyLevel<DE> Extent=<ES>187:23 - 187:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:187:23: DeclRefExpr=BatteyLevel|D:\Work\My_Project\Client\Client\Project\main.c:10:15 (Reference) <US>c:@BatteyLevel<UE> <DS>BatteyLevel<DE> Extent=<ES>187:23 - 187:34<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:189:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>189:5 - 194:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:189:8: UnexposedExpr=KeyPressFlag|D:\Work\My_Project\Client\Client\Project\main.c:14:15 <US>c:@KeyPressFlag<UE> <DS>KeyPressFlag<DE> Extent=<ES>189:8 - 189:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:189:8: DeclRefExpr=KeyPressFlag|D:\Work\My_Project\Client\Client\Project\main.c:14:15 (Reference) <US>c:@KeyPressFlag<UE> <DS>KeyPressFlag<DE> Extent=<ES>189:8 - 189:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:190:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>190:5 - 194:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:191:7: CallExpr=KeyFunction|D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14 <US>c:@F@KeyFunction<UE> <DS>void KeyFunction(void)<DE> Extent=<ES>191:7 - 191:20<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:191:7: UnexposedExpr=KeyFunction|D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14 <US>c:@F@KeyFunction<UE> <DS>void KeyFunction(void)<DE> Extent=<ES>191:7 - 191:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:191:7: DeclRefExpr=KeyFunction|D:\Work\My_Project\Client\Client\Project\Driver\key.h:21:14 (Reference) <US>c:@F@KeyFunction<UE> <DS>void KeyFunction(void)<DE> Extent=<ES>191:7 - 191:18<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:192:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>192:7 - 192:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:192:7: DeclRefExpr=KeyPressFlag|D:\Work\My_Project\Client\Client\Project\main.c:14:15 (Reference) <US>c:@KeyPressFlag<UE> <DS>KeyPressFlag<DE> Extent=<ES>192:7 - 192:19<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:192:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>192:22 - 192:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:192:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>192:22 - 192:23<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:195:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>195:5 - 204:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:195:8: UnexposedExpr=Display_Blink_Flag|D:\Work\My_Project\Client\Client\Project\main.c:27:22 <US>c:@Display_Blink_Flag<UE> <DS>Display_Blink_Flag<DE> Extent=<ES>195:8 - 195:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:195:8: DeclRefExpr=Display_Blink_Flag|D:\Work\My_Project\Client\Client\Project\main.c:27:22 (Reference) <US>c:@Display_Blink_Flag<UE> <DS>Display_Blink_Flag<DE> Extent=<ES>195:8 - 195:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:196:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>196:5 - 204:6<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:197:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>197:7 - 201:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:197:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>197:10 - 197:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:197:10: UnexposedExpr=Display_Blink_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:29:22 <US>c:@Display_Blink_TimeOut<UE> <DS>Display_Blink_TimeOut<DE> Extent=<ES>197:10 - 197:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:197:10: UnexposedExpr=Display_Blink_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:29:22 <US>c:@Display_Blink_TimeOut<UE> <DS>Display_Blink_TimeOut<DE> Extent=<ES>197:10 - 197:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:197:10: DeclRefExpr=Display_Blink_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:29:22 (Reference) <US>c:@Display_Blink_TimeOut<UE> <DS>Display_Blink_TimeOut<DE> Extent=<ES>197:10 - 197:31<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:197:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>197:35 - 197:37<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:198:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>198:7 - 201:8<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:199:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>199:9 - 199:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:199:9: DeclRefExpr=Display_Blink_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:29:22 (Reference) <US>c:@Display_Blink_TimeOut<UE> <DS>Display_Blink_TimeOut<DE> Extent=<ES>199:9 - 199:30<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:199:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>199:32 - 199:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:199:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>199:32 - 199:33<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:200:9: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>200:9 - 200:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:200:9: DeclRefExpr=Key_Set_Mode|D:\Work\My_Project\Client\Client\Project\main.c:30:17 (Reference) <US>c:@Key_Set_Mode<UE> <DS>Key_Set_Mode<DE> Extent=<ES>200:9 - 200:21<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:200:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>200:24 - 200:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:200:24: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>200:24 - 200:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:200:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>200:26 - 200:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:200:27: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>200:27 - 200:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:200:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>200:27 - 200:39<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:200:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>200:40 - 200:52<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:202:7: CallExpr=RefreshAlarmValue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:13 <US>c:@F@RefreshAlarmValue<UE> <DS>void RefreshAlarmValue(void)<DE> Extent=<ES>202:7 - 202:26<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:202:7: UnexposedExpr=RefreshAlarmValue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:13 <US>c:@F@RefreshAlarmValue<UE> <DS>void RefreshAlarmValue(void)<DE> Extent=<ES>202:7 - 202:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:202:7: DeclRefExpr=RefreshAlarmValue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:36:13 (Reference) <US>c:@F@RefreshAlarmValue<UE> <DS>void RefreshAlarmValue(void)<DE> Extent=<ES>202:7 - 202:24<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:203:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>203:7 - 203:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:203:7: DeclRefExpr=Display_Blink_Flag|D:\Work\My_Project\Client\Client\Project\main.c:27:22 (Reference) <US>c:@Display_Blink_Flag<UE> <DS>Display_Blink_Flag<DE> Extent=<ES>203:7 - 203:25<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:203:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>203:28 - 203:29<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:203:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>203:28 - 203:29<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:148:9: DeclRefExpr=KeyPressFlag|D:\Work\My_Project\Client\Client\Project\main.c:14:15 (Reference) <US>c:@KeyPressFlag<UE> <DS>KeyPressFlag<DE> Extent=<ES>148:9 - 148:21<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:148:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>148:24 - 148:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:148:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>148:24 - 148:25<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:151:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>151:7 - 160:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:151:10: UnexposedExpr=Display_Blink_Flag|D:\Work\My_Project\Client\Client\Project\main.c:28:22 <US>c:@Display_Blink_Flag<UE> <DS>Display_Blink_Flag<DE> Extent=<ES>151:10 - 151:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:151:10: DeclRefExpr=Display_Blink_Flag|D:\Work\My_Project\Client\Client\Project\main.c:28:22 (Reference) <US>c:@Display_Blink_Flag<UE> <DS>Display_Blink_Flag<DE> Extent=<ES>151:10 - 151:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:152:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>152:7 - 160:8<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:153:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>153:9 - 157:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:153:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>153:12 - 153:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:153:12: UnexposedExpr=Display_Blink_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:30:22 <US>c:@Display_Blink_TimeOut<UE> <DS>Display_Blink_TimeOut<DE> Extent=<ES>153:12 - 153:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:153:12: UnexposedExpr=Display_Blink_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:30:22 <US>c:@Display_Blink_TimeOut<UE> <DS>Display_Blink_TimeOut<DE> Extent=<ES>153:12 - 153:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:153:12: DeclRefExpr=Display_Blink_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:30:22 (Reference) <US>c:@Display_Blink_TimeOut<UE> <DS>Display_Blink_TimeOut<DE> Extent=<ES>153:12 - 153:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:153:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>153:37 - 153:39<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:154:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>154:9 - 157:10<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:155:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>155:11 - 155:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:155:11: DeclRefExpr=Display_Blink_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:30:22 (Reference) <US>c:@Display_Blink_TimeOut<UE> <DS>Display_Blink_TimeOut<DE> Extent=<ES>155:11 - 155:32<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:155:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>155:34 - 155:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:155:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>155:34 - 155:35<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:156:11: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>156:11 - 156:55<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:156:11: DeclRefExpr=Key_Set_Mode|D:\Work\My_Project\Client\Client\Project\main.c:31:17 (Reference) <US>c:@Key_Set_Mode<UE> <DS>Key_Set_Mode<DE> Extent=<ES>156:11 - 156:23<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:156:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>156:26 - 156:55<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:156:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>156:26 - 156:55<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:156:28: ParenExpr= <US><UE> <DS><DE> Extent=<ES>156:28 - 156:55<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:156:29: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>156:29 - 156:54<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:156:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:29 - 156:41<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:156:42: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:42 - 156:54<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:158:9: CallExpr=RefreshAlarmValue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:39:13 <US>c:@F@RefreshAlarmValue<UE> <DS>void RefreshAlarmValue(void)<DE> Extent=<ES>158:9 - 158:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:158:9: UnexposedExpr=RefreshAlarmValue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:39:13 <US>c:@F@RefreshAlarmValue<UE> <DS>void RefreshAlarmValue(void)<DE> Extent=<ES>158:9 - 158:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:158:9: DeclRefExpr=RefreshAlarmValue|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:39:13 (Reference) <US>c:@F@RefreshAlarmValue<UE> <DS>void RefreshAlarmValue(void)<DE> Extent=<ES>158:9 - 158:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:159:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>159:9 - 159:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:159:9: DeclRefExpr=Display_Blink_Flag|D:\Work\My_Project\Client\Client\Project\main.c:28:22 (Reference) <US>c:@Display_Blink_Flag<UE> <DS>Display_Blink_Flag<DE> Extent=<ES>159:9 - 159:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:159:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>159:30 - 159:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:159:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>159:30 - 159:31<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:162:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>162:10 - 167:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:162:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>162:13 - 162:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:162:13: UnexposedExpr=DisplayMode|D:\Work\My_Project\Client\Client\Project\main.c:16:14 <US>c:@DisplayMode<UE> <DS>DisplayMode<DE> Extent=<ES>162:13 - 162:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:162:13: DeclRefExpr=DisplayMode|D:\Work\My_Project\Client\Client\Project\main.c:16:14 (Reference) <US>c:@DisplayMode<UE> <DS>DisplayMode<DE> Extent=<ES>162:13 - 162:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:162:28: ParenExpr= <US><UE> <DS><DE> Extent=<ES>162:28 - 162:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:162:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>162:28 - 162:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:163:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>163:5 - 167:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:7: CallExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>164:7 - 164:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:7: UnexposedExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>164:7 - 164:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:7: DeclRefExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>164:7 - 164:24<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>164:25 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:25: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>164:25 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:25: ParenExpr= <US><UE> <DS><DE> Extent=<ES>164:25 - 164:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:25 - 164:28<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:29: UnexposedExpr=_BIS_SR|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:52:30 <US>c:@F@_BIS_SR<UE> <DS>unsigned short _BIS_SR(unsigned short)<DE> Extent=<ES>164:29 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:29: CallExpr=_BIS_SR|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:52:30 <US>c:@F@_BIS_SR<UE> <DS>unsigned short _BIS_SR(unsigned short)<DE> Extent=<ES>164:29 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:29: UnexposedExpr=_BIS_SR|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:52:30 <US>c:@F@_BIS_SR<UE> <DS>unsigned short _BIS_SR(unsigned short)<DE> Extent=<ES>164:29 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:29: DeclRefExpr=_BIS_SR|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:52:30 (Reference) <US>c:@F@_BIS_SR<UE> <DS>unsigned short _BIS_SR(unsigned short)<DE> Extent=<ES>164:29 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>164:29 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>164:29 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:29: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>164:29 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>164:29 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:29 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>164:29 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:164:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:29 - 164:33<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:165:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>165:7 - 165:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:165:7: DeclRefExpr=DisplayMode|D:\Work\My_Project\Client\Client\Project\main.c:16:14 (Reference) <US>c:@DisplayMode<UE> <DS>DisplayMode<DE> Extent=<ES>165:7 - 165:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:165:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>165:21 - 165:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:165:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>165:21 - 165:36<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:166:7: CallExpr=LCDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13 <US>c:@F@LCDInit<UE> <DS>void LCDInit(void)<DE> Extent=<ES>166:7 - 166:16<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:166:7: UnexposedExpr=LCDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13 <US>c:@F@LCDInit<UE> <DS>void LCDInit(void)<DE> Extent=<ES>166:7 - 166:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:166:7: DeclRefExpr=LCDInit|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:28:13 (Reference) <US>c:@F@LCDInit<UE> <DS>void LCDInit(void)<DE> Extent=<ES>166:7 - 166:14<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:168:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>168:5 - 173:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:168:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>168:8 - 168:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:168:8: UnexposedExpr=Display_All_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:23:22 <US>c:@Display_All_TimeOut<UE> <DS>Display_All_TimeOut<DE> Extent=<ES>168:8 - 168:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:168:8: UnexposedExpr=Display_All_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:23:22 <US>c:@Display_All_TimeOut<UE> <DS>Display_All_TimeOut<DE> Extent=<ES>168:8 - 168:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:168:8: DeclRefExpr=Display_All_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:23:22 (Reference) <US>c:@Display_All_TimeOut<UE> <DS>Display_All_TimeOut<DE> Extent=<ES>168:8 - 168:27<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:168:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>168:31 - 168:34<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:169:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>169:5 - 173:6<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:170:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>170:7 - 170:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:170:7: DeclRefExpr=Display_All_TimeOut|D:\Work\My_Project\Client\Client\Project\main.c:23:22 (Reference) <US>c:@Display_All_TimeOut<UE> <DS>Display_All_TimeOut<DE> Extent=<ES>170:7 - 170:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:170:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>170:29 - 170:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:170:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>170:29 - 170:30<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:171:7: CallExpr=DisplayNone|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:14 <US>c:@F@DisplayNone<UE> <DS>void DisplayNone(void)<DE> Extent=<ES>171:7 - 171:20<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:171:7: UnexposedExpr=DisplayNone|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:14 <US>c:@F@DisplayNone<UE> <DS>void DisplayNone(void)<DE> Extent=<ES>171:7 - 171:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:171:7: DeclRefExpr=DisplayNone|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:29:14 (Reference) <US>c:@F@DisplayNone<UE> <DS>void DisplayNone(void)<DE> Extent=<ES>171:7 - 171:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:172:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>172:7 - 172:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:172:7: DeclRefExpr=DisplayMode|D:\Work\My_Project\Client\Client\Project\main.c:16:14 (Reference) <US>c:@DisplayMode<UE> <DS>DisplayMode<DE> Extent=<ES>172:7 - 172:18<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:172:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>172:21 - 172:37<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:172:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>172:21 - 172:37<EE>

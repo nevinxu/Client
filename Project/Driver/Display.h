@@ -17,6 +17,8 @@
 
 #define DisplayRateMode    BIT0
 #define DisplayClockMode   BIT1
+#define DisplaySleepMode    BIT2
+
 
 extern void  IRSensorInit();
 extern void LEDInit(void);
@@ -24,6 +26,7 @@ extern void  LEDOn(unsigned char num);
 extern void  LEDOff(unsigned char num);
 
 extern void LCDInit(void);
+extern void  DisplayNone();
 extern void DisplayLine(unsigned char status);
 extern void DisplayTotalDrop(void);
 extern void DisplayRate(unsigned int rate);

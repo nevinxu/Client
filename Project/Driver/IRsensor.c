@@ -20,6 +20,8 @@ extern unsigned int TotalDrop;  //总滴液
 unsigned int Alarm_timer_Num = 0;  //报警间断时间计数
 unsigned char Display_Blink_TimeOut;  //报警值设置超时
 
+unsigned char Display_All_TimeOut;  //显示超时
+
 
 extern unsigned char DataRecFlag;
 unsigned char Rf_Interval_Num = 0;  //RF打开间断时间
@@ -156,6 +158,7 @@ __interrupt void Timer1_A0 (void)
   static unsigned int OverflowValue[10] = {0,0,0,0};
   static double Valuefabs;
   TA1CCTL0 &=~ COV;
+  Display_All_TimeOut = 0;
   IRTimerValue[StoreTimes] = TA1CCR0; 
         OverflowValue[StoreTimes] = OverflowTime;
         OverflowTime =0;
@@ -195,6 +198,7 @@ step1:  TimerValue = IRTimerValue[StoreTimes];
 step2:  StoreTimes++;
 
   IRRecCaptureInit();
+  LPM3_EXIT;
 }
 
 
@@ -338,7 +342,7 @@ __interrupt void Timer_A0_1 (void)
         {
           Display_Blink_Flag = 0;
         }
-        
+        Display_All_TimeOut++;
         DisplayModeChargetimes++;
         if(DisplayModeChargetimes%2)
         {

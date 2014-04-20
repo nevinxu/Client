@@ -13,7 +13,7 @@ unsigned char   DisplayDigtalClockFlag;
 
 unsigned char KeyPressFlag;   //°´¼ü±êÖ¾
 
-unsigned int DisplayMode = DisplayClockMode;
+unsigned int DisplayMode = DisplayRateMode;
 unsigned char DisplayModeChargetimes=0;
 unsigned char DisplayModeChargeFlag=0;
 

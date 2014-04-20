@@ -1,6 +1,6 @@
 #include "IDS2100.h"
 
-unsigned char VoiceLevel = 0;  //声音等级
+unsigned char VoiceLevel = 5;  //声音等级
 
 
 
@@ -12,7 +12,7 @@ void ISD2100Init(void)
   ISD2100_SOMIDIR &=~ SOMI;
   ISD2100_RDYDIR &=~ RDY;
   
-  WriteVoice(0x01);
+  WriteVoiceLevel(VoiceLevel);
 }
 
 void ISD2100_send_data(unsigned char data_temp)

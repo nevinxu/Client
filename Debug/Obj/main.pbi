@@ -2190,7 +2190,7 @@
 <L>D:\Work\My_Project\Client\Client\Project\Driver\include.h:25:9: macro definition=MCLK_C <US>c:macro@MCLK_C<UE> <DS>MCLK_C<DE> Extent=<ES>25:9 - 25:24<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\include.h:26:9: macro definition=Delay_us <US>c:macro@Delay_us<UE> <DS>Delay_us<DE> Extent=<ES>26:9 - 26:45<EE>
 <L>D:\Work\My_Project\Client\Client\Project\Driver\include.h:27:9: macro definition=Delay_ms <US>c:macro@Delay_ms<UE> <DS>Delay_ms<DE> Extent=<ES>27:9 - 27:53<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:16:28: macro expansion=DisplayClockMode|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:19:9 <US>c:macro@DisplayClockMode<UE> <DS>DisplayClockMode<DE> Extent=<ES>16:28 - 16:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:16:28: macro expansion=DisplayRateMode|D:\Work\My_Project\Client\Client\Project\Driver\Display.h:18:9 <US>c:macro@DisplayRateMode<UE> <DS>DisplayRateMode<DE> Extent=<ES>16:28 - 16:43<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:50:12: macro expansion=FN_4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:630:9 <US>c:macro@FN_4<UE> <DS>FN_4<DE> Extent=<ES>50:12 - 50:16<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:52:15: macro expansion=DCOPLUS|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:663:9 <US>c:macro@DCOPLUS<UE> <DS>DCOPLUS<DE> Extent=<ES>52:15 - 52:22<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:52:25: macro expansion=XCAP11PF|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f4152.h:668:9 <US>c:macro@XCAP11PF<UE> <DS>XCAP11PF<DE> Extent=<ES>52:25 - 52:33<EE>
@@ -2542,9 +2542,9 @@
 <L>D:\Work\My_Project\Client\Client\Project\main.c:11:15: VarDecl=Battery_Display_Flag|D:\Work\My_Project\Client\Client\Project\main.c:11:15 (Declaration) <US>c:@Battery_Display_Flag<UE> <DS>Battery_Display_Flag<DE> Extent=<ES>11:1 - 11:35<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:12:17: VarDecl=DisplayDigtalClockFlag|D:\Work\My_Project\Client\Client\Project\main.c:12:17 (Declaration) <US>c:@DisplayDigtalClockFlag<UE> <DS>DisplayDigtalClockFlag<DE> Extent=<ES>12:1 - 12:39<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:14:15: VarDecl=KeyPressFlag|D:\Work\My_Project\Client\Client\Project\main.c:14:15 (Declaration) <US>c:@KeyPressFlag<UE> <DS>KeyPressFlag<DE> Extent=<ES>14:1 - 14:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:16:14: VarDecl=DisplayMode|D:\Work\My_Project\Client\Client\Project\main.c:16:14 (Definition) <US>c:@DisplayMode<UE> <DS>DisplayMode<DE> Extent=<ES>16:1 - 16:44<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:16:28: ParenExpr= <US><UE> <DS><DE> Extent=<ES>16:28 - 16:44<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:16:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>16:28 - 16:44<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:16:14: VarDecl=DisplayMode|D:\Work\My_Project\Client\Client\Project\main.c:16:14 (Definition) <US>c:@DisplayMode<UE> <DS>DisplayMode<DE> Extent=<ES>16:1 - 16:43<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:16:28: ParenExpr= <US><UE> <DS><DE> Extent=<ES>16:28 - 16:43<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:16:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>16:28 - 16:43<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:17:15: VarDecl=DisplayModeChargetimes|D:\Work\My_Project\Client\Client\Project\main.c:17:15 (Definition) <US>c:@DisplayModeChargetimes<UE> <DS>DisplayModeChargetimes<DE> Extent=<ES>17:1 - 17:39<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:17:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>17:38 - 17:39<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:17:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:38 - 17:39<EE>
@@ -2572,7 +2572,7 @@
 <L>D:\Work\My_Project\Client\Client\Project\main.c:35:6: FunctionDecl=ClockInit|D:\Work\My_Project\Client\Client\Project\main.c:35:6 (Definition) <US>c:@F@ClockInit<UE> <DS>void ClockInit(void)<DE> Extent=<ES>35:1 - 64:2<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:36:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>36:1 - 64:2<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:37:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>37:3 - 37:27<EE>
-<L>D:\Work\My_Project\Client\Client\Project\main.c:37:25: VarDecl=i|D:\Work\My_Project\Client\Client\Project\main.c:37:25 (Definition) <US>c:main.c@985@F@ClockInit@i<UE> <DS>i<DE> Extent=<ES>37:3 - 37:26<EE>
+<L>D:\Work\My_Project\Client\Client\Project\main.c:37:25: VarDecl=i|D:\Work\My_Project\Client\Client\Project\main.c:37:25 (Definition) <US>c:main.c@984@F@ClockInit@i<UE> <DS>i<DE> Extent=<ES>37:3 - 37:26<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:66:6: FunctionDecl=VddIOEnable|D:\Work\My_Project\Client\Client\Project\main.c:66:6 (Definition) <US>c:@F@VddIOEnable<UE> <DS>void VddIOEnable(void)<DE> Extent=<ES>66:1 - 70:2<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:67:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>67:1 - 70:2<EE>
 <L>D:\Work\My_Project\Client\Client\Project\main.c:72:6: FunctionDecl=VddIODisable|D:\Work\My_Project\Client\Client\Project\main.c:72:6 (Definition) <US>c:@F@VddIODisable<UE> <DS>void VddIODisable(void)<DE> Extent=<ES>72:1 - 76:2<EE>

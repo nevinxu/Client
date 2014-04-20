@@ -3,6 +3,7 @@
 
 extern unsigned char AlarmUpperValue;  //报警上限值
 extern unsigned char AlarmLowerValue; //报警下限值
+extern unsigned char VoiceLevel;;  //声音等级
 
 void Flash_SegmentErase(uint16_t Flash_addr)
 {
@@ -96,12 +97,13 @@ void FlashMemoryFill_32(uint32_t value, uint32_t *Flash_ptr, uint16_t count)
 
 void WriteAlarmValue2Flash()
 {
-  unsigned char buf[2];
+  unsigned char buf[3];
   unsigned int addr = 0xf800;
   buf[0] = AlarmUpperValue;
   buf[1] = AlarmLowerValue;
+  buf[2] = VoiceLevel;
   Flash_SegmentErase(addr);
-  FlashWrite_8(buf,addr,2);
+  FlashWrite_8(buf,addr,3);
 }
 
 void ReadAlarmValue4Flash()
@@ -109,9 +111,14 @@ void ReadAlarmValue4Flash()
   unsigned int addr = 0xf800;
   AlarmUpperValue = *(unsigned char *)addr++;
   AlarmLowerValue = *(unsigned char *)addr++;
+  VoiceLevel = *(unsigned char *)addr++;
   if(AlarmUpperValue < (AlarmLowerValue+20))
   {
     AlarmUpperValue = 140;
     AlarmLowerValue = 30;
+  }
+  if(VoiceLevel>=5)
+  {
+    VoiceLevel = 5;
   }
 }

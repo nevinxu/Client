@@ -7,7 +7,7 @@ Warning[w6]: Type conflict for external/entry "RxBuffer", in module CC1101 again
 #                                                                              #
 #      IAR Universal Linker V5.3.2.26                                          #
 #                                                                              #
-#           Link time     =  19/Apr/2014  23:28:49                             #
+#           Link time     =  20/Apr/2014  09:42:28                             #
 #           Target CPU    =  MSP430                                            #
 #           List file     =  D:\Work\My_Project\Client\Client\Debug\List\XY101 #
 #                            .map                                              #
@@ -85,7 +85,7 @@ Warning[w6]: Type conflict for external/entry "RxBuffer", in module CC1101 again
                 *                                      *
                 ****************************************
 
-       Program entry at :           C034  Relocatable, from module : ?cstart
+       Program entry at :           C036  Relocatable, from module : ?cstart
 
 
 
@@ -172,30 +172,30 @@ DATA16_AN
            ADC10MEM                01B4 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DACC - DAEF (0x24 bytes), align: 1
+  Relative segment, address: DAE2 - DB05 (0x24 bytes), align: 1
   Segment part 7.             Intra module refs:   GetBatteyLevel
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           GetBatteyValue          DACC 
+           GetBatteyValue          DAE2 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D1D8 - D25F (0x88 bytes), align: 1
+  Relative segment, address: D1D2 - D259 (0x88 bytes), align: 1
   Segment part 8.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           GetBatteyLevel          D1D8            DriverInit (main)
+           GetBatteyLevel          D1D2            DriverInit (main)
                                                    main (main)
                calls direct
                CSTACK = 00000000 ( 00000006 )
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0216 - 0235 (0x20 bytes), align: 1
+  Relative segment, address: 0218 - 0237 (0x20 bytes), align: 1
   Segment part 6.             Intra module refs:   GetBatteyLevel
            LOCAL                   ADDRESS         
            =====                   =======         
            GetBatteyLevel::adcValue
-                                   0216 
+                                   0218 
 
     *************************************************************************
 
@@ -214,29 +214,29 @@ DATA16_AN
            P1IN                    0020 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: C1F6 - C38F (0x19a bytes), align: 1
+  Relative segment, address: C05E - C1F7 (0x19a bytes), align: 1
   Segment part 5.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           writeRFSettings         C1F6            RadioInit (CC1101)
+           writeRFSettings         C05E            RadioInit (CC1101)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D0C0 - D14F (0x90 bytes), align: 1
+  Relative segment, address: D0BA - D149 (0x90 bytes), align: 1
   Segment part 4.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           RFSendPacket            D0C0            Transmit (CC1101)
+           RFSendPacket            D0BA            Transmit (CC1101)
                calls direct
                CSTACK = 00000000 ( 00000006 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: CF88 - D02D (0xa6 bytes), align: 1
+  Relative segment, address: CF82 - D027 (0xa6 bytes), align: 1
   Segment part 3.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           RFReceivePacket         CF88            ReceiveData (CC1101)
+           RFReceivePacket         CF82            ReceiveData (CC1101)
                calls direct
                CSTACK = 00000000 ( 00000004 )
 
@@ -295,63 +295,63 @@ DATA16_AN
            P1SEL                   0026 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D150 - D1D7 (0x88 bytes), align: 1
+  Relative segment, address: D14A - D1D1 (0x88 bytes), align: 1
   Segment part 16.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           RadioInit               D150            DriverInit (main)
+           RadioInit               D14A            DriverInit (main)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 02B8 - 02B8 (0x1 bytes), align: 0
+  Relative segment, address: 02BA - 02BA (0x1 bytes), align: 0
   Segment part 10.            Intra module refs:   RadioInit
            LOCAL                   ADDRESS         
            =====                   =======         
-           RadioInit::txBuffer     02B8 
+           RadioInit::txBuffer     02BA 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DDB8 - DDBB (0x4 bytes), align: 1
+  Relative segment, address: DDD0 - DDD3 (0x4 bytes), align: 1
   Segment part 15.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Transmit                DDB8            LoginTransmit (DataSendRec)
+           Transmit                DDD0            LoginTransmit (DataSendRec)
                                                    WorkingStateMsgTransmit (DataSendRec)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DC4A - DC5D (0x14 bytes), align: 1
+  Relative segment, address: DC62 - DC75 (0x14 bytes), align: 1
   Segment part 13.            Intra module refs:   ReceiveData
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ClearRecBuf             DC4A 
+           ClearRecBuf             DC62 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DCE2 - DCF1 (0x10 bytes), align: 1
+  Relative segment, address: DCFA - DD09 (0x10 bytes), align: 1
   Segment part 14.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ReceiveData             DCE2            main (main)
+           ReceiveData             DCFA            main (main)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DAA8 - DACB (0x24 bytes), align: 1
+  Relative segment, address: DABE - DAE1 (0x24 bytes), align: 1
   Segment part 12.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ReceiveOn               DAA8            main (main)
+           ReceiveOn               DABE            main (main)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DD02 - DD11 (0x10 bytes), align: 1
+  Relative segment, address: DD1A - DD29 (0x10 bytes), align: 1
   Segment part 11.            Intra module refs:   ReceiveData
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ReceiveOff              DD02 
+           ReceiveOff              DD1A 
                calls direct
                CSTACK = 00000000 ( 00000002 )
 
@@ -363,20 +363,20 @@ DATA16_Z
   SEGMENTS IN THE MODULE
   ======================
 DATA16_Z
-  Relative segment, address: 02B9 - 02F8 (0x40 bytes), align: 0
+  Relative segment, address: 02BB - 02FA (0x40 bytes), align: 0
   Segment part 2.             Intra module refs:   LoginTransmit
                                                    MessageHeader
                                                    WorkingStateMsgTransmit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TxBuffer                02B9 
+           TxBuffer                02BB 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 02F9 - 0338 (0x40 bytes), align: 0
+  Relative segment, address: 02FB - 033A (0x40 bytes), align: 0
   Segment part 3.             Intra module refs:   RecDataCheck
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           RxBuffer                02F9            ClearRecBuf (CC1101)
+           RxBuffer                02FB            ClearRecBuf (CC1101)
                                                    ReceiveData (CC1101)
     -------------------------------------------------------------------------
 DATA16_I
@@ -387,22 +387,22 @@ DATA16_I
            MsgBegin                0200 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0236 - 0237 (0x2 bytes), align: 1
+  Relative segment, address: 0238 - 0239 (0x2 bytes), align: 1
   Segment part 6.             Intra module refs:   LoginTransmit
                                                    MessageHeader
                                                    WorkingStateMsgTransmit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           MsgLength               0236 
+           MsgLength               0238 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0339 - 0339 (0x1 bytes), align: 0
+  Relative segment, address: 033B - 033B (0x1 bytes), align: 0
   Segment part 7.             Intra module refs:   LoginTransmit
                                                    MessageHeader
                                                    WorkingStateMsgTransmit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           CommandId               0339 
+           CommandId               033B 
     -------------------------------------------------------------------------
 DATA16_I
   Relative segment, address: 0202 - 0203 (0x2 bytes), align: 1
@@ -412,22 +412,22 @@ DATA16_I
            ModelAddress            0202 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0238 - 023B (0x4 bytes), align: 1
+  Relative segment, address: 023A - 023D (0x4 bytes), align: 1
   Segment part 10.            Intra module refs:   LoginTransmit
                                                    MessageHeader
                                                    WorkingStateMsgTransmit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           SequenceId              0238 
+           SequenceId              023A 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 033A - 033A (0x1 bytes), align: 0
+  Relative segment, address: 033C - 033C (0x1 bytes), align: 0
   Segment part 11.            Intra module refs:   LoginTransmit
                                                    MessageHeader
                                                    WorkingStateMsgTransmit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           MsgStatus               033A 
+           MsgStatus               033C 
     -------------------------------------------------------------------------
 DATA16_I
   Relative segment, address: 020C - 0211 (0x6 bytes), align: 0
@@ -437,56 +437,56 @@ DATA16_I
            TerminalID              020C 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 033B - 033B (0x1 bytes), align: 0
+  Relative segment, address: 033D - 033D (0x1 bytes), align: 0
   Segment part 14.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           DataRecFlag             033B            Timer_A0_1 (IRsensor)
+           DataRecFlag             033D            Timer_A0_1 (IRsensor)
                                                    main (main)
                                                    port1_ISR (key)
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 033C - 033C (0x1 bytes), align: 0
+  Relative segment, address: 033E - 033E (0x1 bytes), align: 0
   Segment part 19.            Intra module refs:   RecDataCheck
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            WorkingStateSendSuccessFlag
-                                   033C 
+                                   033E 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D260 - D2DF (0x80 bytes), align: 1
+  Relative segment, address: D25A - D2D9 (0x80 bytes), align: 1
   Segment part 20.            Intra module refs:   LoginTransmit
                                                    WorkingStateMsgTransmit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           MessageHeader           D260 
+           MessageHeader           D25A 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D488 - D4DD (0x56 bytes), align: 1
+  Relative segment, address: D482 - D4D7 (0x56 bytes), align: 1
   Segment part 21.            Intra module refs:   RecDataCheck
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            WorkingStateMsgTransmit
-                                   D488 
+                                   D482 
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D858 - D895 (0x3e bytes), align: 1
+  Relative segment, address: D898 - D8D5 (0x3e bytes), align: 1
   Segment part 25.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           LoginTransmit           D858            DriverInit (main)
+           LoginTransmit           D898            DriverInit (main)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DA2E - DA57 (0x2a bytes), align: 1
+  Relative segment, address: DA94 - DABD (0x2a bytes), align: 1
   Segment part 22.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           RecDataCheck            DA2E            main (main)
+           RecDataCheck            DA94            main (main)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
@@ -644,132 +644,132 @@ DATA16_I
                                                    WriteAlarmValue2Flash (HAL_FLASH)
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 023C - 023D (0x2 bytes), align: 1
+  Relative segment, address: 023E - 023F (0x2 bytes), align: 1
   Segment part 20.            Intra module refs:   DisplayTotalDrop
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TotalDrop               023C            GetRate (IRsensor)
+           TotalDrop               023E            GetRate (IRsensor)
                                                    Timer1_A0 (IRsensor)
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 033D - 033D (0x1 bytes), align: 0
+  Relative segment, address: 033F - 033F (0x1 bytes), align: 0
   Segment part 21.            Intra module refs:   RefreshAlarmValue
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Display_Blink_Flag      033D            KeyFunction (key)
+           Display_Blink_Flag      033F            KeyFunction (key)
                                                    Timer_A0_1 (IRsensor)
                                                    main (main)
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DD4A - DD57 (0xe bytes), align: 1
+  Relative segment, address: DD62 - DD6F (0xe bytes), align: 1
   Segment part 38.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           LEDInit                 DD4A            DriverInit (main)
+           LEDInit                 DD62            DriverInit (main)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DC86 - DC99 (0x14 bytes), align: 1
+  Relative segment, address: DC9E - DCB1 (0x14 bytes), align: 1
   Segment part 37.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           LEDOff                  DC86            DriverInit (main)
+           LEDOff                  DC9E            DriverInit (main)
                                                    Timer_A0_1 (IRsensor)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DC5E - DC71 (0x14 bytes), align: 1
+  Relative segment, address: DC76 - DC89 (0x14 bytes), align: 1
   Segment part 36.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           LEDOn                   DC5E            DriverInit (main)
+           LEDOn                   DC76            DriverInit (main)
                                                    main (main)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D2E0 - D34F (0x70 bytes), align: 1
+  Relative segment, address: D2DA - D349 (0x70 bytes), align: 1
   Segment part 35.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           LCDInit                 D2E0            DriverInit (main)
+           LCDInit                 D2DA            DriverInit (main)
                                                    main (main)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DCAC - DCBD (0x12 bytes), align: 1
+  Relative segment, address: DCC4 - DCD5 (0x12 bytes), align: 1
   Segment part 34.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           DisplayNone             DCAC            main (main)
+           DisplayNone             DCC4            main (main)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D350 - D3B9 (0x6a bytes), align: 1
+  Relative segment, address: D34A - D3B3 (0x6a bytes), align: 1
   Segment part 33.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           RefreshAlarmValue       D350            KeyFunction (key)
+           RefreshAlarmValue       D34A            KeyFunction (key)
                                                    main (main)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DCF2 - DD01 (0x10 bytes), align: 1
+  Relative segment, address: DD0A - DD19 (0x10 bytes), align: 1
   Segment part 32.            Intra module refs:   LCDInit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           DisplayLine             DCF2 
+           DisplayLine             DD0A 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D3BA - D421 (0x68 bytes), align: 1
+  Relative segment, address: D3B4 - D41B (0x68 bytes), align: 1
   Segment part 31.            Intra module refs:   LCDInit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           DisplayBattery          D3BA            main (main)
+           DisplayBattery          D3B4            main (main)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D586 - D5D5 (0x50 bytes), align: 1
+  Relative segment, address: D580 - D5CF (0x50 bytes), align: 1
   Segment part 30.            Intra module refs:   LCDInit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           DisplayVoice            D586            KeyFunction (key)
+           DisplayVoice            D580            KeyFunction (key)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: CED8 - CF87 (0xb0 bytes), align: 1
+  Relative segment, address: CED2 - CF81 (0xb0 bytes), align: 1
   Segment part 29.            Intra module refs:   LCDInit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           DisplayTotalDrop        CED8            main (main)
+           DisplayTotalDrop        CED2            main (main)
                CSTACK = 00000000 ( 00000006 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: C9F0 - CAD5 (0xe6 bytes), align: 1
+  Relative segment, address: C9EA - CACF (0xe6 bytes), align: 1
   Segment part 28.            Intra module refs:   LCDInit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           DisplayRate             C9F0            main (main)
+           DisplayRate             C9EA            main (main)
                CSTACK = 00000000 ( 00000008 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: CBAA - CC79 (0xd0 bytes), align: 1
+  Relative segment, address: CBA4 - CC73 (0xd0 bytes), align: 1
   Segment part 27.            Intra module refs:   LCDInit
                                                    RefreshAlarmValue
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           DisplayUpAlarm          CBAA 
+           DisplayUpAlarm          CBA4 
                CSTACK = 00000000 ( 00000008 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: CC7A - CD49 (0xd0 bytes), align: 1
+  Relative segment, address: CC74 - CD43 (0xd0 bytes), align: 1
   Segment part 26.            Intra module refs:   LCDInit
                                                    RefreshAlarmValue
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           DisplayDownAlarm        CC7A 
+           DisplayDownAlarm        CC74 
                CSTACK = 00000000 ( 00000008 )
     -------------------------------------------------------------------------
 DATA16_ID
@@ -812,36 +812,36 @@ DATA16_AN
            FCTL3                   012C 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DA58 - DA81 (0x2a bytes), align: 1
+  Relative segment, address: DA6A - DA93 (0x2a bytes), align: 1
   Segment part 7.             Intra module refs:   WriteAlarmValue2Flash
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Flash_SegmentErase      DA58 
+           Flash_SegmentErase      DA6A 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D8D2 - D907 (0x36 bytes), align: 1
+  Relative segment, address: D912 - D947 (0x36 bytes), align: 1
   Segment part 6.             Intra module refs:   WriteAlarmValue2Flash
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           FlashWrite_8            D8D2 
+           FlashWrite_8            D912 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DA82 - DAA7 (0x26 bytes), align: 1
+  Relative segment, address: DA10 - DA3D (0x2e bytes), align: 1
   Segment part 8.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           WriteAlarmValue2Flash   DA82            KeyFunction (key)
+           WriteAlarmValue2Flash   DA10            KeyFunction (key)
                calls direct
-               CSTACK = 00000000 ( 00000004 )
+               CSTACK = 00000000 ( 00000006 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D972 - D9A3 (0x32 bytes), align: 1
+  Relative segment, address: D74A - D78F (0x46 bytes), align: 1
   Segment part 5.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ReadAlarmValue4Flash    D972            DriverInit (main)
+           ReadAlarmValue4Flash    D74A            DriverInit (main)
                CSTACK = 00000000 ( 00000002 )
 
     *************************************************************************
@@ -871,118 +871,126 @@ DATA16_AN
            =====                   =======         ======
            P6DIR                   0036 
     -------------------------------------------------------------------------
-DATA16_Z
-  Relative segment, address: 033E - 033E (0x1 bytes), align: 0
-  Segment part 6.             Intra module refs:   VoicePlay
+DATA16_I
+  Relative segment, address: 0214 - 0214 (0x1 bytes), align: 0
+  Segment part 6.             Intra module refs:   ISD2100Init
+                                                   VoicePlay
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           VoiceLevel              033E            KeyFunction (key)
+           VoiceLevel              0214            KeyFunction (key)
+                                                   LCDInit (Display)
+                                                   ReadAlarmValue4Flash (HAL_FLASH)
+                                                   WriteAlarmValue2Flash (HAL_FLASH)
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DB38 - DB55 (0x1e bytes), align: 1
-  Segment part 21.
+  Relative segment, address: DB4E - DB6D (0x20 bytes), align: 1
+  Segment part 22.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ISD2100Init             DB38            DriverInit (main)
+           ISD2100Init             DB4E            DriverInit (main)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D81A - D857 (0x3e bytes), align: 1
-  Segment part 7.             Intra module refs:   ISD2100_power_down
+  Relative segment, address: D85A - D897 (0x3e bytes), align: 1
+  Segment part 8.             Intra module refs:   ISD2100_power_down
                                                    ISD2100_power_up
                                                    VoicePlay
                                                    WriteVoice
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ISD2100_send_data       D81A 
+           ISD2100_send_data       D85A 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DB56 - DB73 (0x1e bytes), align: 1
-  Segment part 8.             Intra module refs:   VoicePlay
+  Relative segment, address: DB6E - DB8B (0x1e bytes), align: 1
+  Segment part 9.             Intra module refs:   VoicePlay
                                                    WriteVoice
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ISD2100_power_up        DB56 
+           ISD2100_power_up        DB6E 
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DB74 - DB91 (0x1e bytes), align: 1
-  Segment part 13.            Intra module refs:   VoicePlay
+  Relative segment, address: DB8C - DBA9 (0x1e bytes), align: 1
+  Segment part 14.            Intra module refs:   VoicePlay
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ISD2100_power_down      DB74 
+           ISD2100_power_down      DB8C 
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D796 - D7D9 (0x44 bytes), align: 1
-  Segment part 15.            Intra module refs:   Play_Drop_Start
+  Relative segment, address: D7D6 - D819 (0x44 bytes), align: 1
+  Segment part 16.            Intra module refs:   Play_Drop_Start
                                                    Play_Drop_Stop
                                                    Play_OverQuick
                                                    Play_TooSlow
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           VoicePlay               D796            KeyFunction (key)
+           VoicePlay               D7D6            KeyFunction (key)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D896 - D8D1 (0x3c bytes), align: 1
-  Segment part 9.             Intra module refs:   ISD2100Init
-                                                   WriteVoiceLevel
+  Relative segment, address: D8D6 - D911 (0x3c bytes), align: 1
+  Segment part 10.            Intra module refs:   WriteVoiceLevel
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           WriteVoice              D896 
+           WriteVoice              D8D6 
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D624 - D66F (0x4c bytes), align: 1
-  Segment part 14.            Intra module refs:   VoicePlay
+  Relative segment, address: D61E - D669 (0x4c bytes), align: 1
+  Segment part 15.            Intra module refs:   ISD2100Init
+                                                   VoicePlay
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           WriteVoiceLevel         D624            KeyFunction (key)
+           WriteVoiceLevel         D61E            KeyFunction (key)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DB92 - DBAF (0x1e bytes), align: 1
+  Relative segment, address: DBAA - DBC7 (0x1e bytes), align: 1
+  Segment part 21.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Play_Drop_Start         DBAA            GetRate (IRsensor)
+               calls direct
+               CSTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: DDBC - DDC3 (0x8 bytes), align: 1
   Segment part 20.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Play_Drop_Start         DB92            GetRate (IRsensor)
+           Play_Drop_Stop          DDBC            GetRate (IRsensor)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DDA4 - DDAB (0x8 bytes), align: 1
-  Segment part 19.
+  Relative segment, address: DDB4 - DDBB (0x8 bytes), align: 1
+  Segment part 18.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Play_Drop_Stop          DDA4            GetRate (IRsensor)
+           Play_OverQuick          DDB4            GetRate (IRsensor)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DD9C - DDA3 (0x8 bytes), align: 1
+  Relative segment, address: DDAC - DDB3 (0x8 bytes), align: 1
   Segment part 17.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Play_OverQuick          DD9C            GetRate (IRsensor)
+           Play_TooSlow            DDAC            GetRate (IRsensor)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
-<CODE> 1 (was CODE)
-  Relative segment, address: DD94 - DD9B (0x8 bytes), align: 1
-  Segment part 16.
-           ENTRY                   ADDRESS         REF BY
-           =====                   =======         ======
-           Play_TooSlow            DD94            GetRate (IRsensor)
-               calls direct
-               CSTACK = 00000000 ( 00000002 )
+DATA16_ID
+  Relative segment, address: C032 - C032 (0x1 bytes), align: 0
+  Segment part 7.             Intra module refs:   VoiceLevel
 
     *************************************************************************
 
@@ -1093,120 +1101,120 @@ DATA16_AN
            TA1CCR3                 0198 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 023E - 023F (0x2 bytes), align: 1
+  Relative segment, address: 0240 - 0241 (0x2 bytes), align: 1
   Segment part 23.            Intra module refs:   GetRate
                                                    Timer_A0_1
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Alarm_timer_Num         023E 
-    -------------------------------------------------------------------------
-DATA16_Z
-  Relative segment, address: 033F - 033F (0x1 bytes), align: 0
-  Segment part 24.            Intra module refs:   Timer_A0_1
-           ENTRY                   ADDRESS         REF BY
-           =====                   =======         ======
-           Display_Blink_TimeOut   033F            KeyFunction (key)
-                                                   main (main)
+           Alarm_timer_Num         0240 
     -------------------------------------------------------------------------
 DATA16_Z
   Relative segment, address: 0340 - 0340 (0x1 bytes), align: 0
+  Segment part 24.            Intra module refs:   Timer_A0_1
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Display_Blink_TimeOut   0340            KeyFunction (key)
+                                                   main (main)
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0341 - 0341 (0x1 bytes), align: 0
   Segment part 25.            Intra module refs:   Timer1_A0
                                                    Timer_A0_1
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Display_All_TimeOut     0340            main (main)
+           Display_All_TimeOut     0341            main (main)
                                                    port1_ISR (key)
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0341 - 0341 (0x1 bytes), align: 0
+  Relative segment, address: 0342 - 0342 (0x1 bytes), align: 0
   Segment part 26.            Intra module refs:   Timer_A0_1
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Rf_Interval_Num         0341            port1_ISR (key)
+           Rf_Interval_Num         0342            port1_ISR (key)
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0342 - 0342 (0x1 bytes), align: 0
+  Relative segment, address: 0343 - 0343 (0x1 bytes), align: 0
   Segment part 27.            Intra module refs:   Timer_A0_1
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Rf_Interval_Flag        0342            main (main)
+           Rf_Interval_Flag        0343            main (main)
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DD20 - DD2D (0xe bytes), align: 1
+  Relative segment, address: DD38 - DD45 (0xe bytes), align: 1
   Segment part 49.            Intra module refs:   IRSensorInit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           IRSensorPortInit        DD20 
+           IRSensorPortInit        DD38 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DD12 - DD1F (0xe bytes), align: 1
+  Relative segment, address: DD2A - DD37 (0xe bytes), align: 1
   Segment part 44.            Intra module refs:   Timer_A0_0
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           IRReceiveStatus         DD12 
+           IRReceiveStatus         DD2A 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DC1E - DC33 (0x16 bytes), align: 1
+  Relative segment, address: DC36 - DC4B (0x16 bytes), align: 1
   Segment part 46.            Intra module refs:   IRSensorInit
                                                    Timer1_A0
                                                    Timer1_A1
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           IRRecCaptureInit        DC1E 
+           IRRecCaptureInit        DC36 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DAF0 - DB13 (0x24 bytes), align: 1
+  Relative segment, address: DB06 - DB29 (0x24 bytes), align: 1
   Segment part 51.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TA0Init                 DAF0            DriverInit (main)
+           TA0Init                 DB06            DriverInit (main)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DD8C - DD93 (0x8 bytes), align: 1
+  Relative segment, address: DDA4 - DDAB (0x8 bytes), align: 1
   Segment part 50.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           IRSensorInit            DD8C            DriverInit (main)
+           IRSensorInit            DDA4            DriverInit (main)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: C644 - C785 (0x142 bytes), align: 1
+  Relative segment, address: C63E - C77F (0x142 bytes), align: 1
   Segment part 43.            Intra module refs:   Timer_A0_0
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           GetRate                 C644            main (main)
+           GetRate                 C63E            main (main)
                calls direct
                CSTACK = 00000000 ( 0000000A )
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0240 - 024F (0x10 bytes), align: 1
+  Relative segment, address: 0242 - 0251 (0x10 bytes), align: 1
   Segment part 28.            Intra module refs:   GetRate
            LOCAL                   ADDRESS         
            =====                   =======         
-           GetRate::buffer         0240 
+           GetRate::buffer         0242 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: C786 - C8BF (0x13a bytes), align: 1
+  Relative segment, address: C780 - C8B9 (0x13a bytes), align: 1
   Segment part 48.            Intra module refs:   Timer1_A0::??INTVEC 26
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Timer1_A0               C786 
+           Timer1_A0               C780 
                interrupt function
                calls direct
                CSTACK = 00000000 ( 00000010 )
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0250 - 0251 (0x2 bytes), align: 1
+  Relative segment, address: 0252 - 0253 (0x2 bytes), align: 1
   Segment part 29.            Intra module refs:   Timer1_A0
            LOCAL                   ADDRESS         
            =====                   =======         
            Timer1_A0::OverflowTime
-                                   0250 
+                                   0252 
     -------------------------------------------------------------------------
 DATA16_I
   Relative segment, address: 0204 - 0205 (0x2 bytes), align: 1
@@ -1216,45 +1224,45 @@ DATA16_I
            Timer1_A0::StoreTimes   0204 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0252 - 0265 (0x14 bytes), align: 1
+  Relative segment, address: 0254 - 0267 (0x14 bytes), align: 1
   Segment part 32.            Intra module refs:   Timer1_A0
            LOCAL                   ADDRESS         
            =====                   =======         
            Timer1_A0::IRTimerValue
-                                   0252 
+                                   0254 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0266 - 0279 (0x14 bytes), align: 1
+  Relative segment, address: 0268 - 027B (0x14 bytes), align: 1
   Segment part 33.            Intra module refs:   Timer1_A0
            LOCAL                   ADDRESS         
            =====                   =======         
            Timer1_A0::OverflowValue
-                                   0266 
+                                   0268 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 027A - 027D (0x4 bytes), align: 1
+  Relative segment, address: 027C - 027F (0x4 bytes), align: 1
   Segment part 34.            Intra module refs:   Timer1_A0
            LOCAL                   ADDRESS         
            =====                   =======         
-           Timer1_A0::Valuefabs    027A 
+           Timer1_A0::Valuefabs    027C 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: C4F2 - C643 (0x152 bytes), align: 1
+  Relative segment, address: C4EC - C63D (0x152 bytes), align: 1
   Segment part 47.            Intra module refs:   Timer1_A1::??INTVEC 24
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Timer1_A1               C4F2 
+           Timer1_A1               C4EC 
                interrupt function
                calls direct
                CSTACK = 00000000 ( 00000010 )
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 027E - 027F (0x2 bytes), align: 1
+  Relative segment, address: 0280 - 0281 (0x2 bytes), align: 1
   Segment part 35.            Intra module refs:   Timer1_A1
            LOCAL                   ADDRESS         
            =====                   =======         
            Timer1_A1::OverflowTime
-                                   027E 
+                                   0280 
     -------------------------------------------------------------------------
 DATA16_I
   Relative segment, address: 0206 - 0207 (0x2 bytes), align: 1
@@ -1264,54 +1272,54 @@ DATA16_I
            Timer1_A1::StoreTimes   0206 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0280 - 0293 (0x14 bytes), align: 1
+  Relative segment, address: 0282 - 0295 (0x14 bytes), align: 1
   Segment part 38.            Intra module refs:   Timer1_A1
            LOCAL                   ADDRESS         
            =====                   =======         
            Timer1_A1::IRTimerValue
-                                   0280 
+                                   0282 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0294 - 02A7 (0x14 bytes), align: 1
+  Relative segment, address: 0296 - 02A9 (0x14 bytes), align: 1
   Segment part 39.            Intra module refs:   Timer1_A1
            LOCAL                   ADDRESS         
            =====                   =======         
            Timer1_A1::OverflowValue
-                                   0294 
+                                   0296 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 02A8 - 02AB (0x4 bytes), align: 1
+  Relative segment, address: 02AA - 02AD (0x4 bytes), align: 1
   Segment part 40.            Intra module refs:   Timer1_A1
            LOCAL                   ADDRESS         
            =====                   =======         
-           Timer1_A1::Valuefabs    02A8 
+           Timer1_A1::Valuefabs    02AA 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D5D6 - D623 (0x4e bytes), align: 1
+  Relative segment, address: D5D0 - D61D (0x4e bytes), align: 1
   Segment part 45.            Intra module refs:   Timer_A0_0::??INTVEC 12
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Timer_A0_0              D5D6 
+           Timer_A0_0              D5D0 
                interrupt function
                calls direct
                CSTACK = 00000000 ( 0000000C )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: CD4A - CE19 (0xd0 bytes), align: 1
+  Relative segment, address: CD44 - CE13 (0xd0 bytes), align: 1
   Segment part 42.            Intra module refs:   Timer_A0_1::??INTVEC 10
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Timer_A0_1              CD4A 
+           Timer_A0_1              CD44 
                interrupt function
                calls direct
                CSTACK = 00000000 ( 0000000C )
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0343 - 0343 (0x1 bytes), align: 0
+  Relative segment, address: 0344 - 0344 (0x1 bytes), align: 0
   Segment part 41.            Intra module refs:   Timer_A0_1
            LOCAL                   ADDRESS         
            =====                   =======         
-           Timer_A0_1::i           0343 
+           Timer_A0_1::i           0344 
     -------------------------------------------------------------------------
 INTVEC
   Common segment, address: FFE0 - FFEB (0xc bytes), align: 1
@@ -1452,71 +1460,71 @@ DATA16_AN
            UCB0TXBUF               006F 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DD3C - DD49 (0xe bytes), align: 1
+  Relative segment, address: DD54 - DD61 (0xe bytes), align: 1
   Segment part 14.            Intra module refs:   TI_CC_PowerupResetCCxxxx
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TI_CC_Wait              DD3C 
+           TI_CC_Wait              DD54 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D9D4 - DA01 (0x2e bytes), align: 1
+  Relative segment, address: D9E2 - DA0F (0x2e bytes), align: 1
   Segment part 22.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TI_CC_SPISetup          D9D4            RadioInit (CC1101)
+           TI_CC_SPISetup          D9E2            RadioInit (CC1101)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DA02 - DA2D (0x2c bytes), align: 1
+  Relative segment, address: DA3E - DA69 (0x2c bytes), align: 1
   Segment part 21.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TI_CC_SPIWriteReg       DA02            RFSendPacket (CC1100-CC2500)
+           TI_CC_SPIWriteReg       DA3E            RFSendPacket (CC1100-CC2500)
                                                    writeRFSettings (CC1100-CC2500)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D7DA - D819 (0x40 bytes), align: 1
+  Relative segment, address: D81A - D859 (0x40 bytes), align: 1
   Segment part 20.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            TI_CC_SPIWriteBurstReg
-                                   D7DA            RFSendPacket (CC1100-CC2500)
+                                   D81A            RFSendPacket (CC1100-CC2500)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D908 - D93D (0x36 bytes), align: 1
+  Relative segment, address: D948 - D97D (0x36 bytes), align: 1
   Segment part 19.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TI_CC_SPIReadReg        D908            RFReceivePacket (CC1100-CC2500)
+           TI_CC_SPIReadReg        D948            RFReceivePacket (CC1100-CC2500)
                                                    RadioInit (CC1101)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D422 - D487 (0x66 bytes), align: 1
+  Relative segment, address: D41C - D481 (0x66 bytes), align: 1
   Segment part 18.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TI_CC_SPIReadBurstReg   D422            RFReceivePacket (CC1100-CC2500)
+           TI_CC_SPIReadBurstReg   D41C            RFReceivePacket (CC1100-CC2500)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D93E - D971 (0x34 bytes), align: 1
+  Relative segment, address: D97E - D9B1 (0x34 bytes), align: 1
   Segment part 17.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TI_CC_SPIReadStatus     D93E            RFReceivePacket (CC1100-CC2500)
+           TI_CC_SPIReadStatus     D97E            RFReceivePacket (CC1100-CC2500)
                                                    RadioInit (CC1101)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DBB0 - DBCD (0x1e bytes), align: 1
+  Relative segment, address: DBC8 - DBE5 (0x1e bytes), align: 1
   Segment part 16.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TI_CC_SPIStrobe         DBB0            RFReceivePacket (CC1100-CC2500)
+           TI_CC_SPIStrobe         DBC8            RFReceivePacket (CC1100-CC2500)
                                                    RFSendPacket (CC1100-CC2500)
                                                    RadioInit (CC1101)
                                                    ReceiveOff (CC1101)
@@ -1524,12 +1532,12 @@ DATA16_AN
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D706 - D74F (0x4a bytes), align: 1
+  Relative segment, address: D700 - D749 (0x4a bytes), align: 1
   Segment part 15.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            TI_CC_PowerupResetCCxxxx
-                                   D706            RadioInit (CC1101)
+                                   D700            RadioInit (CC1101)
                calls direct
                CSTACK = 00000000 ( 00000002 )
 
@@ -1583,18 +1591,18 @@ DATA16_AN
            UCA0RXBUF               0066 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0344 - 0344 (0x1 bytes), align: 0
+  Relative segment, address: 0345 - 0345 (0x1 bytes), align: 0
   Segment part 12.            Intra module refs:   USCI0RX_ISR
            LOCAL                   ADDRESS         
            =====                   =======         
-           UartBuf                 0344 
+           UartBuf                 0345 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DD84 - DD8B (0x8 bytes), align: 1
+  Relative segment, address: DD9C - DDA3 (0x8 bytes), align: 1
   Segment part 15.            Intra module refs:   USCI0RX_ISR::??INTVEC 18
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USCI0RX_ISR             DD84 
+           USCI0RX_ISR             DD9C 
                interrupt function
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
@@ -1614,37 +1622,37 @@ INTVEC
   SEGMENTS IN THE MODULE
   ======================
 DATA16_Z
-  Relative segment, address: 02AC - 02AD (0x2 bytes), align: 1
+  Relative segment, address: 02AE - 02AF (0x2 bytes), align: 1
   Segment part 9.             Intra module refs:   KeyFunction
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Key_Set_Mode            02AC            RefreshAlarmValue (Display)
+           Key_Set_Mode            02AE            RefreshAlarmValue (Display)
                                                    Timer_A0_1 (IRsensor)
                                                    main (main)
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DC04 - DC1D (0x1a bytes), align: 1
+  Relative segment, address: DC1C - DC35 (0x1a bytes), align: 1
   Segment part 12.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           KeyInit                 DC04            DriverInit (main)
+           KeyInit                 DC1C            DriverInit (main)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: C05C - C1F5 (0x19a bytes), align: 1
+  Relative segment, address: C1F8 - C389 (0x192 bytes), align: 1
   Segment part 11.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           KeyFunction             C05C            main (main)
+           KeyFunction             C1F8            main (main)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: CE1A - CED7 (0xbe bytes), align: 1
+  Relative segment, address: CE14 - CED1 (0xbe bytes), align: 1
   Segment part 10.            Intra module refs:   port1_ISR::??INTVEC 8
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           port1_ISR               CE1A 
+           port1_ISR               CE14 
                interrupt function
                CSTACK = 00000000 ( 00000008 )
     -------------------------------------------------------------------------
@@ -1691,20 +1699,20 @@ DATA16_AN
            WDTCTL                  0120 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 02AE - 02AF (0x2 bytes), align: 1
+  Relative segment, address: 02B0 - 02B1 (0x2 bytes), align: 1
   Segment part 8.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TimerValue              02AE            GetRate (IRsensor)
+           TimerValue              02B0            GetRate (IRsensor)
                                                    Timer1_A0 (IRsensor)
                                                    Timer1_A1 (IRsensor)
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 02B0 - 02B1 (0x2 bytes), align: 1
+  Relative segment, address: 02B2 - 02B3 (0x2 bytes), align: 1
   Segment part 9.             Intra module refs:   main
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           RateDisplayFlag         02B0            GetRate (IRsensor)
+           RateDisplayFlag         02B2            GetRate (IRsensor)
                                                    Timer1_A0 (IRsensor)
                                                    Timer1_A1 (IRsensor)
                                                    Timer_A0_0 (IRsensor)
@@ -1719,47 +1727,47 @@ DATA16_I
                                                    Timer1_A1 (IRsensor)
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 02B2 - 02B3 (0x2 bytes), align: 1
+  Relative segment, address: 02B4 - 02B5 (0x2 bytes), align: 1
   Segment part 12.            Intra module refs:   main
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Rate                    02B2 
+           Rate                    02B4 
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 02B4 - 02B5 (0x2 bytes), align: 1
+  Relative segment, address: 02B6 - 02B7 (0x2 bytes), align: 1
   Segment part 13.            Intra module refs:   main
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           RefreshTime             02B4            Timer_A0_0 (IRsensor)
-    -------------------------------------------------------------------------
-DATA16_Z
-  Relative segment, address: 0345 - 0345 (0x1 bytes), align: 0
-  Segment part 14.            Intra module refs:   main
-           ENTRY                   ADDRESS         REF BY
-           =====                   =======         ======
-           BatteyLevel             0345 
+           RefreshTime             02B6            Timer_A0_0 (IRsensor)
     -------------------------------------------------------------------------
 DATA16_Z
   Relative segment, address: 0346 - 0346 (0x1 bytes), align: 0
-  Segment part 15.            Intra module refs:   main
+  Segment part 14.            Intra module refs:   main
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Battery_Display_Flag    0346            Timer_A0_1 (IRsensor)
+           BatteyLevel             0346 
     -------------------------------------------------------------------------
 DATA16_Z
   Relative segment, address: 0347 - 0347 (0x1 bytes), align: 0
+  Segment part 15.            Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Battery_Display_Flag    0347            Timer_A0_1 (IRsensor)
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0348 - 0348 (0x1 bytes), align: 0
   Segment part 16.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            DisplayDigtalClockFlag
-                                   0347            Timer_A0_1 (IRsensor)
+                                   0348            Timer_A0_1 (IRsensor)
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0348 - 0348 (0x1 bytes), align: 0
+  Relative segment, address: 0349 - 0349 (0x1 bytes), align: 0
   Segment part 17.            Intra module refs:   main
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           KeyPressFlag            0348            KeyFunction (key)
+           KeyPressFlag            0349            KeyFunction (key)
                                                    port1_ISR (key)
     -------------------------------------------------------------------------
 DATA16_I
@@ -1770,74 +1778,74 @@ DATA16_I
            DisplayMode             020A            Timer1_A0 (IRsensor)
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 0349 - 0349 (0x1 bytes), align: 0
+  Relative segment, address: 034A - 034A (0x1 bytes), align: 0
   Segment part 20.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            DisplayModeChargetimes
-                                   0349            Timer1_A0 (IRsensor)
+                                   034A            Timer1_A0 (IRsensor)
                                                    Timer1_A1 (IRsensor)
                                                    Timer_A0_1 (IRsensor)
     -------------------------------------------------------------------------
 DATA16_I
-  Relative segment, address: 0214 - 0214 (0x1 bytes), align: 0
+  Relative segment, address: 0215 - 0215 (0x1 bytes), align: 0
   Segment part 22.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           CurrentSpeed            0214            WorkingStateMsgTransmit (DataSendRec)
+           CurrentSpeed            0215            WorkingStateMsgTransmit (DataSendRec)
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 02B6 - 02B7 (0x2 bytes), align: 1
+  Relative segment, address: 02B8 - 02B9 (0x2 bytes), align: 1
   Segment part 24.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TotalDrip               02B6            WorkingStateMsgTransmit (DataSendRec)
+           TotalDrip               02B8            WorkingStateMsgTransmit (DataSendRec)
     -------------------------------------------------------------------------
 DATA16_I
-  Relative segment, address: 0215 - 0215 (0x1 bytes), align: 0
+  Relative segment, address: 0216 - 0216 (0x1 bytes), align: 0
   Segment part 25.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TerminalPowerPrecent    0215            WorkingStateMsgTransmit (DataSendRec)
+           TerminalPowerPrecent    0216            WorkingStateMsgTransmit (DataSendRec)
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 034A - 034A (0x1 bytes), align: 0
+  Relative segment, address: 034B - 034B (0x1 bytes), align: 0
   Segment part 27.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           WorkingStatus           034A            WorkingStateMsgTransmit (DataSendRec)
+           WorkingStatus           034B            WorkingStateMsgTransmit (DataSendRec)
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DC72 - DC85 (0x14 bytes), align: 1
+  Relative segment, address: DC8A - DC9D (0x14 bytes), align: 1
   Segment part 29.            Intra module refs:   DriverInit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ClockInit               DC72 
+           ClockInit               DC8A 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DD2E - DD3B (0xe bytes), align: 1
+  Relative segment, address: DD46 - DD53 (0xe bytes), align: 1
   Segment part 28.            Intra module refs:   DriverInit
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           VddIOEnable             DD2E 
+           VddIOEnable             DD46 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: D6BC - D705 (0x4a bytes), align: 1
+  Relative segment, address: D6B6 - D6FF (0x4a bytes), align: 1
   Segment part 30.            Intra module refs:   main
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           DriverInit              D6BC 
+           DriverInit              D6B6 
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: CAD6 - CBA9 (0xd4 bytes), align: 1
+  Relative segment, address: CAD0 - CBA3 (0xd4 bytes), align: 1
   Segment part 31.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           main                    CAD6            Segment part 17 (?cstart)
+           main                    CAD0            Segment part 17 (?cstart)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
@@ -1850,11 +1858,11 @@ DATA16_ID
   Segment part 19.            Intra module refs:   DisplayMode
     -------------------------------------------------------------------------
 DATA16_ID
-  Relative segment, address: C032 - C032 (0x1 bytes), align: 0
+  Relative segment, address: C033 - C033 (0x1 bytes), align: 0
   Segment part 23.            Intra module refs:   CurrentSpeed
     -------------------------------------------------------------------------
 DATA16_ID
-  Relative segment, address: C033 - C033 (0x1 bytes), align: 0
+  Relative segment, address: C034 - C034 (0x1 bytes), align: 0
   Segment part 26.            Intra module refs:   TerminalPowerPrecent
 
     *************************************************************************
@@ -1865,11 +1873,11 @@ DATA16_ID
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DDBC - DDBD (0x2 bytes), align: 1
+  Relative segment, address: DDD4 - DDD5 (0x2 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __DebugBreak            DDBC            __exit (?__exit)
+           __DebugBreak            DDD4            __exit (?__exit)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?__exit
@@ -1877,11 +1885,11 @@ DATA16_ID
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DC34 - DC49 (0x16 bytes), align: 1
+  Relative segment, address: DC4C - DC61 (0x16 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __exit                  DC34            Segment part 6 (?_exit)
+           __exit                  DC4C            Segment part 6 (?_exit)
                                                    _exit (?_exit)
                calls direct
 
@@ -1891,14 +1899,14 @@ DATA16_ID
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DDB0, align: 1
+  Relative segment, address: DDC8, align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           _exit                   DDB0            exit (?exit)
+           _exit                   DDC8            exit (?exit)
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DDB0 - DDB3 (0x4 bytes), align: 1
+  Relative segment, address: DDC8 - DDCB (0x4 bytes), align: 1
   Segment part 6.             Intra module refs:   _exit
 
     -------------------------------------------------------------------------
@@ -1911,7 +1919,7 @@ CSTACK
   Segment part 1.
     -------------------------------------------------------------------------
 DATA16_Z
-  Relative segment, address: 02B8, align: 1
+  Relative segment, address: 02BA, align: 1
   Segment part 2.
     -------------------------------------------------------------------------
 DATA16_I
@@ -1923,20 +1931,20 @@ DATA16_ID
   Segment part 4.
     -------------------------------------------------------------------------
 CSTART
-  Relative segment, address: C034 - C037 (0x4 bytes), align: 1
+  Relative segment, address: C036 - C039 (0x4 bytes), align: 1
   Segment part 9.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __program_start         C034            ?reset_vector (?reset_vector)
+           __program_start         C036            ?reset_vector (?reset_vector)
                                                    Absolute parts (?ABS_ENTRY_MOD)
-           ?cstart_begin           C034 
+           ?cstart_begin           C036 
     -------------------------------------------------------------------------
 CSTART
-  Relative segment, address: C038 - C043 (0xc bytes), align: 1
+  Relative segment, address: C03A - C045 (0xc bytes), align: 1
   Segment part 12.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?cstart_init_zero       C038            Alarm_timer_Num (IRsensor)
+           ?cstart_init_zero       C03A            Alarm_timer_Num (IRsensor)
                                                    Battery_Display_Flag (main)
                                                    BatteyLevel (main)
                                                    CommandId (DataSendRec)
@@ -1974,16 +1982,15 @@ CSTART
                                                    TotalDrop (Display)
                                                    TxBuffer (DataSendRec)
                                                    UartBuf (Uart)
-                                                   VoiceLevel (IDS2100)
                                                    WorkingStateSendSuccessFlag (DataSendRec)
                                                    WorkingStatus (main)
     -------------------------------------------------------------------------
 CSTART
-  Relative segment, address: C044 - C053 (0x10 bytes), align: 1
+  Relative segment, address: C046 - C055 (0x10 bytes), align: 1
   Segment part 13.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?cstart_init_copy       C044            AlarmLowerValue (Display)
+           ?cstart_init_copy       C046            AlarmLowerValue (Display)
                                                    AlarmUpperValue (Display)
                                                    CurrentSpeed (main)
                                                    DisplayMode (main)
@@ -1993,15 +2000,16 @@ CSTART
                                                    TerminalPowerPrecent (main)
                                                    Timer1_A0::StoreTimes (IRsensor)
                                                    Timer1_A1::StoreTimes (IRsensor)
+                                                   VoiceLevel (IDS2100)
                                                    time_num (main)
     -------------------------------------------------------------------------
 CSTART
-  Relative segment, address: C054 - C05B (0x8 bytes), align: 1
+  Relative segment, address: C056 - C05D (0x8 bytes), align: 1
   Segment part 17.            Intra module refs:   Segment part 9
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?cstart_call_main       C054 
-           ?cstart_end             C05C 
+           ?cstart_call_main       C056 
+           ?cstart_end             C05E 
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?reset_vector
@@ -2021,18 +2029,18 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DCD0 - DCE1 (0x12 bytes), align: 1
+  Relative segment, address: DCE8 - DCF9 (0x12 bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?Epilogue3              DCDA            DisplayDownAlarm (Display)
+           ?Epilogue3              DCF2            DisplayDownAlarm (Display)
                                                    DisplayRate (Display)
                                                    DisplayUpAlarm (Display)
-           ?Epilogue4              DCD8            GetRate (IRsensor)
-           ?Epilogue5              DCD6 
-           ?Epilogue6              DCD4 
-           ?Epilogue7              DCD2 
-           ?Epilogue8              DCD0 
+           ?Epilogue4              DCF0            GetRate (IRsensor)
+           ?Epilogue5              DCEE 
+           ?Epilogue6              DCEC 
+           ?Epilogue7              DCEA 
+           ?Epilogue8              DCE8 
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?exit
@@ -2040,11 +2048,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DDAC - DDAF (0x4 bytes), align: 1
+  Relative segment, address: DDC4 - DDC7 (0x4 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           exit                    DDAC            Segment part 17 (?cstart)
+           exit                    DDC4            Segment part 17 (?cstart)
                calls direct
                CSTACK = 00000000 ( 00000002 )
 
@@ -2054,11 +2062,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: D750 - D795 (0x46 bytes), align: 1
+  Relative segment, address: D790 - D7D5 (0x46 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           fabs                    D750            Timer1_A0 (IRsensor)
+           fabs                    D790            Timer1_A0 (IRsensor)
                                                    Timer1_A1 (IRsensor)
                calls direct
                CSTACK = 00000000 ( 00000006 )
@@ -2069,12 +2077,12 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: D02E - D0BF (0x92 bytes), align: 1
+  Relative segment, address: D028 - D0B9 (0x92 bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           _Cast32sto32f           D02E            GetRate (IRsensor)
-           _Cast32uto32f           D042            GetRate (IRsensor)
+           _Cast32sto32f           D028            GetRate (IRsensor)
+           _Cast32uto32f           D03C            GetRate (IRsensor)
                                                    Timer1_A0 (IRsensor)
                                                    Timer1_A1 (IRsensor)
 
@@ -2084,11 +2092,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DD58 - DD63 (0xc bytes), align: 1
+  Relative segment, address: DD70 - DD7B (0xc bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           _Cast32fto32u           DD58            GetRate (IRsensor)
+           _Cast32fto32u           DD70            GetRate (IRsensor)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?FLT_Extract
@@ -2096,11 +2104,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: D670 - D6BB (0x4c bytes), align: 1
+  Relative segment, address: D66A - D6B5 (0x4c bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?FLT_Extract            D670            _Cast32fto32u (_Cast32fto32u)
+           ?FLT_Extract            D66A            _Cast32fto32u (_Cast32fto32u)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?FLT_EQ
@@ -2108,11 +2116,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: D9A4 - D9D3 (0x30 bytes), align: 1
+  Relative segment, address: D9B2 - D9E1 (0x30 bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?FLT_EQ                 D9A4            _CmpNe32f (_CmpNe32f)
+           ?FLT_EQ                 D9B2            _CmpNe32f (_CmpNe32f)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?FLT_GE
@@ -2120,11 +2128,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: D4DE - D533 (0x56 bytes), align: 1
+  Relative segment, address: D4D8 - D52D (0x56 bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?FLT_GE                 D4DE            _CmpGe32f (_CmpGe32f)
+           ?FLT_GE                 D4D8            _CmpGe32f (_CmpGe32f)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?FLT_LT
@@ -2132,11 +2140,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: D534 - D585 (0x52 bytes), align: 1
+  Relative segment, address: D52E - D57F (0x52 bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?FLT_LT                 D534            _CmpLt32f (_CmpLt32f)
+           ?FLT_LT                 D52E            _CmpLt32f (_CmpLt32f)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : _CmpNe32f
@@ -2144,11 +2152,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DD64 - DD6F (0xc bytes), align: 1
+  Relative segment, address: DD7C - DD87 (0xc bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           _CmpNe32f               DD64            GetRate (IRsensor)
+           _CmpNe32f               DD7C            GetRate (IRsensor)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : _CmpGe32f
@@ -2156,11 +2164,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DD7A - DD83 (0xa bytes), align: 1
+  Relative segment, address: DD92 - DD9B (0xa bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           _CmpGe32f               DD7A            GetRate (IRsensor)
+           _CmpGe32f               DD92            GetRate (IRsensor)
                                                    Timer1_A0 (IRsensor)
                                                    Timer1_A1 (IRsensor)
 
@@ -2170,11 +2178,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DD70 - DD79 (0xa bytes), align: 1
+  Relative segment, address: DD88 - DD91 (0xa bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           _CmpLt32f               DD70            fabs (?fabs)
+           _CmpLt32f               DD88            fabs (?fabs)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : _Div32f
@@ -2182,11 +2190,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: C8C0 - C9EF (0x130 bytes), align: 1
+  Relative segment, address: C8BA - C9E9 (0x130 bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           _Div32f                 C8C0            GetRate (IRsensor)
+           _Div32f                 C8BA            GetRate (IRsensor)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : _Add32f
@@ -2194,12 +2202,12 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: C390 - C4F1 (0x162 bytes), align: 1
+  Relative segment, address: C38A - C4EB (0x162 bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           _Add32f                 C394            GetRate (IRsensor)
-           _Sub32f                 C390            Timer1_A0 (IRsensor)
+           _Add32f                 C38E            GetRate (IRsensor)
+           _Sub32f                 C38A            Timer1_A0 (IRsensor)
                                                    Timer1_A1 (IRsensor)
 
     -------------------------------------------------------------------------
@@ -2208,12 +2216,12 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DBCE - DBE9 (0x1c bytes), align: 1
+  Relative segment, address: DBE6 - DC01 (0x1c bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?DivMod8u               DBCE            Timer_A0_1 (IRsensor)
-           ?DivMod16u              DBD2            DisplayDownAlarm (Display)
+           ?DivMod8u               DBE6            Timer_A0_1 (IRsensor)
+           ?DivMod16u              DBEA            DisplayDownAlarm (Display)
                                                    DisplayRate (Display)
                                                    DisplayTotalDrop (Display)
                                                    DisplayUpAlarm (Display)
@@ -2225,39 +2233,39 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DBEA - DBED (0x4 bytes), align: 1
+  Relative segment, address: DC02 - DC05 (0x4 bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?ShiftRight16u_7        DBEA            __iar_Dtest (?xdtest)
+           ?ShiftRight16u_7        DC02            __iar_Dtest (?xdtest)
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DBEE - DBF1 (0x4 bytes), align: 1
+  Relative segment, address: DC06 - DC09 (0x4 bytes), align: 1
   Segment part 1.             Intra module refs:   ?ShiftRight16u_7
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?ShiftRight16u_6        DBEE 
+           ?ShiftRight16u_6        DC06 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DBF2 - DBF5 (0x4 bytes), align: 1
+  Relative segment, address: DC0A - DC0D (0x4 bytes), align: 1
   Segment part 2.             Intra module refs:   ?ShiftRight16u_6
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?ShiftRight16u_5        DBF2 
+           ?ShiftRight16u_5        DC0A 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DBF6 - DBF9 (0x4 bytes), align: 1
+  Relative segment, address: DC0E - DC11 (0x4 bytes), align: 1
   Segment part 3.             Intra module refs:   ?ShiftRight16u_5
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?ShiftRight16u_4        DBF6 
+           ?ShiftRight16u_4        DC0E 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DBFA - DC03 (0xa bytes), align: 1
+  Relative segment, address: DC12 - DC1B (0xa bytes), align: 1
   Segment part 4.             Intra module refs:   ?ShiftRight16u_4
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?ShiftRight16u_3        DBFA 
+           ?ShiftRight16u_3        DC12 
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?memcpy
@@ -2265,11 +2273,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DC9A - DCAB (0x12 bytes), align: 1
+  Relative segment, address: DCB2 - DCC3 (0x12 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           memcpy                  DC9A            __data16_memcpy (?memzero)
+           memcpy                  DCB2            __data16_memcpy (?memzero)
                CSTACK = 00000000 ( 00000002 )
 
     -------------------------------------------------------------------------
@@ -2278,19 +2286,19 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DCBE - DCCF (0x12 bytes), align: 1
+  Relative segment, address: DCD6 - DCE7 (0x12 bytes), align: 1
   Segment part 4.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __data16_memzero        DCBE            ?cstart_init_zero (?cstart)
+           __data16_memzero        DCD6            ?cstart_init_zero (?cstart)
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: DDB4 - DDB7 (0x4 bytes), align: 1
+  Relative segment, address: DDCC - DDCF (0x4 bytes), align: 1
   Segment part 3.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __data16_memcpy         DDB4            ?cstart_init_copy (?cstart)
+           __data16_memcpy         DDCC            ?cstart_init_copy (?cstart)
                calls direct
                CSTACK = 00000000 ( 00000002 )
 
@@ -2300,11 +2308,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: DB14 - DB37 (0x24 bytes), align: 1
+  Relative segment, address: DB2A - DB4D (0x24 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __iar_Dtest             DB14            fabs (?fabs)
+           __iar_Dtest             DB2A            fabs (?fabs)
                CSTACK = 00000000 ( 00000002 )
 
 
@@ -2344,13 +2352,13 @@ DATA16_AN                              0001 - 0001               1   rel    0
                                        0192 - 0193               2 
                                        0198 - 0199               2 
                                        01B0 - 01B5               6 
-DATA16_I                               0200 - 0215              16   rel    1
-DATA16_Z                               0216 - 034A             135   rel    1
+DATA16_I                               0200 - 0216              17   rel    1
+DATA16_Z                               0218 - 034B             134   rel    1
 CSTACK                                 03B0 - 03FF              50   rel    1
 DATA16_C                               C000 - C01D              1E   rel    0
-DATA16_ID                              C01E - C033              16   rel    1
-CSTART                                 C034 - C05B              28   rel    1
-<CODE> 1                               C05C - DDBD            1D62   rel    1
+DATA16_ID                              C01E - C034              17   rel    1
+CSTART                                 C036 - C05D              28   rel    1
+<CODE> 1                               C05E - DDD5            1D78   rel    1
 INTVEC                                 FFE0 - FFFB              1C   com    1
 RESET                                  FFFE - FFFF               2   rel    1
 
@@ -2360,9 +2368,9 @@ RESET                                  FFFE - FFFF               2   rel    1
                 *                                      *
                 ****************************************
 
- 7 592 bytes of CODE  memory
+ 7 614 bytes of CODE  memory
    411 bytes of DATA  memory (+ 79 absolute )
-    52 bytes of CONST memory
+    53 bytes of CONST memory
 
 Errors: none
 Warnings: 1

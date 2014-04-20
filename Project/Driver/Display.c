@@ -9,6 +9,8 @@ unsigned char AlarmLowerValue = 40; //报警下限值
 
 unsigned int TotalDrop = 0;  //总滴液
 
+extern unsigned char VoiceLevel;;  //声音等级
+
 unsigned char Display_Blink_Flag = 0;   //报警值闪烁标志
 extern unsigned Key_Set_Mode;  //键盘设置模式
 
@@ -78,7 +80,7 @@ void LCDInit(void)
   DisplayBattery(3);
   DisplayTotalDrop();
   DisplayRate(0);
-  DisplayVoice(5);
+  DisplayVoice(VoiceLevel);
   DisplayUpAlarm(AlarmUpperValue);
   DisplayDownAlarm(AlarmLowerValue);
 

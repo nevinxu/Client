@@ -82,7 +82,7 @@ void KeyFunction()
       {
         AlarmUpperValue = AlarmLowerValue + 20; //下限与上限的差距为20
       }
-      WriteAlarmValue2Flash(); 
+   //   WriteAlarmValue2Flash();  //需要修改  不能写这么频繁
     }
     else if(Key_Set_Mode == LOWERSETMODE)
     {
@@ -91,7 +91,7 @@ void KeyFunction()
       {
         AlarmLowerValue = 30;
       }
-      WriteAlarmValue2Flash(); 
+   //   WriteAlarmValue2Flash();  //需要修改  不能写这么频繁
     }
     else if(Key_Set_Mode == CLOSE)
     {
@@ -104,6 +104,7 @@ void KeyFunction()
       WriteVoiceLevel(VoiceLevel);
       VoicePlay(14);
     }
+    WriteAlarmValue2Flash();  //需要修改  不能写这么频繁
     Display_Blink_TimeOut =0;
   }
   else if(KeyPressFlag == KeyvolumeDown) //减按键按下
@@ -115,7 +116,7 @@ void KeyFunction()
       {
         AlarmUpperValue = 199;
       }
-      WriteAlarmValue2Flash();  //需要修改  不能写这么频繁
+    //  WriteAlarmValue2Flash();  //需要修改  不能写这么频繁
     }
     else if(Key_Set_Mode == LOWERSETMODE)
     {
@@ -124,7 +125,7 @@ void KeyFunction()
       {
         AlarmLowerValue = AlarmUpperValue - 20;
       }
-      WriteAlarmValue2Flash(); 
+   //   WriteAlarmValue2Flash();  //需要修改  不能写这么频繁
     }
     else if(Key_Set_Mode == CLOSE)
     {
@@ -137,6 +138,7 @@ void KeyFunction()
       WriteVoiceLevel(VoiceLevel);
       VoicePlay(14);
     }
+    WriteAlarmValue2Flash(); 
     Display_Blink_TimeOut =0;
   }
 

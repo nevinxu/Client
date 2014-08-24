@@ -112,6 +112,16 @@ void ReceiveOff(void)
   
 }
 
+
+void RFSetRx(void)
+{ 
+		//  WOR≈‰÷√
+    TI_CC_SPIWriteReg(TI_CCxxx0_WORCTRL,     0xF8);
+    TI_CC_SPIStrobe(TI_CCxxx0_SIDLE);
+    Delay_us(30);
+    TI_CC_SPIStrobe(TI_CCxxx0_SRX);
+}
+
 void WOROn(void)
 {
   static unsigned char calib1,calib0;
@@ -122,14 +132,18 @@ void WOROn(void)
     TI_CC_SPIWriteReg(TI_CCxxx0_MCSM2, 0x00); // RX_TIME = 0
     a = TI_CC_SPIReadReg(TI_CCxxx0_MCSM2);
     // (duty cycle = 1.563% when WOR_RES = 0)
-    TI_CC_SPIWriteReg(TI_CCxxx0_WOREVT1, 0x2b); // EVENT0 = 800
-    TI_CC_SPIWriteReg(TI_CCxxx0_WOREVT0, 0x55);  //  WOR_RES = 0              
-    TI_CC_SPIWriteReg(TI_CCxxx0_WORCTRL, 0x38); // EVENT1 = 3       x*750/fxosc
+//    TI_CC_SPIWriteReg(TI_CCxxx0_WOREVT1, 0x2b); // EVENT0 = 320ms
+//    TI_CC_SPIWriteReg(TI_CCxxx0_WOREVT0, 0x55);  //  WOR_RES = 0
+//    TI_CC_SPIWriteReg(TI_CCxxx0_WOREVT1, 0x1F); // EVENT0 = 230ms
+//    TI_CC_SPIWriteReg(TI_CCxxx0_WOREVT0, 0x40);  //  WOR_RES = 0
+    TI_CC_SPIWriteReg(TI_CCxxx0_WOREVT1, 0x87); // EVENT0 = 1000ms
+    TI_CC_SPIWriteReg(TI_CCxxx0_WOREVT0, 0x6A);  //  WOR_RES = 0    
+    TI_CC_SPIWriteReg(TI_CCxxx0_WORCTRL, 0x78); // EVENT1 = 111       x*750/fxosc
     // RC_CAL = 1
     // WOR_RES = 0
     //--------------------------------------------------------------------------------
     Delay_us(3000); // Wait for RCOSC calibration
-    TI_CC_SPIWriteReg(TI_CCxxx0_WORCTRL, 0x30); // EVENT1 = 3
+   // TI_CC_SPIWriteReg(TI_CCxxx0_WORCTRL, 0x30); // EVENT1 = 3
     // RC_CAL = 0
     // WOR_RES = 0
     calib1 = TI_CC_SPIReadStatus(TI_CCxxx0_RCCTRL1_STATUS);
@@ -140,7 +154,7 @@ void WOROn(void)
     Delay_us(30);
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE);
     Delay_us(30);
- //   TI_CC_SPIStrobe(TI_CCxxx0_SWORRST);
+    TI_CC_SPIStrobe(TI_CCxxx0_SWORRST);
     TI_CC_SPIStrobe(TI_CCxxx0_SWOR);
 //--------------------------------------------------------------------------------
 }

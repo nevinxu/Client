@@ -14,4 +14,5 @@ extern void WorOn(void);
 extern void TransmitRate(unsigned int Rate);
 extern void ReceiveData(void);
 extern void WOROn(void);
+extern void RFSetRx(void);
 #endif

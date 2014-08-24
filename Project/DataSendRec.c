@@ -152,8 +152,6 @@ void WorReqTransmit(void)
 
 void RecDataCheck()
 {
-  static unsigned int i = 0;
-  static unsigned int j = 0;
   if((RxBuffer[CommandIdByte] == TerminalWorkingStateAckCommand) &&(RxBuffer[StatusByte] == SUCCESS))
   {
     WorkingStateSendSuccessFlag = 1;
@@ -162,30 +160,29 @@ void RecDataCheck()
   {
     WorkingStateSendSuccessFlag = 0;   //×´Ì¬ÇåÁã
     WorkingStateMsgTransmit();   
+  }
+  
+  else if((RxBuffer[CommandIdByte] == TerminalWorkingStateAckCommand) &&(RxBuffer[StatusByte] == SUCCESS))
+  {  
     WOROn(); 
   }
   else if((RxBuffer[CommandIdByte] == TerminalLogin_AckCommand) &&(RxBuffer[StatusByte] == SUCCESS))
   {
     LogInFlag = 1;
+    WOROn();
   }
   else if((RxBuffer[CommandIdByte] == TerminalLogin_ReqCommand) &&(RxBuffer[StatusByte] == SUCCESS))
   {
-    LoginTransmit();
-    WOROn();
+    LoginTransmit();  
   }
   else if((RxBuffer[CommandIdByte] == TerminalWOR_AckCommand) &&(RxBuffer[StatusByte] == SUCCESS))
   {
-   // RadioInit();
     WorReqTransmit();
-    i++;
- //   ReceiveOn();
-   // WOROn();
+    RFSetRx();
+
   }
-  else if(RxBuffer[0] == 0x01)
+  else 
   {
-    WorReqTransmit();
-   // ReceiveOn();
- //   WOROn();
-    j++;
+    return;
   }
 }

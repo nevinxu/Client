@@ -18,8 +18,15 @@
 
 #define     TESTMODERATEREFRESHTIME        4   //  测试模式下的速度更新时间  2s
 #define     RFRECEIVEINTERVAL              16   //cc1101  打开间断时间    8s
-//#define     RFCHANNAL                      0x03   //cc1101  频率设置
-#define     RFCHANNAL                      0x02   //cc1101  频率设置
+#define     RFCHANNAL                      0x01   //cc1101  频率设置
+
+#define     RFSYNC1                      0Xd3
+//#define     RFSYNC0                      0x09
+//#define     RFSYNC0                      0x24
+//#define     RFSYNC0                      0x36
+//#define     RFSYNC0                      0x2d
+//#define     RFSYNC0                      0x12
+#define     RFSYNC0                      0x1b
 
 
 #define SLEEPTIMEOUT                   2*600     //10分钟关屏

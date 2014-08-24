@@ -62,16 +62,6 @@ void ClockInit()
   SCFI0 |= FN_4;                            // x2 DCO freq, 8MHz nominal DCO
   SCFQCTL = 121;                            // (121+1) x 32768 x 2 = 7.99 Mhz
   FLL_CTL0 |= DCOPLUS + XCAP11PF;           // DCO+ set so freq= xtal x D x N+1
-/*  
-    FLL_CTL0 |= XCAP11PF;                     // Configure load caps
-  for (i = 0; i < 10000; i++);              // Delay for 32 kHz crystal to
-                                            // stabilize
-  do
-  {
-    IFG1 &= ~OFIFG;                         // Clear osc fault flag
-    for (i = 0; i < 1000; i++);             // Delay for osc to stabilize
-  } while(IFG1 & OFIFG);                    // Check to see if osc flag is set
-  */
 #endif
 }
 
@@ -99,7 +89,7 @@ void DriverInit()
   LEDInit(); 
   LCDInit();
   KeyInit();
-//UartInit();
+  UartInit();
 
   RadioInit();  //cc1101 初始化
   IRSensorInit();
@@ -124,7 +114,7 @@ void DriverInit()
 int main(void)
 {
   WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
-  srand(1);
+ // srand(1);
   DriverInit();
   DisplayMode = DisplayInitMode + DisplayRateStartMode;
   __bis_SR_register(GIE);   //全局中断使能
@@ -207,7 +197,7 @@ int main(void)
       }
       if((DisplayMode & DisplayRateStartMode) == DisplayRateStartMode)    //开始正常测试模式状态
       {
-        ModelAddress = RFCHANNAL;
+       // ModelAddress = RFCHANNAL;
         LCDInit();
         DisplayMode &=~ DisplayRateStartMode;
         DisplayMode &=~ DisplayTestMode;
@@ -216,7 +206,7 @@ int main(void)
 
 
 /*********************************语音报警函数************************************/	
-      VoiceFunction();
+     // VoiceFunction();
 
 
 

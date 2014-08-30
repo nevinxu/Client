@@ -237,6 +237,7 @@ void VoiceFunction()
   if((RateDisplayFlag == 3) &&(TotalDrop>0))
   {
     Play_Drop_Stop();
+    RadioInit();  //cc1101 ≥ı ºªØ
   }
 //  if(BatteyLevel == 0)
 //  {

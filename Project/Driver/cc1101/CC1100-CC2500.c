@@ -127,6 +127,10 @@ void writeRFSettings(void)
     TI_CC_SPIWriteReg(TI_CCxxx0_FIFOTHR,  0x07);
     
     
+    TI_CC_SPIWriteReg(TI_CCxxx0_SYNC1,    RFSYNC1);        // Sync word, high byte
+    TI_CC_SPIWriteReg(TI_CCxxx0_SYNC0,    RFSYNC0);        // Sync word, low byte
+    
+    
 #endif    
 }
 

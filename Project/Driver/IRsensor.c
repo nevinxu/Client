@@ -95,7 +95,7 @@ unsigned int GetRate()   //多次采样取平均
   static unsigned int buffer[8];
   static unsigned char flag;
   unsigned int retdata = 0;
-  static signed char i;
+  signed char i;
   double data = 0;
   double Valuefabs;
   if(RateDisplayFlag == 1)                  //必须要有中断  可能是溢出

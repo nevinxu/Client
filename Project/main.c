@@ -1,5 +1,6 @@
 #include <msp430.h>
 #include <stdlib.h>  //随机数 产生   头文件
+#include <stdio.h>
 #include "include.h"
 
 unsigned int    TimerValue;
@@ -41,8 +42,10 @@ extern signed char RSSIValue;
 extern unsigned char UartStatusFlag;
 extern unsigned char Calflag;                  //by cai 时钟校准标志
 
+extern unsigned int CC1101sysc;
+extern unsigned int CC1101fre;
 
-
+extern void  DataSet();
 
 void ClockInit()
 {
@@ -84,6 +87,8 @@ void DriverInit()
   
   VddIOEnable();  //外部模块供电使能
   
+  DataSet();
+  
   ReadAlarmValue4Flash();
 
   LEDInit(); 
@@ -106,14 +111,46 @@ void DriverInit()
   GetBatteyLevel();
   
 #ifdef   VOICE
-//  ISD2100Init();
+  ISD2100Init();
 #endif
   
 }
 
+#if 1
+void  DataSet()
+{
+  unsigned char flashBuffer[32];
+  const unsigned char HardWareVersion[] = "1.00";
+  const unsigned char SoftWareVersion[] = "1.00";
+  const unsigned char ProductID[] = "0123456789";
+  ReadFlash(0x1000,flashBuffer,0x20);
+  //CC1101sysc = (flashBuffer[0]<<8) + flashBuffer[1];
+ // CC1101fre = (flashBuffer[2]<<8) + flashBuffer[3];
+ // CC1101sysc = (0xd3<<8) + 0x09;
+  CC1101sysc = (0xd3<<8) + 0x1b;
+ // CC1101sysc = (0xd3<<8) + 0x12;
+  CC1101fre = (0x2A<<8) + 0x2e;
+  if(flashBuffer[4]<'0' ||(flashBuffer[4]>'Z'))
+  {
+    memcpy(flashBuffer+4,ProductID,10);
+  }
+  memcpy(flashBuffer+14,HardWareVersion,4);
+  memcpy(flashBuffer+18,SoftWareVersion,4);
+  ModelAddress = 0x03;
+//  ModelAddress = flashBuffer[22];
+  Flash_SegmentErase(0x1000);
+  FlashWrite_8(flashBuffer,0x1000,0x20);
+  ReadFlash(0x1000,flashBuffer,0x20);
+//FlashWrite_8(flashBuffer,0x2000,0x20);
+  ReadFlash(0x3000,flashBuffer,0x20);
+}
+#endif
+
 int main(void)
 {
+
   WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
+  
  // srand(1);
   DriverInit();
   DisplayMode = DisplayInitMode + DisplayRateStartMode;
@@ -170,11 +207,9 @@ int main(void)
         else
         {
         KeyFunction();
-//}
-       // ReceiveOn();
+
         KeyPressFlag = 0;
 
-       // LogoutAckTransmit();
         }
       }
       if(Display_Blink_Flag)    //设置模式下的数字闪烁模式
@@ -206,7 +241,7 @@ int main(void)
 
 
 /*********************************语音报警函数************************************/	
-     // VoiceFunction();
+      VoiceFunction();
 
 
 

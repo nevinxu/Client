@@ -7,6 +7,9 @@
 
 extern unsigned char Rf_Interval_Num;  //RF打开间断时间
 
+unsigned int CC1101sysc;
+unsigned int CC1101fre;
+
 
 signed char RSSIValue;
 //-------------------------------------------------------------------------------------------------------
@@ -76,9 +79,13 @@ void writeRFSettings(void)
 //    TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG4,  0x2B); // Modem configuration.  100k
 //    TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG3,  0xF8); // Modem configuration. 
     
-    TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG4,  0x2d); // Modem configuration.  250k
-    TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG3,  0x3b); // Modem configuration. 
+//    TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG4,  0x2d); // Modem configuration.  250k
+//    TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG3,  0x3b); // Modem configuration. 
     
+
+    TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG4,  CC1101fre>>8); // Modem configuration.  250k
+    TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG3,  CC1101fre); // Modem configuration. 
+
 //    TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG4,  0x2c); // Modem configuration.  150k
 //    TI_CC_SPIWriteReg(TI_CCxxx0_MDMCFG3,  0x7a); // Modem configuration. 
     
@@ -127,8 +134,8 @@ void writeRFSettings(void)
     TI_CC_SPIWriteReg(TI_CCxxx0_FIFOTHR,  0x07);
     
     
-    TI_CC_SPIWriteReg(TI_CCxxx0_SYNC1,    RFSYNC1);        // Sync word, high byte
-    TI_CC_SPIWriteReg(TI_CCxxx0_SYNC0,    RFSYNC0);        // Sync word, low byte
+    TI_CC_SPIWriteReg(TI_CCxxx0_SYNC1,    CC1101sysc>>8);        // Sync word, high byte
+    TI_CC_SPIWriteReg(TI_CCxxx0_SYNC0,    CC1101sysc);        // Sync word, low byte
     
     
 #endif    
@@ -224,7 +231,6 @@ void RFSendPacket(char *txBuffer, char size)
 
 char RFReceivePacket(char *rxBuffer)
 {
-  static unsigned char i,j;
   char status[2];
   unsigned char pktLen;
   TI_CC_SPIStrobe(TI_CCxxx0_SRX); 
@@ -241,7 +247,6 @@ char RFReceivePacket(char *rxBuffer)
       TI_CC_SPIReadBurstReg(TI_CCxxx0_RXFIFO, status, 2);
       RSSIValue = status[0];
       Rf_Interval_Num = 0;  //RF打开间断时间
-      i++;
                                             // Read appended status byte
   }                                       // Return CRC_OK bit
   else
@@ -251,7 +256,6 @@ char RFReceivePacket(char *rxBuffer)
       TI_CC_SPIStrobe(TI_CCxxx0_SFTX);
       TI_CC_SPIStrobe(TI_CCxxx0_SRX);
       Rf_Interval_Num = 0;  //RF打开间断时间
-      j++;
       return 0;                             // Error
   }
   TI_CC_SPIStrobe(TI_CCxxx0_SIDLE);

@@ -89,36 +89,22 @@ void uart_send(const unsigned char *data_point)
   }
 }
 
+
+void EraseUpDataFlag(void)
+{
+  unsigned char buffer[2] = {0x01,0x01};
+  Flash_SegmentErase(0x1080);
+  FlashWrite_8(buffer,0x1080,2);
+}
+
 void UpData(void)
 {
+ // WDTCTL = WDTPW + WDT_MRST_0_064;
   asm(" mov &0xFFFE, PC;");                 // 在C中调用汇编指令,实现地址转移
 }
 
 #pragma vector=USCIAB0RX_VECTOR
 __interrupt void USCI0RX_ISR(void)
 {
-  static unsigned char RecBuf[25];
-  unsigned char RxTemp;
-  static unsigned char RecCnt=0;
-  RxTemp=UCA0RXBUF;
-  RecBuf[RecCnt++]=RxTemp;
-  if((RxTemp==0x0A)&&(RecCnt>0))   //每行的结尾   \n
-  {   
-    if((RecBuf[0] == 'S')&&(RecBuf[1] == 't')&&(RecBuf[2] == 'a')&&(RecBuf[3] == 'r')&&(RecBuf[4] == 't'))
-    {
-      uart_send("Update Ready !\n");               // 发送确认
-      UpData();
-    }
-    else if(RecBuf[0]=='C' &&(RecBuf[1]=='a' )&&(RecBuf[2]=='n' )&&(RecBuf[3]=='c' )&&(RecBuf[4]=='e' )&&(RecBuf[5]=='l' ))
-    {
-      uart_send("Update Cancel !\n");
-      UpData();
-    }  
-      RecCnt=0;
-      RxTemp=0;
-  }
-  if(RecCnt>25)
-  {
-    RecCnt = 0;
-  }
+
 }

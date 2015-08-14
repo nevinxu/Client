@@ -38,17 +38,12 @@ void RadioInit(void)
     TI_CC_SPIStrobe(TI_CCxxx0_SFTX);
     TI_CC_SPIStrobe(TI_CCxxx0_SRX); // Strobe SRX  
     
-    WOROn();
+  //  WOROn();
     
 }
 
 void Transmit(char *buffer, unsigned char length)
-{    
-//    ReceiveOff();  //必须关闭
-//    
-//    RFSendPacket(buffer, length);
-//    ReceiveOn();
-    
+{     
     ReceiveOff();  //必须关闭
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE); 
     TI_CC_SPIWriteReg(TI_CCxxx0_IOCFG2,   0x2e); // GDO2 output pin config.
@@ -74,7 +69,6 @@ void ReceiveData()
 {
   ClearRecBuf();
   RFReceivePacket(RxBuffer);       // 接收数据包判断x
-//  ReceiveOn();
 }
 
 /*
@@ -116,7 +110,7 @@ void ReceiveOff(void)
 void RFSetRx(void)
 { 
 		//  WOR配置
-    TI_CC_SPIWriteReg(TI_CCxxx0_WORCTRL,     0xF8);
+    TI_CC_SPIWriteReg(TI_CCxxx0_WORCTRL,0xF8);
     TI_CC_SPIStrobe(TI_CCxxx0_SIDLE);
     Delay_us(30);
     TI_CC_SPIStrobe(TI_CCxxx0_SRX);
@@ -124,13 +118,12 @@ void RFSetRx(void)
 
 void WOROn(void)
 {
-  static unsigned char calib1,calib0;
-  static unsigned char a;
+  unsigned char calib1,calib0;
   //
   TI_CC_SPIStrobe(TI_CCxxx0_SIDLE);
     //--------------------------------------------------------------------------------
     TI_CC_SPIWriteReg(TI_CCxxx0_MCSM2, 0x00); // RX_TIME = 0
-    a = TI_CC_SPIReadReg(TI_CCxxx0_MCSM2);
+    TI_CC_SPIReadReg(TI_CCxxx0_MCSM2);
     // (duty cycle = 1.563% when WOR_RES = 0)
 //    TI_CC_SPIWriteReg(TI_CCxxx0_WOREVT1, 0x2b); // EVENT0 = 320ms
 //    TI_CC_SPIWriteReg(TI_CCxxx0_WOREVT0, 0x55);  //  WOR_RES = 0

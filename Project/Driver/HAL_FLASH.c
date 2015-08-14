@@ -94,6 +94,28 @@ void FlashMemoryFill_32(uint32_t value, uint32_t *Flash_ptr, uint16_t count)
   FCTL3 = FWKEY + LOCK;                      // Set LOCK bit
 }
 
+//******************************************************************************
+// 描述: 读FLASH操作
+// 输入: unsigned int waddr 16位地址
+// 输出: unsigned char 返回一个字节数据
+unsigned char ReadFlash_Byte(unsigned int waddr)
+{
+  unsigned char value;
+  while(FCTL3 & BUSY);
+  value = *(unsigned char*)waddr;
+  return value;
+}
+
+void ReadFlash(unsigned int waddr,unsigned char *pdata,unsigned int length)
+{
+  while(length--)
+  {
+   *pdata = ReadFlash_Byte(waddr);
+   waddr++;
+   pdata++; 
+  }
+}
+
 
 void WriteAlarmValue2Flash()
 {

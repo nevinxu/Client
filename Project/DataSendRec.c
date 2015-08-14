@@ -6,7 +6,7 @@ char RxBuffer[64];
 unsigned int MsgBegin = 0xA5B4;   //消息识别符
 unsigned int MsgLength;  //消息长度
 unsigned char CommandId; //命令或相应类型
-unsigned int ModelAddress =  ((RFSYNC0-1)>>3);  //床位号
+unsigned int ModelAddress;  //床位号
 long SequenceId = 0;   //消息流水号
 unsigned char MsgStatus;  //消息状态
 unsigned char TerminalID[8] = {0x00,0x00,0x00,0x00,0x00,0x01};//唯一标识该终端
@@ -64,7 +64,7 @@ void MessageHeader()
 
 void WorkingStateMsgTransmit(void)
 {
-  MsgStatus = WorkingStatus;
+  MsgStatus = 0;
   MsgLength = MessageHeaderLength+6;
   SequenceId++;
   CommandId = 0x07;
@@ -152,6 +152,8 @@ void WorReqTransmit(void)
 
 void RecDataCheck()
 {
+  
+  static unsigned int m =0;;
   if((RxBuffer[CommandIdByte] == TerminalWorkingStateAckCommand) &&(RxBuffer[StatusByte] == SUCCESS))
   {
     WorkingStateSendSuccessFlag = 1;
@@ -164,12 +166,12 @@ void RecDataCheck()
   
   else if((RxBuffer[CommandIdByte] == TerminalWorkingStateAckCommand) &&(RxBuffer[StatusByte] == SUCCESS))
   {  
-    WOROn(); 
+   // WOROn(); 
   }
   else if((RxBuffer[CommandIdByte] == TerminalLogin_AckCommand) &&(RxBuffer[StatusByte] == SUCCESS))
   {
     LogInFlag = 1;
-    WOROn();
+   // WOROn();
   }
   else if((RxBuffer[CommandIdByte] == TerminalLogin_ReqCommand) &&(RxBuffer[StatusByte] == SUCCESS))
   {
@@ -178,8 +180,8 @@ void RecDataCheck()
   else if((RxBuffer[CommandIdByte] == TerminalWOR_AckCommand) &&(RxBuffer[StatusByte] == SUCCESS))
   {
     WorReqTransmit();
-    RFSetRx();
-
+    m++;
+  //  RFSetRx();
   }
   else 
   {
